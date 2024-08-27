@@ -6,6 +6,9 @@ This script generates unit stickers for my 6mm unit-bases which can be found [he
 - PIP
 - [RobotoMono Nerd Font](https://www.nerdfonts.com/font-downloads)
 
+install python dependencies through pip:
+`pip install -r requirements.txt`
+
 ## Usage
 Enter your unit data into `input.csv`
 
