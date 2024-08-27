@@ -1,0 +1,11 @@
+designation,name,allegiance,icon,flag,type
+א01,MERKAVA,UNK:#ffffff,armor_hq,IL,armour
+א02,MERKAVA,UNK:#ffffff,armor_hq,IL,armour
+א11,MERKAVA,UNK:#ffffff,armor,IL,armour
+א12,MERKAVA,UNK:#ffffff,armor,IL,armour
+א13,MERKAVA,UNK:#ffffff,armor,IL,armour
+א41,GALIL AR,UNK:#ffffff,infantry,IL,normal
+א48,RPG-7,UNK:#ffffff,antitank,IL,small
+ש11,Redeye SAM,UNK:#ffffff,antiair,IL,large
+A-01,LEOPARD 2,NATO,armor_hq,CA,armour
+2-47,T-80 Alpha Striker,PACT,armor_hq,SU,armour
