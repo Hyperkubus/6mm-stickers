@@ -72,6 +72,11 @@ def role_base_form(team_role: str) -> str:
 
 def map_role_to_description(team_role: str) -> str:
     base = role_base_form(team_role)
+    # `Transport (... UH-1)` is a utility helicopter, not an APC. The base
+    # form is "Transport" so we'd otherwise route it to APC; check the
+    # parenthetical first.
+    if base == "Transport" and "UH-1" in team_role:
+        return "unknown utility helicopter"
     if base in ROLE_DESCRIPTIONS:
         return ROLE_DESCRIPTIONS[base]
     raise ValueError(f"No description mapping for: {team_role!r} (base={base!r})")
