@@ -19,7 +19,7 @@ from generator import (
     OUT_DIR,
     map_role_to_description,
     role_base_form,
-    short_label,
+    row_name,
     sticker_width_mm,
     HQ_ROLES,
 )
@@ -54,14 +54,14 @@ def main() -> int:
         unit_name = row["unit_name"]
         description = map_role_to_description(team_role)
         is_hq = role_base_form(team_role) in HQ_ROLES
-        label = short_label(team_role, unit_name)
+        name = row_name(row)
         width = sticker_width_mm(row["base"])
-        key = (description, is_hq, label, width)
+        key = (description, is_hq, name, width)
         if key not in seen:
             seen[key] = {
                 "description": description,
                 "is_hq": is_hq,
-                "label": label,
+                "name": name,
                 "width": width,
                 "team_role": team_role,
                 "unit_name": unit_name,
@@ -69,7 +69,7 @@ def main() -> int:
                 "base": row["base"],
             }
 
-    samples = sorted(seen.values(), key=lambda s: (s["width"], s["description"], s["label"]))
+    samples = sorted(seen.values(), key=lambda s: (s["width"], s["description"], s["name"]))
 
     cards = []
     for s in samples:
@@ -82,7 +82,7 @@ def main() -> int:
           <img src="{uri}" alt="{html.escape(s['designation'])}" />
           <figcaption>
             <div><b>{html.escape(s['designation'])}</b> &middot; {s['width']}×8 mm</div>
-            <div>{html.escape(s['label'])} &middot; {html.escape(s['description'])}{' + HQ' if s['is_hq'] else ''}</div>
+            <div>{html.escape(s['name'])} &middot; {html.escape(s['description'])}{' + HQ' if s['is_hq'] else ''}</div>
             <div class="muted">{html.escape(s['team_role'])} / {html.escape(s['unit_name'])}</div>
           </figcaption>
         </figure>""")

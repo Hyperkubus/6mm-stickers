@@ -83,118 +83,98 @@ def map_role_to_description(team_role: str) -> str:
 
 
 # ---------------------------------------------------------------------------
-# Short label heuristics
+# Unit name heuristics — populates the `name` column of the CSV.
+#
+# Rules (per project spec):
+# - Tanks: model only ("Merkava 3", "Magach 6", "Sho't Blazer").
+# - Infantry / weapons: weapon name ("Galil", "FN MAG", "RPG-7", …).
+# - APCs: IDF nickname in caps ("ZELDA", "VAYZATA", "NAGMASH").
+# - No size descriptors (Platoon / Company / Battery / Section).
+#
+# `derive_name` is the source of truth for the column. Once a row has a
+# `name` value in the CSV it wins; the function is only consulted when the
+# column is missing or empty (used by --update-csv to bootstrap).
 # ---------------------------------------------------------------------------
 
-TANK_MODELS = [
-    ("Merkava 3", "Mk3"),
-    ("Merkava 2", "Mk2"),
-    ("Merkava 1", "Mk1"),
-    ("Magach 6 (Blazer)", "M6B"),
-    ("Magach 6", "M6"),
-    ("Sho't", "Sho't"),
+TANK_NAMES = [
+    ("Merkava 3", "Merkava 3"),
+    ("Merkava 2", "Merkava 2"),
+    ("Merkava 1", "Merkava 1"),
+    ("Magach 6 (Blazer)", "Magach 6 Blazer"),
+    ("Magach 6", "Magach 6"),
+    ("Sho't", "Sho't Blazer"),
 ]
 
-HELI_MODELS = [
-    ("AH-64", "AH-64"),
-    ("AH-1", "AH-1"),
-    ("CH-53", "CH-53"),
-    ("UH-1", "UH-1"),
-]
+HELI_MODELS = ("AH-64", "AH-1", "CH-53", "UH-1")
 
 
-def tank_model(unit_name: str) -> str:
-    for key, short in TANK_MODELS:
-        if key in unit_name:
-            return short
-    return "Tank"
-
-
-def short_label(team_role: str, unit_name: str) -> str:
+def derive_name(team_role: str, unit_name: str) -> str:
     base = role_base_form(team_role)
 
-    if base == "Tank":
-        return tank_model(unit_name)
-    if base == "HQ Tank":
-        return f"HQ {tank_model(unit_name)}"
+    if base in ("Tank", "HQ Tank"):
+        for key, name in TANK_NAMES:
+            if key in unit_name:
+                return name
+        return "Tank"
 
     if base == "Transport heli swap":
         return "CH-53"
     if base in ("Attack heli", "Transport heli"):
-        for key, short in HELI_MODELS:
-            if key in unit_name:
-                return short
+        for k in HELI_MODELS:
+            if k in unit_name:
+                return k
         return "UH-1" if base == "Transport heli" else "Heli"
 
     if base in ("Transport", "Transport variant"):
+        if "UH-1" in team_role:
+            return "UH-1"
         m = re.search(r"\(([^)]+)\)", team_role)
         if m:
             content = m.group(1)
             content = re.sub(r"^HQ\s+", "", content)
             content = re.sub(r"^Reserve\s+", "", content)
             content = re.sub(r"\s+variant$", "", content)
-            if "Nagmasho" in content:
-                return "Nagmash"
-            if "Vayzata" in content:
-                return "Vayzata"
             if "M113" in content:
-                return "M113"
-            if "UH-1" in content:
-                return "UH-1"
-            return content[:8]
+                return "ZELDA"
+            if "Vayzata" in content:
+                return "VAYZATA"
+            if "Nagmasho" in content:
+                return "NAGMASH"
+            return content
         return "APC"
 
     if base == "Recce":
-        for key in ("Jeep", "M113", "Rabbi"):
-            if key in unit_name:
-                return key
+        if "Jeep" in unit_name:
+            return "Jeep"
+        if "M113" in unit_name:
+            return "ZELDA"
+        if "Rabbi" in unit_name:
+            return "Rabbi"
         return "Recce"
 
-    if base == "Galil HQ team":
-        return "HQ"
-    if base == "Galil rifle":
-        return "Galil"
-    if base == "FN MAG":
-        return "MAG"
-    if base == "RPG-7":
-        return "RPG"
-    if base == "M47 Dragon":
-        return "Dragon"
-    if base == "52mm mortar":
-        return "52mm"
-    if base == "81mm mortar carrier":
-        return "81mm"
-    if base == "120mm mortar carrier":
-        return "120mm"
-
-    if base == "155mm SP gun":
-        return "M109"
-    if base == "BM-21":
-        return "BM-21"
-    if base == "MLRS":
-        return "MLRS"
-    if base == "Vulcan AA":
-        return "VADS"
-    if base == "Shilka AA":
-        return "Shilka"
-    if base == "SAM":
-        return "Chap"
-    if base == "MANPADS":
-        return "Redeye" if "Redeye" in unit_name else "MANPAD"
-    if base == "Pereh":
-        return "Pereh"
-    if base == "Jeep ATGM":
-        return "Jeep"
-    if base == "Rabbi ATGM":
-        return "Rabbi"
-    if base == "ATGM carrier":
-        return "M150"
-    if base == "Strike jet":
-        return "A-4"
-    if base == "Artillery observer":
-        return "OP"
-
-    return base.split()[0]
+    return {
+        "Galil HQ team": "Galil",
+        "Galil rifle": "Galil",
+        "FN MAG": "FN MAG",
+        "RPG-7": "RPG-7",
+        "M47 Dragon": "M47 Dragon",
+        "52mm mortar": "52mm",
+        "81mm mortar carrier": "M125",
+        "120mm mortar carrier": "M106",
+        "155mm SP gun": "M109",
+        "ATGM carrier": "M150",
+        "Pereh": "Pereh",
+        "Jeep ATGM": "Jeep",
+        "Rabbi ATGM": "Rabbi",
+        "BM-21": "BM-21",
+        "MLRS": "MLRS",
+        "Vulcan AA": "Vulcan",
+        "Shilka AA": "Shilka",
+        "SAM": "Chaparral",
+        "MANPADS": "Redeye",
+        "Strike jet": "A-4 Skyhawk",
+        "Artillery observer": "M113 OP",
+    }.get(base, base)
 
 
 # ---------------------------------------------------------------------------
@@ -282,7 +262,7 @@ def escape_xml(s: str) -> str:
     return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
-def build_sticker(designation: str, label: str, icon_svg: str,
+def build_sticker(designation: str, name: str, icon_svg: str,
                   width_mm: int, bg: str = BG_COLOR) -> str:
     height_mm = 8
     is_wide = width_mm == 40
@@ -295,19 +275,25 @@ def build_sticker(designation: str, label: str, icon_svg: str,
     if is_wide:
         label_size = 2.6
         desig_size = 4.5
-        max_label = 12
     else:
         label_size = 1.9
         desig_size = 3.6
-        max_label = 8
-
-    label = label[:max_label]
 
     icon_inner, icon_vb = extract_inner_svg(icon_svg)
     flag_inner = israel_flag_inner()
 
     label_y = 0.2 + label_size * 0.85
     desig_y = height_mm - 0.6
+
+    # Available text width between icon and flag (with a small gutter).
+    available_w = width_mm - (icon_x + icon_size) - (width_mm - flag_x) - 1.0
+    # Monospace glyph cell ≈ 0.6 × font-size; compress with textLength only
+    # when the natural rendering would overflow.
+    natural_w = len(name) * label_size * 0.6
+    if natural_w > available_w:
+        label_extra = f' textLength="{available_w:.2f}" lengthAdjust="spacingAndGlyphs"'
+    else:
+        label_extra = ""
 
     return f"""<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg"
@@ -326,7 +312,7 @@ def build_sticker(designation: str, label: str, icon_svg: str,
         fill="none" stroke="#000" stroke-width="0.15" />
   <text x="{text_x}" y="{label_y:.2f}" font-family='{FONT_FAMILY}'
         font-size="{label_size}" text-anchor="middle"
-        fill="#000">{escape_xml(label)}</text>
+        fill="#000"{label_extra}>{escape_xml(name)}</text>
   <text x="{text_x}" y="{desig_y:.2f}" font-family='{FONT_FAMILY}'
         font-size="{desig_size}" text-anchor="middle" font-weight="bold"
         fill="#000" direction="ltr" unicode-bidi="bidi-override"
@@ -339,7 +325,46 @@ def build_sticker(designation: str, label: str, icon_svg: str,
 # Main
 # ---------------------------------------------------------------------------
 
-def main() -> int:
+def row_name(row: dict) -> str:
+    """Return the display name for a row, deriving + filling it in if missing."""
+    existing = row.get("name", "").strip() if row.get("name") else ""
+    if existing:
+        return existing
+    return derive_name(row["team_role"], row["unit_name"])
+
+
+def update_csv() -> int:
+    """Add (or fill in) the `name` column on every row, preserving manual edits."""
+    with INPUT_CSV.open(newline="", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        fieldnames = list(reader.fieldnames or [])
+        rows = list(reader)
+
+    if "name" not in fieldnames:
+        # Insert `name` right after `unit_name` for readability.
+        idx = fieldnames.index("unit_name") + 1 if "unit_name" in fieldnames else len(fieldnames)
+        fieldnames = fieldnames[:idx] + ["name"] + fieldnames[idx:]
+
+    filled = 0
+    for row in rows:
+        if not row.get("name", "").strip():
+            row["name"] = derive_name(row["team_role"], row["unit_name"])
+            filled += 1
+
+    with INPUT_CSV.open("w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerows(rows)
+
+    print(f"Updated {INPUT_CSV}: filled `name` on {filled} rows ({len(rows)} total)")
+    return 0
+
+
+def main(argv: list[str] | None = None) -> int:
+    argv = list(sys.argv[1:] if argv is None else argv)
+    if argv and argv[0] == "--update-csv":
+        return update_csv()
+
     OUT_DIR.mkdir(exist_ok=True)
     FLAGS_DIR.mkdir(exist_ok=True)
     (FLAGS_DIR / "il.svg").write_text(israel_flag_svg())
@@ -355,7 +380,6 @@ def main() -> int:
     written = 0
     for row in rows:
         team_role = row["team_role"]
-        unit_name = row["unit_name"]
         designation = row["designation"]
         base = row["base"]
 
@@ -366,9 +390,9 @@ def main() -> int:
             icon_cache[cache_key] = get_icon_svg(description, is_hq)
         icon_svg = icon_cache[cache_key]
 
-        label = short_label(team_role, unit_name)
+        name = row_name(row)
         width_mm = sticker_width_mm(base)
-        sticker = build_sticker(designation, label, icon_svg, width_mm)
+        sticker = build_sticker(designation, name, icon_svg, width_mm)
 
         out_path = OUT_DIR / f"{designation}.svg"
         out_path.write_text(sticker, encoding="utf-8")

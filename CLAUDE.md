@@ -95,28 +95,40 @@ Both are handled in `get_icon_svg()`.
 `ROLE_DESCRIPTIONS` then maps the cleaned form to the APP-6 description.
 See the dict at the top of `generator.py` for the full table.
 
-## Short label heuristic
+## `name` column (top label on the sticker)
 
-`short_label()` prefers specific equipment over generic role:
+Each CSV row has a `name` column that drives the sticker's top label.
+`derive_name(team_role, unit_name)` is the source of truth and is used
+by `python generator.py --update-csv` to fill in any blank `name`
+cells; once populated, hand-edits in the CSV win (the generator
+reads the column verbatim).
 
-- **Tanks** — model from `unit_name`: `Mk1` / `Mk2` / `Mk3` / `M6` /
-  `M6B` / `Sho't`. HQ tanks: `HQ Mk3` etc.
-- **Helicopters** — from `unit_name`: `AH-64`, `AH-1`, `CH-53`, `UH-1`.
-  `Transport heli` rows whose `unit_name` doesn't name the model
-  default to `UH-1`. `Transport heli swap (CH-53)` is always `CH-53`.
-- **APCs** — variant from `team_role` parenthetical: `M113`, `Vayzata`,
-  `Nagmash` (truncated from `Nagmasho't`).
-- **Recce** — vehicle from `unit_name`: `Jeep` / `M113` / `Rabbi`.
-- **Infantry** — `Galil` / `MAG` / `RPG` / `Dragon` / `52mm` / `Redeye`.
-- **HQ infantry** — `HQ`.
-- **Self-propelled / vehicles** — `M109` / `MLRS` / `BM-21` / `VADS` /
-  `Shilka` / `Chap` (Chaparral).
-- **Strike jet** — `A-4`.
-- Fall-through: first word of `team_role` truncated to `max_label`.
+Naming rules:
+
+- **Tanks** — model only, no size descriptor: `Merkava 1/2/3`,
+  `Magach 6`, `Magach 6 Blazer`, `Sho't Blazer`. HQ tanks share the
+  same name (the icon's HQ bar disambiguates).
+- **Helicopters** — model from `unit_name`: `AH-64`, `AH-1`, `CH-53`,
+  `UH-1`. `Transport heli` defaults to `UH-1` if the unit_name doesn't
+  name a model; `Transport heli swap (CH-53)` is always `CH-53`.
+- **APCs** — IDF nickname in caps: `ZELDA` (M113), `VAYZATA`,
+  `NAGMASH` (Nagmasho't). UH-1 transports use `UH-1`.
+- **Recce** — vehicle from `unit_name`: `Jeep` / `ZELDA` / `Rabbi`.
+- **Infantry** — main weapon: `Galil` (rifle and HQ team alike),
+  `FN MAG`, `RPG-7`, `M47 Dragon`, `52mm`, `Redeye` (MANPADS).
+- **Self-propelled / vehicles** — chassis: `M125` / `M106` / `M109` /
+  `M150` / `Pereh` / `Jeep` / `Rabbi` / `BM-21` / `MLRS` / `Vulcan` /
+  `Shilka` / `Chaparral`.
+- **Strike jet** — `A-4 Skyhawk`.
+- **Artillery observer** — `M113 OP`.
+
+Names longer than the natural fit at the default font size (e.g.
+`M47 Dragon`, `Chaparral`, `A-4 Skyhawk`) are compressed via SVG
+`textLength` + `lengthAdjust="spacingAndGlyphs"`. Short names render
+at full size unmolested.
 
 Para / Reserve infantry intentionally share names with Mech (icons are
-identical anyway). A `P` / `R` suffix would be the natural future
-refinement.
+identical). A `P` / `R` suffix would be the natural future refinement.
 
 ## Designation rendering
 
