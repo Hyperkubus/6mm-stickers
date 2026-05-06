@@ -1,5 +1,5 @@
 {
-  description = "A Nix-flake-based Python development environment";
+  description = "6mm IDF sticker generator — Python dev environment";
 
   inputs.nixpkgs.url = "https://flakehub.com/f/NixOS/nixpkgs/0.1.*.tar.gz";
 
@@ -14,11 +14,16 @@
       devShells = forEachSupportedSystem ({ pkgs }: {
         default = pkgs.mkShell {
           venvDir = ".venv";
-          packages = with pkgs; [ python311 ] ++
-            (with pkgs.python311Packages; [
-              pip
-              venvShellHook
-            ]);
+          packages = with pkgs; [
+            python312
+            librsvg  # rsvg-convert, used by preview.py
+          ] ++ (with pkgs.python312Packages; [
+            pip
+            venvShellHook
+          ]);
+          postVenvCreation = ''
+            pip install -r requirements.txt
+          '';
         };
       });
     };
