@@ -138,8 +138,10 @@ sticker inlines the same content so it's self-contained.
 
 ## Stack
 
-- Python 3.12 (military-symbol 2.x uses 3.12 f-string syntax).
+- Python 3.12 (military-symbol 2.x uses 3.12 f-string syntax). Pinned in
+  `flake.nix`.
 - `military-symbol==2.0.2`, `pyyaml` (its runtime dep), `svgwrite` (kept
   in requirements for now even though we currently build SVG strings
   directly).
-- `librsvg2-bin` (for `rsvg-convert`) — only used by `preview.py`.
+- `librsvg` (provides `rsvg-convert`) — only used by `preview.py`. Also
+  pulled in by the flake's dev shell.
