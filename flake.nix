@@ -17,6 +17,9 @@
           packages = with pkgs; [
             python312
             librsvg  # rsvg-convert, used by preview.py
+            fira-code
+            ibm-plex
+            dejavu_fonts  # Hebrew fallback for the designation
           ] ++ (with pkgs.python312Packages; [
             pip
             venvShellHook
