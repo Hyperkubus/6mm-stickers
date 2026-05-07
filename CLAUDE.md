@@ -21,11 +21,16 @@ One sticker per base (1979 across 8 formations + support pool).
   top label).
 
 Left → right inside the sticker:
-- 5×5 mm APP-6 unit icon (left, 0.3 mm margin).
+- 5×5 mm APP-6 unit icon (left, 0.3 mm horizontal margin, top edge
+  at y=2.5 — pushed down so the label has its own band above).
 - Top text — equipment / weapon name (e.g. `MERKAVA 3`, `FN MAG`,
-  `AH-64`).
+  `AH-64`). 0.5 mm clearance from the sticker top edge.
 - Bottom text — designation, prominent, centered (e.g. `001א`).
-- 5×5 mm Israeli flag with thin black border (right, 0.3 mm margin).
+  0.5 mm clearance from the sticker bottom (descender to edge —
+  matters for Hebrew final letters ן ך ץ ף).
+- 5×3.64 mm Israeli flag (proper 11:8 aspect) with thin black
+  border (right, 0.3 mm horizontal margin, vertically centred
+  against the icon).
 
 Background fill `#FFFFFF`. The constant lives at the top of `generator.py`
 and is parameterised in `build_sticker(...)` so it can become per-faction
