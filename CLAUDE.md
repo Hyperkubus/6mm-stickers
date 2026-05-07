@@ -118,17 +118,23 @@ Naming rules:
 - **Tanks** — model only, no size descriptor: `Merkava 1/2/3`,
   `Magach 6`, `Magach 6 Blazer`, `Sho't Blazer`. HQ tanks share the
   same name (the icon's HQ bar disambiguates).
-- **Helicopters** — model from `unit_name`: `AH-64`, `AH-1`, `CH-53`,
-  `UH-1`. `Transport heli` defaults to `UH-1` if the unit_name doesn't
-  name a model; `Transport heli swap (CH-53)` is always `CH-53`.
+- **Helicopters** — model + IDF Hebrew name: `AH-64 Peten` (Apache),
+  `AH-1 Tzefa` (Cobra/Viper), `CH-53 Yas'ur` (Sea Stallion). The
+  UH-1 was never given a settled IDF name in service so it stays
+  bare (`UH-1`). `Transport heli` defaults to `UH-1` if the
+  unit_name doesn't name a model; `Transport heli swap (CH-53)` is
+  always `CH-53 Yas'ur`.
 - **APCs** — IDF nickname in caps: `ZELDA` (M113), `VAYZATA`,
   `NAGMASH` (Nagmasho't). UH-1 transports use `UH-1`.
 - **Recce** — vehicle from `unit_name`: `Jeep` / `ZELDA` / `Rabbi`.
 - **Infantry** — main weapon: `Galil` (rifle and HQ team alike),
   `FN MAG`, `RPG-7`, `M47 Dragon`, `52mm`, `Redeye` (MANPADS).
-- **Self-propelled / vehicles** — chassis: `M125` / `M106` / `M109` /
-  `M150` / `Pereh` / `Jeep` / `Rabbi` / `BM-21` / `MLRS` / `Vulcan` /
-  `Shilka` / `Chaparral`.
+- **Mortars / SP gun / TOW carrier / ATGM tank** — chassis:
+  `M125` / `M106` / `M109` / `M150` / `Pereh` / `Jeep` / `Rabbi`.
+- **AA / SAM / rockets** — chassis + system, dropping the chassis
+  only when it would overflow the 20 mm sticker:
+  `M163 VADS`, `ZSU-23-4 Shilka`, `M48 Chaparral`, `M270 MLRS`,
+  `BM-21 Grad`.
 - **Strike jet** — `A-4 Skyhawk`.
 - **Artillery observer** — `M113 OP`.
 

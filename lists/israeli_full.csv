@@ -35,9 +35,9 @@ formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infa
 formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,2,2,Galil rifle (M72 LAW),602א,40x20
 formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,3,3,Galil rifle (M72 LAW),603א,40x20
 formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,4,4,Galil rifle (M72 LAW),604א,40x20
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,5,5,FN MAG (M72 LAW),605א,20x20
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,6,6,FN MAG (M72 LAW),606א,20x20
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,7,7,FN MAG (M72 LAW),607א,20x20
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,5,5,FN MAG (M72 LAW),605א,40x20
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,6,6,FN MAG (M72 LAW),606א,40x20
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,7,7,FN MAG (M72 LAW),607א,40x20
 formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,8,8,RPG-7 (or B-300),608א,20x20
 formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,9,9,RPG-7 (or B-300),609א,20x20
 formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,10,10,RPG-7 (or B-300),610א,20x20
@@ -59,9 +59,9 @@ formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),B,Reserve I
 formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,2,26,Galil rifle (M72 LAW) [Reserve],626א,40x20
 formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,3,27,Galil rifle (M72 LAW) [Reserve],627א,40x20
 formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,4,28,Galil rifle (M72 LAW) [Reserve],628א,40x20
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,5,29,FN MAG (M72 LAW) [Reserve],629א,20x20
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,6,30,FN MAG (M72 LAW) [Reserve],630א,20x20
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,7,31,FN MAG (M72 LAW) [Reserve],631א,20x20
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,5,29,FN MAG (M72 LAW) [Reserve],629א,40x20
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,6,30,FN MAG (M72 LAW) [Reserve],630א,40x20
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,7,31,FN MAG (M72 LAW) [Reserve],631א,40x20
 formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,8,32,RPG-7 [Reserve],632א,20x20
 formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,9,33,RPG-7 [Reserve],633א,20x20
 formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,10,34,RPG-7 [Reserve],634א,20x20
@@ -107,9 +107,9 @@ formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infant
 formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,2,2,Galil rifle (M72 LAW),602ב,40x20
 formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,3,3,Galil rifle (M72 LAW),603ב,40x20
 formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,4,4,Galil rifle (M72 LAW),604ב,40x20
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,5,5,FN MAG (M72 LAW),605ב,20x20
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,6,6,FN MAG (M72 LAW),606ב,20x20
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,7,7,FN MAG (M72 LAW),607ב,20x20
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,5,5,FN MAG (M72 LAW),605ב,40x20
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,6,6,FN MAG (M72 LAW),606ב,40x20
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,7,7,FN MAG (M72 LAW),607ב,40x20
 formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,8,8,RPG-7 (or B-300),608ב,20x20
 formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,9,9,RPG-7 (or B-300),609ב,20x20
 formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,10,10,RPG-7 (or B-300),610ב,20x20
@@ -131,9 +131,9 @@ formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),B,Reserve Inf
 formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,2,26,Galil rifle (M72 LAW) [Reserve],626ב,40x20
 formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,3,27,Galil rifle (M72 LAW) [Reserve],627ב,40x20
 formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,4,28,Galil rifle (M72 LAW) [Reserve],628ב,40x20
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,5,29,FN MAG (M72 LAW) [Reserve],629ב,20x20
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,6,30,FN MAG (M72 LAW) [Reserve],630ב,20x20
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,7,31,FN MAG (M72 LAW) [Reserve],631ב,20x20
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,5,29,FN MAG (M72 LAW) [Reserve],629ב,40x20
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,6,30,FN MAG (M72 LAW) [Reserve],630ב,40x20
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,7,31,FN MAG (M72 LAW) [Reserve],631ב,40x20
 formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,8,32,RPG-7 [Reserve],632ב,20x20
 formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,9,33,RPG-7 [Reserve],633ב,20x20
 formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,10,34,RPG-7 [Reserve],634ב,20x20
@@ -179,9 +179,9 @@ formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infa
 formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,2,2,Galil rifle (M72 LAW),602ג,40x20
 formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,3,3,Galil rifle (M72 LAW),603ג,40x20
 formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,4,4,Galil rifle (M72 LAW),604ג,40x20
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,5,5,FN MAG (M72 LAW),605ג,20x20
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,6,6,FN MAG (M72 LAW),606ג,20x20
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,7,7,FN MAG (M72 LAW),607ג,20x20
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,5,5,FN MAG (M72 LAW),605ג,40x20
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,6,6,FN MAG (M72 LAW),606ג,40x20
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,7,7,FN MAG (M72 LAW),607ג,40x20
 formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,8,8,RPG-7 (or B-300),608ג,20x20
 formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,9,9,RPG-7 (or B-300),609ג,20x20
 formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,10,10,RPG-7 (or B-300),610ג,20x20
@@ -203,9 +203,9 @@ formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),B,Reserve I
 formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,2,26,Galil rifle (M72 LAW) [Reserve],626ג,40x20
 formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,3,27,Galil rifle (M72 LAW) [Reserve],627ג,40x20
 formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,4,28,Galil rifle (M72 LAW) [Reserve],628ג,40x20
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,5,29,FN MAG (M72 LAW) [Reserve],629ג,20x20
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,6,30,FN MAG (M72 LAW) [Reserve],630ג,20x20
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,7,31,FN MAG (M72 LAW) [Reserve],631ג,20x20
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,5,29,FN MAG (M72 LAW) [Reserve],629ג,40x20
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,6,30,FN MAG (M72 LAW) [Reserve],630ג,40x20
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,7,31,FN MAG (M72 LAW) [Reserve],631ג,40x20
 formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,8,32,RPG-7 [Reserve],632ג,20x20
 formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,9,33,RPG-7 [Reserve],633ג,20x20
 formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,10,34,RPG-7 [Reserve],634ג,20x20
@@ -251,9 +251,9 @@ formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infa
 formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,2,2,Galil rifle (M72 LAW),602ד,40x20
 formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,3,3,Galil rifle (M72 LAW),603ד,40x20
 formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,4,4,Galil rifle (M72 LAW),604ד,40x20
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,5,5,FN MAG (M72 LAW),605ד,20x20
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,6,6,FN MAG (M72 LAW),606ד,20x20
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,7,7,FN MAG (M72 LAW),607ד,20x20
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,5,5,FN MAG (M72 LAW),605ד,40x20
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,6,6,FN MAG (M72 LAW),606ד,40x20
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,7,7,FN MAG (M72 LAW),607ד,40x20
 formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,8,8,RPG-7 (or B-300),608ד,20x20
 formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,9,9,RPG-7 (or B-300),609ד,20x20
 formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,10,10,RPG-7 (or B-300),610ד,20x20
@@ -275,9 +275,9 @@ formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),B,Reserve I
 formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,2,26,Galil rifle (M72 LAW) [Reserve],626ד,40x20
 formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,3,27,Galil rifle (M72 LAW) [Reserve],627ד,40x20
 formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,4,28,Galil rifle (M72 LAW) [Reserve],628ד,40x20
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,5,29,FN MAG (M72 LAW) [Reserve],629ד,20x20
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,6,30,FN MAG (M72 LAW) [Reserve],630ד,20x20
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,7,31,FN MAG (M72 LAW) [Reserve],631ד,20x20
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,5,29,FN MAG (M72 LAW) [Reserve],629ד,40x20
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,6,30,FN MAG (M72 LAW) [Reserve],630ד,40x20
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,7,31,FN MAG (M72 LAW) [Reserve],631ד,40x20
 formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,8,32,RPG-7 [Reserve],632ד,20x20
 formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,9,33,RPG-7 [Reserve],633ד,20x20
 formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,10,34,RPG-7 [Reserve],634ד,20x20
@@ -323,9 +323,9 @@ formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantr
 formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,2,2,Galil rifle (M72 LAW),602ה,40x20
 formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,3,3,Galil rifle (M72 LAW),603ה,40x20
 formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,4,4,Galil rifle (M72 LAW),604ה,40x20
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,5,5,FN MAG (M72 LAW),605ה,20x20
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,6,6,FN MAG (M72 LAW),606ה,20x20
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,7,7,FN MAG (M72 LAW),607ה,20x20
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,5,5,FN MAG (M72 LAW),605ה,40x20
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,6,6,FN MAG (M72 LAW),606ה,40x20
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,7,7,FN MAG (M72 LAW),607ה,40x20
 formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,8,8,RPG-7 (or B-300),608ה,20x20
 formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,9,9,RPG-7 (or B-300),609ה,20x20
 formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,10,10,RPG-7 (or B-300),610ה,20x20
@@ -347,9 +347,9 @@ formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),B,Reserve Infa
 formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,2,26,Galil rifle (M72 LAW) [Reserve],626ה,40x20
 formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,3,27,Galil rifle (M72 LAW) [Reserve],627ה,40x20
 formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,4,28,Galil rifle (M72 LAW) [Reserve],628ה,40x20
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,5,29,FN MAG (M72 LAW) [Reserve],629ה,20x20
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,6,30,FN MAG (M72 LAW) [Reserve],630ה,20x20
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,7,31,FN MAG (M72 LAW) [Reserve],631ה,20x20
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,5,29,FN MAG (M72 LAW) [Reserve],629ה,40x20
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,6,30,FN MAG (M72 LAW) [Reserve],630ה,40x20
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,7,31,FN MAG (M72 LAW) [Reserve],631ה,40x20
 formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,8,32,RPG-7 [Reserve],632ה,20x20
 formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,9,33,RPG-7 [Reserve],633ה,20x20
 formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,10,34,RPG-7 [Reserve],634ה,20x20
@@ -395,9 +395,9 @@ formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infant
 formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,2,2,Galil rifle (M72 LAW),602ו,40x20
 formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,3,3,Galil rifle (M72 LAW),603ו,40x20
 formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,4,4,Galil rifle (M72 LAW),604ו,40x20
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,5,5,FN MAG (M72 LAW),605ו,20x20
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,6,6,FN MAG (M72 LAW),606ו,20x20
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,7,7,FN MAG (M72 LAW),607ו,20x20
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,5,5,FN MAG (M72 LAW),605ו,40x20
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,6,6,FN MAG (M72 LAW),606ו,40x20
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,7,7,FN MAG (M72 LAW),607ו,40x20
 formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,8,8,RPG-7 (or B-300),608ו,20x20
 formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,9,9,RPG-7 (or B-300),609ו,20x20
 formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,10,10,RPG-7 (or B-300),610ו,20x20
@@ -419,9 +419,9 @@ formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),B,Reserve Inf
 formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,2,26,Galil rifle (M72 LAW) [Reserve],626ו,40x20
 formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,3,27,Galil rifle (M72 LAW) [Reserve],627ו,40x20
 formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,4,28,Galil rifle (M72 LAW) [Reserve],628ו,40x20
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,5,29,FN MAG (M72 LAW) [Reserve],629ו,20x20
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,6,30,FN MAG (M72 LAW) [Reserve],630ו,20x20
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,7,31,FN MAG (M72 LAW) [Reserve],631ו,20x20
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,5,29,FN MAG (M72 LAW) [Reserve],629ו,40x20
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,6,30,FN MAG (M72 LAW) [Reserve],630ו,40x20
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,7,31,FN MAG (M72 LAW) [Reserve],631ו,40x20
 formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,8,32,RPG-7 [Reserve],632ו,20x20
 formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,9,33,RPG-7 [Reserve],633ו,20x20
 formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,10,34,RPG-7 [Reserve],634ו,20x20
@@ -467,9 +467,9 @@ formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infa
 formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,2,2,Galil rifle (M72 LAW),602ז,40x20
 formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,3,3,Galil rifle (M72 LAW),603ז,40x20
 formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,4,4,Galil rifle (M72 LAW),604ז,40x20
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,5,5,FN MAG (M72 LAW),605ז,20x20
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,6,6,FN MAG (M72 LAW),606ז,20x20
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,7,7,FN MAG (M72 LAW),607ז,20x20
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,5,5,FN MAG (M72 LAW),605ז,40x20
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,6,6,FN MAG (M72 LAW),606ז,40x20
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,7,7,FN MAG (M72 LAW),607ז,40x20
 formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,8,8,RPG-7 (or B-300),608ז,20x20
 formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,9,9,RPG-7 (or B-300),609ז,20x20
 formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,10,10,RPG-7 (or B-300),610ז,20x20
@@ -491,9 +491,9 @@ formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),B,Reserve I
 formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,2,26,Galil rifle (M72 LAW) [Reserve],626ז,40x20
 formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,3,27,Galil rifle (M72 LAW) [Reserve],627ז,40x20
 formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,4,28,Galil rifle (M72 LAW) [Reserve],628ז,40x20
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,5,29,FN MAG (M72 LAW) [Reserve],629ז,20x20
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,6,30,FN MAG (M72 LAW) [Reserve],630ז,20x20
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,7,31,FN MAG (M72 LAW) [Reserve],631ז,20x20
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,5,29,FN MAG (M72 LAW) [Reserve],629ז,40x20
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,6,30,FN MAG (M72 LAW) [Reserve],630ז,40x20
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,7,31,FN MAG (M72 LAW) [Reserve],631ז,40x20
 formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,8,32,RPG-7 [Reserve],632ז,20x20
 formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,9,33,RPG-7 [Reserve],633ז,20x20
 formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,10,34,RPG-7 [Reserve],634ז,20x20
@@ -539,9 +539,9 @@ formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infant
 formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,2,2,Galil rifle (M72 LAW),602ח,40x20
 formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,3,3,Galil rifle (M72 LAW),603ח,40x20
 formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,4,4,Galil rifle (M72 LAW),604ח,40x20
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,5,5,FN MAG (M72 LAW),605ח,20x20
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,6,6,FN MAG (M72 LAW),606ח,20x20
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,7,7,FN MAG (M72 LAW),607ח,20x20
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,5,5,FN MAG (M72 LAW),605ח,40x20
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,6,6,FN MAG (M72 LAW),606ח,40x20
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,7,7,FN MAG (M72 LAW),607ח,40x20
 formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,8,8,RPG-7 (or B-300),608ח,20x20
 formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,9,9,RPG-7 (or B-300),609ח,20x20
 formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,10,10,RPG-7 (or B-300),610ח,20x20
@@ -563,9 +563,9 @@ formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),B,Reserve Inf
 formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,2,26,Galil rifle (M72 LAW) [Reserve],626ח,40x20
 formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,3,27,Galil rifle (M72 LAW) [Reserve],627ח,40x20
 formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,4,28,Galil rifle (M72 LAW) [Reserve],628ח,40x20
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,5,29,FN MAG (M72 LAW) [Reserve],629ח,20x20
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,6,30,FN MAG (M72 LAW) [Reserve],630ח,20x20
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,7,31,FN MAG (M72 LAW) [Reserve],631ח,20x20
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,5,29,FN MAG (M72 LAW) [Reserve],629ח,40x20
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,6,30,FN MAG (M72 LAW) [Reserve],630ח,40x20
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,7,31,FN MAG (M72 LAW) [Reserve],631ח,40x20
 formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,8,32,RPG-7 [Reserve],632ח,20x20
 formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,9,33,RPG-7 [Reserve],633ח,20x20
 formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,10,34,RPG-7 [Reserve],634ח,20x20
@@ -611,9 +611,9 @@ formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infant
 formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,2,2,Galil rifle (M72 LAW),602ט,40x20
 formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,3,3,Galil rifle (M72 LAW),603ט,40x20
 formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,4,4,Galil rifle (M72 LAW),604ט,40x20
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,5,5,FN MAG (M72 LAW),605ט,20x20
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,6,6,FN MAG (M72 LAW),606ט,20x20
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,7,7,FN MAG (M72 LAW),607ט,20x20
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,5,5,FN MAG (M72 LAW),605ט,40x20
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,6,6,FN MAG (M72 LAW),606ט,40x20
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,7,7,FN MAG (M72 LAW),607ט,40x20
 formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,8,8,RPG-7 (or B-300),608ט,20x20
 formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,9,9,RPG-7 (or B-300),609ט,20x20
 formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,10,10,RPG-7 (or B-300),610ט,20x20
@@ -635,9 +635,9 @@ formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),B,Reserve Inf
 formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,2,26,Galil rifle (M72 LAW) [Reserve],626ט,40x20
 formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,3,27,Galil rifle (M72 LAW) [Reserve],627ט,40x20
 formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,4,28,Galil rifle (M72 LAW) [Reserve],628ט,40x20
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,5,29,FN MAG (M72 LAW) [Reserve],629ט,20x20
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,6,30,FN MAG (M72 LAW) [Reserve],630ט,20x20
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,7,31,FN MAG (M72 LAW) [Reserve],631ט,20x20
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,5,29,FN MAG (M72 LAW) [Reserve],629ט,40x20
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,6,30,FN MAG (M72 LAW) [Reserve],630ט,40x20
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,7,31,FN MAG (M72 LAW) [Reserve],631ט,40x20
 formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,8,32,RPG-7 [Reserve],632ט,20x20
 formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,9,33,RPG-7 [Reserve],633ט,20x20
 formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,10,34,RPG-7 [Reserve],634ט,20x20
@@ -683,9 +683,9 @@ formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),A,Mech Infantr
 formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,2,2,Galil rifle (M72 LAW),502י,40x20
 formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,3,3,Galil rifle (M72 LAW),503י,40x20
 formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,4,4,Galil rifle (M72 LAW),504י,40x20
-formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,5,5,FN MAG (M72 LAW),505י,20x20
-formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,6,6,FN MAG (M72 LAW),506י,20x20
-formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,7,7,FN MAG (M72 LAW),507י,20x20
+formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,5,5,FN MAG (M72 LAW),505י,40x20
+formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,6,6,FN MAG (M72 LAW),506י,40x20
+formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,7,7,FN MAG (M72 LAW),507י,40x20
 formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,8,8,RPG-7 (or B-300),508י,20x20
 formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,9,9,RPG-7 (or B-300),509י,20x20
 formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,10,10,RPG-7 (or B-300),510י,20x20
@@ -707,9 +707,9 @@ formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),B,Reserve Infa
 formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,2,26,Galil rifle (M72 LAW) [Reserve],526י,40x20
 formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,3,27,Galil rifle (M72 LAW) [Reserve],527י,40x20
 formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,4,28,Galil rifle (M72 LAW) [Reserve],528י,40x20
-formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,5,29,FN MAG (M72 LAW) [Reserve],529י,20x20
-formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,6,30,FN MAG (M72 LAW) [Reserve],530י,20x20
-formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,7,31,FN MAG (M72 LAW) [Reserve],531י,20x20
+formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,5,29,FN MAG (M72 LAW) [Reserve],529י,40x20
+formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,6,30,FN MAG (M72 LAW) [Reserve],530י,40x20
+formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,7,31,FN MAG (M72 LAW) [Reserve],531י,40x20
 formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,8,32,RPG-7 [Reserve],532י,20x20
 formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,9,33,RPG-7 [Reserve],533י,20x20
 formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,10,34,RPG-7 [Reserve],534י,20x20
@@ -755,9 +755,9 @@ formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),A,Mech Infantr
 formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,2,2,Galil rifle (M72 LAW),502כ,40x20
 formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,3,3,Galil rifle (M72 LAW),503כ,40x20
 formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,4,4,Galil rifle (M72 LAW),504כ,40x20
-formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,5,5,FN MAG (M72 LAW),505כ,20x20
-formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,6,6,FN MAG (M72 LAW),506כ,20x20
-formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,7,7,FN MAG (M72 LAW),507כ,20x20
+formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,5,5,FN MAG (M72 LAW),505כ,40x20
+formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,6,6,FN MAG (M72 LAW),506כ,40x20
+formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,7,7,FN MAG (M72 LAW),507כ,40x20
 formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,8,8,RPG-7 (or B-300),508כ,20x20
 formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,9,9,RPG-7 (or B-300),509כ,20x20
 formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,10,10,RPG-7 (or B-300),510כ,20x20
@@ -779,9 +779,9 @@ formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),B,Reserve Infa
 formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,2,26,Galil rifle (M72 LAW) [Reserve],526כ,40x20
 formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,3,27,Galil rifle (M72 LAW) [Reserve],527כ,40x20
 formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,4,28,Galil rifle (M72 LAW) [Reserve],528כ,40x20
-formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,5,29,FN MAG (M72 LAW) [Reserve],529כ,20x20
-formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,6,30,FN MAG (M72 LAW) [Reserve],530כ,20x20
-formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,7,31,FN MAG (M72 LAW) [Reserve],531כ,20x20
+formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,5,29,FN MAG (M72 LAW) [Reserve],529כ,40x20
+formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,6,30,FN MAG (M72 LAW) [Reserve],530כ,40x20
+formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,7,31,FN MAG (M72 LAW) [Reserve],531כ,40x20
 formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,8,32,RPG-7 [Reserve],532כ,20x20
 formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,9,33,RPG-7 [Reserve],533כ,20x20
 formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,10,34,RPG-7 [Reserve],534כ,20x20
@@ -827,9 +827,9 @@ formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),A,Mech Infan
 formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,2,2,Galil rifle (M72 LAW),502ל,40x20
 formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,3,3,Galil rifle (M72 LAW),503ל,40x20
 formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,4,4,Galil rifle (M72 LAW),504ל,40x20
-formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,5,5,FN MAG (M72 LAW),505ל,20x20
-formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,6,6,FN MAG (M72 LAW),506ל,20x20
-formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,7,7,FN MAG (M72 LAW),507ל,20x20
+formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,5,5,FN MAG (M72 LAW),505ל,40x20
+formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,6,6,FN MAG (M72 LAW),506ל,40x20
+formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,7,7,FN MAG (M72 LAW),507ל,40x20
 formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,8,8,RPG-7 (or B-300),508ל,20x20
 formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,9,9,RPG-7 (or B-300),509ל,20x20
 formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,10,10,RPG-7 (or B-300),510ל,20x20
@@ -851,9 +851,9 @@ formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),B,Reserve In
 formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,2,26,Galil rifle (M72 LAW) [Reserve],526ל,40x20
 formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,3,27,Galil rifle (M72 LAW) [Reserve],527ל,40x20
 formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,4,28,Galil rifle (M72 LAW) [Reserve],528ל,40x20
-formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,5,29,FN MAG (M72 LAW) [Reserve],529ל,20x20
-formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,6,30,FN MAG (M72 LAW) [Reserve],530ל,20x20
-formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,7,31,FN MAG (M72 LAW) [Reserve],531ל,20x20
+formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,5,29,FN MAG (M72 LAW) [Reserve],529ל,40x20
+formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,6,30,FN MAG (M72 LAW) [Reserve],530ל,40x20
+formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,7,31,FN MAG (M72 LAW) [Reserve],531ל,40x20
 formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,8,32,RPG-7 [Reserve],532ל,20x20
 formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,9,33,RPG-7 [Reserve],533ל,20x20
 formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,10,34,RPG-7 [Reserve],534ל,20x20
@@ -890,9 +890,9 @@ formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),A,Mech I
 formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,2,2,Galil rifle (M72 LAW),502מ,40x20
 formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,3,3,Galil rifle (M72 LAW),503מ,40x20
 formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,4,4,Galil rifle (M72 LAW),504מ,40x20
-formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,5,5,FN MAG (M72 LAW),505מ,20x20
-formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,6,6,FN MAG (M72 LAW),506מ,20x20
-formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,7,7,FN MAG (M72 LAW),507מ,20x20
+formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,5,5,FN MAG (M72 LAW),505מ,40x20
+formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,6,6,FN MAG (M72 LAW),506מ,40x20
+formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,7,7,FN MAG (M72 LAW),507מ,40x20
 formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,8,8,RPG-7 (or B-300),508מ,20x20
 formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,9,9,RPG-7 (or B-300),509מ,20x20
 formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,10,10,RPG-7 (or B-300),510מ,20x20
@@ -914,9 +914,9 @@ formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),B,Reserv
 formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,2,26,Galil rifle (M72 LAW) [Reserve],526מ,40x20
 formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,3,27,Galil rifle (M72 LAW) [Reserve],527מ,40x20
 formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,4,28,Galil rifle (M72 LAW) [Reserve],528מ,40x20
-formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,5,29,FN MAG (M72 LAW) [Reserve],529מ,20x20
-formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,6,30,FN MAG (M72 LAW) [Reserve],530מ,20x20
-formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,7,31,FN MAG (M72 LAW) [Reserve],531מ,20x20
+formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,5,29,FN MAG (M72 LAW) [Reserve],529מ,40x20
+formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,6,30,FN MAG (M72 LAW) [Reserve],530מ,40x20
+formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,7,31,FN MAG (M72 LAW) [Reserve],531מ,40x20
 formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,8,32,RPG-7 [Reserve],532מ,20x20
 formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,9,33,RPG-7 [Reserve],533מ,20x20
 formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,10,34,RPG-7 [Reserve],534מ,20x20
@@ -953,9 +953,9 @@ formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),A,Mech I
 formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,2,2,Galil rifle (M72 LAW),502נ,40x20
 formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,3,3,Galil rifle (M72 LAW),503נ,40x20
 formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,4,4,Galil rifle (M72 LAW),504נ,40x20
-formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,5,5,FN MAG (M72 LAW),505נ,20x20
-formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,6,6,FN MAG (M72 LAW),506נ,20x20
-formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,7,7,FN MAG (M72 LAW),507נ,20x20
+formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,5,5,FN MAG (M72 LAW),505נ,40x20
+formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,6,6,FN MAG (M72 LAW),506נ,40x20
+formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,7,7,FN MAG (M72 LAW),507נ,40x20
 formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,8,8,RPG-7 (or B-300),508נ,20x20
 formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,9,9,RPG-7 (or B-300),509נ,20x20
 formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,10,10,RPG-7 (or B-300),510נ,20x20
@@ -977,9 +977,9 @@ formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),B,Reserv
 formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,2,26,Galil rifle (M72 LAW) [Reserve],526נ,40x20
 formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,3,27,Galil rifle (M72 LAW) [Reserve],527נ,40x20
 formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,4,28,Galil rifle (M72 LAW) [Reserve],528נ,40x20
-formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,5,29,FN MAG (M72 LAW) [Reserve],529נ,20x20
-formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,6,30,FN MAG (M72 LAW) [Reserve],530נ,20x20
-formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,7,31,FN MAG (M72 LAW) [Reserve],531נ,20x20
+formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,5,29,FN MAG (M72 LAW) [Reserve],529נ,40x20
+formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,6,30,FN MAG (M72 LAW) [Reserve],530נ,40x20
+formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,7,31,FN MAG (M72 LAW) [Reserve],531נ,40x20
 formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,8,32,RPG-7 [Reserve],532נ,20x20
 formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,9,33,RPG-7 [Reserve],533נ,20x20
 formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,10,34,RPG-7 [Reserve],534נ,20x20
@@ -1016,9 +1016,9 @@ formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),A,Mec
 formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,2,2,Galil rifle (M72 LAW),502ס,40x20
 formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,3,3,Galil rifle (M72 LAW),503ס,40x20
 formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,4,4,Galil rifle (M72 LAW),504ס,40x20
-formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,5,5,FN MAG (M72 LAW),505ס,20x20
-formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,6,6,FN MAG (M72 LAW),506ס,20x20
-formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,7,7,FN MAG (M72 LAW),507ס,20x20
+formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,5,5,FN MAG (M72 LAW),505ס,40x20
+formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,6,6,FN MAG (M72 LAW),506ס,40x20
+formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,7,7,FN MAG (M72 LAW),507ס,40x20
 formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,8,8,RPG-7 (or B-300),508ס,20x20
 formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,9,9,RPG-7 (or B-300),509ס,20x20
 formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,10,10,RPG-7 (or B-300),510ס,20x20
@@ -1040,9 +1040,9 @@ formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),B,Res
 formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,2,26,Galil rifle (M72 LAW) [Reserve],526ס,40x20
 formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,3,27,Galil rifle (M72 LAW) [Reserve],527ס,40x20
 formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,4,28,Galil rifle (M72 LAW) [Reserve],528ס,40x20
-formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,5,29,FN MAG (M72 LAW) [Reserve],529ס,20x20
-formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,6,30,FN MAG (M72 LAW) [Reserve],530ס,20x20
-formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,7,31,FN MAG (M72 LAW) [Reserve],531ס,20x20
+formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,5,29,FN MAG (M72 LAW) [Reserve],529ס,40x20
+formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,6,30,FN MAG (M72 LAW) [Reserve],530ס,40x20
+formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,7,31,FN MAG (M72 LAW) [Reserve],531ס,40x20
 formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,8,32,RPG-7 [Reserve],532ס,20x20
 formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,9,33,RPG-7 [Reserve],533ס,20x20
 formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,10,34,RPG-7 [Reserve],534ס,20x20
@@ -1060,9 +1060,9 @@ formation,Mech Infantry Company,ע (Ayin),S2a,Combat,1 of 3 mandatory,A,Mech Inf
 formation,Mech Infantry Company,ע (Ayin),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),GALIL,2,2,Galil rifle (M72 LAW),102ע,40x20
 formation,Mech Infantry Company,ע (Ayin),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),GALIL,3,3,Galil rifle (M72 LAW),103ע,40x20
 formation,Mech Infantry Company,ע (Ayin),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),GALIL,4,4,Galil rifle (M72 LAW),104ע,40x20
-formation,Mech Infantry Company,ע (Ayin),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),FN MAG,5,5,FN MAG (M72 LAW),105ע,20x20
-formation,Mech Infantry Company,ע (Ayin),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),FN MAG,6,6,FN MAG (M72 LAW),106ע,20x20
-formation,Mech Infantry Company,ע (Ayin),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),FN MAG,7,7,FN MAG (M72 LAW),107ע,20x20
+formation,Mech Infantry Company,ע (Ayin),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),FN MAG,5,5,FN MAG (M72 LAW),105ע,40x20
+formation,Mech Infantry Company,ע (Ayin),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),FN MAG,6,6,FN MAG (M72 LAW),106ע,40x20
+formation,Mech Infantry Company,ע (Ayin),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),FN MAG,7,7,FN MAG (M72 LAW),107ע,40x20
 formation,Mech Infantry Company,ע (Ayin),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),RPG-7,8,8,RPG-7 (or B-300),108ע,20x20
 formation,Mech Infantry Company,ע (Ayin),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),RPG-7,9,9,RPG-7 (or B-300),109ע,20x20
 formation,Mech Infantry Company,ע (Ayin),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),RPG-7,10,10,RPG-7 (or B-300),110ע,20x20
@@ -1084,9 +1084,9 @@ formation,Mech Infantry Company,ע (Ayin),S2b,Combat,2 of 3 mandatory,A,Mech Inf
 formation,Mech Infantry Company,ע (Ayin),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),GALIL,2,2,Galil rifle (M72 LAW),202ע,40x20
 formation,Mech Infantry Company,ע (Ayin),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),GALIL,3,3,Galil rifle (M72 LAW),203ע,40x20
 formation,Mech Infantry Company,ע (Ayin),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),GALIL,4,4,Galil rifle (M72 LAW),204ע,40x20
-formation,Mech Infantry Company,ע (Ayin),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),FN MAG,5,5,FN MAG (M72 LAW),205ע,20x20
-formation,Mech Infantry Company,ע (Ayin),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),FN MAG,6,6,FN MAG (M72 LAW),206ע,20x20
-formation,Mech Infantry Company,ע (Ayin),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),FN MAG,7,7,FN MAG (M72 LAW),207ע,20x20
+formation,Mech Infantry Company,ע (Ayin),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),FN MAG,5,5,FN MAG (M72 LAW),205ע,40x20
+formation,Mech Infantry Company,ע (Ayin),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),FN MAG,6,6,FN MAG (M72 LAW),206ע,40x20
+formation,Mech Infantry Company,ע (Ayin),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),FN MAG,7,7,FN MAG (M72 LAW),207ע,40x20
 formation,Mech Infantry Company,ע (Ayin),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),RPG-7,8,8,RPG-7 (or B-300),208ע,20x20
 formation,Mech Infantry Company,ע (Ayin),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),RPG-7,9,9,RPG-7 (or B-300),209ע,20x20
 formation,Mech Infantry Company,ע (Ayin),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),RPG-7,10,10,RPG-7 (or B-300),210ע,20x20
@@ -1108,9 +1108,9 @@ formation,Mech Infantry Company,ע (Ayin),S2c,Combat,3 of 3 mandatory,A,Mech Inf
 formation,Mech Infantry Company,ע (Ayin),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),GALIL,2,2,Galil rifle (M72 LAW),302ע,40x20
 formation,Mech Infantry Company,ע (Ayin),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),GALIL,3,3,Galil rifle (M72 LAW),303ע,40x20
 formation,Mech Infantry Company,ע (Ayin),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),GALIL,4,4,Galil rifle (M72 LAW),304ע,40x20
-formation,Mech Infantry Company,ע (Ayin),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),FN MAG,5,5,FN MAG (M72 LAW),305ע,20x20
-formation,Mech Infantry Company,ע (Ayin),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),FN MAG,6,6,FN MAG (M72 LAW),306ע,20x20
-formation,Mech Infantry Company,ע (Ayin),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),FN MAG,7,7,FN MAG (M72 LAW),307ע,20x20
+formation,Mech Infantry Company,ע (Ayin),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),FN MAG,5,5,FN MAG (M72 LAW),305ע,40x20
+formation,Mech Infantry Company,ע (Ayin),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),FN MAG,6,6,FN MAG (M72 LAW),306ע,40x20
+formation,Mech Infantry Company,ע (Ayin),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),FN MAG,7,7,FN MAG (M72 LAW),307ע,40x20
 formation,Mech Infantry Company,ע (Ayin),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),RPG-7,8,8,RPG-7 (or B-300),308ע,20x20
 formation,Mech Infantry Company,ע (Ayin),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),RPG-7,9,9,RPG-7 (or B-300),309ע,20x20
 formation,Mech Infantry Company,ע (Ayin),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),RPG-7,10,10,RPG-7 (or B-300),310ע,20x20
@@ -1161,9 +1161,9 @@ formation,Mech Infantry Company,פ (Pe),S2a,Combat,1 of 3 mandatory,A,Mech Infan
 formation,Mech Infantry Company,פ (Pe),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),GALIL,2,2,Galil rifle (M72 LAW),102פ,40x20
 formation,Mech Infantry Company,פ (Pe),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),GALIL,3,3,Galil rifle (M72 LAW),103פ,40x20
 formation,Mech Infantry Company,פ (Pe),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),GALIL,4,4,Galil rifle (M72 LAW),104פ,40x20
-formation,Mech Infantry Company,פ (Pe),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),FN MAG,5,5,FN MAG (M72 LAW),105פ,20x20
-formation,Mech Infantry Company,פ (Pe),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),FN MAG,6,6,FN MAG (M72 LAW),106פ,20x20
-formation,Mech Infantry Company,פ (Pe),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),FN MAG,7,7,FN MAG (M72 LAW),107פ,20x20
+formation,Mech Infantry Company,פ (Pe),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),FN MAG,5,5,FN MAG (M72 LAW),105פ,40x20
+formation,Mech Infantry Company,פ (Pe),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),FN MAG,6,6,FN MAG (M72 LAW),106פ,40x20
+formation,Mech Infantry Company,פ (Pe),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),FN MAG,7,7,FN MAG (M72 LAW),107פ,40x20
 formation,Mech Infantry Company,פ (Pe),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),RPG-7,8,8,RPG-7 (or B-300),108פ,20x20
 formation,Mech Infantry Company,פ (Pe),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),RPG-7,9,9,RPG-7 (or B-300),109פ,20x20
 formation,Mech Infantry Company,פ (Pe),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),RPG-7,10,10,RPG-7 (or B-300),110פ,20x20
@@ -1185,9 +1185,9 @@ formation,Mech Infantry Company,פ (Pe),S2b,Combat,2 of 3 mandatory,A,Mech Infan
 formation,Mech Infantry Company,פ (Pe),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),GALIL,2,2,Galil rifle (M72 LAW),202פ,40x20
 formation,Mech Infantry Company,פ (Pe),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),GALIL,3,3,Galil rifle (M72 LAW),203פ,40x20
 formation,Mech Infantry Company,פ (Pe),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),GALIL,4,4,Galil rifle (M72 LAW),204פ,40x20
-formation,Mech Infantry Company,פ (Pe),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),FN MAG,5,5,FN MAG (M72 LAW),205פ,20x20
-formation,Mech Infantry Company,פ (Pe),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),FN MAG,6,6,FN MAG (M72 LAW),206פ,20x20
-formation,Mech Infantry Company,פ (Pe),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),FN MAG,7,7,FN MAG (M72 LAW),207פ,20x20
+formation,Mech Infantry Company,פ (Pe),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),FN MAG,5,5,FN MAG (M72 LAW),205פ,40x20
+formation,Mech Infantry Company,פ (Pe),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),FN MAG,6,6,FN MAG (M72 LAW),206פ,40x20
+formation,Mech Infantry Company,פ (Pe),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),FN MAG,7,7,FN MAG (M72 LAW),207פ,40x20
 formation,Mech Infantry Company,פ (Pe),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),RPG-7,8,8,RPG-7 (or B-300),208פ,20x20
 formation,Mech Infantry Company,פ (Pe),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),RPG-7,9,9,RPG-7 (or B-300),209פ,20x20
 formation,Mech Infantry Company,פ (Pe),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),RPG-7,10,10,RPG-7 (or B-300),210פ,20x20
@@ -1209,9 +1209,9 @@ formation,Mech Infantry Company,פ (Pe),S2c,Combat,3 of 3 mandatory,A,Mech Infan
 formation,Mech Infantry Company,פ (Pe),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),GALIL,2,2,Galil rifle (M72 LAW),302פ,40x20
 formation,Mech Infantry Company,פ (Pe),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),GALIL,3,3,Galil rifle (M72 LAW),303פ,40x20
 formation,Mech Infantry Company,פ (Pe),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),GALIL,4,4,Galil rifle (M72 LAW),304פ,40x20
-formation,Mech Infantry Company,פ (Pe),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),FN MAG,5,5,FN MAG (M72 LAW),305פ,20x20
-formation,Mech Infantry Company,פ (Pe),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),FN MAG,6,6,FN MAG (M72 LAW),306פ,20x20
-formation,Mech Infantry Company,פ (Pe),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),FN MAG,7,7,FN MAG (M72 LAW),307פ,20x20
+formation,Mech Infantry Company,פ (Pe),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),FN MAG,5,5,FN MAG (M72 LAW),305פ,40x20
+formation,Mech Infantry Company,פ (Pe),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),FN MAG,6,6,FN MAG (M72 LAW),306פ,40x20
+formation,Mech Infantry Company,פ (Pe),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),FN MAG,7,7,FN MAG (M72 LAW),307פ,40x20
 formation,Mech Infantry Company,פ (Pe),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),RPG-7,8,8,RPG-7 (or B-300),308פ,20x20
 formation,Mech Infantry Company,פ (Pe),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),RPG-7,9,9,RPG-7 (or B-300),309פ,20x20
 formation,Mech Infantry Company,פ (Pe),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),RPG-7,10,10,RPG-7 (or B-300),310פ,20x20
@@ -1262,9 +1262,9 @@ formation,Mech Infantry Company,צ (Tsadi),S2a,Combat,1 of 3 mandatory,A,Mech In
 formation,Mech Infantry Company,צ (Tsadi),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),GALIL,2,2,Galil rifle (M72 LAW),102צ,40x20
 formation,Mech Infantry Company,צ (Tsadi),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),GALIL,3,3,Galil rifle (M72 LAW),103צ,40x20
 formation,Mech Infantry Company,צ (Tsadi),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),GALIL,4,4,Galil rifle (M72 LAW),104צ,40x20
-formation,Mech Infantry Company,צ (Tsadi),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),FN MAG,5,5,FN MAG (M72 LAW),105צ,20x20
-formation,Mech Infantry Company,צ (Tsadi),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),FN MAG,6,6,FN MAG (M72 LAW),106צ,20x20
-formation,Mech Infantry Company,צ (Tsadi),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),FN MAG,7,7,FN MAG (M72 LAW),107צ,20x20
+formation,Mech Infantry Company,צ (Tsadi),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),FN MAG,5,5,FN MAG (M72 LAW),105צ,40x20
+formation,Mech Infantry Company,צ (Tsadi),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),FN MAG,6,6,FN MAG (M72 LAW),106צ,40x20
+formation,Mech Infantry Company,צ (Tsadi),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),FN MAG,7,7,FN MAG (M72 LAW),107צ,40x20
 formation,Mech Infantry Company,צ (Tsadi),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),RPG-7,8,8,RPG-7 (or B-300),108צ,20x20
 formation,Mech Infantry Company,צ (Tsadi),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),RPG-7,9,9,RPG-7 (or B-300),109צ,20x20
 formation,Mech Infantry Company,צ (Tsadi),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),RPG-7,10,10,RPG-7 (or B-300),110צ,20x20
@@ -1286,9 +1286,9 @@ formation,Mech Infantry Company,צ (Tsadi),S2b,Combat,2 of 3 mandatory,A,Mech In
 formation,Mech Infantry Company,צ (Tsadi),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),GALIL,2,2,Galil rifle (M72 LAW),202צ,40x20
 formation,Mech Infantry Company,צ (Tsadi),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),GALIL,3,3,Galil rifle (M72 LAW),203צ,40x20
 formation,Mech Infantry Company,צ (Tsadi),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),GALIL,4,4,Galil rifle (M72 LAW),204צ,40x20
-formation,Mech Infantry Company,צ (Tsadi),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),FN MAG,5,5,FN MAG (M72 LAW),205צ,20x20
-formation,Mech Infantry Company,צ (Tsadi),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),FN MAG,6,6,FN MAG (M72 LAW),206צ,20x20
-formation,Mech Infantry Company,צ (Tsadi),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),FN MAG,7,7,FN MAG (M72 LAW),207צ,20x20
+formation,Mech Infantry Company,צ (Tsadi),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),FN MAG,5,5,FN MAG (M72 LAW),205צ,40x20
+formation,Mech Infantry Company,צ (Tsadi),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),FN MAG,6,6,FN MAG (M72 LAW),206צ,40x20
+formation,Mech Infantry Company,צ (Tsadi),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),FN MAG,7,7,FN MAG (M72 LAW),207צ,40x20
 formation,Mech Infantry Company,צ (Tsadi),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),RPG-7,8,8,RPG-7 (or B-300),208צ,20x20
 formation,Mech Infantry Company,צ (Tsadi),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),RPG-7,9,9,RPG-7 (or B-300),209צ,20x20
 formation,Mech Infantry Company,צ (Tsadi),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),RPG-7,10,10,RPG-7 (or B-300),210צ,20x20
@@ -1310,9 +1310,9 @@ formation,Mech Infantry Company,צ (Tsadi),S2c,Combat,3 of 3 mandatory,A,Mech In
 formation,Mech Infantry Company,צ (Tsadi),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),GALIL,2,2,Galil rifle (M72 LAW),302צ,40x20
 formation,Mech Infantry Company,צ (Tsadi),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),GALIL,3,3,Galil rifle (M72 LAW),303צ,40x20
 formation,Mech Infantry Company,צ (Tsadi),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),GALIL,4,4,Galil rifle (M72 LAW),304צ,40x20
-formation,Mech Infantry Company,צ (Tsadi),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),FN MAG,5,5,FN MAG (M72 LAW),305צ,20x20
-formation,Mech Infantry Company,צ (Tsadi),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),FN MAG,6,6,FN MAG (M72 LAW),306צ,20x20
-formation,Mech Infantry Company,צ (Tsadi),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),FN MAG,7,7,FN MAG (M72 LAW),307צ,20x20
+formation,Mech Infantry Company,צ (Tsadi),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),FN MAG,5,5,FN MAG (M72 LAW),305צ,40x20
+formation,Mech Infantry Company,צ (Tsadi),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),FN MAG,6,6,FN MAG (M72 LAW),306צ,40x20
+formation,Mech Infantry Company,צ (Tsadi),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),FN MAG,7,7,FN MAG (M72 LAW),307צ,40x20
 formation,Mech Infantry Company,צ (Tsadi),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),RPG-7,8,8,RPG-7 (or B-300),308צ,20x20
 formation,Mech Infantry Company,צ (Tsadi),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),RPG-7,9,9,RPG-7 (or B-300),309צ,20x20
 formation,Mech Infantry Company,צ (Tsadi),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),RPG-7,10,10,RPG-7 (or B-300),310צ,20x20
@@ -1361,9 +1361,9 @@ formation,Reserve Infantry Company,ק (Qof),S2a,Combat,1 of 3 mandatory,A,Reserv
 formation,Reserve Infantry Company,ק (Qof),S2a,Combat,1 of 3 mandatory,A,Reserve Infantry Platoon (1st),GALIL,2,2,Galil rifle (M72 LAW) [Reserve],102ק,40x20
 formation,Reserve Infantry Company,ק (Qof),S2a,Combat,1 of 3 mandatory,A,Reserve Infantry Platoon (1st),GALIL,3,3,Galil rifle (M72 LAW) [Reserve],103ק,40x20
 formation,Reserve Infantry Company,ק (Qof),S2a,Combat,1 of 3 mandatory,A,Reserve Infantry Platoon (1st),GALIL,4,4,Galil rifle (M72 LAW) [Reserve],104ק,40x20
-formation,Reserve Infantry Company,ק (Qof),S2a,Combat,1 of 3 mandatory,A,Reserve Infantry Platoon (1st),FN MAG,5,5,FN MAG (M72 LAW) [Reserve],105ק,20x20
-formation,Reserve Infantry Company,ק (Qof),S2a,Combat,1 of 3 mandatory,A,Reserve Infantry Platoon (1st),FN MAG,6,6,FN MAG (M72 LAW) [Reserve],106ק,20x20
-formation,Reserve Infantry Company,ק (Qof),S2a,Combat,1 of 3 mandatory,A,Reserve Infantry Platoon (1st),FN MAG,7,7,FN MAG (M72 LAW) [Reserve],107ק,20x20
+formation,Reserve Infantry Company,ק (Qof),S2a,Combat,1 of 3 mandatory,A,Reserve Infantry Platoon (1st),FN MAG,5,5,FN MAG (M72 LAW) [Reserve],105ק,40x20
+formation,Reserve Infantry Company,ק (Qof),S2a,Combat,1 of 3 mandatory,A,Reserve Infantry Platoon (1st),FN MAG,6,6,FN MAG (M72 LAW) [Reserve],106ק,40x20
+formation,Reserve Infantry Company,ק (Qof),S2a,Combat,1 of 3 mandatory,A,Reserve Infantry Platoon (1st),FN MAG,7,7,FN MAG (M72 LAW) [Reserve],107ק,40x20
 formation,Reserve Infantry Company,ק (Qof),S2a,Combat,1 of 3 mandatory,A,Reserve Infantry Platoon (1st),RPG-7,8,8,RPG-7 [Reserve],108ק,20x20
 formation,Reserve Infantry Company,ק (Qof),S2a,Combat,1 of 3 mandatory,A,Reserve Infantry Platoon (1st),RPG-7,9,9,RPG-7 [Reserve],109ק,20x20
 formation,Reserve Infantry Company,ק (Qof),S2a,Combat,1 of 3 mandatory,A,Reserve Infantry Platoon (1st),RPG-7,10,10,RPG-7 [Reserve],110ק,20x20
@@ -1377,9 +1377,9 @@ formation,Reserve Infantry Company,ק (Qof),S2b,Combat,2 of 3 mandatory,A,Reserv
 formation,Reserve Infantry Company,ק (Qof),S2b,Combat,2 of 3 mandatory,A,Reserve Infantry Platoon (2nd),GALIL,2,2,Galil rifle (M72 LAW) [Reserve],202ק,40x20
 formation,Reserve Infantry Company,ק (Qof),S2b,Combat,2 of 3 mandatory,A,Reserve Infantry Platoon (2nd),GALIL,3,3,Galil rifle (M72 LAW) [Reserve],203ק,40x20
 formation,Reserve Infantry Company,ק (Qof),S2b,Combat,2 of 3 mandatory,A,Reserve Infantry Platoon (2nd),GALIL,4,4,Galil rifle (M72 LAW) [Reserve],204ק,40x20
-formation,Reserve Infantry Company,ק (Qof),S2b,Combat,2 of 3 mandatory,A,Reserve Infantry Platoon (2nd),FN MAG,5,5,FN MAG (M72 LAW) [Reserve],205ק,20x20
-formation,Reserve Infantry Company,ק (Qof),S2b,Combat,2 of 3 mandatory,A,Reserve Infantry Platoon (2nd),FN MAG,6,6,FN MAG (M72 LAW) [Reserve],206ק,20x20
-formation,Reserve Infantry Company,ק (Qof),S2b,Combat,2 of 3 mandatory,A,Reserve Infantry Platoon (2nd),FN MAG,7,7,FN MAG (M72 LAW) [Reserve],207ק,20x20
+formation,Reserve Infantry Company,ק (Qof),S2b,Combat,2 of 3 mandatory,A,Reserve Infantry Platoon (2nd),FN MAG,5,5,FN MAG (M72 LAW) [Reserve],205ק,40x20
+formation,Reserve Infantry Company,ק (Qof),S2b,Combat,2 of 3 mandatory,A,Reserve Infantry Platoon (2nd),FN MAG,6,6,FN MAG (M72 LAW) [Reserve],206ק,40x20
+formation,Reserve Infantry Company,ק (Qof),S2b,Combat,2 of 3 mandatory,A,Reserve Infantry Platoon (2nd),FN MAG,7,7,FN MAG (M72 LAW) [Reserve],207ק,40x20
 formation,Reserve Infantry Company,ק (Qof),S2b,Combat,2 of 3 mandatory,A,Reserve Infantry Platoon (2nd),RPG-7,8,8,RPG-7 [Reserve],208ק,20x20
 formation,Reserve Infantry Company,ק (Qof),S2b,Combat,2 of 3 mandatory,A,Reserve Infantry Platoon (2nd),RPG-7,9,9,RPG-7 [Reserve],209ק,20x20
 formation,Reserve Infantry Company,ק (Qof),S2b,Combat,2 of 3 mandatory,A,Reserve Infantry Platoon (2nd),RPG-7,10,10,RPG-7 [Reserve],210ק,20x20
@@ -1393,9 +1393,9 @@ formation,Reserve Infantry Company,ק (Qof),S2c,Combat,3 of 3 mandatory,A,Reserv
 formation,Reserve Infantry Company,ק (Qof),S2c,Combat,3 of 3 mandatory,A,Reserve Infantry Platoon (3rd),GALIL,2,2,Galil rifle (M72 LAW) [Reserve],302ק,40x20
 formation,Reserve Infantry Company,ק (Qof),S2c,Combat,3 of 3 mandatory,A,Reserve Infantry Platoon (3rd),GALIL,3,3,Galil rifle (M72 LAW) [Reserve],303ק,40x20
 formation,Reserve Infantry Company,ק (Qof),S2c,Combat,3 of 3 mandatory,A,Reserve Infantry Platoon (3rd),GALIL,4,4,Galil rifle (M72 LAW) [Reserve],304ק,40x20
-formation,Reserve Infantry Company,ק (Qof),S2c,Combat,3 of 3 mandatory,A,Reserve Infantry Platoon (3rd),FN MAG,5,5,FN MAG (M72 LAW) [Reserve],305ק,20x20
-formation,Reserve Infantry Company,ק (Qof),S2c,Combat,3 of 3 mandatory,A,Reserve Infantry Platoon (3rd),FN MAG,6,6,FN MAG (M72 LAW) [Reserve],306ק,20x20
-formation,Reserve Infantry Company,ק (Qof),S2c,Combat,3 of 3 mandatory,A,Reserve Infantry Platoon (3rd),FN MAG,7,7,FN MAG (M72 LAW) [Reserve],307ק,20x20
+formation,Reserve Infantry Company,ק (Qof),S2c,Combat,3 of 3 mandatory,A,Reserve Infantry Platoon (3rd),FN MAG,5,5,FN MAG (M72 LAW) [Reserve],305ק,40x20
+formation,Reserve Infantry Company,ק (Qof),S2c,Combat,3 of 3 mandatory,A,Reserve Infantry Platoon (3rd),FN MAG,6,6,FN MAG (M72 LAW) [Reserve],306ק,40x20
+formation,Reserve Infantry Company,ק (Qof),S2c,Combat,3 of 3 mandatory,A,Reserve Infantry Platoon (3rd),FN MAG,7,7,FN MAG (M72 LAW) [Reserve],307ק,40x20
 formation,Reserve Infantry Company,ק (Qof),S2c,Combat,3 of 3 mandatory,A,Reserve Infantry Platoon (3rd),RPG-7,8,8,RPG-7 [Reserve],308ק,20x20
 formation,Reserve Infantry Company,ק (Qof),S2c,Combat,3 of 3 mandatory,A,Reserve Infantry Platoon (3rd),RPG-7,9,9,RPG-7 [Reserve],309ק,20x20
 formation,Reserve Infantry Company,ק (Qof),S2c,Combat,3 of 3 mandatory,A,Reserve Infantry Platoon (3rd),RPG-7,10,10,RPG-7 [Reserve],310ק,20x20
@@ -1438,9 +1438,9 @@ formation,Reserve Infantry Company,ר (Resh),S2a,Combat,1 of 3 mandatory,A,Reser
 formation,Reserve Infantry Company,ר (Resh),S2a,Combat,1 of 3 mandatory,A,Reserve Infantry Platoon (1st),GALIL,2,2,Galil rifle (M72 LAW) [Reserve],102ר,40x20
 formation,Reserve Infantry Company,ר (Resh),S2a,Combat,1 of 3 mandatory,A,Reserve Infantry Platoon (1st),GALIL,3,3,Galil rifle (M72 LAW) [Reserve],103ר,40x20
 formation,Reserve Infantry Company,ר (Resh),S2a,Combat,1 of 3 mandatory,A,Reserve Infantry Platoon (1st),GALIL,4,4,Galil rifle (M72 LAW) [Reserve],104ר,40x20
-formation,Reserve Infantry Company,ר (Resh),S2a,Combat,1 of 3 mandatory,A,Reserve Infantry Platoon (1st),FN MAG,5,5,FN MAG (M72 LAW) [Reserve],105ר,20x20
-formation,Reserve Infantry Company,ר (Resh),S2a,Combat,1 of 3 mandatory,A,Reserve Infantry Platoon (1st),FN MAG,6,6,FN MAG (M72 LAW) [Reserve],106ר,20x20
-formation,Reserve Infantry Company,ר (Resh),S2a,Combat,1 of 3 mandatory,A,Reserve Infantry Platoon (1st),FN MAG,7,7,FN MAG (M72 LAW) [Reserve],107ר,20x20
+formation,Reserve Infantry Company,ר (Resh),S2a,Combat,1 of 3 mandatory,A,Reserve Infantry Platoon (1st),FN MAG,5,5,FN MAG (M72 LAW) [Reserve],105ר,40x20
+formation,Reserve Infantry Company,ר (Resh),S2a,Combat,1 of 3 mandatory,A,Reserve Infantry Platoon (1st),FN MAG,6,6,FN MAG (M72 LAW) [Reserve],106ר,40x20
+formation,Reserve Infantry Company,ר (Resh),S2a,Combat,1 of 3 mandatory,A,Reserve Infantry Platoon (1st),FN MAG,7,7,FN MAG (M72 LAW) [Reserve],107ר,40x20
 formation,Reserve Infantry Company,ר (Resh),S2a,Combat,1 of 3 mandatory,A,Reserve Infantry Platoon (1st),RPG-7,8,8,RPG-7 [Reserve],108ר,20x20
 formation,Reserve Infantry Company,ר (Resh),S2a,Combat,1 of 3 mandatory,A,Reserve Infantry Platoon (1st),RPG-7,9,9,RPG-7 [Reserve],109ר,20x20
 formation,Reserve Infantry Company,ר (Resh),S2a,Combat,1 of 3 mandatory,A,Reserve Infantry Platoon (1st),RPG-7,10,10,RPG-7 [Reserve],110ר,20x20
@@ -1454,9 +1454,9 @@ formation,Reserve Infantry Company,ר (Resh),S2b,Combat,2 of 3 mandatory,A,Reser
 formation,Reserve Infantry Company,ר (Resh),S2b,Combat,2 of 3 mandatory,A,Reserve Infantry Platoon (2nd),GALIL,2,2,Galil rifle (M72 LAW) [Reserve],202ר,40x20
 formation,Reserve Infantry Company,ר (Resh),S2b,Combat,2 of 3 mandatory,A,Reserve Infantry Platoon (2nd),GALIL,3,3,Galil rifle (M72 LAW) [Reserve],203ר,40x20
 formation,Reserve Infantry Company,ר (Resh),S2b,Combat,2 of 3 mandatory,A,Reserve Infantry Platoon (2nd),GALIL,4,4,Galil rifle (M72 LAW) [Reserve],204ר,40x20
-formation,Reserve Infantry Company,ר (Resh),S2b,Combat,2 of 3 mandatory,A,Reserve Infantry Platoon (2nd),FN MAG,5,5,FN MAG (M72 LAW) [Reserve],205ר,20x20
-formation,Reserve Infantry Company,ר (Resh),S2b,Combat,2 of 3 mandatory,A,Reserve Infantry Platoon (2nd),FN MAG,6,6,FN MAG (M72 LAW) [Reserve],206ר,20x20
-formation,Reserve Infantry Company,ר (Resh),S2b,Combat,2 of 3 mandatory,A,Reserve Infantry Platoon (2nd),FN MAG,7,7,FN MAG (M72 LAW) [Reserve],207ר,20x20
+formation,Reserve Infantry Company,ר (Resh),S2b,Combat,2 of 3 mandatory,A,Reserve Infantry Platoon (2nd),FN MAG,5,5,FN MAG (M72 LAW) [Reserve],205ר,40x20
+formation,Reserve Infantry Company,ר (Resh),S2b,Combat,2 of 3 mandatory,A,Reserve Infantry Platoon (2nd),FN MAG,6,6,FN MAG (M72 LAW) [Reserve],206ר,40x20
+formation,Reserve Infantry Company,ר (Resh),S2b,Combat,2 of 3 mandatory,A,Reserve Infantry Platoon (2nd),FN MAG,7,7,FN MAG (M72 LAW) [Reserve],207ר,40x20
 formation,Reserve Infantry Company,ר (Resh),S2b,Combat,2 of 3 mandatory,A,Reserve Infantry Platoon (2nd),RPG-7,8,8,RPG-7 [Reserve],208ר,20x20
 formation,Reserve Infantry Company,ר (Resh),S2b,Combat,2 of 3 mandatory,A,Reserve Infantry Platoon (2nd),RPG-7,9,9,RPG-7 [Reserve],209ר,20x20
 formation,Reserve Infantry Company,ר (Resh),S2b,Combat,2 of 3 mandatory,A,Reserve Infantry Platoon (2nd),RPG-7,10,10,RPG-7 [Reserve],210ר,20x20
@@ -1470,9 +1470,9 @@ formation,Reserve Infantry Company,ר (Resh),S2c,Combat,3 of 3 mandatory,A,Reser
 formation,Reserve Infantry Company,ר (Resh),S2c,Combat,3 of 3 mandatory,A,Reserve Infantry Platoon (3rd),GALIL,2,2,Galil rifle (M72 LAW) [Reserve],302ר,40x20
 formation,Reserve Infantry Company,ר (Resh),S2c,Combat,3 of 3 mandatory,A,Reserve Infantry Platoon (3rd),GALIL,3,3,Galil rifle (M72 LAW) [Reserve],303ר,40x20
 formation,Reserve Infantry Company,ר (Resh),S2c,Combat,3 of 3 mandatory,A,Reserve Infantry Platoon (3rd),GALIL,4,4,Galil rifle (M72 LAW) [Reserve],304ר,40x20
-formation,Reserve Infantry Company,ר (Resh),S2c,Combat,3 of 3 mandatory,A,Reserve Infantry Platoon (3rd),FN MAG,5,5,FN MAG (M72 LAW) [Reserve],305ר,20x20
-formation,Reserve Infantry Company,ר (Resh),S2c,Combat,3 of 3 mandatory,A,Reserve Infantry Platoon (3rd),FN MAG,6,6,FN MAG (M72 LAW) [Reserve],306ר,20x20
-formation,Reserve Infantry Company,ר (Resh),S2c,Combat,3 of 3 mandatory,A,Reserve Infantry Platoon (3rd),FN MAG,7,7,FN MAG (M72 LAW) [Reserve],307ר,20x20
+formation,Reserve Infantry Company,ר (Resh),S2c,Combat,3 of 3 mandatory,A,Reserve Infantry Platoon (3rd),FN MAG,5,5,FN MAG (M72 LAW) [Reserve],305ר,40x20
+formation,Reserve Infantry Company,ר (Resh),S2c,Combat,3 of 3 mandatory,A,Reserve Infantry Platoon (3rd),FN MAG,6,6,FN MAG (M72 LAW) [Reserve],306ר,40x20
+formation,Reserve Infantry Company,ר (Resh),S2c,Combat,3 of 3 mandatory,A,Reserve Infantry Platoon (3rd),FN MAG,7,7,FN MAG (M72 LAW) [Reserve],307ר,40x20
 formation,Reserve Infantry Company,ר (Resh),S2c,Combat,3 of 3 mandatory,A,Reserve Infantry Platoon (3rd),RPG-7,8,8,RPG-7 [Reserve],308ר,20x20
 formation,Reserve Infantry Company,ר (Resh),S2c,Combat,3 of 3 mandatory,A,Reserve Infantry Platoon (3rd),RPG-7,9,9,RPG-7 [Reserve],309ר,20x20
 formation,Reserve Infantry Company,ר (Resh),S2c,Combat,3 of 3 mandatory,A,Reserve Infantry Platoon (3rd),RPG-7,10,10,RPG-7 [Reserve],310ר,20x20
@@ -1515,9 +1515,9 @@ formation,Reserve Infantry Company,ש (Shin),S2a,Combat,1 of 3 mandatory,A,Reser
 formation,Reserve Infantry Company,ש (Shin),S2a,Combat,1 of 3 mandatory,A,Reserve Infantry Platoon (1st),GALIL,2,2,Galil rifle (M72 LAW) [Reserve],102ש,40x20
 formation,Reserve Infantry Company,ש (Shin),S2a,Combat,1 of 3 mandatory,A,Reserve Infantry Platoon (1st),GALIL,3,3,Galil rifle (M72 LAW) [Reserve],103ש,40x20
 formation,Reserve Infantry Company,ש (Shin),S2a,Combat,1 of 3 mandatory,A,Reserve Infantry Platoon (1st),GALIL,4,4,Galil rifle (M72 LAW) [Reserve],104ש,40x20
-formation,Reserve Infantry Company,ש (Shin),S2a,Combat,1 of 3 mandatory,A,Reserve Infantry Platoon (1st),FN MAG,5,5,FN MAG (M72 LAW) [Reserve],105ש,20x20
-formation,Reserve Infantry Company,ש (Shin),S2a,Combat,1 of 3 mandatory,A,Reserve Infantry Platoon (1st),FN MAG,6,6,FN MAG (M72 LAW) [Reserve],106ש,20x20
-formation,Reserve Infantry Company,ש (Shin),S2a,Combat,1 of 3 mandatory,A,Reserve Infantry Platoon (1st),FN MAG,7,7,FN MAG (M72 LAW) [Reserve],107ש,20x20
+formation,Reserve Infantry Company,ש (Shin),S2a,Combat,1 of 3 mandatory,A,Reserve Infantry Platoon (1st),FN MAG,5,5,FN MAG (M72 LAW) [Reserve],105ש,40x20
+formation,Reserve Infantry Company,ש (Shin),S2a,Combat,1 of 3 mandatory,A,Reserve Infantry Platoon (1st),FN MAG,6,6,FN MAG (M72 LAW) [Reserve],106ש,40x20
+formation,Reserve Infantry Company,ש (Shin),S2a,Combat,1 of 3 mandatory,A,Reserve Infantry Platoon (1st),FN MAG,7,7,FN MAG (M72 LAW) [Reserve],107ש,40x20
 formation,Reserve Infantry Company,ש (Shin),S2a,Combat,1 of 3 mandatory,A,Reserve Infantry Platoon (1st),RPG-7,8,8,RPG-7 [Reserve],108ש,20x20
 formation,Reserve Infantry Company,ש (Shin),S2a,Combat,1 of 3 mandatory,A,Reserve Infantry Platoon (1st),RPG-7,9,9,RPG-7 [Reserve],109ש,20x20
 formation,Reserve Infantry Company,ש (Shin),S2a,Combat,1 of 3 mandatory,A,Reserve Infantry Platoon (1st),RPG-7,10,10,RPG-7 [Reserve],110ש,20x20
@@ -1531,9 +1531,9 @@ formation,Reserve Infantry Company,ש (Shin),S2b,Combat,2 of 3 mandatory,A,Reser
 formation,Reserve Infantry Company,ש (Shin),S2b,Combat,2 of 3 mandatory,A,Reserve Infantry Platoon (2nd),GALIL,2,2,Galil rifle (M72 LAW) [Reserve],202ש,40x20
 formation,Reserve Infantry Company,ש (Shin),S2b,Combat,2 of 3 mandatory,A,Reserve Infantry Platoon (2nd),GALIL,3,3,Galil rifle (M72 LAW) [Reserve],203ש,40x20
 formation,Reserve Infantry Company,ש (Shin),S2b,Combat,2 of 3 mandatory,A,Reserve Infantry Platoon (2nd),GALIL,4,4,Galil rifle (M72 LAW) [Reserve],204ש,40x20
-formation,Reserve Infantry Company,ש (Shin),S2b,Combat,2 of 3 mandatory,A,Reserve Infantry Platoon (2nd),FN MAG,5,5,FN MAG (M72 LAW) [Reserve],205ש,20x20
-formation,Reserve Infantry Company,ש (Shin),S2b,Combat,2 of 3 mandatory,A,Reserve Infantry Platoon (2nd),FN MAG,6,6,FN MAG (M72 LAW) [Reserve],206ש,20x20
-formation,Reserve Infantry Company,ש (Shin),S2b,Combat,2 of 3 mandatory,A,Reserve Infantry Platoon (2nd),FN MAG,7,7,FN MAG (M72 LAW) [Reserve],207ש,20x20
+formation,Reserve Infantry Company,ש (Shin),S2b,Combat,2 of 3 mandatory,A,Reserve Infantry Platoon (2nd),FN MAG,5,5,FN MAG (M72 LAW) [Reserve],205ש,40x20
+formation,Reserve Infantry Company,ש (Shin),S2b,Combat,2 of 3 mandatory,A,Reserve Infantry Platoon (2nd),FN MAG,6,6,FN MAG (M72 LAW) [Reserve],206ש,40x20
+formation,Reserve Infantry Company,ש (Shin),S2b,Combat,2 of 3 mandatory,A,Reserve Infantry Platoon (2nd),FN MAG,7,7,FN MAG (M72 LAW) [Reserve],207ש,40x20
 formation,Reserve Infantry Company,ש (Shin),S2b,Combat,2 of 3 mandatory,A,Reserve Infantry Platoon (2nd),RPG-7,8,8,RPG-7 [Reserve],208ש,20x20
 formation,Reserve Infantry Company,ש (Shin),S2b,Combat,2 of 3 mandatory,A,Reserve Infantry Platoon (2nd),RPG-7,9,9,RPG-7 [Reserve],209ש,20x20
 formation,Reserve Infantry Company,ש (Shin),S2b,Combat,2 of 3 mandatory,A,Reserve Infantry Platoon (2nd),RPG-7,10,10,RPG-7 [Reserve],210ש,20x20
@@ -1547,9 +1547,9 @@ formation,Reserve Infantry Company,ש (Shin),S2c,Combat,3 of 3 mandatory,A,Reser
 formation,Reserve Infantry Company,ש (Shin),S2c,Combat,3 of 3 mandatory,A,Reserve Infantry Platoon (3rd),GALIL,2,2,Galil rifle (M72 LAW) [Reserve],302ש,40x20
 formation,Reserve Infantry Company,ש (Shin),S2c,Combat,3 of 3 mandatory,A,Reserve Infantry Platoon (3rd),GALIL,3,3,Galil rifle (M72 LAW) [Reserve],303ש,40x20
 formation,Reserve Infantry Company,ש (Shin),S2c,Combat,3 of 3 mandatory,A,Reserve Infantry Platoon (3rd),GALIL,4,4,Galil rifle (M72 LAW) [Reserve],304ש,40x20
-formation,Reserve Infantry Company,ש (Shin),S2c,Combat,3 of 3 mandatory,A,Reserve Infantry Platoon (3rd),FN MAG,5,5,FN MAG (M72 LAW) [Reserve],305ש,20x20
-formation,Reserve Infantry Company,ש (Shin),S2c,Combat,3 of 3 mandatory,A,Reserve Infantry Platoon (3rd),FN MAG,6,6,FN MAG (M72 LAW) [Reserve],306ש,20x20
-formation,Reserve Infantry Company,ש (Shin),S2c,Combat,3 of 3 mandatory,A,Reserve Infantry Platoon (3rd),FN MAG,7,7,FN MAG (M72 LAW) [Reserve],307ש,20x20
+formation,Reserve Infantry Company,ש (Shin),S2c,Combat,3 of 3 mandatory,A,Reserve Infantry Platoon (3rd),FN MAG,5,5,FN MAG (M72 LAW) [Reserve],305ש,40x20
+formation,Reserve Infantry Company,ש (Shin),S2c,Combat,3 of 3 mandatory,A,Reserve Infantry Platoon (3rd),FN MAG,6,6,FN MAG (M72 LAW) [Reserve],306ש,40x20
+formation,Reserve Infantry Company,ש (Shin),S2c,Combat,3 of 3 mandatory,A,Reserve Infantry Platoon (3rd),FN MAG,7,7,FN MAG (M72 LAW) [Reserve],307ש,40x20
 formation,Reserve Infantry Company,ש (Shin),S2c,Combat,3 of 3 mandatory,A,Reserve Infantry Platoon (3rd),RPG-7,8,8,RPG-7 [Reserve],308ש,20x20
 formation,Reserve Infantry Company,ש (Shin),S2c,Combat,3 of 3 mandatory,A,Reserve Infantry Platoon (3rd),RPG-7,9,9,RPG-7 [Reserve],309ש,20x20
 formation,Reserve Infantry Company,ש (Shin),S2c,Combat,3 of 3 mandatory,A,Reserve Infantry Platoon (3rd),RPG-7,10,10,RPG-7 [Reserve],310ש,20x20
@@ -1593,9 +1593,9 @@ formation,Paratrooper Company,ת (Tav),S2a,Combat,1 of 3 mandatory,A,Paratrooper
 formation,Paratrooper Company,ת (Tav),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),GALIL,2,2,Galil rifle (M72 LAW) [Para],102ת,40x20
 formation,Paratrooper Company,ת (Tav),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),GALIL,3,3,Galil rifle (M72 LAW) [Para],103ת,40x20
 formation,Paratrooper Company,ת (Tav),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),GALIL,4,4,Galil rifle (M72 LAW) [Para],104ת,40x20
-formation,Paratrooper Company,ת (Tav),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),FN MAG,5,5,FN MAG (M72 LAW) [Para],105ת,20x20
-formation,Paratrooper Company,ת (Tav),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),FN MAG,6,6,FN MAG (M72 LAW) [Para],106ת,20x20
-formation,Paratrooper Company,ת (Tav),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),FN MAG,7,7,FN MAG (M72 LAW) [Para],107ת,20x20
+formation,Paratrooper Company,ת (Tav),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),FN MAG,5,5,FN MAG (M72 LAW) [Para],105ת,40x20
+formation,Paratrooper Company,ת (Tav),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),FN MAG,6,6,FN MAG (M72 LAW) [Para],106ת,40x20
+formation,Paratrooper Company,ת (Tav),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),FN MAG,7,7,FN MAG (M72 LAW) [Para],107ת,40x20
 formation,Paratrooper Company,ת (Tav),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),RPG-7,8,8,RPG-7 (or B-300) [Para],108ת,20x20
 formation,Paratrooper Company,ת (Tav),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),RPG-7,9,9,RPG-7 (or B-300) [Para],109ת,20x20
 formation,Paratrooper Company,ת (Tav),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),RPG-7,10,10,RPG-7 (or B-300) [Para],110ת,20x20
@@ -1609,15 +1609,15 @@ formation,Paratrooper Company,ת (Tav),S2a,Combat,1 of 3 mandatory,A,Paratrooper
 formation,Paratrooper Company,ת (Tav),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),UH-1,18,18,Transport (UH-1),118ת,20x40
 formation,Paratrooper Company,ת (Tav),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),UH-1,19,19,Transport (UH-1),119ת,20x40
 formation,Paratrooper Company,ת (Tav),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),UH-1,20,20,Transport (UH-1),120ת,20x40
-formation,Paratrooper Company,ת (Tav),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),CH-53,21,21,Transport heli swap (CH-53),121ת,20x40
-formation,Paratrooper Company,ת (Tav),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),CH-53,22,22,Transport heli swap (CH-53),122ת,20x40
+formation,Paratrooper Company,ת (Tav),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),CH-53 YAS'UR,21,21,Transport heli swap (CH-53),121ת,20x40
+formation,Paratrooper Company,ת (Tav),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),CH-53 YAS'UR,22,22,Transport heli swap (CH-53),122ת,20x40
 formation,Paratrooper Company,ת (Tav),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),GALIL,1,1,Galil rifle (M72 LAW) [Para],201ת,40x20
 formation,Paratrooper Company,ת (Tav),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),GALIL,2,2,Galil rifle (M72 LAW) [Para],202ת,40x20
 formation,Paratrooper Company,ת (Tav),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),GALIL,3,3,Galil rifle (M72 LAW) [Para],203ת,40x20
 formation,Paratrooper Company,ת (Tav),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),GALIL,4,4,Galil rifle (M72 LAW) [Para],204ת,40x20
-formation,Paratrooper Company,ת (Tav),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),FN MAG,5,5,FN MAG (M72 LAW) [Para],205ת,20x20
-formation,Paratrooper Company,ת (Tav),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),FN MAG,6,6,FN MAG (M72 LAW) [Para],206ת,20x20
-formation,Paratrooper Company,ת (Tav),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),FN MAG,7,7,FN MAG (M72 LAW) [Para],207ת,20x20
+formation,Paratrooper Company,ת (Tav),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),FN MAG,5,5,FN MAG (M72 LAW) [Para],205ת,40x20
+formation,Paratrooper Company,ת (Tav),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),FN MAG,6,6,FN MAG (M72 LAW) [Para],206ת,40x20
+formation,Paratrooper Company,ת (Tav),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),FN MAG,7,7,FN MAG (M72 LAW) [Para],207ת,40x20
 formation,Paratrooper Company,ת (Tav),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),RPG-7,8,8,RPG-7 (or B-300) [Para],208ת,20x20
 formation,Paratrooper Company,ת (Tav),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),RPG-7,9,9,RPG-7 (or B-300) [Para],209ת,20x20
 formation,Paratrooper Company,ת (Tav),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),RPG-7,10,10,RPG-7 (or B-300) [Para],210ת,20x20
@@ -1631,15 +1631,15 @@ formation,Paratrooper Company,ת (Tav),S2b,Combat,2 of 3 mandatory,A,Paratrooper
 formation,Paratrooper Company,ת (Tav),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),UH-1,18,18,Transport (UH-1),218ת,20x40
 formation,Paratrooper Company,ת (Tav),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),UH-1,19,19,Transport (UH-1),219ת,20x40
 formation,Paratrooper Company,ת (Tav),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),UH-1,20,20,Transport (UH-1),220ת,20x40
-formation,Paratrooper Company,ת (Tav),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),CH-53,21,21,Transport heli swap (CH-53),221ת,20x40
-formation,Paratrooper Company,ת (Tav),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),CH-53,22,22,Transport heli swap (CH-53),222ת,20x40
+formation,Paratrooper Company,ת (Tav),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),CH-53 YAS'UR,21,21,Transport heli swap (CH-53),221ת,20x40
+formation,Paratrooper Company,ת (Tav),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),CH-53 YAS'UR,22,22,Transport heli swap (CH-53),222ת,20x40
 formation,Paratrooper Company,ת (Tav),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),GALIL,1,1,Galil rifle (M72 LAW) [Para],301ת,40x20
 formation,Paratrooper Company,ת (Tav),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),GALIL,2,2,Galil rifle (M72 LAW) [Para],302ת,40x20
 formation,Paratrooper Company,ת (Tav),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),GALIL,3,3,Galil rifle (M72 LAW) [Para],303ת,40x20
 formation,Paratrooper Company,ת (Tav),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),GALIL,4,4,Galil rifle (M72 LAW) [Para],304ת,40x20
-formation,Paratrooper Company,ת (Tav),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),FN MAG,5,5,FN MAG (M72 LAW) [Para],305ת,20x20
-formation,Paratrooper Company,ת (Tav),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),FN MAG,6,6,FN MAG (M72 LAW) [Para],306ת,20x20
-formation,Paratrooper Company,ת (Tav),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),FN MAG,7,7,FN MAG (M72 LAW) [Para],307ת,20x20
+formation,Paratrooper Company,ת (Tav),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),FN MAG,5,5,FN MAG (M72 LAW) [Para],305ת,40x20
+formation,Paratrooper Company,ת (Tav),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),FN MAG,6,6,FN MAG (M72 LAW) [Para],306ת,40x20
+formation,Paratrooper Company,ת (Tav),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),FN MAG,7,7,FN MAG (M72 LAW) [Para],307ת,40x20
 formation,Paratrooper Company,ת (Tav),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),RPG-7,8,8,RPG-7 (or B-300) [Para],308ת,20x20
 formation,Paratrooper Company,ת (Tav),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),RPG-7,9,9,RPG-7 (or B-300) [Para],309ת,20x20
 formation,Paratrooper Company,ת (Tav),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),RPG-7,10,10,RPG-7 (or B-300) [Para],310ת,20x20
@@ -1653,8 +1653,8 @@ formation,Paratrooper Company,ת (Tav),S2c,Combat,3 of 3 mandatory,A,Paratrooper
 formation,Paratrooper Company,ת (Tav),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),UH-1,18,18,Transport (UH-1),318ת,20x40
 formation,Paratrooper Company,ת (Tav),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),UH-1,19,19,Transport (UH-1),319ת,20x40
 formation,Paratrooper Company,ת (Tav),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),UH-1,20,20,Transport (UH-1),320ת,20x40
-formation,Paratrooper Company,ת (Tav),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),CH-53,21,21,Transport heli swap (CH-53),321ת,20x40
-formation,Paratrooper Company,ת (Tav),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),CH-53,22,22,Transport heli swap (CH-53),322ת,20x40
+formation,Paratrooper Company,ת (Tav),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),CH-53 YAS'UR,21,21,Transport heli swap (CH-53),321ת,20x40
+formation,Paratrooper Company,ת (Tav),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),CH-53 YAS'UR,22,22,Transport heli swap (CH-53),322ת,20x40
 formation,Paratrooper Company,ת (Tav),S3,Tank attachment,0-1 (choice),A,Merkava 1 Tank Platoon,MERKAVA 1,1,1,Tank,401ת,20x40
 formation,Paratrooper Company,ת (Tav),S3,Tank attachment,0-1 (choice),A,Merkava 1 Tank Platoon,MERKAVA 1,2,2,Tank,402ת,20x40
 formation,Paratrooper Company,ת (Tav),S3,Tank attachment,0-1 (choice),A,Merkava 1 Tank Platoon,MERKAVA 1,3,3,Tank,403ת,20x40
@@ -1695,9 +1695,9 @@ formation,Paratrooper Company,ך (Kaf-sofit),S2a,Combat,1 of 3 mandatory,A,Parat
 formation,Paratrooper Company,ך (Kaf-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),GALIL,2,2,Galil rifle (M72 LAW) [Para],102ך,40x20
 formation,Paratrooper Company,ך (Kaf-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),GALIL,3,3,Galil rifle (M72 LAW) [Para],103ך,40x20
 formation,Paratrooper Company,ך (Kaf-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),GALIL,4,4,Galil rifle (M72 LAW) [Para],104ך,40x20
-formation,Paratrooper Company,ך (Kaf-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),FN MAG,5,5,FN MAG (M72 LAW) [Para],105ך,20x20
-formation,Paratrooper Company,ך (Kaf-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),FN MAG,6,6,FN MAG (M72 LAW) [Para],106ך,20x20
-formation,Paratrooper Company,ך (Kaf-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),FN MAG,7,7,FN MAG (M72 LAW) [Para],107ך,20x20
+formation,Paratrooper Company,ך (Kaf-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),FN MAG,5,5,FN MAG (M72 LAW) [Para],105ך,40x20
+formation,Paratrooper Company,ך (Kaf-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),FN MAG,6,6,FN MAG (M72 LAW) [Para],106ך,40x20
+formation,Paratrooper Company,ך (Kaf-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),FN MAG,7,7,FN MAG (M72 LAW) [Para],107ך,40x20
 formation,Paratrooper Company,ך (Kaf-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),RPG-7,8,8,RPG-7 (or B-300) [Para],108ך,20x20
 formation,Paratrooper Company,ך (Kaf-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),RPG-7,9,9,RPG-7 (or B-300) [Para],109ך,20x20
 formation,Paratrooper Company,ך (Kaf-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),RPG-7,10,10,RPG-7 (or B-300) [Para],110ך,20x20
@@ -1711,15 +1711,15 @@ formation,Paratrooper Company,ך (Kaf-sofit),S2a,Combat,1 of 3 mandatory,A,Parat
 formation,Paratrooper Company,ך (Kaf-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),UH-1,18,18,Transport (UH-1),118ך,20x40
 formation,Paratrooper Company,ך (Kaf-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),UH-1,19,19,Transport (UH-1),119ך,20x40
 formation,Paratrooper Company,ך (Kaf-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),UH-1,20,20,Transport (UH-1),120ך,20x40
-formation,Paratrooper Company,ך (Kaf-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),CH-53,21,21,Transport heli swap (CH-53),121ך,20x40
-formation,Paratrooper Company,ך (Kaf-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),CH-53,22,22,Transport heli swap (CH-53),122ך,20x40
+formation,Paratrooper Company,ך (Kaf-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),CH-53 YAS'UR,21,21,Transport heli swap (CH-53),121ך,20x40
+formation,Paratrooper Company,ך (Kaf-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),CH-53 YAS'UR,22,22,Transport heli swap (CH-53),122ך,20x40
 formation,Paratrooper Company,ך (Kaf-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),GALIL,1,1,Galil rifle (M72 LAW) [Para],201ך,40x20
 formation,Paratrooper Company,ך (Kaf-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),GALIL,2,2,Galil rifle (M72 LAW) [Para],202ך,40x20
 formation,Paratrooper Company,ך (Kaf-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),GALIL,3,3,Galil rifle (M72 LAW) [Para],203ך,40x20
 formation,Paratrooper Company,ך (Kaf-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),GALIL,4,4,Galil rifle (M72 LAW) [Para],204ך,40x20
-formation,Paratrooper Company,ך (Kaf-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),FN MAG,5,5,FN MAG (M72 LAW) [Para],205ך,20x20
-formation,Paratrooper Company,ך (Kaf-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),FN MAG,6,6,FN MAG (M72 LAW) [Para],206ך,20x20
-formation,Paratrooper Company,ך (Kaf-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),FN MAG,7,7,FN MAG (M72 LAW) [Para],207ך,20x20
+formation,Paratrooper Company,ך (Kaf-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),FN MAG,5,5,FN MAG (M72 LAW) [Para],205ך,40x20
+formation,Paratrooper Company,ך (Kaf-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),FN MAG,6,6,FN MAG (M72 LAW) [Para],206ך,40x20
+formation,Paratrooper Company,ך (Kaf-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),FN MAG,7,7,FN MAG (M72 LAW) [Para],207ך,40x20
 formation,Paratrooper Company,ך (Kaf-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),RPG-7,8,8,RPG-7 (or B-300) [Para],208ך,20x20
 formation,Paratrooper Company,ך (Kaf-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),RPG-7,9,9,RPG-7 (or B-300) [Para],209ך,20x20
 formation,Paratrooper Company,ך (Kaf-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),RPG-7,10,10,RPG-7 (or B-300) [Para],210ך,20x20
@@ -1733,15 +1733,15 @@ formation,Paratrooper Company,ך (Kaf-sofit),S2b,Combat,2 of 3 mandatory,A,Parat
 formation,Paratrooper Company,ך (Kaf-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),UH-1,18,18,Transport (UH-1),218ך,20x40
 formation,Paratrooper Company,ך (Kaf-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),UH-1,19,19,Transport (UH-1),219ך,20x40
 formation,Paratrooper Company,ך (Kaf-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),UH-1,20,20,Transport (UH-1),220ך,20x40
-formation,Paratrooper Company,ך (Kaf-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),CH-53,21,21,Transport heli swap (CH-53),221ך,20x40
-formation,Paratrooper Company,ך (Kaf-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),CH-53,22,22,Transport heli swap (CH-53),222ך,20x40
+formation,Paratrooper Company,ך (Kaf-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),CH-53 YAS'UR,21,21,Transport heli swap (CH-53),221ך,20x40
+formation,Paratrooper Company,ך (Kaf-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),CH-53 YAS'UR,22,22,Transport heli swap (CH-53),222ך,20x40
 formation,Paratrooper Company,ך (Kaf-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),GALIL,1,1,Galil rifle (M72 LAW) [Para],301ך,40x20
 formation,Paratrooper Company,ך (Kaf-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),GALIL,2,2,Galil rifle (M72 LAW) [Para],302ך,40x20
 formation,Paratrooper Company,ך (Kaf-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),GALIL,3,3,Galil rifle (M72 LAW) [Para],303ך,40x20
 formation,Paratrooper Company,ך (Kaf-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),GALIL,4,4,Galil rifle (M72 LAW) [Para],304ך,40x20
-formation,Paratrooper Company,ך (Kaf-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),FN MAG,5,5,FN MAG (M72 LAW) [Para],305ך,20x20
-formation,Paratrooper Company,ך (Kaf-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),FN MAG,6,6,FN MAG (M72 LAW) [Para],306ך,20x20
-formation,Paratrooper Company,ך (Kaf-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),FN MAG,7,7,FN MAG (M72 LAW) [Para],307ך,20x20
+formation,Paratrooper Company,ך (Kaf-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),FN MAG,5,5,FN MAG (M72 LAW) [Para],305ך,40x20
+formation,Paratrooper Company,ך (Kaf-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),FN MAG,6,6,FN MAG (M72 LAW) [Para],306ך,40x20
+formation,Paratrooper Company,ך (Kaf-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),FN MAG,7,7,FN MAG (M72 LAW) [Para],307ך,40x20
 formation,Paratrooper Company,ך (Kaf-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),RPG-7,8,8,RPG-7 (or B-300) [Para],308ך,20x20
 formation,Paratrooper Company,ך (Kaf-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),RPG-7,9,9,RPG-7 (or B-300) [Para],309ך,20x20
 formation,Paratrooper Company,ך (Kaf-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),RPG-7,10,10,RPG-7 (or B-300) [Para],310ך,20x20
@@ -1755,8 +1755,8 @@ formation,Paratrooper Company,ך (Kaf-sofit),S2c,Combat,3 of 3 mandatory,A,Parat
 formation,Paratrooper Company,ך (Kaf-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),UH-1,18,18,Transport (UH-1),318ך,20x40
 formation,Paratrooper Company,ך (Kaf-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),UH-1,19,19,Transport (UH-1),319ך,20x40
 formation,Paratrooper Company,ך (Kaf-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),UH-1,20,20,Transport (UH-1),320ך,20x40
-formation,Paratrooper Company,ך (Kaf-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),CH-53,21,21,Transport heli swap (CH-53),321ך,20x40
-formation,Paratrooper Company,ך (Kaf-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),CH-53,22,22,Transport heli swap (CH-53),322ך,20x40
+formation,Paratrooper Company,ך (Kaf-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),CH-53 YAS'UR,21,21,Transport heli swap (CH-53),321ך,20x40
+formation,Paratrooper Company,ך (Kaf-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),CH-53 YAS'UR,22,22,Transport heli swap (CH-53),322ך,20x40
 formation,Paratrooper Company,ך (Kaf-sofit),S3,Tank attachment,0-1 (choice),A,Merkava 1 Tank Platoon,MERKAVA 1,1,1,Tank,401ך,20x40
 formation,Paratrooper Company,ך (Kaf-sofit),S3,Tank attachment,0-1 (choice),A,Merkava 1 Tank Platoon,MERKAVA 1,2,2,Tank,402ך,20x40
 formation,Paratrooper Company,ך (Kaf-sofit),S3,Tank attachment,0-1 (choice),A,Merkava 1 Tank Platoon,MERKAVA 1,3,3,Tank,403ך,20x40
@@ -1797,9 +1797,9 @@ formation,Paratrooper Company,ם (Mem-sofit),S2a,Combat,1 of 3 mandatory,A,Parat
 formation,Paratrooper Company,ם (Mem-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),GALIL,2,2,Galil rifle (M72 LAW) [Para],102ם,40x20
 formation,Paratrooper Company,ם (Mem-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),GALIL,3,3,Galil rifle (M72 LAW) [Para],103ם,40x20
 formation,Paratrooper Company,ם (Mem-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),GALIL,4,4,Galil rifle (M72 LAW) [Para],104ם,40x20
-formation,Paratrooper Company,ם (Mem-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),FN MAG,5,5,FN MAG (M72 LAW) [Para],105ם,20x20
-formation,Paratrooper Company,ם (Mem-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),FN MAG,6,6,FN MAG (M72 LAW) [Para],106ם,20x20
-formation,Paratrooper Company,ם (Mem-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),FN MAG,7,7,FN MAG (M72 LAW) [Para],107ם,20x20
+formation,Paratrooper Company,ם (Mem-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),FN MAG,5,5,FN MAG (M72 LAW) [Para],105ם,40x20
+formation,Paratrooper Company,ם (Mem-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),FN MAG,6,6,FN MAG (M72 LAW) [Para],106ם,40x20
+formation,Paratrooper Company,ם (Mem-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),FN MAG,7,7,FN MAG (M72 LAW) [Para],107ם,40x20
 formation,Paratrooper Company,ם (Mem-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),RPG-7,8,8,RPG-7 (or B-300) [Para],108ם,20x20
 formation,Paratrooper Company,ם (Mem-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),RPG-7,9,9,RPG-7 (or B-300) [Para],109ם,20x20
 formation,Paratrooper Company,ם (Mem-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),RPG-7,10,10,RPG-7 (or B-300) [Para],110ם,20x20
@@ -1813,15 +1813,15 @@ formation,Paratrooper Company,ם (Mem-sofit),S2a,Combat,1 of 3 mandatory,A,Parat
 formation,Paratrooper Company,ם (Mem-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),UH-1,18,18,Transport (UH-1),118ם,20x40
 formation,Paratrooper Company,ם (Mem-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),UH-1,19,19,Transport (UH-1),119ם,20x40
 formation,Paratrooper Company,ם (Mem-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),UH-1,20,20,Transport (UH-1),120ם,20x40
-formation,Paratrooper Company,ם (Mem-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),CH-53,21,21,Transport heli swap (CH-53),121ם,20x40
-formation,Paratrooper Company,ם (Mem-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),CH-53,22,22,Transport heli swap (CH-53),122ם,20x40
+formation,Paratrooper Company,ם (Mem-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),CH-53 YAS'UR,21,21,Transport heli swap (CH-53),121ם,20x40
+formation,Paratrooper Company,ם (Mem-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),CH-53 YAS'UR,22,22,Transport heli swap (CH-53),122ם,20x40
 formation,Paratrooper Company,ם (Mem-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),GALIL,1,1,Galil rifle (M72 LAW) [Para],201ם,40x20
 formation,Paratrooper Company,ם (Mem-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),GALIL,2,2,Galil rifle (M72 LAW) [Para],202ם,40x20
 formation,Paratrooper Company,ם (Mem-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),GALIL,3,3,Galil rifle (M72 LAW) [Para],203ם,40x20
 formation,Paratrooper Company,ם (Mem-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),GALIL,4,4,Galil rifle (M72 LAW) [Para],204ם,40x20
-formation,Paratrooper Company,ם (Mem-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),FN MAG,5,5,FN MAG (M72 LAW) [Para],205ם,20x20
-formation,Paratrooper Company,ם (Mem-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),FN MAG,6,6,FN MAG (M72 LAW) [Para],206ם,20x20
-formation,Paratrooper Company,ם (Mem-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),FN MAG,7,7,FN MAG (M72 LAW) [Para],207ם,20x20
+formation,Paratrooper Company,ם (Mem-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),FN MAG,5,5,FN MAG (M72 LAW) [Para],205ם,40x20
+formation,Paratrooper Company,ם (Mem-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),FN MAG,6,6,FN MAG (M72 LAW) [Para],206ם,40x20
+formation,Paratrooper Company,ם (Mem-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),FN MAG,7,7,FN MAG (M72 LAW) [Para],207ם,40x20
 formation,Paratrooper Company,ם (Mem-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),RPG-7,8,8,RPG-7 (or B-300) [Para],208ם,20x20
 formation,Paratrooper Company,ם (Mem-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),RPG-7,9,9,RPG-7 (or B-300) [Para],209ם,20x20
 formation,Paratrooper Company,ם (Mem-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),RPG-7,10,10,RPG-7 (or B-300) [Para],210ם,20x20
@@ -1835,15 +1835,15 @@ formation,Paratrooper Company,ם (Mem-sofit),S2b,Combat,2 of 3 mandatory,A,Parat
 formation,Paratrooper Company,ם (Mem-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),UH-1,18,18,Transport (UH-1),218ם,20x40
 formation,Paratrooper Company,ם (Mem-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),UH-1,19,19,Transport (UH-1),219ם,20x40
 formation,Paratrooper Company,ם (Mem-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),UH-1,20,20,Transport (UH-1),220ם,20x40
-formation,Paratrooper Company,ם (Mem-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),CH-53,21,21,Transport heli swap (CH-53),221ם,20x40
-formation,Paratrooper Company,ם (Mem-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),CH-53,22,22,Transport heli swap (CH-53),222ם,20x40
+formation,Paratrooper Company,ם (Mem-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),CH-53 YAS'UR,21,21,Transport heli swap (CH-53),221ם,20x40
+formation,Paratrooper Company,ם (Mem-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),CH-53 YAS'UR,22,22,Transport heli swap (CH-53),222ם,20x40
 formation,Paratrooper Company,ם (Mem-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),GALIL,1,1,Galil rifle (M72 LAW) [Para],301ם,40x20
 formation,Paratrooper Company,ם (Mem-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),GALIL,2,2,Galil rifle (M72 LAW) [Para],302ם,40x20
 formation,Paratrooper Company,ם (Mem-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),GALIL,3,3,Galil rifle (M72 LAW) [Para],303ם,40x20
 formation,Paratrooper Company,ם (Mem-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),GALIL,4,4,Galil rifle (M72 LAW) [Para],304ם,40x20
-formation,Paratrooper Company,ם (Mem-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),FN MAG,5,5,FN MAG (M72 LAW) [Para],305ם,20x20
-formation,Paratrooper Company,ם (Mem-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),FN MAG,6,6,FN MAG (M72 LAW) [Para],306ם,20x20
-formation,Paratrooper Company,ם (Mem-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),FN MAG,7,7,FN MAG (M72 LAW) [Para],307ם,20x20
+formation,Paratrooper Company,ם (Mem-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),FN MAG,5,5,FN MAG (M72 LAW) [Para],305ם,40x20
+formation,Paratrooper Company,ם (Mem-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),FN MAG,6,6,FN MAG (M72 LAW) [Para],306ם,40x20
+formation,Paratrooper Company,ם (Mem-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),FN MAG,7,7,FN MAG (M72 LAW) [Para],307ם,40x20
 formation,Paratrooper Company,ם (Mem-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),RPG-7,8,8,RPG-7 (or B-300) [Para],308ם,20x20
 formation,Paratrooper Company,ם (Mem-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),RPG-7,9,9,RPG-7 (or B-300) [Para],309ם,20x20
 formation,Paratrooper Company,ם (Mem-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),RPG-7,10,10,RPG-7 (or B-300) [Para],310ם,20x20
@@ -1857,8 +1857,8 @@ formation,Paratrooper Company,ם (Mem-sofit),S2c,Combat,3 of 3 mandatory,A,Parat
 formation,Paratrooper Company,ם (Mem-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),UH-1,18,18,Transport (UH-1),318ם,20x40
 formation,Paratrooper Company,ם (Mem-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),UH-1,19,19,Transport (UH-1),319ם,20x40
 formation,Paratrooper Company,ם (Mem-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),UH-1,20,20,Transport (UH-1),320ם,20x40
-formation,Paratrooper Company,ם (Mem-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),CH-53,21,21,Transport heli swap (CH-53),321ם,20x40
-formation,Paratrooper Company,ם (Mem-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),CH-53,22,22,Transport heli swap (CH-53),322ם,20x40
+formation,Paratrooper Company,ם (Mem-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),CH-53 YAS'UR,21,21,Transport heli swap (CH-53),321ם,20x40
+formation,Paratrooper Company,ם (Mem-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),CH-53 YAS'UR,22,22,Transport heli swap (CH-53),322ם,20x40
 formation,Paratrooper Company,ם (Mem-sofit),S3,Tank attachment,0-1 (choice),A,Merkava 1 Tank Platoon,MERKAVA 1,1,1,Tank,401ם,20x40
 formation,Paratrooper Company,ם (Mem-sofit),S3,Tank attachment,0-1 (choice),A,Merkava 1 Tank Platoon,MERKAVA 1,2,2,Tank,402ם,20x40
 formation,Paratrooper Company,ם (Mem-sofit),S3,Tank attachment,0-1 (choice),A,Merkava 1 Tank Platoon,MERKAVA 1,3,3,Tank,403ם,20x40
@@ -1908,18 +1908,18 @@ support_pool,Support Pool — Ground,ן (Nun-sofit),G2,Support — Artillery,1 (
 support_pool,Support Pool — Ground,ן (Nun-sofit),G2,Support — Artillery,1 (choice),B,Second M109 SP Artillery Battery,M109,4,8,155mm SP gun,108ן,20x30
 support_pool,Support Pool — Ground,ן (Nun-sofit),G2,Support — Artillery,1 (choice),B,Second M109 SP Artillery Battery,M109,5,9,155mm SP gun,109ן,20x30
 support_pool,Support Pool — Ground,ן (Nun-sofit),G2,Support — Artillery,1 (choice),B,Second M109 SP Artillery Battery,M109,6,10,155mm SP gun,110ן,20x30
-support_pool,Support Pool — Ground,ן (Nun-sofit),G3,Support — Rockets,1 (choice),A,M270 MLRS SP Rocket Battery,MLRS,1,1,MLRS (Minelets opt.),201ן,20x30
-support_pool,Support Pool — Ground,ן (Nun-sofit),G3,Support — Rockets,1 (choice),A,M270 MLRS SP Rocket Battery,MLRS,2,2,MLRS (Minelets opt.),202ן,20x30
-support_pool,Support Pool — Ground,ן (Nun-sofit),G3,Support — Rockets,1 (choice),A,M270 MLRS SP Rocket Battery,MLRS,3,3,MLRS (Minelets opt.),203ן,20x30
-support_pool,Support Pool — Ground,ן (Nun-sofit),G3,Support — Rockets,1 (choice),A,M270 MLRS SP Rocket Battery,MLRS,4,4,MLRS (Minelets opt.),204ן,20x30
-support_pool,Support Pool — Ground,ן (Nun-sofit),G3,Support — Rockets,1 (choice),A,M270 MLRS SP Rocket Battery,MLRS,5,5,MLRS (Minelets opt.),205ן,20x30
-support_pool,Support Pool — Ground,ן (Nun-sofit),G3,Support — Rockets,1 (choice),A,M270 MLRS SP Rocket Battery,MLRS,6,6,MLRS (Minelets opt.),206ן,20x30
-support_pool,Support Pool — Ground,ן (Nun-sofit),G3,Support — Rockets,1 (choice),B,BM-21 Hail SP Rocket Battery,BM-21,1,7,BM-21,207ן,20x30
-support_pool,Support Pool — Ground,ן (Nun-sofit),G3,Support — Rockets,1 (choice),B,BM-21 Hail SP Rocket Battery,BM-21,2,8,BM-21,208ן,20x30
-support_pool,Support Pool — Ground,ן (Nun-sofit),G3,Support — Rockets,1 (choice),B,BM-21 Hail SP Rocket Battery,BM-21,3,9,BM-21,209ן,20x30
-support_pool,Support Pool — Ground,ן (Nun-sofit),G3,Support — Rockets,1 (choice),B,BM-21 Hail SP Rocket Battery,BM-21,4,10,BM-21,210ן,20x30
-support_pool,Support Pool — Ground,ן (Nun-sofit),G3,Support — Rockets,1 (choice),B,BM-21 Hail SP Rocket Battery,BM-21,5,11,BM-21,211ן,20x30
-support_pool,Support Pool — Ground,ן (Nun-sofit),G3,Support — Rockets,1 (choice),B,BM-21 Hail SP Rocket Battery,BM-21,6,12,BM-21,212ן,20x30
+support_pool,Support Pool — Ground,ן (Nun-sofit),G3,Support — Rockets,1 (choice),A,M270 MLRS SP Rocket Battery,M270 MLRS,1,1,MLRS (Minelets opt.),201ן,20x30
+support_pool,Support Pool — Ground,ן (Nun-sofit),G3,Support — Rockets,1 (choice),A,M270 MLRS SP Rocket Battery,M270 MLRS,2,2,MLRS (Minelets opt.),202ן,20x30
+support_pool,Support Pool — Ground,ן (Nun-sofit),G3,Support — Rockets,1 (choice),A,M270 MLRS SP Rocket Battery,M270 MLRS,3,3,MLRS (Minelets opt.),203ן,20x30
+support_pool,Support Pool — Ground,ן (Nun-sofit),G3,Support — Rockets,1 (choice),A,M270 MLRS SP Rocket Battery,M270 MLRS,4,4,MLRS (Minelets opt.),204ן,20x30
+support_pool,Support Pool — Ground,ן (Nun-sofit),G3,Support — Rockets,1 (choice),A,M270 MLRS SP Rocket Battery,M270 MLRS,5,5,MLRS (Minelets opt.),205ן,20x30
+support_pool,Support Pool — Ground,ן (Nun-sofit),G3,Support — Rockets,1 (choice),A,M270 MLRS SP Rocket Battery,M270 MLRS,6,6,MLRS (Minelets opt.),206ן,20x30
+support_pool,Support Pool — Ground,ן (Nun-sofit),G3,Support — Rockets,1 (choice),B,BM-21 Hail SP Rocket Battery,BM-21 GRAD,1,7,BM-21,207ן,20x30
+support_pool,Support Pool — Ground,ן (Nun-sofit),G3,Support — Rockets,1 (choice),B,BM-21 Hail SP Rocket Battery,BM-21 GRAD,2,8,BM-21,208ן,20x30
+support_pool,Support Pool — Ground,ן (Nun-sofit),G3,Support — Rockets,1 (choice),B,BM-21 Hail SP Rocket Battery,BM-21 GRAD,3,9,BM-21,209ן,20x30
+support_pool,Support Pool — Ground,ן (Nun-sofit),G3,Support — Rockets,1 (choice),B,BM-21 Hail SP Rocket Battery,BM-21 GRAD,4,10,BM-21,210ן,20x30
+support_pool,Support Pool — Ground,ן (Nun-sofit),G3,Support — Rockets,1 (choice),B,BM-21 Hail SP Rocket Battery,BM-21 GRAD,5,11,BM-21,211ן,20x30
+support_pool,Support Pool — Ground,ן (Nun-sofit),G3,Support — Rockets,1 (choice),B,BM-21 Hail SP Rocket Battery,BM-21 GRAD,6,12,BM-21,212ן,20x30
 support_pool,Support Pool — Ground,ן (Nun-sofit),G4,Support — Observer,1 (req. battery),A,M113 OP Artillery Observer,M113 OP,1,1,Artillery observer,301ן,20x20
 support_pool,Support Pool — Ground,ן (Nun-sofit),G5,Support — Anti-tank,1,A,Pereh Anti-tank Platoon,PEREH,1,1,Pereh (Tammuz/Tammuz 2),401ן,20x30
 support_pool,Support Pool — Ground,ן (Nun-sofit),G5,Support — Anti-tank,1,A,Pereh Anti-tank Platoon,PEREH,2,2,Pereh (Tammuz/Tammuz 2),402ן,20x30
@@ -1942,18 +1942,18 @@ support_pool,Support Pool — Ground,ן (Nun-sofit),G7,Support — Recce,1 (choi
 support_pool,Support Pool — Ground,ן (Nun-sofit),G7,Support — Recce,1 (choice),B,Rabbi Recce Platoon,RABBI,3,6,Recce,606ן,20x30
 support_pool,Support Pool — Ground,ן (Nun-sofit),G7,Support — Recce,1 (choice),B,Rabbi Recce Platoon,UH-1,4,7,Transport heli,607ן,20x40
 support_pool,Support Pool — Ground,ן (Nun-sofit),G7,Support — Recce,1 (choice),B,Rabbi Recce Platoon,UH-1,5,8,Transport heli,608ן,20x40
-support_pool,Support Pool — Ground,ן (Nun-sofit),G8,Support — AA,1 (choice),A,M163 VADS AA Platoon,VULCAN,1,1,Vulcan AA,701ן,20x30
-support_pool,Support Pool — Ground,ן (Nun-sofit),G8,Support — AA,1 (choice),A,M163 VADS AA Platoon,VULCAN,2,2,Vulcan AA,702ן,20x30
-support_pool,Support Pool — Ground,ן (Nun-sofit),G8,Support — AA,1 (choice),A,M163 VADS AA Platoon,VULCAN,3,3,Vulcan AA,703ן,20x30
-support_pool,Support Pool — Ground,ן (Nun-sofit),G8,Support — AA,1 (choice),A,M163 VADS AA Platoon,VULCAN,4,4,Vulcan AA,704ן,20x30
-support_pool,Support Pool — Ground,ן (Nun-sofit),G8,Support — AA,1 (choice),B,ZSU-23-4 Shilka AA Platoon,SHILKA,1,5,Shilka AA,705ן,20x30
-support_pool,Support Pool — Ground,ן (Nun-sofit),G8,Support — AA,1 (choice),B,ZSU-23-4 Shilka AA Platoon,SHILKA,2,6,Shilka AA,706ן,20x30
-support_pool,Support Pool — Ground,ן (Nun-sofit),G8,Support — AA,1 (choice),B,ZSU-23-4 Shilka AA Platoon,SHILKA,3,7,Shilka AA,707ן,20x30
-support_pool,Support Pool — Ground,ן (Nun-sofit),G8,Support — AA,1 (choice),B,ZSU-23-4 Shilka AA Platoon,SHILKA,4,8,Shilka AA,708ן,20x30
-support_pool,Support Pool — Ground,ן (Nun-sofit),G9,Support — SAM,1,A,M48 Chaparral SAM Platoon,CHAPARRAL,1,1,SAM,801ן,20x30
-support_pool,Support Pool — Ground,ן (Nun-sofit),G9,Support — SAM,1,A,M48 Chaparral SAM Platoon,CHAPARRAL,2,2,SAM,802ן,20x30
-support_pool,Support Pool — Ground,ן (Nun-sofit),G9,Support — SAM,1,A,M48 Chaparral SAM Platoon,CHAPARRAL,3,3,SAM,803ן,20x30
-support_pool,Support Pool — Ground,ן (Nun-sofit),G9,Support — SAM,1,A,M48 Chaparral SAM Platoon,CHAPARRAL,4,4,SAM,804ן,20x30
+support_pool,Support Pool — Ground,ן (Nun-sofit),G8,Support — AA,1 (choice),A,M163 VADS AA Platoon,M163 VADS,1,1,Vulcan AA,701ן,20x30
+support_pool,Support Pool — Ground,ן (Nun-sofit),G8,Support — AA,1 (choice),A,M163 VADS AA Platoon,M163 VADS,2,2,Vulcan AA,702ן,20x30
+support_pool,Support Pool — Ground,ן (Nun-sofit),G8,Support — AA,1 (choice),A,M163 VADS AA Platoon,M163 VADS,3,3,Vulcan AA,703ן,20x30
+support_pool,Support Pool — Ground,ן (Nun-sofit),G8,Support — AA,1 (choice),A,M163 VADS AA Platoon,M163 VADS,4,4,Vulcan AA,704ן,20x30
+support_pool,Support Pool — Ground,ן (Nun-sofit),G8,Support — AA,1 (choice),B,ZSU-23-4 Shilka AA Platoon,ZSU-23-4 SHILKA,1,5,Shilka AA,705ן,20x30
+support_pool,Support Pool — Ground,ן (Nun-sofit),G8,Support — AA,1 (choice),B,ZSU-23-4 Shilka AA Platoon,ZSU-23-4 SHILKA,2,6,Shilka AA,706ן,20x30
+support_pool,Support Pool — Ground,ן (Nun-sofit),G8,Support — AA,1 (choice),B,ZSU-23-4 Shilka AA Platoon,ZSU-23-4 SHILKA,3,7,Shilka AA,707ן,20x30
+support_pool,Support Pool — Ground,ן (Nun-sofit),G8,Support — AA,1 (choice),B,ZSU-23-4 Shilka AA Platoon,ZSU-23-4 SHILKA,4,8,Shilka AA,708ן,20x30
+support_pool,Support Pool — Ground,ן (Nun-sofit),G9,Support — SAM,1,A,M48 Chaparral SAM Platoon,M48 CHAPARRAL,1,1,SAM,801ן,20x30
+support_pool,Support Pool — Ground,ן (Nun-sofit),G9,Support — SAM,1,A,M48 Chaparral SAM Platoon,M48 CHAPARRAL,2,2,SAM,802ן,20x30
+support_pool,Support Pool — Ground,ן (Nun-sofit),G9,Support — SAM,1,A,M48 Chaparral SAM Platoon,M48 CHAPARRAL,3,3,SAM,803ן,20x30
+support_pool,Support Pool — Ground,ן (Nun-sofit),G9,Support — SAM,1,A,M48 Chaparral SAM Platoon,M48 CHAPARRAL,4,4,SAM,804ן,20x30
 support_pool,Support Pool — Ground,ן (Nun-sofit),G10,Support — SAM,1,A,Redeye SAM Platoon,REDEYE,1,1,MANPADS,901ן,20x20
 support_pool,Support Pool — Ground,ן (Nun-sofit),G10,Support — SAM,1,A,Redeye SAM Platoon,REDEYE,2,2,MANPADS,902ן,20x20
 support_pool,Support Pool — Ground,ן (Nun-sofit),G10,Support — SAM,1,A,Redeye SAM Platoon,REDEYE,3,3,MANPADS,903ן,20x20
@@ -1962,19 +1962,19 @@ support_pool,Support Pool — Air,ף (Pe-sofit),A1,Support — Aircraft,1,A,Skyh
 support_pool,Support Pool — Air,ף (Pe-sofit),A1,Support — Aircraft,1,A,Skyhawk Fighter Flight,A-4 SKYHAWK,2,2,Strike jet (Napalm opt.),002ף,20x40
 support_pool,Support Pool — Air,ף (Pe-sofit),A1,Support — Aircraft,1,A,Skyhawk Fighter Flight,A-4 SKYHAWK,3,3,Strike jet (Napalm opt.),003ף,20x40
 support_pool,Support Pool — Air,ף (Pe-sofit),A1,Support — Aircraft,1,A,Skyhawk Fighter Flight,A-4 SKYHAWK,4,4,Strike jet (Napalm opt.),004ף,20x40
-support_pool,Support Pool — Air,ף (Pe-sofit),A2,Support — Attack heli (slot 1),1 (choice),A,AH-64 Cobra Attack Helicopter Platoon (1st),AH-64,1,1,Attack heli (model is Apache despite 'Cobra' label),101ף,20x40
-support_pool,Support Pool — Air,ף (Pe-sofit),A2,Support — Attack heli (slot 1),1 (choice),A,AH-64 Cobra Attack Helicopter Platoon (1st),AH-64,2,2,Attack heli (model is Apache despite 'Cobra' label),102ף,20x40
-support_pool,Support Pool — Air,ף (Pe-sofit),A2,Support — Attack heli (slot 1),1 (choice),A,AH-64 Cobra Attack Helicopter Platoon (1st),AH-64,3,3,Attack heli (model is Apache despite 'Cobra' label),103ף,20x40
-support_pool,Support Pool — Air,ף (Pe-sofit),A2,Support — Attack heli (slot 1),1 (choice),A,AH-64 Cobra Attack Helicopter Platoon (1st),AH-64,4,4,Attack heli (model is Apache despite 'Cobra' label),104ף,20x40
-support_pool,Support Pool — Air,ף (Pe-sofit),A2,Support — Attack heli (slot 1),1 (choice),B,AH-1 Viper Attack Helicopter Platoon (1st),AH-1,1,5,Attack heli (iTOW or MAPATS),105ף,20x40
-support_pool,Support Pool — Air,ף (Pe-sofit),A2,Support — Attack heli (slot 1),1 (choice),B,AH-1 Viper Attack Helicopter Platoon (1st),AH-1,2,6,Attack heli (iTOW or MAPATS),106ף,20x40
-support_pool,Support Pool — Air,ף (Pe-sofit),A2,Support — Attack heli (slot 1),1 (choice),B,AH-1 Viper Attack Helicopter Platoon (1st),AH-1,3,7,Attack heli (iTOW or MAPATS),107ף,20x40
-support_pool,Support Pool — Air,ף (Pe-sofit),A2,Support — Attack heli (slot 1),1 (choice),B,AH-1 Viper Attack Helicopter Platoon (1st),AH-1,4,8,Attack heli (iTOW or MAPATS),108ף,20x40
-support_pool,Support Pool — Air,ף (Pe-sofit),A3,Support — Attack heli (slot 2),1 (choice),A,AH-64 Cobra Attack Helicopter Platoon (2nd),AH-64,1,1,Attack heli,201ף,20x40
-support_pool,Support Pool — Air,ף (Pe-sofit),A3,Support — Attack heli (slot 2),1 (choice),A,AH-64 Cobra Attack Helicopter Platoon (2nd),AH-64,2,2,Attack heli,202ף,20x40
-support_pool,Support Pool — Air,ף (Pe-sofit),A3,Support — Attack heli (slot 2),1 (choice),A,AH-64 Cobra Attack Helicopter Platoon (2nd),AH-64,3,3,Attack heli,203ף,20x40
-support_pool,Support Pool — Air,ף (Pe-sofit),A3,Support — Attack heli (slot 2),1 (choice),A,AH-64 Cobra Attack Helicopter Platoon (2nd),AH-64,4,4,Attack heli,204ף,20x40
-support_pool,Support Pool — Air,ף (Pe-sofit),A3,Support — Attack heli (slot 2),1 (choice),B,AH-1 Viper Attack Helicopter Platoon (2nd),AH-1,1,5,Attack heli (iTOW or MAPATS),205ף,20x40
-support_pool,Support Pool — Air,ף (Pe-sofit),A3,Support — Attack heli (slot 2),1 (choice),B,AH-1 Viper Attack Helicopter Platoon (2nd),AH-1,2,6,Attack heli (iTOW or MAPATS),206ף,20x40
-support_pool,Support Pool — Air,ף (Pe-sofit),A3,Support — Attack heli (slot 2),1 (choice),B,AH-1 Viper Attack Helicopter Platoon (2nd),AH-1,3,7,Attack heli (iTOW or MAPATS),207ף,20x40
-support_pool,Support Pool — Air,ף (Pe-sofit),A3,Support — Attack heli (slot 2),1 (choice),B,AH-1 Viper Attack Helicopter Platoon (2nd),AH-1,4,8,Attack heli (iTOW or MAPATS),208ף,20x40
+support_pool,Support Pool — Air,ף (Pe-sofit),A2,Support — Attack heli (slot 1),1 (choice),A,AH-64 Cobra Attack Helicopter Platoon (1st),AH-64 PETEN,1,1,Attack heli (model is Apache despite 'Cobra' label),101ף,20x40
+support_pool,Support Pool — Air,ף (Pe-sofit),A2,Support — Attack heli (slot 1),1 (choice),A,AH-64 Cobra Attack Helicopter Platoon (1st),AH-64 PETEN,2,2,Attack heli (model is Apache despite 'Cobra' label),102ף,20x40
+support_pool,Support Pool — Air,ף (Pe-sofit),A2,Support — Attack heli (slot 1),1 (choice),A,AH-64 Cobra Attack Helicopter Platoon (1st),AH-64 PETEN,3,3,Attack heli (model is Apache despite 'Cobra' label),103ף,20x40
+support_pool,Support Pool — Air,ף (Pe-sofit),A2,Support — Attack heli (slot 1),1 (choice),A,AH-64 Cobra Attack Helicopter Platoon (1st),AH-64 PETEN,4,4,Attack heli (model is Apache despite 'Cobra' label),104ף,20x40
+support_pool,Support Pool — Air,ף (Pe-sofit),A2,Support — Attack heli (slot 1),1 (choice),B,AH-1 Viper Attack Helicopter Platoon (1st),AH-1 TZEFA,1,5,Attack heli (iTOW or MAPATS),105ף,20x40
+support_pool,Support Pool — Air,ף (Pe-sofit),A2,Support — Attack heli (slot 1),1 (choice),B,AH-1 Viper Attack Helicopter Platoon (1st),AH-1 TZEFA,2,6,Attack heli (iTOW or MAPATS),106ף,20x40
+support_pool,Support Pool — Air,ף (Pe-sofit),A2,Support — Attack heli (slot 1),1 (choice),B,AH-1 Viper Attack Helicopter Platoon (1st),AH-1 TZEFA,3,7,Attack heli (iTOW or MAPATS),107ף,20x40
+support_pool,Support Pool — Air,ף (Pe-sofit),A2,Support — Attack heli (slot 1),1 (choice),B,AH-1 Viper Attack Helicopter Platoon (1st),AH-1 TZEFA,4,8,Attack heli (iTOW or MAPATS),108ף,20x40
+support_pool,Support Pool — Air,ף (Pe-sofit),A3,Support — Attack heli (slot 2),1 (choice),A,AH-64 Cobra Attack Helicopter Platoon (2nd),AH-64 PETEN,1,1,Attack heli,201ף,20x40
+support_pool,Support Pool — Air,ף (Pe-sofit),A3,Support — Attack heli (slot 2),1 (choice),A,AH-64 Cobra Attack Helicopter Platoon (2nd),AH-64 PETEN,2,2,Attack heli,202ף,20x40
+support_pool,Support Pool — Air,ף (Pe-sofit),A3,Support — Attack heli (slot 2),1 (choice),A,AH-64 Cobra Attack Helicopter Platoon (2nd),AH-64 PETEN,3,3,Attack heli,203ף,20x40
+support_pool,Support Pool — Air,ף (Pe-sofit),A3,Support — Attack heli (slot 2),1 (choice),A,AH-64 Cobra Attack Helicopter Platoon (2nd),AH-64 PETEN,4,4,Attack heli,204ף,20x40
+support_pool,Support Pool — Air,ף (Pe-sofit),A3,Support — Attack heli (slot 2),1 (choice),B,AH-1 Viper Attack Helicopter Platoon (2nd),AH-1 TZEFA,1,5,Attack heli (iTOW or MAPATS),205ף,20x40
+support_pool,Support Pool — Air,ף (Pe-sofit),A3,Support — Attack heli (slot 2),1 (choice),B,AH-1 Viper Attack Helicopter Platoon (2nd),AH-1 TZEFA,2,6,Attack heli (iTOW or MAPATS),206ף,20x40
+support_pool,Support Pool — Air,ף (Pe-sofit),A3,Support — Attack heli (slot 2),1 (choice),B,AH-1 Viper Attack Helicopter Platoon (2nd),AH-1 TZEFA,3,7,Attack heli (iTOW or MAPATS),207ף,20x40
+support_pool,Support Pool — Air,ף (Pe-sofit),A3,Support — Attack heli (slot 2),1 (choice),B,AH-1 Viper Attack Helicopter Platoon (2nd),AH-1 TZEFA,4,8,Attack heli (iTOW or MAPATS),208ף,20x40
