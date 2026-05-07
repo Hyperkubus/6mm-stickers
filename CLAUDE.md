@@ -130,9 +130,9 @@ Naming rules:
   unit_name doesn't name a model; `Transport heli swap (CH-53)` is
   always `CH-53 Yas'ur`.
 - **APCs** — chassis + IDF nickname in caps: `M113 Zelda`,
-  `Tiran Vayzata` (Achzarit, T-55-derived), `Nagmashot`
-  (Nagmasho't already encodes its Sho't/Centurion chassis in the
-  name, so no separate prefix). UH-1 transports use `UH-1`.
+  `M113 Vayzata`, `Nagmashot` (Nagmasho't already encodes its
+  Sho't/Centurion chassis in the name, so no separate prefix).
+  UH-1 transports use `UH-1`.
 - **Recce** — vehicle from `unit_name`: `Jeep` / `M113 Zelda` /
   `Rabbi`.
 - **Infantry** — main weapon: `Galil` (rifle and HQ team alike),
@@ -161,6 +161,29 @@ keep the label legible.
 
 Para / Reserve infantry intentionally share names with Mech (icons are
 identical). A `P` / `R` suffix would be the natural future refinement.
+
+## Shared transport designations
+
+Mutually exclusive transport variants share a single designation per
+slot, since you'll only field one variant per stand. Within each
+`(formation, unit, slot, letter)` group, every row whose `team_role`
+contains "Transport" is treated as an alternative to the others. The
+variant with the smallest `team_position_in_slot` is the primary;
+remaining variants reuse the primary's designations in position order,
+cycling if a variant has fewer stands (the Para CH-53 swap is 2-for-1
+with UH-1, so the 6 CH-53 stands take the first 6 UH-1 designations).
+
+Concrete cases:
+- Mech HQ transport: M113 / Vayzata / Nagmasho't share `002–004`.
+- Mech platoon transport: M113 / Vayzata / Nagmasho't share `113–116`.
+- Para HQ transport: M113 / UH-1 share `002–003`.
+- Para platoon transport: M113[Para] / UH-1 / CH-53 share `113–116`
+  (CH-53 takes `113–114`, the first two).
+
+Because the same designation now maps to multiple distinct stickers
+(different name, different icon shading), `out/` filenames include
+the slugified name: `out/{designation}-{slug}.svg`. `sticker_filename()`
+in `generator.py` is the single source of truth for that mapping.
 
 ## Designation rendering
 

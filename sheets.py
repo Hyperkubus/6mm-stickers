@@ -141,11 +141,18 @@ def main() -> int:
 
     icon_cache: dict[tuple[str, bool], str] = {}
     for formation, rows in sorted(formations.items()):
-        # Sort wide-first then by unit and designation: clusters related
-        # stickers and lets the wide row use 4-per-row efficiently before
-        # falling through to the narrow rows.
+        # Sort by slot (HQ first, platoons in order), then by team_role so
+        # rifle teams cluster together, machine-gunners together, transports
+        # together; finally by designation. Wide-first as a last tiebreak so
+        # the 40 mm rifle squad stickers fill clean rows of four before
+        # giving way to mixed-width rows.
         rows.sort(
-            key=lambda r: (-sticker_width_mm(r["base"]), r["unit_name"], r["designation"])
+            key=lambda r: (
+                r["slot_id"],
+                r["team_role"],
+                -sticker_width_mm(r["base"]),
+                r["designation"],
+            )
         )
         pages = pack_pages(rows)
         slug_name = slug(formation)

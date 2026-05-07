@@ -61,7 +61,7 @@ The `name` column drives the top label. Rules are documented in
 | ------------------------------- | ------------------ |
 | Tanks                           | `MERKAVA 3`, `MAGACH 6 BLAZER`, `SHO'T BLAZER` |
 | Helicopters (model + IDF name)  | `AH-64 PETEN`, `AH-1 TZEFA`, `CH-53 YAS'UR`, `UH-1` |
-| APCs (chassis + IDF nickname)   | `M113 ZELDA`, `TIRAN VAYZATA`, `NAGMASHOT` |
+| APCs (chassis + IDF nickname)   | `M113 ZELDA`, `M113 VAYZATA`, `NAGMASHOT` |
 | Infantry (main weapon)          | `GALIL`, `FN MAG`, `RPG-7`, `M47 DRAGON`, `52MM`, `REDEYE` |
 | Mortars / SP / TOW (chassis)    | `M125`, `M106`, `M109`, `M150`, `PEREH` |
 | AA / SAM / rockets (chassis + system) | `M163 VADS`, `ZSU-23-4 SHILKA`, `M48 CHAPARRAL`, `M270 MLRS`, `BM-21 GRAD` |

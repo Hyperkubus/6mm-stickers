@@ -20,6 +20,7 @@ from generator import (
     map_role_to_description,
     role_base_form,
     row_name,
+    sticker_filename,
     sticker_width_mm,
     HQ_ROLES,
 )
@@ -73,7 +74,7 @@ def main() -> int:
 
     cards = []
     for s in samples:
-        svg_path = OUT_DIR / f"{s['designation']}.svg"
+        svg_path = OUT_DIR / sticker_filename(s["designation"], s["name"])
         if not svg_path.exists():
             continue
         uri = render(svg_path)

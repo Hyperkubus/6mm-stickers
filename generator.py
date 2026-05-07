@@ -153,7 +153,7 @@ def derive_name(team_role: str, unit_name: str) -> str:
             if "M113" in content:
                 return "M113 ZELDA"
             if "Vayzata" in content:
-                return "TIRAN VAYZATA"
+                return "M113 VAYZATA"
             if "Nagmasho" in content:
                 return "NAGMASHOT"
             return content.upper()
@@ -272,6 +272,15 @@ def israel_flag_inner() -> str:
 
 def sticker_width_mm(base: str) -> int:
     return 40 if base == "40x20" else 20
+
+
+def sticker_filename(designation: str, name: str) -> str:
+    """Filename for a sticker SVG. Includes the name because mutually
+    exclusive variants (e.g. M113/Vayzata/Nagmasho't transports for the
+    same infantry team) deliberately share a designation, so the
+    designation alone is no longer unique."""
+    slug = re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
+    return f"{designation}-{slug}.svg"
 
 
 def escape_xml(s: str) -> str:
@@ -427,7 +436,7 @@ def _generate() -> int:
         width_mm = sticker_width_mm(base)
         sticker = build_sticker(designation, name, icon_svg, width_mm)
 
-        out_path = OUT_DIR / f"{designation}.svg"
+        out_path = OUT_DIR / sticker_filename(designation, name)
         out_path.write_text(sticker, encoding="utf-8")
         written += 1
 

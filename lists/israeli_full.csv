@@ -47,14 +47,14 @@ formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infa
 formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,14,14,Transport (M113),614א,20x30
 formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,15,15,Transport (M113),615א,20x30
 formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,16,16,Transport (M113),616א,20x30
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,17,17,Transport (Vayzata variant),617א,20x30
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,18,18,Transport (Vayzata variant),618א,20x30
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,19,19,Transport (Vayzata variant),619א,20x30
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,20,20,Transport (Vayzata variant),620א,20x30
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,21,21,Transport (Nagmasho't variant),621א,20x30
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,22,22,Transport (Nagmasho't variant),622א,20x30
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,23,23,Transport (Nagmasho't variant),623א,20x30
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,24,24,Transport (Nagmasho't variant),624א,20x30
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,17,17,Transport (Vayzata variant),613א,20x30
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,18,18,Transport (Vayzata variant),614א,20x30
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,19,19,Transport (Vayzata variant),615א,20x30
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,20,20,Transport (Vayzata variant),616א,20x30
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,21,21,Transport (Nagmasho't variant),613א,20x30
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,22,22,Transport (Nagmasho't variant),614א,20x30
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,23,23,Transport (Nagmasho't variant),615א,20x30
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,24,24,Transport (Nagmasho't variant),616א,20x30
 formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,1,25,Galil rifle (M72 LAW) [Reserve],625א,40x20
 formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,2,26,Galil rifle (M72 LAW) [Reserve],626א,40x20
 formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,3,27,Galil rifle (M72 LAW) [Reserve],627א,40x20
@@ -119,14 +119,14 @@ formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infant
 formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,14,14,Transport (M113),614ב,20x30
 formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,15,15,Transport (M113),615ב,20x30
 formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,16,16,Transport (M113),616ב,20x30
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,17,17,Transport (Vayzata variant),617ב,20x30
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,18,18,Transport (Vayzata variant),618ב,20x30
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,19,19,Transport (Vayzata variant),619ב,20x30
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,20,20,Transport (Vayzata variant),620ב,20x30
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,21,21,Transport (Nagmasho't variant),621ב,20x30
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,22,22,Transport (Nagmasho't variant),622ב,20x30
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,23,23,Transport (Nagmasho't variant),623ב,20x30
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,24,24,Transport (Nagmasho't variant),624ב,20x30
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,17,17,Transport (Vayzata variant),613ב,20x30
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,18,18,Transport (Vayzata variant),614ב,20x30
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,19,19,Transport (Vayzata variant),615ב,20x30
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,20,20,Transport (Vayzata variant),616ב,20x30
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,21,21,Transport (Nagmasho't variant),613ב,20x30
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,22,22,Transport (Nagmasho't variant),614ב,20x30
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,23,23,Transport (Nagmasho't variant),615ב,20x30
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,24,24,Transport (Nagmasho't variant),616ב,20x30
 formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,1,25,Galil rifle (M72 LAW) [Reserve],625ב,40x20
 formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,2,26,Galil rifle (M72 LAW) [Reserve],626ב,40x20
 formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,3,27,Galil rifle (M72 LAW) [Reserve],627ב,40x20
@@ -191,14 +191,14 @@ formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infa
 formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,14,14,Transport (M113),614ג,20x30
 formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,15,15,Transport (M113),615ג,20x30
 formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,16,16,Transport (M113),616ג,20x30
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,17,17,Transport (Vayzata variant),617ג,20x30
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,18,18,Transport (Vayzata variant),618ג,20x30
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,19,19,Transport (Vayzata variant),619ג,20x30
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,20,20,Transport (Vayzata variant),620ג,20x30
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,21,21,Transport (Nagmasho't variant),621ג,20x30
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,22,22,Transport (Nagmasho't variant),622ג,20x30
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,23,23,Transport (Nagmasho't variant),623ג,20x30
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,24,24,Transport (Nagmasho't variant),624ג,20x30
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,17,17,Transport (Vayzata variant),613ג,20x30
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,18,18,Transport (Vayzata variant),614ג,20x30
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,19,19,Transport (Vayzata variant),615ג,20x30
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,20,20,Transport (Vayzata variant),616ג,20x30
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,21,21,Transport (Nagmasho't variant),613ג,20x30
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,22,22,Transport (Nagmasho't variant),614ג,20x30
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,23,23,Transport (Nagmasho't variant),615ג,20x30
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,24,24,Transport (Nagmasho't variant),616ג,20x30
 formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,1,25,Galil rifle (M72 LAW) [Reserve],625ג,40x20
 formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,2,26,Galil rifle (M72 LAW) [Reserve],626ג,40x20
 formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,3,27,Galil rifle (M72 LAW) [Reserve],627ג,40x20
@@ -263,14 +263,14 @@ formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infa
 formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,14,14,Transport (M113),614ד,20x30
 formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,15,15,Transport (M113),615ד,20x30
 formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,16,16,Transport (M113),616ד,20x30
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,17,17,Transport (Vayzata variant),617ד,20x30
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,18,18,Transport (Vayzata variant),618ד,20x30
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,19,19,Transport (Vayzata variant),619ד,20x30
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,20,20,Transport (Vayzata variant),620ד,20x30
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,21,21,Transport (Nagmasho't variant),621ד,20x30
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,22,22,Transport (Nagmasho't variant),622ד,20x30
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,23,23,Transport (Nagmasho't variant),623ד,20x30
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,24,24,Transport (Nagmasho't variant),624ד,20x30
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,17,17,Transport (Vayzata variant),613ד,20x30
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,18,18,Transport (Vayzata variant),614ד,20x30
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,19,19,Transport (Vayzata variant),615ד,20x30
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,20,20,Transport (Vayzata variant),616ד,20x30
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,21,21,Transport (Nagmasho't variant),613ד,20x30
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,22,22,Transport (Nagmasho't variant),614ד,20x30
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,23,23,Transport (Nagmasho't variant),615ד,20x30
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,24,24,Transport (Nagmasho't variant),616ד,20x30
 formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,1,25,Galil rifle (M72 LAW) [Reserve],625ד,40x20
 formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,2,26,Galil rifle (M72 LAW) [Reserve],626ד,40x20
 formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,3,27,Galil rifle (M72 LAW) [Reserve],627ד,40x20
@@ -335,14 +335,14 @@ formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantr
 formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,14,14,Transport (M113),614ה,20x30
 formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,15,15,Transport (M113),615ה,20x30
 formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,16,16,Transport (M113),616ה,20x30
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,17,17,Transport (Vayzata variant),617ה,20x30
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,18,18,Transport (Vayzata variant),618ה,20x30
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,19,19,Transport (Vayzata variant),619ה,20x30
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,20,20,Transport (Vayzata variant),620ה,20x30
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,21,21,Transport (Nagmasho't variant),621ה,20x30
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,22,22,Transport (Nagmasho't variant),622ה,20x30
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,23,23,Transport (Nagmasho't variant),623ה,20x30
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,24,24,Transport (Nagmasho't variant),624ה,20x30
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,17,17,Transport (Vayzata variant),613ה,20x30
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,18,18,Transport (Vayzata variant),614ה,20x30
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,19,19,Transport (Vayzata variant),615ה,20x30
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,20,20,Transport (Vayzata variant),616ה,20x30
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,21,21,Transport (Nagmasho't variant),613ה,20x30
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,22,22,Transport (Nagmasho't variant),614ה,20x30
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,23,23,Transport (Nagmasho't variant),615ה,20x30
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,24,24,Transport (Nagmasho't variant),616ה,20x30
 formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,1,25,Galil rifle (M72 LAW) [Reserve],625ה,40x20
 formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,2,26,Galil rifle (M72 LAW) [Reserve],626ה,40x20
 formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,3,27,Galil rifle (M72 LAW) [Reserve],627ה,40x20
@@ -407,14 +407,14 @@ formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infant
 formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,14,14,Transport (M113),614ו,20x30
 formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,15,15,Transport (M113),615ו,20x30
 formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,16,16,Transport (M113),616ו,20x30
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,17,17,Transport (Vayzata variant),617ו,20x30
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,18,18,Transport (Vayzata variant),618ו,20x30
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,19,19,Transport (Vayzata variant),619ו,20x30
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,20,20,Transport (Vayzata variant),620ו,20x30
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,21,21,Transport (Nagmasho't variant),621ו,20x30
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,22,22,Transport (Nagmasho't variant),622ו,20x30
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,23,23,Transport (Nagmasho't variant),623ו,20x30
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,24,24,Transport (Nagmasho't variant),624ו,20x30
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,17,17,Transport (Vayzata variant),613ו,20x30
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,18,18,Transport (Vayzata variant),614ו,20x30
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,19,19,Transport (Vayzata variant),615ו,20x30
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,20,20,Transport (Vayzata variant),616ו,20x30
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,21,21,Transport (Nagmasho't variant),613ו,20x30
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,22,22,Transport (Nagmasho't variant),614ו,20x30
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,23,23,Transport (Nagmasho't variant),615ו,20x30
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,24,24,Transport (Nagmasho't variant),616ו,20x30
 formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,1,25,Galil rifle (M72 LAW) [Reserve],625ו,40x20
 formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,2,26,Galil rifle (M72 LAW) [Reserve],626ו,40x20
 formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,3,27,Galil rifle (M72 LAW) [Reserve],627ו,40x20
@@ -479,14 +479,14 @@ formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infa
 formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,14,14,Transport (M113),614ז,20x30
 formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,15,15,Transport (M113),615ז,20x30
 formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,16,16,Transport (M113),616ז,20x30
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,17,17,Transport (Vayzata variant),617ז,20x30
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,18,18,Transport (Vayzata variant),618ז,20x30
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,19,19,Transport (Vayzata variant),619ז,20x30
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,20,20,Transport (Vayzata variant),620ז,20x30
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,21,21,Transport (Nagmasho't variant),621ז,20x30
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,22,22,Transport (Nagmasho't variant),622ז,20x30
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,23,23,Transport (Nagmasho't variant),623ז,20x30
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,24,24,Transport (Nagmasho't variant),624ז,20x30
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,17,17,Transport (Vayzata variant),613ז,20x30
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,18,18,Transport (Vayzata variant),614ז,20x30
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,19,19,Transport (Vayzata variant),615ז,20x30
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,20,20,Transport (Vayzata variant),616ז,20x30
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,21,21,Transport (Nagmasho't variant),613ז,20x30
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,22,22,Transport (Nagmasho't variant),614ז,20x30
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,23,23,Transport (Nagmasho't variant),615ז,20x30
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,24,24,Transport (Nagmasho't variant),616ז,20x30
 formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,1,25,Galil rifle (M72 LAW) [Reserve],625ז,40x20
 formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,2,26,Galil rifle (M72 LAW) [Reserve],626ז,40x20
 formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,3,27,Galil rifle (M72 LAW) [Reserve],627ז,40x20
@@ -551,14 +551,14 @@ formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infant
 formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,14,14,Transport (M113),614ח,20x30
 formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,15,15,Transport (M113),615ח,20x30
 formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,16,16,Transport (M113),616ח,20x30
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,17,17,Transport (Vayzata variant),617ח,20x30
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,18,18,Transport (Vayzata variant),618ח,20x30
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,19,19,Transport (Vayzata variant),619ח,20x30
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,20,20,Transport (Vayzata variant),620ח,20x30
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,21,21,Transport (Nagmasho't variant),621ח,20x30
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,22,22,Transport (Nagmasho't variant),622ח,20x30
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,23,23,Transport (Nagmasho't variant),623ח,20x30
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,24,24,Transport (Nagmasho't variant),624ח,20x30
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,17,17,Transport (Vayzata variant),613ח,20x30
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,18,18,Transport (Vayzata variant),614ח,20x30
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,19,19,Transport (Vayzata variant),615ח,20x30
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,20,20,Transport (Vayzata variant),616ח,20x30
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,21,21,Transport (Nagmasho't variant),613ח,20x30
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,22,22,Transport (Nagmasho't variant),614ח,20x30
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,23,23,Transport (Nagmasho't variant),615ח,20x30
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,24,24,Transport (Nagmasho't variant),616ח,20x30
 formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,1,25,Galil rifle (M72 LAW) [Reserve],625ח,40x20
 formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,2,26,Galil rifle (M72 LAW) [Reserve],626ח,40x20
 formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,3,27,Galil rifle (M72 LAW) [Reserve],627ח,40x20
@@ -623,14 +623,14 @@ formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infant
 formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,14,14,Transport (M113),614ט,20x30
 formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,15,15,Transport (M113),615ט,20x30
 formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,16,16,Transport (M113),616ט,20x30
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,17,17,Transport (Vayzata variant),617ט,20x30
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,18,18,Transport (Vayzata variant),618ט,20x30
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,19,19,Transport (Vayzata variant),619ט,20x30
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,20,20,Transport (Vayzata variant),620ט,20x30
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,21,21,Transport (Nagmasho't variant),621ט,20x30
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,22,22,Transport (Nagmasho't variant),622ט,20x30
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,23,23,Transport (Nagmasho't variant),623ט,20x30
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,24,24,Transport (Nagmasho't variant),624ט,20x30
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,17,17,Transport (Vayzata variant),613ט,20x30
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,18,18,Transport (Vayzata variant),614ט,20x30
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,19,19,Transport (Vayzata variant),615ט,20x30
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,20,20,Transport (Vayzata variant),616ט,20x30
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,21,21,Transport (Nagmasho't variant),613ט,20x30
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,22,22,Transport (Nagmasho't variant),614ט,20x30
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,23,23,Transport (Nagmasho't variant),615ט,20x30
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,24,24,Transport (Nagmasho't variant),616ט,20x30
 formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,1,25,Galil rifle (M72 LAW) [Reserve],625ט,40x20
 formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,2,26,Galil rifle (M72 LAW) [Reserve],626ט,40x20
 formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,3,27,Galil rifle (M72 LAW) [Reserve],627ט,40x20
@@ -695,14 +695,14 @@ formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),A,Mech Infantr
 formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,14,14,Transport (M113),514י,20x30
 formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,15,15,Transport (M113),515י,20x30
 formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,16,16,Transport (M113),516י,20x30
-formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,17,17,Transport (Vayzata variant),517י,20x30
-formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,18,18,Transport (Vayzata variant),518י,20x30
-formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,19,19,Transport (Vayzata variant),519י,20x30
-formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,20,20,Transport (Vayzata variant),520י,20x30
-formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,21,21,Transport (Nagmasho't variant),521י,20x30
-formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,22,22,Transport (Nagmasho't variant),522י,20x30
-formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,23,23,Transport (Nagmasho't variant),523י,20x30
-formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,24,24,Transport (Nagmasho't variant),524י,20x30
+formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,17,17,Transport (Vayzata variant),513י,20x30
+formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,18,18,Transport (Vayzata variant),514י,20x30
+formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,19,19,Transport (Vayzata variant),515י,20x30
+formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,20,20,Transport (Vayzata variant),516י,20x30
+formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,21,21,Transport (Nagmasho't variant),513י,20x30
+formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,22,22,Transport (Nagmasho't variant),514י,20x30
+formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,23,23,Transport (Nagmasho't variant),515י,20x30
+formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,24,24,Transport (Nagmasho't variant),516י,20x30
 formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,1,25,Galil rifle (M72 LAW) [Reserve],525י,40x20
 formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,2,26,Galil rifle (M72 LAW) [Reserve],526י,40x20
 formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,3,27,Galil rifle (M72 LAW) [Reserve],527י,40x20
@@ -767,14 +767,14 @@ formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),A,Mech Infantr
 formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,14,14,Transport (M113),514כ,20x30
 formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,15,15,Transport (M113),515כ,20x30
 formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,16,16,Transport (M113),516כ,20x30
-formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,17,17,Transport (Vayzata variant),517כ,20x30
-formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,18,18,Transport (Vayzata variant),518כ,20x30
-formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,19,19,Transport (Vayzata variant),519כ,20x30
-formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,20,20,Transport (Vayzata variant),520כ,20x30
-formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,21,21,Transport (Nagmasho't variant),521כ,20x30
-formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,22,22,Transport (Nagmasho't variant),522כ,20x30
-formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,23,23,Transport (Nagmasho't variant),523כ,20x30
-formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,24,24,Transport (Nagmasho't variant),524כ,20x30
+formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,17,17,Transport (Vayzata variant),513כ,20x30
+formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,18,18,Transport (Vayzata variant),514כ,20x30
+formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,19,19,Transport (Vayzata variant),515כ,20x30
+formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,20,20,Transport (Vayzata variant),516כ,20x30
+formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,21,21,Transport (Nagmasho't variant),513כ,20x30
+formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,22,22,Transport (Nagmasho't variant),514כ,20x30
+formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,23,23,Transport (Nagmasho't variant),515כ,20x30
+formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,24,24,Transport (Nagmasho't variant),516כ,20x30
 formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,1,25,Galil rifle (M72 LAW) [Reserve],525כ,40x20
 formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,2,26,Galil rifle (M72 LAW) [Reserve],526כ,40x20
 formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,3,27,Galil rifle (M72 LAW) [Reserve],527כ,40x20
@@ -839,14 +839,14 @@ formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),A,Mech Infan
 formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,14,14,Transport (M113),514ל,20x30
 formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,15,15,Transport (M113),515ל,20x30
 formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,16,16,Transport (M113),516ל,20x30
-formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,17,17,Transport (Vayzata variant),517ל,20x30
-formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,18,18,Transport (Vayzata variant),518ל,20x30
-formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,19,19,Transport (Vayzata variant),519ל,20x30
-formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,20,20,Transport (Vayzata variant),520ל,20x30
-formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,21,21,Transport (Nagmasho't variant),521ל,20x30
-formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,22,22,Transport (Nagmasho't variant),522ל,20x30
-formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,23,23,Transport (Nagmasho't variant),523ל,20x30
-formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,24,24,Transport (Nagmasho't variant),524ל,20x30
+formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,17,17,Transport (Vayzata variant),513ל,20x30
+formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,18,18,Transport (Vayzata variant),514ל,20x30
+formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,19,19,Transport (Vayzata variant),515ל,20x30
+formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,20,20,Transport (Vayzata variant),516ל,20x30
+formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,21,21,Transport (Nagmasho't variant),513ל,20x30
+formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,22,22,Transport (Nagmasho't variant),514ל,20x30
+formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,23,23,Transport (Nagmasho't variant),515ל,20x30
+formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,24,24,Transport (Nagmasho't variant),516ל,20x30
 formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,1,25,Galil rifle (M72 LAW) [Reserve],525ל,40x20
 formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,2,26,Galil rifle (M72 LAW) [Reserve],526ל,40x20
 formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,3,27,Galil rifle (M72 LAW) [Reserve],527ל,40x20
@@ -902,14 +902,14 @@ formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),A,Mech I
 formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,14,14,Transport (M113),514מ,20x30
 formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,15,15,Transport (M113),515מ,20x30
 formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,16,16,Transport (M113),516מ,20x30
-formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,17,17,Transport (Vayzata variant),517מ,20x30
-formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,18,18,Transport (Vayzata variant),518מ,20x30
-formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,19,19,Transport (Vayzata variant),519מ,20x30
-formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,20,20,Transport (Vayzata variant),520מ,20x30
-formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,21,21,Transport (Nagmasho't variant),521מ,20x30
-formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,22,22,Transport (Nagmasho't variant),522מ,20x30
-formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,23,23,Transport (Nagmasho't variant),523מ,20x30
-formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,24,24,Transport (Nagmasho't variant),524מ,20x30
+formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,17,17,Transport (Vayzata variant),513מ,20x30
+formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,18,18,Transport (Vayzata variant),514מ,20x30
+formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,19,19,Transport (Vayzata variant),515מ,20x30
+formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,20,20,Transport (Vayzata variant),516מ,20x30
+formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,21,21,Transport (Nagmasho't variant),513מ,20x30
+formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,22,22,Transport (Nagmasho't variant),514מ,20x30
+formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,23,23,Transport (Nagmasho't variant),515מ,20x30
+formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,24,24,Transport (Nagmasho't variant),516מ,20x30
 formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,1,25,Galil rifle (M72 LAW) [Reserve],525מ,40x20
 formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,2,26,Galil rifle (M72 LAW) [Reserve],526מ,40x20
 formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,3,27,Galil rifle (M72 LAW) [Reserve],527מ,40x20
@@ -965,14 +965,14 @@ formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),A,Mech I
 formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,14,14,Transport (M113),514נ,20x30
 formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,15,15,Transport (M113),515נ,20x30
 formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,16,16,Transport (M113),516נ,20x30
-formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,17,17,Transport (Vayzata variant),517נ,20x30
-formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,18,18,Transport (Vayzata variant),518נ,20x30
-formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,19,19,Transport (Vayzata variant),519נ,20x30
-formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,20,20,Transport (Vayzata variant),520נ,20x30
-formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,21,21,Transport (Nagmasho't variant),521נ,20x30
-formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,22,22,Transport (Nagmasho't variant),522נ,20x30
-formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,23,23,Transport (Nagmasho't variant),523נ,20x30
-formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,24,24,Transport (Nagmasho't variant),524נ,20x30
+formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,17,17,Transport (Vayzata variant),513נ,20x30
+formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,18,18,Transport (Vayzata variant),514נ,20x30
+formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,19,19,Transport (Vayzata variant),515נ,20x30
+formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,20,20,Transport (Vayzata variant),516נ,20x30
+formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,21,21,Transport (Nagmasho't variant),513נ,20x30
+formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,22,22,Transport (Nagmasho't variant),514נ,20x30
+formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,23,23,Transport (Nagmasho't variant),515נ,20x30
+formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,24,24,Transport (Nagmasho't variant),516נ,20x30
 formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,1,25,Galil rifle (M72 LAW) [Reserve],525נ,40x20
 formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,2,26,Galil rifle (M72 LAW) [Reserve],526נ,40x20
 formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,3,27,Galil rifle (M72 LAW) [Reserve],527נ,40x20
@@ -1028,14 +1028,14 @@ formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),A,Mec
 formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,14,14,Transport (M113),514ס,20x30
 formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,15,15,Transport (M113),515ס,20x30
 formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,16,16,Transport (M113),516ס,20x30
-formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,17,17,Transport (Vayzata variant),517ס,20x30
-formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,18,18,Transport (Vayzata variant),518ס,20x30
-formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,19,19,Transport (Vayzata variant),519ס,20x30
-formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,TIRAN VAYZATA,20,20,Transport (Vayzata variant),520ס,20x30
-formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,21,21,Transport (Nagmasho't variant),521ס,20x30
-formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,22,22,Transport (Nagmasho't variant),522ס,20x30
-formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,23,23,Transport (Nagmasho't variant),523ס,20x30
-formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,24,24,Transport (Nagmasho't variant),524ס,20x30
+formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,17,17,Transport (Vayzata variant),513ס,20x30
+formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,18,18,Transport (Vayzata variant),514ס,20x30
+formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,19,19,Transport (Vayzata variant),515ס,20x30
+formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,20,20,Transport (Vayzata variant),516ס,20x30
+formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,21,21,Transport (Nagmasho't variant),513ס,20x30
+formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,22,22,Transport (Nagmasho't variant),514ס,20x30
+formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,23,23,Transport (Nagmasho't variant),515ס,20x30
+formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,24,24,Transport (Nagmasho't variant),516ס,20x30
 formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,1,25,Galil rifle (M72 LAW) [Reserve],525ס,40x20
 formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,2,26,Galil rifle (M72 LAW) [Reserve],526ס,40x20
 formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,3,27,Galil rifle (M72 LAW) [Reserve],527ס,40x20
@@ -1054,8 +1054,8 @@ formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),B,Res
 formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,16,40,Transport (Reserve M113),540ס,20x30
 formation,Mech Infantry Company,ע (Ayin),S1,HQ,1,A,Mech Infantry Company HQ,GALIL,1,1,Galil HQ team,001ע,20x20
 formation,Mech Infantry Company,ע (Ayin),S1,HQ,1,A,Mech Infantry Company HQ,M113 ZELDA,2,2,Transport (HQ M113),002ע,20x30
-formation,Mech Infantry Company,ע (Ayin),S1,HQ,1,A,Mech Infantry Company HQ,TIRAN VAYZATA,3,3,Transport variant (HQ Vayzata),003ע,20x30
-formation,Mech Infantry Company,ע (Ayin),S1,HQ,1,A,Mech Infantry Company HQ,NAGMASHOT,4,4,Transport variant (HQ Nagmasho't),004ע,20x30
+formation,Mech Infantry Company,ע (Ayin),S1,HQ,1,A,Mech Infantry Company HQ,M113 VAYZATA,3,3,Transport variant (HQ Vayzata),002ע,20x30
+formation,Mech Infantry Company,ע (Ayin),S1,HQ,1,A,Mech Infantry Company HQ,NAGMASHOT,4,4,Transport variant (HQ Nagmasho't),002ע,20x30
 formation,Mech Infantry Company,ע (Ayin),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),GALIL,1,1,Galil rifle (M72 LAW),101ע,40x20
 formation,Mech Infantry Company,ע (Ayin),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),GALIL,2,2,Galil rifle (M72 LAW),102ע,40x20
 formation,Mech Infantry Company,ע (Ayin),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),GALIL,3,3,Galil rifle (M72 LAW),103ע,40x20
@@ -1072,14 +1072,14 @@ formation,Mech Infantry Company,ע (Ayin),S2a,Combat,1 of 3 mandatory,A,Mech Inf
 formation,Mech Infantry Company,ע (Ayin),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),M113 ZELDA,14,14,Transport (M113),114ע,20x30
 formation,Mech Infantry Company,ע (Ayin),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),M113 ZELDA,15,15,Transport (M113),115ע,20x30
 formation,Mech Infantry Company,ע (Ayin),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),M113 ZELDA,16,16,Transport (M113),116ע,20x30
-formation,Mech Infantry Company,ע (Ayin),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),TIRAN VAYZATA,17,17,Transport (Vayzata variant),117ע,20x30
-formation,Mech Infantry Company,ע (Ayin),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),TIRAN VAYZATA,18,18,Transport (Vayzata variant),118ע,20x30
-formation,Mech Infantry Company,ע (Ayin),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),TIRAN VAYZATA,19,19,Transport (Vayzata variant),119ע,20x30
-formation,Mech Infantry Company,ע (Ayin),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),TIRAN VAYZATA,20,20,Transport (Vayzata variant),120ע,20x30
-formation,Mech Infantry Company,ע (Ayin),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),NAGMASHOT,21,21,Transport (Nagmasho't variant),121ע,20x30
-formation,Mech Infantry Company,ע (Ayin),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),NAGMASHOT,22,22,Transport (Nagmasho't variant),122ע,20x30
-formation,Mech Infantry Company,ע (Ayin),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),NAGMASHOT,23,23,Transport (Nagmasho't variant),123ע,20x30
-formation,Mech Infantry Company,ע (Ayin),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),NAGMASHOT,24,24,Transport (Nagmasho't variant),124ע,20x30
+formation,Mech Infantry Company,ע (Ayin),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),M113 VAYZATA,17,17,Transport (Vayzata variant),113ע,20x30
+formation,Mech Infantry Company,ע (Ayin),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),M113 VAYZATA,18,18,Transport (Vayzata variant),114ע,20x30
+formation,Mech Infantry Company,ע (Ayin),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),M113 VAYZATA,19,19,Transport (Vayzata variant),115ע,20x30
+formation,Mech Infantry Company,ע (Ayin),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),M113 VAYZATA,20,20,Transport (Vayzata variant),116ע,20x30
+formation,Mech Infantry Company,ע (Ayin),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),NAGMASHOT,21,21,Transport (Nagmasho't variant),113ע,20x30
+formation,Mech Infantry Company,ע (Ayin),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),NAGMASHOT,22,22,Transport (Nagmasho't variant),114ע,20x30
+formation,Mech Infantry Company,ע (Ayin),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),NAGMASHOT,23,23,Transport (Nagmasho't variant),115ע,20x30
+formation,Mech Infantry Company,ע (Ayin),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),NAGMASHOT,24,24,Transport (Nagmasho't variant),116ע,20x30
 formation,Mech Infantry Company,ע (Ayin),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),GALIL,1,1,Galil rifle (M72 LAW),201ע,40x20
 formation,Mech Infantry Company,ע (Ayin),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),GALIL,2,2,Galil rifle (M72 LAW),202ע,40x20
 formation,Mech Infantry Company,ע (Ayin),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),GALIL,3,3,Galil rifle (M72 LAW),203ע,40x20
@@ -1096,14 +1096,14 @@ formation,Mech Infantry Company,ע (Ayin),S2b,Combat,2 of 3 mandatory,A,Mech Inf
 formation,Mech Infantry Company,ע (Ayin),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),M113 ZELDA,14,14,Transport (M113),214ע,20x30
 formation,Mech Infantry Company,ע (Ayin),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),M113 ZELDA,15,15,Transport (M113),215ע,20x30
 formation,Mech Infantry Company,ע (Ayin),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),M113 ZELDA,16,16,Transport (M113),216ע,20x30
-formation,Mech Infantry Company,ע (Ayin),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),TIRAN VAYZATA,17,17,Transport (Vayzata variant),217ע,20x30
-formation,Mech Infantry Company,ע (Ayin),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),TIRAN VAYZATA,18,18,Transport (Vayzata variant),218ע,20x30
-formation,Mech Infantry Company,ע (Ayin),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),TIRAN VAYZATA,19,19,Transport (Vayzata variant),219ע,20x30
-formation,Mech Infantry Company,ע (Ayin),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),TIRAN VAYZATA,20,20,Transport (Vayzata variant),220ע,20x30
-formation,Mech Infantry Company,ע (Ayin),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),NAGMASHOT,21,21,Transport (Nagmasho't variant),221ע,20x30
-formation,Mech Infantry Company,ע (Ayin),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),NAGMASHOT,22,22,Transport (Nagmasho't variant),222ע,20x30
-formation,Mech Infantry Company,ע (Ayin),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),NAGMASHOT,23,23,Transport (Nagmasho't variant),223ע,20x30
-formation,Mech Infantry Company,ע (Ayin),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),NAGMASHOT,24,24,Transport (Nagmasho't variant),224ע,20x30
+formation,Mech Infantry Company,ע (Ayin),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),M113 VAYZATA,17,17,Transport (Vayzata variant),213ע,20x30
+formation,Mech Infantry Company,ע (Ayin),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),M113 VAYZATA,18,18,Transport (Vayzata variant),214ע,20x30
+formation,Mech Infantry Company,ע (Ayin),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),M113 VAYZATA,19,19,Transport (Vayzata variant),215ע,20x30
+formation,Mech Infantry Company,ע (Ayin),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),M113 VAYZATA,20,20,Transport (Vayzata variant),216ע,20x30
+formation,Mech Infantry Company,ע (Ayin),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),NAGMASHOT,21,21,Transport (Nagmasho't variant),213ע,20x30
+formation,Mech Infantry Company,ע (Ayin),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),NAGMASHOT,22,22,Transport (Nagmasho't variant),214ע,20x30
+formation,Mech Infantry Company,ע (Ayin),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),NAGMASHOT,23,23,Transport (Nagmasho't variant),215ע,20x30
+formation,Mech Infantry Company,ע (Ayin),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),NAGMASHOT,24,24,Transport (Nagmasho't variant),216ע,20x30
 formation,Mech Infantry Company,ע (Ayin),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),GALIL,1,1,Galil rifle (M72 LAW),301ע,40x20
 formation,Mech Infantry Company,ע (Ayin),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),GALIL,2,2,Galil rifle (M72 LAW),302ע,40x20
 formation,Mech Infantry Company,ע (Ayin),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),GALIL,3,3,Galil rifle (M72 LAW),303ע,40x20
@@ -1120,14 +1120,14 @@ formation,Mech Infantry Company,ע (Ayin),S2c,Combat,3 of 3 mandatory,A,Mech Inf
 formation,Mech Infantry Company,ע (Ayin),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),M113 ZELDA,14,14,Transport (M113),314ע,20x30
 formation,Mech Infantry Company,ע (Ayin),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),M113 ZELDA,15,15,Transport (M113),315ע,20x30
 formation,Mech Infantry Company,ע (Ayin),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),M113 ZELDA,16,16,Transport (M113),316ע,20x30
-formation,Mech Infantry Company,ע (Ayin),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),TIRAN VAYZATA,17,17,Transport (Vayzata variant),317ע,20x30
-formation,Mech Infantry Company,ע (Ayin),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),TIRAN VAYZATA,18,18,Transport (Vayzata variant),318ע,20x30
-formation,Mech Infantry Company,ע (Ayin),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),TIRAN VAYZATA,19,19,Transport (Vayzata variant),319ע,20x30
-formation,Mech Infantry Company,ע (Ayin),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),TIRAN VAYZATA,20,20,Transport (Vayzata variant),320ע,20x30
-formation,Mech Infantry Company,ע (Ayin),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),NAGMASHOT,21,21,Transport (Nagmasho't variant),321ע,20x30
-formation,Mech Infantry Company,ע (Ayin),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),NAGMASHOT,22,22,Transport (Nagmasho't variant),322ע,20x30
-formation,Mech Infantry Company,ע (Ayin),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),NAGMASHOT,23,23,Transport (Nagmasho't variant),323ע,20x30
-formation,Mech Infantry Company,ע (Ayin),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),NAGMASHOT,24,24,Transport (Nagmasho't variant),324ע,20x30
+formation,Mech Infantry Company,ע (Ayin),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),M113 VAYZATA,17,17,Transport (Vayzata variant),313ע,20x30
+formation,Mech Infantry Company,ע (Ayin),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),M113 VAYZATA,18,18,Transport (Vayzata variant),314ע,20x30
+formation,Mech Infantry Company,ע (Ayin),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),M113 VAYZATA,19,19,Transport (Vayzata variant),315ע,20x30
+formation,Mech Infantry Company,ע (Ayin),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),M113 VAYZATA,20,20,Transport (Vayzata variant),316ע,20x30
+formation,Mech Infantry Company,ע (Ayin),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),NAGMASHOT,21,21,Transport (Nagmasho't variant),313ע,20x30
+formation,Mech Infantry Company,ע (Ayin),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),NAGMASHOT,22,22,Transport (Nagmasho't variant),314ע,20x30
+formation,Mech Infantry Company,ע (Ayin),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),NAGMASHOT,23,23,Transport (Nagmasho't variant),315ע,20x30
+formation,Mech Infantry Company,ע (Ayin),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),NAGMASHOT,24,24,Transport (Nagmasho't variant),316ע,20x30
 formation,Mech Infantry Company,ע (Ayin),S3,Tank attachment,0-1 (choice),A,Merkava 1 Tank Platoon,MERKAVA 1,1,1,Tank,401ע,20x40
 formation,Mech Infantry Company,ע (Ayin),S3,Tank attachment,0-1 (choice),A,Merkava 1 Tank Platoon,MERKAVA 1,2,2,Tank,402ע,20x40
 formation,Mech Infantry Company,ע (Ayin),S3,Tank attachment,0-1 (choice),A,Merkava 1 Tank Platoon,MERKAVA 1,3,3,Tank,403ע,20x40
@@ -1155,8 +1155,8 @@ formation,Mech Infantry Company,ע (Ayin),S5,Weapons,0-1 (choice),B,M150 Anti-ta
 formation,Mech Infantry Company,ע (Ayin),S5,Weapons,0-1 (choice),B,M150 Anti-tank Platoon (MAPATS),M150,2,4,ATGM carrier (MAPATS) — same model as above,604ע,20x30
 formation,Mech Infantry Company,פ (Pe),S1,HQ,1,A,Mech Infantry Company HQ,GALIL,1,1,Galil HQ team,001פ,20x20
 formation,Mech Infantry Company,פ (Pe),S1,HQ,1,A,Mech Infantry Company HQ,M113 ZELDA,2,2,Transport (HQ M113),002פ,20x30
-formation,Mech Infantry Company,פ (Pe),S1,HQ,1,A,Mech Infantry Company HQ,TIRAN VAYZATA,3,3,Transport variant (HQ Vayzata),003פ,20x30
-formation,Mech Infantry Company,פ (Pe),S1,HQ,1,A,Mech Infantry Company HQ,NAGMASHOT,4,4,Transport variant (HQ Nagmasho't),004פ,20x30
+formation,Mech Infantry Company,פ (Pe),S1,HQ,1,A,Mech Infantry Company HQ,M113 VAYZATA,3,3,Transport variant (HQ Vayzata),002פ,20x30
+formation,Mech Infantry Company,פ (Pe),S1,HQ,1,A,Mech Infantry Company HQ,NAGMASHOT,4,4,Transport variant (HQ Nagmasho't),002פ,20x30
 formation,Mech Infantry Company,פ (Pe),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),GALIL,1,1,Galil rifle (M72 LAW),101פ,40x20
 formation,Mech Infantry Company,פ (Pe),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),GALIL,2,2,Galil rifle (M72 LAW),102פ,40x20
 formation,Mech Infantry Company,פ (Pe),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),GALIL,3,3,Galil rifle (M72 LAW),103פ,40x20
@@ -1173,14 +1173,14 @@ formation,Mech Infantry Company,פ (Pe),S2a,Combat,1 of 3 mandatory,A,Mech Infan
 formation,Mech Infantry Company,פ (Pe),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),M113 ZELDA,14,14,Transport (M113),114פ,20x30
 formation,Mech Infantry Company,פ (Pe),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),M113 ZELDA,15,15,Transport (M113),115פ,20x30
 formation,Mech Infantry Company,פ (Pe),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),M113 ZELDA,16,16,Transport (M113),116פ,20x30
-formation,Mech Infantry Company,פ (Pe),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),TIRAN VAYZATA,17,17,Transport (Vayzata variant),117פ,20x30
-formation,Mech Infantry Company,פ (Pe),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),TIRAN VAYZATA,18,18,Transport (Vayzata variant),118פ,20x30
-formation,Mech Infantry Company,פ (Pe),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),TIRAN VAYZATA,19,19,Transport (Vayzata variant),119פ,20x30
-formation,Mech Infantry Company,פ (Pe),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),TIRAN VAYZATA,20,20,Transport (Vayzata variant),120פ,20x30
-formation,Mech Infantry Company,פ (Pe),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),NAGMASHOT,21,21,Transport (Nagmasho't variant),121פ,20x30
-formation,Mech Infantry Company,פ (Pe),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),NAGMASHOT,22,22,Transport (Nagmasho't variant),122פ,20x30
-formation,Mech Infantry Company,פ (Pe),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),NAGMASHOT,23,23,Transport (Nagmasho't variant),123פ,20x30
-formation,Mech Infantry Company,פ (Pe),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),NAGMASHOT,24,24,Transport (Nagmasho't variant),124פ,20x30
+formation,Mech Infantry Company,פ (Pe),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),M113 VAYZATA,17,17,Transport (Vayzata variant),113פ,20x30
+formation,Mech Infantry Company,פ (Pe),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),M113 VAYZATA,18,18,Transport (Vayzata variant),114פ,20x30
+formation,Mech Infantry Company,פ (Pe),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),M113 VAYZATA,19,19,Transport (Vayzata variant),115פ,20x30
+formation,Mech Infantry Company,פ (Pe),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),M113 VAYZATA,20,20,Transport (Vayzata variant),116פ,20x30
+formation,Mech Infantry Company,פ (Pe),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),NAGMASHOT,21,21,Transport (Nagmasho't variant),113פ,20x30
+formation,Mech Infantry Company,פ (Pe),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),NAGMASHOT,22,22,Transport (Nagmasho't variant),114פ,20x30
+formation,Mech Infantry Company,פ (Pe),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),NAGMASHOT,23,23,Transport (Nagmasho't variant),115פ,20x30
+formation,Mech Infantry Company,פ (Pe),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),NAGMASHOT,24,24,Transport (Nagmasho't variant),116פ,20x30
 formation,Mech Infantry Company,פ (Pe),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),GALIL,1,1,Galil rifle (M72 LAW),201פ,40x20
 formation,Mech Infantry Company,פ (Pe),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),GALIL,2,2,Galil rifle (M72 LAW),202פ,40x20
 formation,Mech Infantry Company,פ (Pe),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),GALIL,3,3,Galil rifle (M72 LAW),203פ,40x20
@@ -1197,14 +1197,14 @@ formation,Mech Infantry Company,פ (Pe),S2b,Combat,2 of 3 mandatory,A,Mech Infan
 formation,Mech Infantry Company,פ (Pe),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),M113 ZELDA,14,14,Transport (M113),214פ,20x30
 formation,Mech Infantry Company,פ (Pe),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),M113 ZELDA,15,15,Transport (M113),215פ,20x30
 formation,Mech Infantry Company,פ (Pe),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),M113 ZELDA,16,16,Transport (M113),216פ,20x30
-formation,Mech Infantry Company,פ (Pe),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),TIRAN VAYZATA,17,17,Transport (Vayzata variant),217פ,20x30
-formation,Mech Infantry Company,פ (Pe),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),TIRAN VAYZATA,18,18,Transport (Vayzata variant),218פ,20x30
-formation,Mech Infantry Company,פ (Pe),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),TIRAN VAYZATA,19,19,Transport (Vayzata variant),219פ,20x30
-formation,Mech Infantry Company,פ (Pe),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),TIRAN VAYZATA,20,20,Transport (Vayzata variant),220פ,20x30
-formation,Mech Infantry Company,פ (Pe),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),NAGMASHOT,21,21,Transport (Nagmasho't variant),221פ,20x30
-formation,Mech Infantry Company,פ (Pe),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),NAGMASHOT,22,22,Transport (Nagmasho't variant),222פ,20x30
-formation,Mech Infantry Company,פ (Pe),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),NAGMASHOT,23,23,Transport (Nagmasho't variant),223פ,20x30
-formation,Mech Infantry Company,פ (Pe),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),NAGMASHOT,24,24,Transport (Nagmasho't variant),224פ,20x30
+formation,Mech Infantry Company,פ (Pe),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),M113 VAYZATA,17,17,Transport (Vayzata variant),213פ,20x30
+formation,Mech Infantry Company,פ (Pe),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),M113 VAYZATA,18,18,Transport (Vayzata variant),214פ,20x30
+formation,Mech Infantry Company,פ (Pe),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),M113 VAYZATA,19,19,Transport (Vayzata variant),215פ,20x30
+formation,Mech Infantry Company,פ (Pe),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),M113 VAYZATA,20,20,Transport (Vayzata variant),216פ,20x30
+formation,Mech Infantry Company,פ (Pe),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),NAGMASHOT,21,21,Transport (Nagmasho't variant),213פ,20x30
+formation,Mech Infantry Company,פ (Pe),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),NAGMASHOT,22,22,Transport (Nagmasho't variant),214פ,20x30
+formation,Mech Infantry Company,פ (Pe),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),NAGMASHOT,23,23,Transport (Nagmasho't variant),215פ,20x30
+formation,Mech Infantry Company,פ (Pe),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),NAGMASHOT,24,24,Transport (Nagmasho't variant),216פ,20x30
 formation,Mech Infantry Company,פ (Pe),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),GALIL,1,1,Galil rifle (M72 LAW),301פ,40x20
 formation,Mech Infantry Company,פ (Pe),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),GALIL,2,2,Galil rifle (M72 LAW),302פ,40x20
 formation,Mech Infantry Company,פ (Pe),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),GALIL,3,3,Galil rifle (M72 LAW),303פ,40x20
@@ -1221,14 +1221,14 @@ formation,Mech Infantry Company,פ (Pe),S2c,Combat,3 of 3 mandatory,A,Mech Infan
 formation,Mech Infantry Company,פ (Pe),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),M113 ZELDA,14,14,Transport (M113),314פ,20x30
 formation,Mech Infantry Company,פ (Pe),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),M113 ZELDA,15,15,Transport (M113),315פ,20x30
 formation,Mech Infantry Company,פ (Pe),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),M113 ZELDA,16,16,Transport (M113),316פ,20x30
-formation,Mech Infantry Company,פ (Pe),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),TIRAN VAYZATA,17,17,Transport (Vayzata variant),317פ,20x30
-formation,Mech Infantry Company,פ (Pe),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),TIRAN VAYZATA,18,18,Transport (Vayzata variant),318פ,20x30
-formation,Mech Infantry Company,פ (Pe),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),TIRAN VAYZATA,19,19,Transport (Vayzata variant),319פ,20x30
-formation,Mech Infantry Company,פ (Pe),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),TIRAN VAYZATA,20,20,Transport (Vayzata variant),320פ,20x30
-formation,Mech Infantry Company,פ (Pe),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),NAGMASHOT,21,21,Transport (Nagmasho't variant),321פ,20x30
-formation,Mech Infantry Company,פ (Pe),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),NAGMASHOT,22,22,Transport (Nagmasho't variant),322פ,20x30
-formation,Mech Infantry Company,פ (Pe),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),NAGMASHOT,23,23,Transport (Nagmasho't variant),323פ,20x30
-formation,Mech Infantry Company,פ (Pe),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),NAGMASHOT,24,24,Transport (Nagmasho't variant),324פ,20x30
+formation,Mech Infantry Company,פ (Pe),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),M113 VAYZATA,17,17,Transport (Vayzata variant),313פ,20x30
+formation,Mech Infantry Company,פ (Pe),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),M113 VAYZATA,18,18,Transport (Vayzata variant),314פ,20x30
+formation,Mech Infantry Company,פ (Pe),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),M113 VAYZATA,19,19,Transport (Vayzata variant),315פ,20x30
+formation,Mech Infantry Company,פ (Pe),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),M113 VAYZATA,20,20,Transport (Vayzata variant),316פ,20x30
+formation,Mech Infantry Company,פ (Pe),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),NAGMASHOT,21,21,Transport (Nagmasho't variant),313פ,20x30
+formation,Mech Infantry Company,פ (Pe),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),NAGMASHOT,22,22,Transport (Nagmasho't variant),314פ,20x30
+formation,Mech Infantry Company,פ (Pe),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),NAGMASHOT,23,23,Transport (Nagmasho't variant),315פ,20x30
+formation,Mech Infantry Company,פ (Pe),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),NAGMASHOT,24,24,Transport (Nagmasho't variant),316פ,20x30
 formation,Mech Infantry Company,פ (Pe),S3,Tank attachment,0-1 (choice),A,Merkava 1 Tank Platoon,MERKAVA 1,1,1,Tank,401פ,20x40
 formation,Mech Infantry Company,פ (Pe),S3,Tank attachment,0-1 (choice),A,Merkava 1 Tank Platoon,MERKAVA 1,2,2,Tank,402פ,20x40
 formation,Mech Infantry Company,פ (Pe),S3,Tank attachment,0-1 (choice),A,Merkava 1 Tank Platoon,MERKAVA 1,3,3,Tank,403פ,20x40
@@ -1256,8 +1256,8 @@ formation,Mech Infantry Company,פ (Pe),S5,Weapons,0-1 (choice),B,M150 Anti-tank
 formation,Mech Infantry Company,פ (Pe),S5,Weapons,0-1 (choice),B,M150 Anti-tank Platoon (MAPATS),M150,2,4,ATGM carrier (MAPATS) — same model as above,604פ,20x30
 formation,Mech Infantry Company,צ (Tsadi),S1,HQ,1,A,Mech Infantry Company HQ,GALIL,1,1,Galil HQ team,001צ,20x20
 formation,Mech Infantry Company,צ (Tsadi),S1,HQ,1,A,Mech Infantry Company HQ,M113 ZELDA,2,2,Transport (HQ M113),002צ,20x30
-formation,Mech Infantry Company,צ (Tsadi),S1,HQ,1,A,Mech Infantry Company HQ,TIRAN VAYZATA,3,3,Transport variant (HQ Vayzata),003צ,20x30
-formation,Mech Infantry Company,צ (Tsadi),S1,HQ,1,A,Mech Infantry Company HQ,NAGMASHOT,4,4,Transport variant (HQ Nagmasho't),004צ,20x30
+formation,Mech Infantry Company,צ (Tsadi),S1,HQ,1,A,Mech Infantry Company HQ,M113 VAYZATA,3,3,Transport variant (HQ Vayzata),002צ,20x30
+formation,Mech Infantry Company,צ (Tsadi),S1,HQ,1,A,Mech Infantry Company HQ,NAGMASHOT,4,4,Transport variant (HQ Nagmasho't),002צ,20x30
 formation,Mech Infantry Company,צ (Tsadi),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),GALIL,1,1,Galil rifle (M72 LAW),101צ,40x20
 formation,Mech Infantry Company,צ (Tsadi),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),GALIL,2,2,Galil rifle (M72 LAW),102צ,40x20
 formation,Mech Infantry Company,צ (Tsadi),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),GALIL,3,3,Galil rifle (M72 LAW),103צ,40x20
@@ -1274,14 +1274,14 @@ formation,Mech Infantry Company,צ (Tsadi),S2a,Combat,1 of 3 mandatory,A,Mech In
 formation,Mech Infantry Company,צ (Tsadi),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),M113 ZELDA,14,14,Transport (M113),114צ,20x30
 formation,Mech Infantry Company,צ (Tsadi),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),M113 ZELDA,15,15,Transport (M113),115צ,20x30
 formation,Mech Infantry Company,צ (Tsadi),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),M113 ZELDA,16,16,Transport (M113),116צ,20x30
-formation,Mech Infantry Company,צ (Tsadi),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),TIRAN VAYZATA,17,17,Transport (Vayzata variant),117צ,20x30
-formation,Mech Infantry Company,צ (Tsadi),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),TIRAN VAYZATA,18,18,Transport (Vayzata variant),118צ,20x30
-formation,Mech Infantry Company,צ (Tsadi),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),TIRAN VAYZATA,19,19,Transport (Vayzata variant),119צ,20x30
-formation,Mech Infantry Company,צ (Tsadi),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),TIRAN VAYZATA,20,20,Transport (Vayzata variant),120צ,20x30
-formation,Mech Infantry Company,צ (Tsadi),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),NAGMASHOT,21,21,Transport (Nagmasho't variant),121צ,20x30
-formation,Mech Infantry Company,צ (Tsadi),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),NAGMASHOT,22,22,Transport (Nagmasho't variant),122צ,20x30
-formation,Mech Infantry Company,צ (Tsadi),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),NAGMASHOT,23,23,Transport (Nagmasho't variant),123צ,20x30
-formation,Mech Infantry Company,צ (Tsadi),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),NAGMASHOT,24,24,Transport (Nagmasho't variant),124צ,20x30
+formation,Mech Infantry Company,צ (Tsadi),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),M113 VAYZATA,17,17,Transport (Vayzata variant),113צ,20x30
+formation,Mech Infantry Company,צ (Tsadi),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),M113 VAYZATA,18,18,Transport (Vayzata variant),114צ,20x30
+formation,Mech Infantry Company,צ (Tsadi),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),M113 VAYZATA,19,19,Transport (Vayzata variant),115צ,20x30
+formation,Mech Infantry Company,צ (Tsadi),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),M113 VAYZATA,20,20,Transport (Vayzata variant),116צ,20x30
+formation,Mech Infantry Company,צ (Tsadi),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),NAGMASHOT,21,21,Transport (Nagmasho't variant),113צ,20x30
+formation,Mech Infantry Company,צ (Tsadi),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),NAGMASHOT,22,22,Transport (Nagmasho't variant),114צ,20x30
+formation,Mech Infantry Company,צ (Tsadi),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),NAGMASHOT,23,23,Transport (Nagmasho't variant),115צ,20x30
+formation,Mech Infantry Company,צ (Tsadi),S2a,Combat,1 of 3 mandatory,A,Mech Infantry Platoon (1st),NAGMASHOT,24,24,Transport (Nagmasho't variant),116צ,20x30
 formation,Mech Infantry Company,צ (Tsadi),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),GALIL,1,1,Galil rifle (M72 LAW),201צ,40x20
 formation,Mech Infantry Company,צ (Tsadi),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),GALIL,2,2,Galil rifle (M72 LAW),202צ,40x20
 formation,Mech Infantry Company,צ (Tsadi),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),GALIL,3,3,Galil rifle (M72 LAW),203צ,40x20
@@ -1298,14 +1298,14 @@ formation,Mech Infantry Company,צ (Tsadi),S2b,Combat,2 of 3 mandatory,A,Mech In
 formation,Mech Infantry Company,צ (Tsadi),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),M113 ZELDA,14,14,Transport (M113),214צ,20x30
 formation,Mech Infantry Company,צ (Tsadi),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),M113 ZELDA,15,15,Transport (M113),215צ,20x30
 formation,Mech Infantry Company,צ (Tsadi),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),M113 ZELDA,16,16,Transport (M113),216צ,20x30
-formation,Mech Infantry Company,צ (Tsadi),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),TIRAN VAYZATA,17,17,Transport (Vayzata variant),217צ,20x30
-formation,Mech Infantry Company,צ (Tsadi),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),TIRAN VAYZATA,18,18,Transport (Vayzata variant),218צ,20x30
-formation,Mech Infantry Company,צ (Tsadi),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),TIRAN VAYZATA,19,19,Transport (Vayzata variant),219צ,20x30
-formation,Mech Infantry Company,צ (Tsadi),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),TIRAN VAYZATA,20,20,Transport (Vayzata variant),220צ,20x30
-formation,Mech Infantry Company,צ (Tsadi),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),NAGMASHOT,21,21,Transport (Nagmasho't variant),221צ,20x30
-formation,Mech Infantry Company,צ (Tsadi),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),NAGMASHOT,22,22,Transport (Nagmasho't variant),222צ,20x30
-formation,Mech Infantry Company,צ (Tsadi),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),NAGMASHOT,23,23,Transport (Nagmasho't variant),223צ,20x30
-formation,Mech Infantry Company,צ (Tsadi),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),NAGMASHOT,24,24,Transport (Nagmasho't variant),224צ,20x30
+formation,Mech Infantry Company,צ (Tsadi),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),M113 VAYZATA,17,17,Transport (Vayzata variant),213צ,20x30
+formation,Mech Infantry Company,צ (Tsadi),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),M113 VAYZATA,18,18,Transport (Vayzata variant),214צ,20x30
+formation,Mech Infantry Company,צ (Tsadi),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),M113 VAYZATA,19,19,Transport (Vayzata variant),215צ,20x30
+formation,Mech Infantry Company,צ (Tsadi),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),M113 VAYZATA,20,20,Transport (Vayzata variant),216צ,20x30
+formation,Mech Infantry Company,צ (Tsadi),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),NAGMASHOT,21,21,Transport (Nagmasho't variant),213צ,20x30
+formation,Mech Infantry Company,צ (Tsadi),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),NAGMASHOT,22,22,Transport (Nagmasho't variant),214צ,20x30
+formation,Mech Infantry Company,צ (Tsadi),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),NAGMASHOT,23,23,Transport (Nagmasho't variant),215צ,20x30
+formation,Mech Infantry Company,צ (Tsadi),S2b,Combat,2 of 3 mandatory,A,Mech Infantry Platoon (2nd),NAGMASHOT,24,24,Transport (Nagmasho't variant),216צ,20x30
 formation,Mech Infantry Company,צ (Tsadi),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),GALIL,1,1,Galil rifle (M72 LAW),301צ,40x20
 formation,Mech Infantry Company,צ (Tsadi),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),GALIL,2,2,Galil rifle (M72 LAW),302צ,40x20
 formation,Mech Infantry Company,צ (Tsadi),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),GALIL,3,3,Galil rifle (M72 LAW),303צ,40x20
@@ -1322,14 +1322,14 @@ formation,Mech Infantry Company,צ (Tsadi),S2c,Combat,3 of 3 mandatory,A,Mech In
 formation,Mech Infantry Company,צ (Tsadi),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),M113 ZELDA,14,14,Transport (M113),314צ,20x30
 formation,Mech Infantry Company,צ (Tsadi),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),M113 ZELDA,15,15,Transport (M113),315צ,20x30
 formation,Mech Infantry Company,צ (Tsadi),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),M113 ZELDA,16,16,Transport (M113),316צ,20x30
-formation,Mech Infantry Company,צ (Tsadi),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),TIRAN VAYZATA,17,17,Transport (Vayzata variant),317צ,20x30
-formation,Mech Infantry Company,צ (Tsadi),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),TIRAN VAYZATA,18,18,Transport (Vayzata variant),318צ,20x30
-formation,Mech Infantry Company,צ (Tsadi),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),TIRAN VAYZATA,19,19,Transport (Vayzata variant),319צ,20x30
-formation,Mech Infantry Company,צ (Tsadi),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),TIRAN VAYZATA,20,20,Transport (Vayzata variant),320צ,20x30
-formation,Mech Infantry Company,צ (Tsadi),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),NAGMASHOT,21,21,Transport (Nagmasho't variant),321צ,20x30
-formation,Mech Infantry Company,צ (Tsadi),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),NAGMASHOT,22,22,Transport (Nagmasho't variant),322צ,20x30
-formation,Mech Infantry Company,צ (Tsadi),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),NAGMASHOT,23,23,Transport (Nagmasho't variant),323צ,20x30
-formation,Mech Infantry Company,צ (Tsadi),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),NAGMASHOT,24,24,Transport (Nagmasho't variant),324צ,20x30
+formation,Mech Infantry Company,צ (Tsadi),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),M113 VAYZATA,17,17,Transport (Vayzata variant),313צ,20x30
+formation,Mech Infantry Company,צ (Tsadi),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),M113 VAYZATA,18,18,Transport (Vayzata variant),314צ,20x30
+formation,Mech Infantry Company,צ (Tsadi),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),M113 VAYZATA,19,19,Transport (Vayzata variant),315צ,20x30
+formation,Mech Infantry Company,צ (Tsadi),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),M113 VAYZATA,20,20,Transport (Vayzata variant),316צ,20x30
+formation,Mech Infantry Company,צ (Tsadi),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),NAGMASHOT,21,21,Transport (Nagmasho't variant),313צ,20x30
+formation,Mech Infantry Company,צ (Tsadi),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),NAGMASHOT,22,22,Transport (Nagmasho't variant),314צ,20x30
+formation,Mech Infantry Company,צ (Tsadi),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),NAGMASHOT,23,23,Transport (Nagmasho't variant),315צ,20x30
+formation,Mech Infantry Company,צ (Tsadi),S2c,Combat,3 of 3 mandatory,A,Mech Infantry Platoon (3rd),NAGMASHOT,24,24,Transport (Nagmasho't variant),316צ,20x30
 formation,Mech Infantry Company,צ (Tsadi),S3,Tank attachment,0-1 (choice),A,Merkava 1 Tank Platoon,MERKAVA 1,1,1,Tank,401צ,20x40
 formation,Mech Infantry Company,צ (Tsadi),S3,Tank attachment,0-1 (choice),A,Merkava 1 Tank Platoon,MERKAVA 1,2,2,Tank,402צ,20x40
 formation,Mech Infantry Company,צ (Tsadi),S3,Tank attachment,0-1 (choice),A,Merkava 1 Tank Platoon,MERKAVA 1,3,3,Tank,403צ,20x40
@@ -1588,7 +1588,7 @@ formation,Reserve Infantry Company,ש (Shin),S5,Weapons,0-1 (choice),B,Reserve J
 formation,Reserve Infantry Company,ש (Shin),S5,Weapons,0-1 (choice),B,Reserve Jeep Anti-tank Platoon,JEEP,4,6,Jeep ATGM (iTOW or MAPATS),606ש,20x30
 formation,Paratrooper Company,ת (Tav),S1,HQ,1,A,Paratrooper Company HQ,GALIL,1,1,Galil HQ team [Para],001ת,20x20
 formation,Paratrooper Company,ת (Tav),S1,HQ,1,A,Paratrooper Company HQ,M113 ZELDA,2,2,Transport (HQ M113),002ת,20x30
-formation,Paratrooper Company,ת (Tav),S1,HQ,1,A,Paratrooper Company HQ,UH-1,3,3,Transport (HQ UH-1),003ת,20x40
+formation,Paratrooper Company,ת (Tav),S1,HQ,1,A,Paratrooper Company HQ,UH-1,3,3,Transport (HQ UH-1),002ת,20x40
 formation,Paratrooper Company,ת (Tav),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),GALIL,1,1,Galil rifle (M72 LAW) [Para],101ת,40x20
 formation,Paratrooper Company,ת (Tav),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),GALIL,2,2,Galil rifle (M72 LAW) [Para],102ת,40x20
 formation,Paratrooper Company,ת (Tav),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),GALIL,3,3,Galil rifle (M72 LAW) [Para],103ת,40x20
@@ -1605,12 +1605,12 @@ formation,Paratrooper Company,ת (Tav),S2a,Combat,1 of 3 mandatory,A,Paratrooper
 formation,Paratrooper Company,ת (Tav),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),M113 ZELDA,14,14,Transport (M113) [Para],114ת,20x30
 formation,Paratrooper Company,ת (Tav),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),M113 ZELDA,15,15,Transport (M113) [Para],115ת,20x30
 formation,Paratrooper Company,ת (Tav),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),M113 ZELDA,16,16,Transport (M113) [Para],116ת,20x30
-formation,Paratrooper Company,ת (Tav),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),UH-1,17,17,Transport (UH-1),117ת,20x40
-formation,Paratrooper Company,ת (Tav),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),UH-1,18,18,Transport (UH-1),118ת,20x40
-formation,Paratrooper Company,ת (Tav),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),UH-1,19,19,Transport (UH-1),119ת,20x40
-formation,Paratrooper Company,ת (Tav),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),UH-1,20,20,Transport (UH-1),120ת,20x40
-formation,Paratrooper Company,ת (Tav),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),CH-53 YAS'UR,21,21,Transport heli swap (CH-53),121ת,20x40
-formation,Paratrooper Company,ת (Tav),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),CH-53 YAS'UR,22,22,Transport heli swap (CH-53),122ת,20x40
+formation,Paratrooper Company,ת (Tav),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),UH-1,17,17,Transport (UH-1),113ת,20x40
+formation,Paratrooper Company,ת (Tav),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),UH-1,18,18,Transport (UH-1),114ת,20x40
+formation,Paratrooper Company,ת (Tav),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),UH-1,19,19,Transport (UH-1),115ת,20x40
+formation,Paratrooper Company,ת (Tav),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),UH-1,20,20,Transport (UH-1),116ת,20x40
+formation,Paratrooper Company,ת (Tav),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),CH-53 YAS'UR,21,21,Transport heli swap (CH-53),113ת,20x40
+formation,Paratrooper Company,ת (Tav),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),CH-53 YAS'UR,22,22,Transport heli swap (CH-53),114ת,20x40
 formation,Paratrooper Company,ת (Tav),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),GALIL,1,1,Galil rifle (M72 LAW) [Para],201ת,40x20
 formation,Paratrooper Company,ת (Tav),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),GALIL,2,2,Galil rifle (M72 LAW) [Para],202ת,40x20
 formation,Paratrooper Company,ת (Tav),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),GALIL,3,3,Galil rifle (M72 LAW) [Para],203ת,40x20
@@ -1627,12 +1627,12 @@ formation,Paratrooper Company,ת (Tav),S2b,Combat,2 of 3 mandatory,A,Paratrooper
 formation,Paratrooper Company,ת (Tav),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),M113 ZELDA,14,14,Transport (M113) [Para],214ת,20x30
 formation,Paratrooper Company,ת (Tav),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),M113 ZELDA,15,15,Transport (M113) [Para],215ת,20x30
 formation,Paratrooper Company,ת (Tav),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),M113 ZELDA,16,16,Transport (M113) [Para],216ת,20x30
-formation,Paratrooper Company,ת (Tav),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),UH-1,17,17,Transport (UH-1),217ת,20x40
-formation,Paratrooper Company,ת (Tav),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),UH-1,18,18,Transport (UH-1),218ת,20x40
-formation,Paratrooper Company,ת (Tav),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),UH-1,19,19,Transport (UH-1),219ת,20x40
-formation,Paratrooper Company,ת (Tav),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),UH-1,20,20,Transport (UH-1),220ת,20x40
-formation,Paratrooper Company,ת (Tav),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),CH-53 YAS'UR,21,21,Transport heli swap (CH-53),221ת,20x40
-formation,Paratrooper Company,ת (Tav),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),CH-53 YAS'UR,22,22,Transport heli swap (CH-53),222ת,20x40
+formation,Paratrooper Company,ת (Tav),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),UH-1,17,17,Transport (UH-1),213ת,20x40
+formation,Paratrooper Company,ת (Tav),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),UH-1,18,18,Transport (UH-1),214ת,20x40
+formation,Paratrooper Company,ת (Tav),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),UH-1,19,19,Transport (UH-1),215ת,20x40
+formation,Paratrooper Company,ת (Tav),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),UH-1,20,20,Transport (UH-1),216ת,20x40
+formation,Paratrooper Company,ת (Tav),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),CH-53 YAS'UR,21,21,Transport heli swap (CH-53),213ת,20x40
+formation,Paratrooper Company,ת (Tav),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),CH-53 YAS'UR,22,22,Transport heli swap (CH-53),214ת,20x40
 formation,Paratrooper Company,ת (Tav),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),GALIL,1,1,Galil rifle (M72 LAW) [Para],301ת,40x20
 formation,Paratrooper Company,ת (Tav),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),GALIL,2,2,Galil rifle (M72 LAW) [Para],302ת,40x20
 formation,Paratrooper Company,ת (Tav),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),GALIL,3,3,Galil rifle (M72 LAW) [Para],303ת,40x20
@@ -1649,12 +1649,12 @@ formation,Paratrooper Company,ת (Tav),S2c,Combat,3 of 3 mandatory,A,Paratrooper
 formation,Paratrooper Company,ת (Tav),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),M113 ZELDA,14,14,Transport (M113) [Para],314ת,20x30
 formation,Paratrooper Company,ת (Tav),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),M113 ZELDA,15,15,Transport (M113) [Para],315ת,20x30
 formation,Paratrooper Company,ת (Tav),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),M113 ZELDA,16,16,Transport (M113) [Para],316ת,20x30
-formation,Paratrooper Company,ת (Tav),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),UH-1,17,17,Transport (UH-1),317ת,20x40
-formation,Paratrooper Company,ת (Tav),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),UH-1,18,18,Transport (UH-1),318ת,20x40
-formation,Paratrooper Company,ת (Tav),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),UH-1,19,19,Transport (UH-1),319ת,20x40
-formation,Paratrooper Company,ת (Tav),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),UH-1,20,20,Transport (UH-1),320ת,20x40
-formation,Paratrooper Company,ת (Tav),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),CH-53 YAS'UR,21,21,Transport heli swap (CH-53),321ת,20x40
-formation,Paratrooper Company,ת (Tav),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),CH-53 YAS'UR,22,22,Transport heli swap (CH-53),322ת,20x40
+formation,Paratrooper Company,ת (Tav),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),UH-1,17,17,Transport (UH-1),313ת,20x40
+formation,Paratrooper Company,ת (Tav),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),UH-1,18,18,Transport (UH-1),314ת,20x40
+formation,Paratrooper Company,ת (Tav),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),UH-1,19,19,Transport (UH-1),315ת,20x40
+formation,Paratrooper Company,ת (Tav),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),UH-1,20,20,Transport (UH-1),316ת,20x40
+formation,Paratrooper Company,ת (Tav),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),CH-53 YAS'UR,21,21,Transport heli swap (CH-53),313ת,20x40
+formation,Paratrooper Company,ת (Tav),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),CH-53 YAS'UR,22,22,Transport heli swap (CH-53),314ת,20x40
 formation,Paratrooper Company,ת (Tav),S3,Tank attachment,0-1 (choice),A,Merkava 1 Tank Platoon,MERKAVA 1,1,1,Tank,401ת,20x40
 formation,Paratrooper Company,ת (Tav),S3,Tank attachment,0-1 (choice),A,Merkava 1 Tank Platoon,MERKAVA 1,2,2,Tank,402ת,20x40
 formation,Paratrooper Company,ת (Tav),S3,Tank attachment,0-1 (choice),A,Merkava 1 Tank Platoon,MERKAVA 1,3,3,Tank,403ת,20x40
@@ -1690,7 +1690,7 @@ formation,Paratrooper Company,ת (Tav),S5,Weapons,0-1 (choice),C,M150 Anti-tank 
 formation,Paratrooper Company,ת (Tav),S5,Weapons,0-1 (choice),C,M150 Anti-tank Platoon,M150,2,12,ATGM carrier (iTOW or MAPATS),612ת,20x30
 formation,Paratrooper Company,ך (Kaf-sofit),S1,HQ,1,A,Paratrooper Company HQ,GALIL,1,1,Galil HQ team [Para],001ך,20x20
 formation,Paratrooper Company,ך (Kaf-sofit),S1,HQ,1,A,Paratrooper Company HQ,M113 ZELDA,2,2,Transport (HQ M113),002ך,20x30
-formation,Paratrooper Company,ך (Kaf-sofit),S1,HQ,1,A,Paratrooper Company HQ,UH-1,3,3,Transport (HQ UH-1),003ך,20x40
+formation,Paratrooper Company,ך (Kaf-sofit),S1,HQ,1,A,Paratrooper Company HQ,UH-1,3,3,Transport (HQ UH-1),002ך,20x40
 formation,Paratrooper Company,ך (Kaf-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),GALIL,1,1,Galil rifle (M72 LAW) [Para],101ך,40x20
 formation,Paratrooper Company,ך (Kaf-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),GALIL,2,2,Galil rifle (M72 LAW) [Para],102ך,40x20
 formation,Paratrooper Company,ך (Kaf-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),GALIL,3,3,Galil rifle (M72 LAW) [Para],103ך,40x20
@@ -1707,12 +1707,12 @@ formation,Paratrooper Company,ך (Kaf-sofit),S2a,Combat,1 of 3 mandatory,A,Parat
 formation,Paratrooper Company,ך (Kaf-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),M113 ZELDA,14,14,Transport (M113) [Para],114ך,20x30
 formation,Paratrooper Company,ך (Kaf-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),M113 ZELDA,15,15,Transport (M113) [Para],115ך,20x30
 formation,Paratrooper Company,ך (Kaf-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),M113 ZELDA,16,16,Transport (M113) [Para],116ך,20x30
-formation,Paratrooper Company,ך (Kaf-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),UH-1,17,17,Transport (UH-1),117ך,20x40
-formation,Paratrooper Company,ך (Kaf-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),UH-1,18,18,Transport (UH-1),118ך,20x40
-formation,Paratrooper Company,ך (Kaf-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),UH-1,19,19,Transport (UH-1),119ך,20x40
-formation,Paratrooper Company,ך (Kaf-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),UH-1,20,20,Transport (UH-1),120ך,20x40
-formation,Paratrooper Company,ך (Kaf-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),CH-53 YAS'UR,21,21,Transport heli swap (CH-53),121ך,20x40
-formation,Paratrooper Company,ך (Kaf-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),CH-53 YAS'UR,22,22,Transport heli swap (CH-53),122ך,20x40
+formation,Paratrooper Company,ך (Kaf-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),UH-1,17,17,Transport (UH-1),113ך,20x40
+formation,Paratrooper Company,ך (Kaf-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),UH-1,18,18,Transport (UH-1),114ך,20x40
+formation,Paratrooper Company,ך (Kaf-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),UH-1,19,19,Transport (UH-1),115ך,20x40
+formation,Paratrooper Company,ך (Kaf-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),UH-1,20,20,Transport (UH-1),116ך,20x40
+formation,Paratrooper Company,ך (Kaf-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),CH-53 YAS'UR,21,21,Transport heli swap (CH-53),113ך,20x40
+formation,Paratrooper Company,ך (Kaf-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),CH-53 YAS'UR,22,22,Transport heli swap (CH-53),114ך,20x40
 formation,Paratrooper Company,ך (Kaf-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),GALIL,1,1,Galil rifle (M72 LAW) [Para],201ך,40x20
 formation,Paratrooper Company,ך (Kaf-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),GALIL,2,2,Galil rifle (M72 LAW) [Para],202ך,40x20
 formation,Paratrooper Company,ך (Kaf-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),GALIL,3,3,Galil rifle (M72 LAW) [Para],203ך,40x20
@@ -1729,12 +1729,12 @@ formation,Paratrooper Company,ך (Kaf-sofit),S2b,Combat,2 of 3 mandatory,A,Parat
 formation,Paratrooper Company,ך (Kaf-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),M113 ZELDA,14,14,Transport (M113) [Para],214ך,20x30
 formation,Paratrooper Company,ך (Kaf-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),M113 ZELDA,15,15,Transport (M113) [Para],215ך,20x30
 formation,Paratrooper Company,ך (Kaf-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),M113 ZELDA,16,16,Transport (M113) [Para],216ך,20x30
-formation,Paratrooper Company,ך (Kaf-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),UH-1,17,17,Transport (UH-1),217ך,20x40
-formation,Paratrooper Company,ך (Kaf-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),UH-1,18,18,Transport (UH-1),218ך,20x40
-formation,Paratrooper Company,ך (Kaf-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),UH-1,19,19,Transport (UH-1),219ך,20x40
-formation,Paratrooper Company,ך (Kaf-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),UH-1,20,20,Transport (UH-1),220ך,20x40
-formation,Paratrooper Company,ך (Kaf-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),CH-53 YAS'UR,21,21,Transport heli swap (CH-53),221ך,20x40
-formation,Paratrooper Company,ך (Kaf-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),CH-53 YAS'UR,22,22,Transport heli swap (CH-53),222ך,20x40
+formation,Paratrooper Company,ך (Kaf-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),UH-1,17,17,Transport (UH-1),213ך,20x40
+formation,Paratrooper Company,ך (Kaf-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),UH-1,18,18,Transport (UH-1),214ך,20x40
+formation,Paratrooper Company,ך (Kaf-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),UH-1,19,19,Transport (UH-1),215ך,20x40
+formation,Paratrooper Company,ך (Kaf-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),UH-1,20,20,Transport (UH-1),216ך,20x40
+formation,Paratrooper Company,ך (Kaf-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),CH-53 YAS'UR,21,21,Transport heli swap (CH-53),213ך,20x40
+formation,Paratrooper Company,ך (Kaf-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),CH-53 YAS'UR,22,22,Transport heli swap (CH-53),214ך,20x40
 formation,Paratrooper Company,ך (Kaf-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),GALIL,1,1,Galil rifle (M72 LAW) [Para],301ך,40x20
 formation,Paratrooper Company,ך (Kaf-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),GALIL,2,2,Galil rifle (M72 LAW) [Para],302ך,40x20
 formation,Paratrooper Company,ך (Kaf-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),GALIL,3,3,Galil rifle (M72 LAW) [Para],303ך,40x20
@@ -1751,12 +1751,12 @@ formation,Paratrooper Company,ך (Kaf-sofit),S2c,Combat,3 of 3 mandatory,A,Parat
 formation,Paratrooper Company,ך (Kaf-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),M113 ZELDA,14,14,Transport (M113) [Para],314ך,20x30
 formation,Paratrooper Company,ך (Kaf-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),M113 ZELDA,15,15,Transport (M113) [Para],315ך,20x30
 formation,Paratrooper Company,ך (Kaf-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),M113 ZELDA,16,16,Transport (M113) [Para],316ך,20x30
-formation,Paratrooper Company,ך (Kaf-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),UH-1,17,17,Transport (UH-1),317ך,20x40
-formation,Paratrooper Company,ך (Kaf-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),UH-1,18,18,Transport (UH-1),318ך,20x40
-formation,Paratrooper Company,ך (Kaf-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),UH-1,19,19,Transport (UH-1),319ך,20x40
-formation,Paratrooper Company,ך (Kaf-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),UH-1,20,20,Transport (UH-1),320ך,20x40
-formation,Paratrooper Company,ך (Kaf-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),CH-53 YAS'UR,21,21,Transport heli swap (CH-53),321ך,20x40
-formation,Paratrooper Company,ך (Kaf-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),CH-53 YAS'UR,22,22,Transport heli swap (CH-53),322ך,20x40
+formation,Paratrooper Company,ך (Kaf-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),UH-1,17,17,Transport (UH-1),313ך,20x40
+formation,Paratrooper Company,ך (Kaf-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),UH-1,18,18,Transport (UH-1),314ך,20x40
+formation,Paratrooper Company,ך (Kaf-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),UH-1,19,19,Transport (UH-1),315ך,20x40
+formation,Paratrooper Company,ך (Kaf-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),UH-1,20,20,Transport (UH-1),316ך,20x40
+formation,Paratrooper Company,ך (Kaf-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),CH-53 YAS'UR,21,21,Transport heli swap (CH-53),313ך,20x40
+formation,Paratrooper Company,ך (Kaf-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),CH-53 YAS'UR,22,22,Transport heli swap (CH-53),314ך,20x40
 formation,Paratrooper Company,ך (Kaf-sofit),S3,Tank attachment,0-1 (choice),A,Merkava 1 Tank Platoon,MERKAVA 1,1,1,Tank,401ך,20x40
 formation,Paratrooper Company,ך (Kaf-sofit),S3,Tank attachment,0-1 (choice),A,Merkava 1 Tank Platoon,MERKAVA 1,2,2,Tank,402ך,20x40
 formation,Paratrooper Company,ך (Kaf-sofit),S3,Tank attachment,0-1 (choice),A,Merkava 1 Tank Platoon,MERKAVA 1,3,3,Tank,403ך,20x40
@@ -1792,7 +1792,7 @@ formation,Paratrooper Company,ך (Kaf-sofit),S5,Weapons,0-1 (choice),C,M150 Anti
 formation,Paratrooper Company,ך (Kaf-sofit),S5,Weapons,0-1 (choice),C,M150 Anti-tank Platoon,M150,2,12,ATGM carrier (iTOW or MAPATS),612ך,20x30
 formation,Paratrooper Company,ם (Mem-sofit),S1,HQ,1,A,Paratrooper Company HQ,GALIL,1,1,Galil HQ team [Para],001ם,20x20
 formation,Paratrooper Company,ם (Mem-sofit),S1,HQ,1,A,Paratrooper Company HQ,M113 ZELDA,2,2,Transport (HQ M113),002ם,20x30
-formation,Paratrooper Company,ם (Mem-sofit),S1,HQ,1,A,Paratrooper Company HQ,UH-1,3,3,Transport (HQ UH-1),003ם,20x40
+formation,Paratrooper Company,ם (Mem-sofit),S1,HQ,1,A,Paratrooper Company HQ,UH-1,3,3,Transport (HQ UH-1),002ם,20x40
 formation,Paratrooper Company,ם (Mem-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),GALIL,1,1,Galil rifle (M72 LAW) [Para],101ם,40x20
 formation,Paratrooper Company,ם (Mem-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),GALIL,2,2,Galil rifle (M72 LAW) [Para],102ם,40x20
 formation,Paratrooper Company,ם (Mem-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),GALIL,3,3,Galil rifle (M72 LAW) [Para],103ם,40x20
@@ -1809,12 +1809,12 @@ formation,Paratrooper Company,ם (Mem-sofit),S2a,Combat,1 of 3 mandatory,A,Parat
 formation,Paratrooper Company,ם (Mem-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),M113 ZELDA,14,14,Transport (M113) [Para],114ם,20x30
 formation,Paratrooper Company,ם (Mem-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),M113 ZELDA,15,15,Transport (M113) [Para],115ם,20x30
 formation,Paratrooper Company,ם (Mem-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),M113 ZELDA,16,16,Transport (M113) [Para],116ם,20x30
-formation,Paratrooper Company,ם (Mem-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),UH-1,17,17,Transport (UH-1),117ם,20x40
-formation,Paratrooper Company,ם (Mem-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),UH-1,18,18,Transport (UH-1),118ם,20x40
-formation,Paratrooper Company,ם (Mem-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),UH-1,19,19,Transport (UH-1),119ם,20x40
-formation,Paratrooper Company,ם (Mem-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),UH-1,20,20,Transport (UH-1),120ם,20x40
-formation,Paratrooper Company,ם (Mem-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),CH-53 YAS'UR,21,21,Transport heli swap (CH-53),121ם,20x40
-formation,Paratrooper Company,ם (Mem-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),CH-53 YAS'UR,22,22,Transport heli swap (CH-53),122ם,20x40
+formation,Paratrooper Company,ם (Mem-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),UH-1,17,17,Transport (UH-1),113ם,20x40
+formation,Paratrooper Company,ם (Mem-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),UH-1,18,18,Transport (UH-1),114ם,20x40
+formation,Paratrooper Company,ם (Mem-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),UH-1,19,19,Transport (UH-1),115ם,20x40
+formation,Paratrooper Company,ם (Mem-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),UH-1,20,20,Transport (UH-1),116ם,20x40
+formation,Paratrooper Company,ם (Mem-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),CH-53 YAS'UR,21,21,Transport heli swap (CH-53),113ם,20x40
+formation,Paratrooper Company,ם (Mem-sofit),S2a,Combat,1 of 3 mandatory,A,Paratrooper Platoon (1st),CH-53 YAS'UR,22,22,Transport heli swap (CH-53),114ם,20x40
 formation,Paratrooper Company,ם (Mem-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),GALIL,1,1,Galil rifle (M72 LAW) [Para],201ם,40x20
 formation,Paratrooper Company,ם (Mem-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),GALIL,2,2,Galil rifle (M72 LAW) [Para],202ם,40x20
 formation,Paratrooper Company,ם (Mem-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),GALIL,3,3,Galil rifle (M72 LAW) [Para],203ם,40x20
@@ -1831,12 +1831,12 @@ formation,Paratrooper Company,ם (Mem-sofit),S2b,Combat,2 of 3 mandatory,A,Parat
 formation,Paratrooper Company,ם (Mem-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),M113 ZELDA,14,14,Transport (M113) [Para],214ם,20x30
 formation,Paratrooper Company,ם (Mem-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),M113 ZELDA,15,15,Transport (M113) [Para],215ם,20x30
 formation,Paratrooper Company,ם (Mem-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),M113 ZELDA,16,16,Transport (M113) [Para],216ם,20x30
-formation,Paratrooper Company,ם (Mem-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),UH-1,17,17,Transport (UH-1),217ם,20x40
-formation,Paratrooper Company,ם (Mem-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),UH-1,18,18,Transport (UH-1),218ם,20x40
-formation,Paratrooper Company,ם (Mem-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),UH-1,19,19,Transport (UH-1),219ם,20x40
-formation,Paratrooper Company,ם (Mem-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),UH-1,20,20,Transport (UH-1),220ם,20x40
-formation,Paratrooper Company,ם (Mem-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),CH-53 YAS'UR,21,21,Transport heli swap (CH-53),221ם,20x40
-formation,Paratrooper Company,ם (Mem-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),CH-53 YAS'UR,22,22,Transport heli swap (CH-53),222ם,20x40
+formation,Paratrooper Company,ם (Mem-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),UH-1,17,17,Transport (UH-1),213ם,20x40
+formation,Paratrooper Company,ם (Mem-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),UH-1,18,18,Transport (UH-1),214ם,20x40
+formation,Paratrooper Company,ם (Mem-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),UH-1,19,19,Transport (UH-1),215ם,20x40
+formation,Paratrooper Company,ם (Mem-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),UH-1,20,20,Transport (UH-1),216ם,20x40
+formation,Paratrooper Company,ם (Mem-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),CH-53 YAS'UR,21,21,Transport heli swap (CH-53),213ם,20x40
+formation,Paratrooper Company,ם (Mem-sofit),S2b,Combat,2 of 3 mandatory,A,Paratrooper Platoon (2nd),CH-53 YAS'UR,22,22,Transport heli swap (CH-53),214ם,20x40
 formation,Paratrooper Company,ם (Mem-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),GALIL,1,1,Galil rifle (M72 LAW) [Para],301ם,40x20
 formation,Paratrooper Company,ם (Mem-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),GALIL,2,2,Galil rifle (M72 LAW) [Para],302ם,40x20
 formation,Paratrooper Company,ם (Mem-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),GALIL,3,3,Galil rifle (M72 LAW) [Para],303ם,40x20
@@ -1853,12 +1853,12 @@ formation,Paratrooper Company,ם (Mem-sofit),S2c,Combat,3 of 3 mandatory,A,Parat
 formation,Paratrooper Company,ם (Mem-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),M113 ZELDA,14,14,Transport (M113) [Para],314ם,20x30
 formation,Paratrooper Company,ם (Mem-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),M113 ZELDA,15,15,Transport (M113) [Para],315ם,20x30
 formation,Paratrooper Company,ם (Mem-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),M113 ZELDA,16,16,Transport (M113) [Para],316ם,20x30
-formation,Paratrooper Company,ם (Mem-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),UH-1,17,17,Transport (UH-1),317ם,20x40
-formation,Paratrooper Company,ם (Mem-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),UH-1,18,18,Transport (UH-1),318ם,20x40
-formation,Paratrooper Company,ם (Mem-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),UH-1,19,19,Transport (UH-1),319ם,20x40
-formation,Paratrooper Company,ם (Mem-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),UH-1,20,20,Transport (UH-1),320ם,20x40
-formation,Paratrooper Company,ם (Mem-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),CH-53 YAS'UR,21,21,Transport heli swap (CH-53),321ם,20x40
-formation,Paratrooper Company,ם (Mem-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),CH-53 YAS'UR,22,22,Transport heli swap (CH-53),322ם,20x40
+formation,Paratrooper Company,ם (Mem-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),UH-1,17,17,Transport (UH-1),313ם,20x40
+formation,Paratrooper Company,ם (Mem-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),UH-1,18,18,Transport (UH-1),314ם,20x40
+formation,Paratrooper Company,ם (Mem-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),UH-1,19,19,Transport (UH-1),315ם,20x40
+formation,Paratrooper Company,ם (Mem-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),UH-1,20,20,Transport (UH-1),316ם,20x40
+formation,Paratrooper Company,ם (Mem-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),CH-53 YAS'UR,21,21,Transport heli swap (CH-53),313ם,20x40
+formation,Paratrooper Company,ם (Mem-sofit),S2c,Combat,3 of 3 mandatory,A,Paratrooper Platoon (3rd),CH-53 YAS'UR,22,22,Transport heli swap (CH-53),314ם,20x40
 formation,Paratrooper Company,ם (Mem-sofit),S3,Tank attachment,0-1 (choice),A,Merkava 1 Tank Platoon,MERKAVA 1,1,1,Tank,401ם,20x40
 formation,Paratrooper Company,ם (Mem-sofit),S3,Tank attachment,0-1 (choice),A,Merkava 1 Tank Platoon,MERKAVA 1,2,2,Tank,402ם,20x40
 formation,Paratrooper Company,ם (Mem-sofit),S3,Tank attachment,0-1 (choice),A,Merkava 1 Tank Platoon,MERKAVA 1,3,3,Tank,403ם,20x40
