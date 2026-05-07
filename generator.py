@@ -19,7 +19,7 @@ OUT_DIR = ROOT / "out"
 FLAGS_DIR = ROOT / "flags"
 
 BG_COLOR = "#FFFFFF"
-FONT_FAMILY = '"RobotoMono Nerd Font", "RobotoMonoNerdFont", "DejaVu Sans Mono", monospace'
+FONT_FAMILY = '"Fira Code", "IBM Plex Sans Hebrew", "DejaVu Sans Mono", monospace'
 ISRAEL_BLUE = "#0038B8"
 
 
@@ -320,7 +320,7 @@ def build_sticker(designation: str, name: str, icon_svg: str,
         fill="none" stroke="#000" stroke-width="0.15" />
   <text x="{text_x}" y="{label_y:.2f}" font-family='{FONT_FAMILY}'
         font-size="{label_size:.2f}" text-anchor="middle"
-        fill="#000">{escape_xml(name)}</text>
+        font-weight="600" fill="#000">{escape_xml(name)}</text>
   <text x="{text_x}" y="{desig_y:.2f}" font-family='{FONT_FAMILY}'
         font-size="{desig_size}" text-anchor="middle" font-weight="bold"
         fill="#000" direction="ltr" unicode-bidi="bidi-override"
