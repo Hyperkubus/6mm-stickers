@@ -155,11 +155,20 @@ def main() -> int:
 
     icon_cache: dict[tuple[str, bool], str] = {}
     for formation, rows in sorted(formations.items()):
-        # Group by slot (HQ first, platoons in order), then sort by
-        # designation within the slot. Variants of the same designation
-        # (e.g. M113 / Vayzata / Nagmasho't) tie-break by name so they
-        # appear next to each other on the sheet.
-        rows.sort(key=lambda r: (r["slot_id"], r["designation"], r["name"]))
+        # Group by slot (HQ first, platoons in order). Within a slot,
+        # the primary sort is the designation NUMBER (e.g. 101 → 102
+        # → 103 …); for shared-designation transports (M113 / Vayzata
+        # / Nagmasho't), variants of the same number cluster by name
+        # so all "M113 ZELDA" stickers run together across the
+        # formation letters, then "M113 VAYZATA" together, etc. The
+        # Hebrew formation letter is the last tiebreak.
+        def sort_key(r: dict) -> tuple:
+            d = r["designation"]
+            number = d[:3]  # first 3 chars = stand number
+            letter = d[3:]  # remainder = formation letter
+            return (r["slot_id"], number, r["name"], letter)
+
+        rows.sort(key=sort_key)
         pages = pack_pages(rows)
         slug_name = slug(formation)
         page_files: list[Path] = []
