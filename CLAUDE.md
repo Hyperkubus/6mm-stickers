@@ -145,9 +145,14 @@ including final forms). Bottom text uses `direction="ltr"` +
 their CSV order — without the bidi override, some renderers reorder a
 mixed-script line.
 
-Font stack: `"RobotoMono Nerd Font", "DejaVu Sans Mono", monospace`.
-DejaVu Sans Mono is in most Linux distros and contains Hebrew, so it's
-the dependable fallback for `rsvg-convert`.
+Font stack: `"Fira Code", "IBM Plex Sans Hebrew", "DejaVu Sans Mono",
+monospace`. Fira Code carries the Latin glyphs (heavy weight, slashed
+zeros). It has no Hebrew, so the renderer falls back glyph-by-glyph to
+IBM Plex Sans Hebrew for the Hebrew letter — both fonts are
+fontconfig-installed via `apt install fonts-firacode fonts-ibm-plex`
+(and DejaVu Sans Mono is the final safety net).
+
+Label uses `font-weight="600"`; designation uses `font-weight="bold"`.
 
 ## Israeli flag
 
