@@ -42,6 +42,7 @@ PAGE_MARGIN = 10.0
 TITLE_BAND = 12.0  # vertical space reserved at top for the formation title
 GAP = 2.0  # gap between stickers, both axes
 STICKER_H = 8.0
+SLOT_GAP = 4.0  # extra vertical space between platoons / slots
 SHEET_BG = "#E8E8E8"  # slightly grey so the white sticker edges read as cut lines
 
 LAYOUT_X = PAGE_MARGIN
@@ -69,23 +70,36 @@ def extract_inner(svg: str) -> str:
 def pack_pages(rows: list[dict]) -> list[list[tuple[dict, float, float, int]]]:
     """First-fit pack stickers into pages.
 
-    Each page is a list of (row, rel_x, rel_y, width_mm) tuples whose
-    coordinates are relative to (LAYOUT_X, LAYOUT_Y).
+    Each row's stickers stay on a single visual line; each platoon
+    (`slot_id`) starts on a fresh line with `SLOT_GAP` of extra
+    vertical space above it. Returns a list of pages, each a list of
+    (row, rel_x, rel_y, width_mm) tuples relative to the layout origin.
     """
     pages: list[list[tuple[dict, float, float, int]]] = [[]]
     cursor_x = 0.0
     cursor_y = 0.0
+    prev_slot: str | None = None
     for row in rows:
         w = sticker_width_mm(row["base"])
-        if cursor_x + w > LAYOUT_W + 1e-6:  # wrap to next row
+        slot_changed = prev_slot is not None and row["slot_id"] != prev_slot
+
+        if slot_changed:
+            # Force a row break and add the extra slot separator.
+            cursor_x = 0.0
+            if pages[-1]:  # only advance if we actually placed something
+                cursor_y += STICKER_H + GAP + SLOT_GAP
+        elif cursor_x + w > LAYOUT_W + 1e-6:
             cursor_x = 0.0
             cursor_y += STICKER_H + GAP
-        if cursor_y + STICKER_H > LAYOUT_H + 1e-6:  # overflow to next page
+
+        if cursor_y + STICKER_H > LAYOUT_H + 1e-6:
             pages.append([])
             cursor_x = 0.0
             cursor_y = 0.0
+
         pages[-1].append((row, cursor_x, cursor_y, w))
         cursor_x += w + GAP
+        prev_slot = row["slot_id"]
     return [p for p in pages if p]
 
 
@@ -141,19 +155,11 @@ def main() -> int:
 
     icon_cache: dict[tuple[str, bool], str] = {}
     for formation, rows in sorted(formations.items()):
-        # Sort by slot (HQ first, platoons in order), then by team_role so
-        # rifle teams cluster together, machine-gunners together, transports
-        # together; finally by designation. Wide-first as a last tiebreak so
-        # the 40 mm rifle squad stickers fill clean rows of four before
-        # giving way to mixed-width rows.
-        rows.sort(
-            key=lambda r: (
-                r["slot_id"],
-                r["team_role"],
-                -sticker_width_mm(r["base"]),
-                r["designation"],
-            )
-        )
+        # Group by slot (HQ first, platoons in order), then sort by
+        # designation within the slot. Variants of the same designation
+        # (e.g. M113 / Vayzata / Nagmasho't) tie-break by name so they
+        # appear next to each other on the sheet.
+        rows.sort(key=lambda r: (r["slot_id"], r["designation"], r["name"]))
         pages = pack_pages(rows)
         slug_name = slug(formation)
         page_files: list[Path] = []
