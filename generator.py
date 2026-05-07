@@ -286,12 +286,15 @@ def build_sticker(designation: str, name: str, icon_svg: str,
     flag_y = icon_y + (icon_size - flag_h) / 2  # vertically centred against icon
     text_x = width_mm / 2
 
-    if is_wide:
-        label_size = 2.8
-        desig_size = 4.5
-    else:
-        label_size = 2.1
-        desig_size = 3.6
+    # Label size is uniform across all sticker widths so the top label
+    # reads at the same height on every base. The vertical band above
+    # the icon (y=0.5 to icon_top=2.5) caps the height; the longest
+    # name in the army (`MAGACH 6 BLAZER`, 15 chars) caps the width on
+    # 20 mm bases (~19.4 mm of usable horizontal space). 2.1 mm
+    # satisfies both. Designation grows on wide bases since it has
+    # more horizontal room between icon and flag there.
+    label_size = 2.1
+    desig_size = 4.5 if is_wide else 3.6
 
     icon_inner, icon_vb = extract_inner_svg(icon_svg)
     flag_inner = israel_flag_inner()

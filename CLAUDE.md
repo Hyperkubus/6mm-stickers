@@ -16,9 +16,13 @@ One sticker per base (1979 across 8 formations + support pool).
 ## Sticker layout
 
 8 mm tall, the lower 8 mm of the unit's base. Two physical widths:
-- `40x20` base → 40 × 8 mm sticker (larger fonts, ≤12-char top label).
-- everything else (`20x20`, `20x30`, `20x40`) → 20 × 8 mm sticker (≤8-char
-  top label).
+- `40x20` base → 40 × 8 mm sticker.
+- everything else (`20x20`, `20x30`, `20x40`) → 20 × 8 mm sticker.
+
+The top label runs at a single uniform 2.1 mm font-size on every
+sticker so the army reads consistently across base sizes. The
+designation does grow on wide bases (4.5 mm vs 3.6 mm) because it has
+more horizontal room between icon and flag there.
 
 Left → right inside the sticker:
 - 5×5 mm APP-6 unit icon (left, 0.3 mm horizontal margin, top edge
