@@ -21,10 +21,11 @@ One sticker per base (1979 across 8 formations + support pool).
   top label).
 
 Left → right inside the sticker:
-- 4×4 mm APP-6 unit icon (left).
-- Top text — short type label (e.g. `Mk3`, `MAG`, `AH-64`).
+- 5×5 mm APP-6 unit icon (left, 0.3 mm margin).
+- Top text — equipment / weapon name (e.g. `MERKAVA 3`, `FN MAG`,
+  `AH-64`).
 - Bottom text — designation, prominent, centered (e.g. `001א`).
-- 4×4 mm Israeli flag with thin black border (right).
+- 5×5 mm Israeli flag with thin black border (right, 0.3 mm margin).
 
 Background fill `#FFFFFF`. The constant lives at the top of `generator.py`
 and is parameterised in `build_sticker(...)` so it can become per-faction
@@ -122,10 +123,16 @@ Naming rules:
 - **Strike jet** — `A-4 Skyhawk`.
 - **Artillery observer** — `M113 OP`.
 
-Names longer than the natural fit at the default font size (e.g.
-`M47 Dragon`, `Chaparral`, `A-4 Skyhawk`) are compressed via SVG
-`textLength` + `lengthAdjust="spacingAndGlyphs"`. Short names render
-at full size unmolested.
+Names are stored uppercase. `derive_name()` returns uppercase by
+default; CSV hand-edits are taken verbatim, so write a mixed-case
+override if you want one.
+
+When a name's natural rendered width would exceed the gap between
+icon and flag (e.g. `MERKAVA 3`, `M47 DRAGON`, `CHAPARRAL`,
+`A-4 SKYHAWK` on 20 mm bases), `build_sticker()` shrinks the label
+font-size to fit. We can't use SVG `textLength` because
+`rsvg-convert` ignores it. Floor at 1.3 mm font-size to keep the
+label legible.
 
 Para / Reserve infantry intentionally share names with Mech (icons are
 identical). A `P` / `R` suffix would be the natural future refinement.
