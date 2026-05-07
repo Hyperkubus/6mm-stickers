@@ -10,8 +10,13 @@ One sticker per base (1979 across 8 formations + support pool).
 3. `preview.py` renders one sample sticker per unique (icon, label, width)
    tuple to `preview.html` (PNG via rsvg-convert, embedded as base64 data
    URIs, so the file is fully self-contained).
+4. `sheets.py` lays out every sticker per formation onto A4 portrait
+   pages with a slightly grey background and combines the pages into
+   one PDF per formation under `sheets/`. `rsvg-convert -f pdf` does
+   the multi-page PDF concatenation.
 
-`out/` is gitignored — fully regenerable from the CSV + generator.
+`out/` and `sheets/` are gitignored — fully regenerable from the CSV +
+generator.
 
 ## Sticker layout
 
