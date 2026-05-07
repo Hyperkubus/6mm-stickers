@@ -109,13 +109,20 @@ HELI_MODELS = ("AH-64", "AH-1", "CH-53", "UH-1")
 
 
 def derive_name(team_role: str, unit_name: str) -> str:
+    """Derive the (uppercase) display name for a row.
+
+    The CSV's `name` column is the source of truth at runtime; this
+    function only seeds it. All names are returned uppercase per project
+    spec — hand-edits in the CSV are preserved verbatim, so a user wanting
+    a mixed-case override can write one in.
+    """
     base = role_base_form(team_role)
 
     if base in ("Tank", "HQ Tank"):
         for key, name in TANK_NAMES:
             if key in unit_name:
-                return name
-        return "Tank"
+                return name.upper()
+        return "TANK"
 
     if base == "Transport heli swap":
         return "CH-53"
@@ -123,7 +130,7 @@ def derive_name(team_role: str, unit_name: str) -> str:
         for k in HELI_MODELS:
             if k in unit_name:
                 return k
-        return "UH-1" if base == "Transport heli" else "Heli"
+        return "UH-1" if base == "Transport heli" else "HELI"
 
     if base in ("Transport", "Transport variant"):
         if "UH-1" in team_role:
@@ -140,41 +147,41 @@ def derive_name(team_role: str, unit_name: str) -> str:
                 return "VAYZATA"
             if "Nagmasho" in content:
                 return "NAGMASH"
-            return content
+            return content.upper()
         return "APC"
 
     if base == "Recce":
         if "Jeep" in unit_name:
-            return "Jeep"
+            return "JEEP"
         if "M113" in unit_name:
             return "ZELDA"
         if "Rabbi" in unit_name:
-            return "Rabbi"
-        return "Recce"
+            return "RABBI"
+        return "RECCE"
 
     return {
-        "Galil HQ team": "Galil",
-        "Galil rifle": "Galil",
+        "Galil HQ team": "GALIL",
+        "Galil rifle": "GALIL",
         "FN MAG": "FN MAG",
         "RPG-7": "RPG-7",
-        "M47 Dragon": "M47 Dragon",
-        "52mm mortar": "52mm",
+        "M47 Dragon": "M47 DRAGON",
+        "52mm mortar": "52MM",
         "81mm mortar carrier": "M125",
         "120mm mortar carrier": "M106",
         "155mm SP gun": "M109",
         "ATGM carrier": "M150",
-        "Pereh": "Pereh",
-        "Jeep ATGM": "Jeep",
-        "Rabbi ATGM": "Rabbi",
+        "Pereh": "PEREH",
+        "Jeep ATGM": "JEEP",
+        "Rabbi ATGM": "RABBI",
         "BM-21": "BM-21",
         "MLRS": "MLRS",
-        "Vulcan AA": "Vulcan",
-        "Shilka AA": "Shilka",
-        "SAM": "Chaparral",
-        "MANPADS": "Redeye",
-        "Strike jet": "A-4 Skyhawk",
+        "Vulcan AA": "VULCAN",
+        "Shilka AA": "SHILKA",
+        "SAM": "CHAPARRAL",
+        "MANPADS": "REDEYE",
+        "Strike jet": "A-4 SKYHAWK",
         "Artillery observer": "M113 OP",
-    }.get(base, base)
+    }.get(base, base.upper())
 
 
 # ---------------------------------------------------------------------------
@@ -267,9 +274,11 @@ def build_sticker(designation: str, name: str, icon_svg: str,
     height_mm = 8
     is_wide = width_mm == 40
 
-    icon_x, icon_y, icon_size = 0.5, 2.0, 4.0
-    flag_size = 4.0
-    flag_x, flag_y = width_mm - 0.5 - flag_size, 2.0
+    icon_size = flag_size = 5.0
+    margin = 0.3
+    icon_x = margin
+    flag_x = width_mm - margin - flag_size
+    icon_y = flag_y = (height_mm - icon_size) / 2  # vertically centred (= 1.5)
     text_x = width_mm / 2
 
     if is_wide:
@@ -282,18 +291,17 @@ def build_sticker(designation: str, name: str, icon_svg: str,
     icon_inner, icon_vb = extract_inner_svg(icon_svg)
     flag_inner = israel_flag_inner()
 
-    label_y = 0.2 + label_size * 0.85
     desig_y = height_mm - 0.6
 
     # Available text width between icon and flag (with a small gutter).
+    # rsvg-convert ignores SVG `textLength`/`lengthAdjust`, so we shrink the
+    # font instead when the natural width would overflow. Monospace glyph
+    # cell ≈ 0.6 × font-size.
     available_w = width_mm - (icon_x + icon_size) - (width_mm - flag_x) - 1.0
-    # Monospace glyph cell ≈ 0.6 × font-size; compress with textLength only
-    # when the natural rendering would overflow.
     natural_w = len(name) * label_size * 0.6
     if natural_w > available_w:
-        label_extra = f' textLength="{available_w:.2f}" lengthAdjust="spacingAndGlyphs"'
-    else:
-        label_extra = ""
+        label_size = max(available_w / (len(name) * 0.6), 1.3)
+    label_y = 0.2 + label_size * 0.85
 
     return f"""<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg"
@@ -311,8 +319,8 @@ def build_sticker(designation: str, name: str, icon_svg: str,
   <rect x="{flag_x}" y="{flag_y}" width="{flag_size}" height="{flag_size}"
         fill="none" stroke="#000" stroke-width="0.15" />
   <text x="{text_x}" y="{label_y:.2f}" font-family='{FONT_FAMILY}'
-        font-size="{label_size}" text-anchor="middle"
-        fill="#000"{label_extra}>{escape_xml(name)}</text>
+        font-size="{label_size:.2f}" text-anchor="middle"
+        fill="#000">{escape_xml(name)}</text>
   <text x="{text_x}" y="{desig_y:.2f}" font-family='{FONT_FAMILY}'
         font-size="{desig_size}" text-anchor="middle" font-weight="bold"
         fill="#000" direction="ltr" unicode-bidi="bidi-override"
@@ -333,8 +341,8 @@ def row_name(row: dict) -> str:
     return derive_name(row["team_role"], row["unit_name"])
 
 
-def update_csv() -> int:
-    """Add (or fill in) the `name` column on every row, preserving manual edits."""
+def update_csv(force: bool = False) -> int:
+    """Add (or fill in) the `name` column. With `force`, overwrite existing values."""
     with INPUT_CSV.open(newline="", encoding="utf-8") as f:
         reader = csv.DictReader(f)
         fieldnames = list(reader.fieldnames or [])
@@ -345,26 +353,30 @@ def update_csv() -> int:
         idx = fieldnames.index("unit_name") + 1 if "unit_name" in fieldnames else len(fieldnames)
         fieldnames = fieldnames[:idx] + ["name"] + fieldnames[idx:]
 
-    filled = 0
+    touched = 0
     for row in rows:
-        if not row.get("name", "").strip():
+        if force or not row.get("name", "").strip():
             row["name"] = derive_name(row["team_role"], row["unit_name"])
-            filled += 1
+            touched += 1
 
     with INPUT_CSV.open("w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(rows)
 
-    print(f"Updated {INPUT_CSV}: filled `name` on {filled} rows ({len(rows)} total)")
+    verb = "overwrote" if force else "filled"
+    print(f"Updated {INPUT_CSV}: {verb} `name` on {touched} rows ({len(rows)} total)")
     return 0
 
 
 def main(argv: list[str] | None = None) -> int:
     argv = list(sys.argv[1:] if argv is None else argv)
     if argv and argv[0] == "--update-csv":
-        return update_csv()
+        return update_csv(force="--force" in argv[1:])
+    return _generate()
 
+
+def _generate() -> int:
     OUT_DIR.mkdir(exist_ok=True)
     FLAGS_DIR.mkdir(exist_ok=True)
     (FLAGS_DIR / "il.svg").write_text(israel_flag_svg())
