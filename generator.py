@@ -274,24 +274,31 @@ def build_sticker(designation: str, name: str, icon_svg: str,
     height_mm = 8
     is_wide = width_mm == 40
 
-    icon_size = flag_size = 5.0
-    margin = 0.3
-    icon_x = margin
-    flag_x = width_mm - margin - flag_size
-    icon_y = flag_y = (height_mm - icon_size) / 2  # vertically centred (= 1.5)
+    icon_size = 5.0
+    flag_w = 5.0
+    flag_h = flag_w * 8 / 11  # standard Israeli flag is 11:8 (≈ 3.64 mm)
+    x_margin = 0.3
+    text_margin = 0.5
+
+    icon_x = x_margin
+    icon_y = 2.5  # nudged down so label has its own breathing room above
+    flag_x = width_mm - x_margin - flag_w
+    flag_y = icon_y + (icon_size - flag_h) / 2  # vertically centred against icon
     text_x = width_mm / 2
 
     if is_wide:
-        label_size = 2.6
+        label_size = 2.8
         desig_size = 4.5
     else:
-        label_size = 1.9
+        label_size = 2.1
         desig_size = 3.6
 
     icon_inner, icon_vb = extract_inner_svg(icon_svg)
     flag_inner = israel_flag_inner()
 
-    desig_y = height_mm - 0.6
+    # Bottom text: leave `text_margin` between the descender and the sticker
+    # edge (Hebrew final letters like ן ך ץ ף have substantial descenders).
+    desig_y = (height_mm - text_margin) - desig_size * 0.2
 
     # Available text width between icon and flag (with a small gutter).
     # rsvg-convert ignores SVG `textLength`/`lengthAdjust`, so we shrink the
@@ -301,7 +308,7 @@ def build_sticker(designation: str, name: str, icon_svg: str,
     natural_w = len(name) * label_size * 0.6
     if natural_w > available_w:
         label_size = max(available_w / (len(name) * 0.6), 1.3)
-    label_y = 0.2 + label_size * 0.85
+    label_y = text_margin + label_size * 0.85
 
     return f"""<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg"
@@ -312,11 +319,11 @@ def build_sticker(designation: str, name: str, icon_svg: str,
        viewBox="{icon_vb}" preserveAspectRatio="xMidYMid meet">
     {icon_inner}
   </svg>
-  <svg x="{flag_x}" y="{flag_y}" width="{flag_size}" height="{flag_size}"
-       viewBox="0 0 220 160" preserveAspectRatio="xMidYMid meet">
+  <svg x="{flag_x}" y="{flag_y}" width="{flag_w}" height="{flag_h:.3f}"
+       viewBox="0 0 220 160" preserveAspectRatio="none">
     {flag_inner}
   </svg>
-  <rect x="{flag_x}" y="{flag_y}" width="{flag_size}" height="{flag_size}"
+  <rect x="{flag_x}" y="{flag_y}" width="{flag_w}" height="{flag_h:.3f}"
         fill="none" stroke="#000" stroke-width="0.15" />
   <text x="{text_x}" y="{label_y:.2f}" font-family='{FONT_FAMILY}'
         font-size="{label_size:.2f}" text-anchor="middle"
