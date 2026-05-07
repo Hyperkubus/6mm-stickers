@@ -105,7 +105,16 @@ TANK_NAMES = [
     ("Sho't", "Sho't Blazer"),
 ]
 
-HELI_MODELS = ("AH-64", "AH-1", "CH-53", "UH-1")
+# IDF Hebrew name suffixes for the rotary fleet (UH-1 was never given a
+# settled Hebrew name in IDF service, so we leave it bare). Battlefront
+# stat-cards spell them out in Hebrew transliteration: Tzefa = "viper",
+# Peten = "asp/cobra", Yas'ur = "stormy petrel".
+HELI_MODELS: list[tuple[str, str]] = [
+    ("AH-64", "AH-64 PETEN"),
+    ("AH-1", "AH-1 TZEFA"),
+    ("CH-53", "CH-53 YAS'UR"),
+    ("UH-1", "UH-1"),
+]
 
 
 def derive_name(team_role: str, unit_name: str) -> str:
@@ -125,11 +134,11 @@ def derive_name(team_role: str, unit_name: str) -> str:
         return "TANK"
 
     if base == "Transport heli swap":
-        return "CH-53"
+        return "CH-53 YAS'UR"
     if base in ("Attack heli", "Transport heli"):
-        for k in HELI_MODELS:
-            if k in unit_name:
-                return k
+        for key, name in HELI_MODELS:
+            if key in unit_name:
+                return name
         return "UH-1" if base == "Transport heli" else "HELI"
 
     if base in ("Transport", "Transport variant"):
@@ -173,11 +182,11 @@ def derive_name(team_role: str, unit_name: str) -> str:
         "Pereh": "PEREH",
         "Jeep ATGM": "JEEP",
         "Rabbi ATGM": "RABBI",
-        "BM-21": "BM-21",
-        "MLRS": "MLRS",
-        "Vulcan AA": "VULCAN",
-        "Shilka AA": "SHILKA",
-        "SAM": "CHAPARRAL",
+        "BM-21": "BM-21 GRAD",
+        "MLRS": "M270 MLRS",
+        "Vulcan AA": "M163 VADS",
+        "Shilka AA": "ZSU-23-4 SHILKA",
+        "SAM": "M48 CHAPARRAL",
         "MANPADS": "REDEYE",
         "Strike jet": "A-4 SKYHAWK",
         "Artillery observer": "M113 OP",
