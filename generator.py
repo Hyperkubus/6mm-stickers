@@ -300,11 +300,13 @@ def build_sticker(designation: str, name: str, icon_svg: str,
     # edge (Hebrew final letters like ן ך ץ ף have substantial descenders).
     desig_y = (height_mm - text_margin) - desig_size * 0.2
 
-    # Available text width between icon and flag (with a small gutter).
-    # rsvg-convert ignores SVG `textLength`/`lengthAdjust`, so we shrink the
-    # font instead when the natural width would overflow. Monospace glyph
-    # cell ≈ 0.6 × font-size.
-    available_w = width_mm - (icon_x + icon_size) - (width_mm - flag_x) - 1.0
+    # The label sits in its own band above the icon/flag, so it can use
+    # the full sticker width (minus a small horizontal margin) — only
+    # the designation in the lower band has to thread between the icon
+    # and the flag. rsvg-convert ignores SVG `textLength`/`lengthAdjust`,
+    # so we shrink the font when the natural width would overflow.
+    # Monospace glyph cell ≈ 0.6 × font-size.
+    available_w = width_mm - 2 * x_margin
     natural_w = len(name) * label_size * 0.6
     if natural_w > available_w:
         label_size = max(available_w / (len(name) * 0.6), 1.3)
