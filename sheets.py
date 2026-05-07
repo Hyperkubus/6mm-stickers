@@ -70,23 +70,24 @@ def extract_inner(svg: str) -> str:
 def pack_pages(rows: list[dict]) -> list[list[tuple[dict, float, float, int]]]:
     """First-fit pack stickers into pages.
 
-    Each row's stickers stay on a single visual line; each platoon
-    (`slot_id`) starts on a fresh line with `SLOT_GAP` of extra
-    vertical space above it. Returns a list of pages, each a list of
-    (row, rel_x, rel_y, width_mm) tuples relative to the layout origin.
+    Each Hebrew formation letter starts on a fresh line with
+    `SLOT_GAP` of extra vertical space above it, so each platoon /
+    sub-company reads as its own block on the sheet. Returns a list
+    of pages, each a list of (row, rel_x, rel_y, width_mm) tuples
+    relative to the layout origin.
     """
     pages: list[list[tuple[dict, float, float, int]]] = [[]]
     cursor_x = 0.0
     cursor_y = 0.0
-    prev_slot: str | None = None
+    prev_letter: str | None = None
     for row in rows:
         w = sticker_width_mm(row["base"])
-        slot_changed = prev_slot is not None and row["slot_id"] != prev_slot
+        letter = row["designation"][3:]
+        letter_changed = prev_letter is not None and letter != prev_letter
 
-        if slot_changed:
-            # Force a row break and add the extra slot separator.
+        if letter_changed:
             cursor_x = 0.0
-            if pages[-1]:  # only advance if we actually placed something
+            if pages[-1]:
                 cursor_y += STICKER_H + GAP + SLOT_GAP
         elif cursor_x + w > LAYOUT_W + 1e-6:
             cursor_x = 0.0
@@ -99,7 +100,7 @@ def pack_pages(rows: list[dict]) -> list[list[tuple[dict, float, float, int]]]:
 
         pages[-1].append((row, cursor_x, cursor_y, w))
         cursor_x += w + GAP
-        prev_slot = row["slot_id"]
+        prev_letter = letter
     return [p for p in pages if p]
 
 
@@ -155,18 +156,20 @@ def main() -> int:
 
     icon_cache: dict[tuple[str, bool], str] = {}
     for formation, rows in sorted(formations.items()):
-        # Group by slot (HQ first, platoons in order). Within a slot,
-        # the primary sort is the designation NUMBER (e.g. 101 → 102
-        # → 103 …); for shared-designation transports (M113 / Vayzata
-        # / Nagmasho't), variants of the same number cluster by name
-        # so all "M113 ZELDA" stickers run together across the
-        # formation letters, then "M113 VAYZATA" together, etc. The
-        # Hebrew formation letter is the last tiebreak.
+        # Group by Hebrew formation letter — each letter is one
+        # platoon/sub-company in the army (e.g. Mech Inf Co has three
+        # platoons under letters ע, פ, צ). Within each letter block,
+        # sort numerically by designation; for shared-designation
+        # transports the variant name is the tiebreak so the
+        # M113/Vayzata/Nagmasho't trio for one stand sits together.
+        # Letters sort by Unicode codepoint, which (for every letter
+        # in this army, sofit forms included) matches Hebrew
+        # alphabetical order.
         def sort_key(r: dict) -> tuple:
             d = r["designation"]
-            number = d[:3]  # first 3 chars = stand number
-            letter = d[3:]  # remainder = formation letter
-            return (r["slot_id"], number, r["name"], letter)
+            number = d[:3]  # stand number
+            letter = d[3:]  # formation letter
+            return (letter, number, r["name"])
 
         rows.sort(key=sort_key)
         pages = pack_pages(rows)
