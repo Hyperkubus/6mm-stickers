@@ -124,9 +124,12 @@ Naming rules:
   bare (`UH-1`). `Transport heli` defaults to `UH-1` if the
   unit_name doesn't name a model; `Transport heli swap (CH-53)` is
   always `CH-53 Yas'ur`.
-- **APCs** — IDF nickname in caps: `ZELDA` (M113), `VAYZATA`,
-  `NAGMASH` (Nagmasho't). UH-1 transports use `UH-1`.
-- **Recce** — vehicle from `unit_name`: `Jeep` / `ZELDA` / `Rabbi`.
+- **APCs** — chassis + IDF nickname in caps: `M113 Zelda`,
+  `Tiran Vayzata` (Achzarit, T-55-derived), `Nagmashot`
+  (Nagmasho't already encodes its Sho't/Centurion chassis in the
+  name, so no separate prefix). UH-1 transports use `UH-1`.
+- **Recce** — vehicle from `unit_name`: `Jeep` / `M113 Zelda` /
+  `Rabbi`.
 - **Infantry** — main weapon: `Galil` (rifle and HQ team alike),
   `FN MAG`, `RPG-7`, `M47 Dragon`, `52mm`, `Redeye` (MANPADS).
 - **Mortars / SP gun / TOW carrier / ATGM tank** — chassis:

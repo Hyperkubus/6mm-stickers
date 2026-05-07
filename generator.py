@@ -151,11 +151,11 @@ def derive_name(team_role: str, unit_name: str) -> str:
             content = re.sub(r"^Reserve\s+", "", content)
             content = re.sub(r"\s+variant$", "", content)
             if "M113" in content:
-                return "ZELDA"
+                return "M113 ZELDA"
             if "Vayzata" in content:
-                return "VAYZATA"
+                return "TIRAN VAYZATA"
             if "Nagmasho" in content:
-                return "NAGMASH"
+                return "NAGMASHOT"
             return content.upper()
         return "APC"
 
@@ -163,7 +163,7 @@ def derive_name(team_role: str, unit_name: str) -> str:
         if "Jeep" in unit_name:
             return "JEEP"
         if "M113" in unit_name:
-            return "ZELDA"
+            return "M113 ZELDA"
         if "Rabbi" in unit_name:
             return "RABBI"
         return "RECCE"
