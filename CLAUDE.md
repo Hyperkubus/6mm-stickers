@@ -132,12 +132,14 @@ Names are stored uppercase. `derive_name()` returns uppercase by
 default; CSV hand-edits are taken verbatim, so write a mixed-case
 override if you want one.
 
-When a name's natural rendered width would exceed the gap between
-icon and flag (e.g. `MERKAVA 3`, `M47 DRAGON`, `CHAPARRAL`,
-`A-4 SKYHAWK` on 20 mm bases), `build_sticker()` shrinks the label
-font-size to fit. We can't use SVG `textLength` because
-`rsvg-convert` ignores it. Floor at 1.3 mm font-size to keep the
-label legible.
+The label sits in its own band above the icon/flag, so it can run
+the full sticker width (minus a 0.3 mm side margin) — only the
+designation in the lower band has to thread between the icon and
+the flag. If a name's natural rendered width would still exceed the
+sticker width (rare at the current 2.1 mm size), `build_sticker()`
+shrinks the label font-size to fit. We can't use SVG `textLength`
+because `rsvg-convert` ignores it. Floor at 1.3 mm font-size to
+keep the label legible.
 
 Para / Reserve infantry intentionally share names with Mech (icons are
 identical). A `P` / `R` suffix would be the natural future refinement.
