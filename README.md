@@ -63,15 +63,13 @@ can coexist with the minimal generator columns.
 nix develop                # or: python3.12 -m venv .venv && .venv/bin/pip install -r requirements.txt
 
 # generate every individual sticker SVG
-python generator.py --csv lists/israeli_full.csv --affiliation unknown --country IL
+python generator.py --country IL          # --csv defaults to lists/israeli_minimal.csv
 
 # preview a sample of each unique sticker (PNG embedded in HTML)
-python preview.py --csv lists/israeli_full.csv --affiliation unknown --country IL
-open preview.html
+python preview.py --country IL && open preview.html
 
 # render per-formation A4 cut-out sheets, one PDF per formation
-python sheets.py --csv lists/israeli_full.csv --affiliation unknown --country IL
-open sheets/merkava-3-tank-company.pdf
+python sheets.py --country IL && open sheets/merkava-3-tank-company.pdf
 ```
 
 ### Affiliation, background, flag
@@ -102,18 +100,17 @@ friend` to swap to NATO-blue rectangles if you'd rather.
 
 ## IDF list maintenance
 
-`lists/israeli_full.csv` keeps the rich Israeli-army structure
-(`kind`, `formation_name`, `team_role`, `base`, etc.) used to compose
-the army, plus the minimal columns the generator reads. Run
+`lists/israeli_full.csv` is the rich source-of-truth for the worked
+example: full army-list structure (`kind`, `formation_name`,
+`team_role`, `base`, etc.) for composing and editing the army.
+`idf_migrate.py` derives the minimal CSV the generator actually reads:
 
 ```sh
-python idf_migrate.py             # fill blank derived columns
-python idf_migrate.py --force     # rewrite derived columns
+python idf_migrate.py            # writes lists/israeli_minimal.csv
 ```
 
-after editing the army-list columns. This is the IDF-specific
-counterpart to the generic pipeline — for any other army, just write
-the minimal columns directly.
+Re-run whenever you edit the full CSV. For any other army, skip this
+step and just write the minimal columns directly in your own CSV.
 
 ## Stack
 
