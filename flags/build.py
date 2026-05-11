@@ -13,10 +13,12 @@ shipped flag set). Edit individual SVGs by hand for refinements;
 re-running this script will *not* overwrite hand-edited files unless
 you delete them first.
 
-Complex flags (Union Jack, US stars/stripes, KR taegukgi, CN/VN stars,
-PK/TR crescent, IN chakra, SA script, DDR/SU emblems) are not produced
-here — drop the official SVG from Wikimedia Commons at
-flags/<iso>.svg to use them.
+Complex flags (Union Jack, US stars/stripes, KR taegukgi, SA script,
+TW canton sun, PK/AU/NZ star arrangements) are not produced here —
+they ship verbatim from lipis/flag-icons (MIT, ultimately sourced
+from Wikimedia Commons). CN/VN stars, PK/TR crescent, IN chakra,
+DDR/SU emblems are intentionally simplified above. To use a different
+source for any flag, drop your own SVG at flags/<iso>.svg.
 """
 
 from __future__ import annotations
