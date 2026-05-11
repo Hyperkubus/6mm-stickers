@@ -69,11 +69,21 @@ def _normalize_symbol(symbol: str) -> str:
     return symbol
 
 
+def _shrink_white_halo(svg: str, width: str = "2") -> str:
+    """Reduce the thick white halo stroke the library draws behind each frame."""
+    return re.sub(
+        r'stroke="#ffffff" stroke-width="[^"]+"',
+        f'stroke="#ffffff" stroke-width="{width}"',
+        svg,
+    )
+
+
 def get_icon_svg(affiliation: str, symbol: str, is_hq: bool) -> str:
     """Return a complete <svg>...</svg> string for the icon."""
     symbol = _normalize_symbol(symbol)
     description = f"{affiliation} {symbol}"
     raw = military_symbol.get_symbol_svg_string_from_name(description)
+    raw = _shrink_white_halo(raw)
 
     # `unknown fighter` returns an SVG with open paths (cumulus frame missing
     # its `z` closures) and an under-sized viewBox that clips the wingtips.
