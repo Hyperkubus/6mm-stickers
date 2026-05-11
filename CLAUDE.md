@@ -157,11 +157,17 @@ declarative version.
 
 ## Flags
 
-`flags/<iso>.svg` — bundled simple flags built by `flags/build.py`.
-Complex flags (Union Jack, US stars/stripes, KR taegukgi, …) aren't
-bundled; the bundled set is documented in `flags/README.md`. The
-sticker renderer fits whatever's at the path into the 5×3.64 mm slot
-with `preserveAspectRatio="none"`, so any source aspect works.
+`flags/<iso>.svg` — every current ISO 3166-1 flag, vendored verbatim
+from [lipis/flag-icons](https://github.com/lipis/flag-icons) (MIT,
+sourced from Wikimedia Commons; see `flags/LICENSE-lipis`). lipis is
+current-states-only, so the two Cold-War-era flags we need (`dd` East
+Germany, `su` Soviet Union) are produced by `flags/build.py` as
+simplified band-only versions. `cz` (modern Czech, identical to the
+Czechoslovak flag) covers both eras.
+
+The sticker renderer fits whatever's at the path into the 5×3.64 mm
+slot with `preserveAspectRatio="none"`, so the upstream 4:3 ratio is
+fine even though our slot is 11:8.
 
 `--flag PATH` overrides `--country` and is the escape hatch for local
 SVGs.
