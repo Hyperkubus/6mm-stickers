@@ -10,11 +10,15 @@ from __future__ import annotations
 import io
 import shutil
 import subprocess
+import sys
 import tempfile
 import zipfile
 from pathlib import Path
 
-from flask import Flask, render_template, request, send_file, abort
+from flask import Flask, jsonify, render_template, request, send_file, abort
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from generator import COMMON_SYMBOLS, get_icon_svg
 
 ROOT = Path(__file__).resolve().parent.parent
 LISTS_DIR = ROOT / "lists"
@@ -95,7 +99,21 @@ def index():
         csvs=_available_csvs(),
         flags=_available_flags(),
         affiliations=AFFILIATIONS,
+        symbols=COMMON_SYMBOLS,
     )
+
+
+@app.get("/api/symbols")
+def api_symbols():
+    """Return SVG icons for all common symbols at the requested affiliation."""
+    affiliation = request.args.get("affiliation", "unknown")
+    if affiliation not in AFFILIATIONS:
+        abort(400, "Unknown affiliation.")
+    result = []
+    for phrase, desc in COMMON_SYMBOLS:
+        svg = get_icon_svg(affiliation, phrase, False)
+        result.append({"phrase": phrase, "desc": desc, "svg": svg})
+    return jsonify(result)
 
 
 @app.post("/generate")

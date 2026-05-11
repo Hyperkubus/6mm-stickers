@@ -5,8 +5,32 @@
 <title>6mm Sticker Generator</title>
 <style>
   body { font: 14px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-         background: #f5f5f5; color: #222; margin: 0; padding: 24px; }
-  .card { max-width: 640px; margin: 0 auto; background: white; padding: 24px 28px;
+         background: #f5f5f5; color: #222; margin: 0; padding: 0;
+         display: flex; min-height: 100vh; }
+
+  /* ---- sidebar ---- */
+  .sidebar { width: 280px; min-width: 280px; background: #1e293b; color: #e2e8f0;
+             padding: 16px; overflow-y: auto; border-right: 1px solid #334155; }
+  .sidebar h2 { margin: 0 0 4px; font-size: 14px; color: #94a3b8;
+                 text-transform: uppercase; letter-spacing: 0.05em; }
+  .sidebar .hint { font-size: 11px; color: #64748b; margin: 0 0 12px; }
+  .symbol-grid { display: grid; grid-template-columns: 1fr; gap: 2px; }
+  .symbol-item { display: flex; align-items: center; gap: 8px;
+                 padding: 5px 8px; border-radius: 4px; cursor: default;
+                 transition: background 0.15s; }
+  .symbol-item:hover { background: #334155; }
+  .symbol-item .icon { width: 36px; height: 36px; flex-shrink: 0; }
+  .symbol-item .icon svg { width: 100%; height: 100%; }
+  .symbol-item .label { min-width: 0; }
+  .symbol-item .phrase { font-size: 12px; font-weight: 600; color: #f1f5f9;
+                         white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .symbol-item .desc { font-size: 10px; color: #94a3b8;
+                       white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .sidebar-loading { color: #64748b; font-size: 12px; padding: 12px 0; }
+
+  /* ---- main ---- */
+  .main { flex: 1; padding: 24px; display: flex; justify-content: center; align-items: flex-start; }
+  .card { max-width: 640px; width: 100%; background: white; padding: 24px 28px;
           border: 1px solid #ddd; border-radius: 8px; }
   h1 { margin: 0 0 4px; font-size: 20px; }
   p.lede { margin: 0 0 20px; color: #666; }
@@ -28,63 +52,106 @@
 </style>
 </head>
 <body>
-  <form class="card" method="post" action="/generate" enctype="multipart/form-data">
-    <h1>6mm Sticker Generator</h1>
-    <p class="lede">Print unit-ID stickers for 6mm Team Yankee armies.</p>
-
-    <fieldset>
-      <legend>Army CSV</legend>
-      <label for="csv_name">Bundled list</label>
-      <select id="csv_name" name="csv_name">
-        <option value="">— pick one —</option>
-        {% for c in csvs %}
-        <option value="{{ c }}">{{ c }}</option>
-        {% endfor %}
-      </select>
-      <label for="csv_file">…or upload your own</label>
-      <input type="file" id="csv_file" name="csv_file" accept=".csv,text/csv" />
-      <div class="hint">Upload wins over the bundled selection.</div>
-    </fieldset>
-
-    <fieldset>
-      <legend>Style</legend>
-      <div class="row">
-        <div>
-          <label for="affiliation">Affiliation</label>
-          <select id="affiliation" name="affiliation">
-            {% for a in affiliations %}
-            <option value="{{ a }}" {% if a == 'unknown' %}selected{% endif %}>{{ a }}</option>
-            {% endfor %}
-          </select>
-        </div>
-        <div>
-          <label for="country">Country flag</label>
-          <select id="country" name="country">
-            <option value="">— none —</option>
-            {% for f in flags %}
-            <option value="{{ f }}">{{ f }}</option>
-            {% endfor %}
-          </select>
-        </div>
-      </div>
-      <label for="background">Background override (hex)</label>
-      <input type="text" id="background" name="background" placeholder="#002F5F" pattern="#[0-9A-Fa-f]{3}([0-9A-Fa-f]{3})?" />
-      <div class="hint">Blank = affiliation default.</div>
-    </fieldset>
-
-    <fieldset>
-      <legend>Output</legend>
-      <label for="action">What to generate</label>
-      <select id="action" name="action">
-        <option value="preview">Preview HTML (one of each unique sticker)</option>
-        <option value="stickers">Stickers — zip of per-base SVGs</option>
-        <option value="sheets">Sheets — zip of A4 PDFs per formation</option>
-      </select>
-    </fieldset>
-
-    <div class="actions">
-      <button type="submit">Generate</button>
+  <aside class="sidebar">
+    <h2>APP-6 Symbols</h2>
+    <p class="hint">Use these phrases in the CSV <code>symbol</code> column.<br>
+       Icons update when you change affiliation.</p>
+    <div id="symbol-list" class="symbol-grid">
+      <div class="sidebar-loading">Loading symbols…</div>
     </div>
-  </form>
+  </aside>
+
+  <div class="main">
+    <form class="card" method="post" action="/generate" enctype="multipart/form-data">
+      <h1>6mm Sticker Generator</h1>
+      <p class="lede">Print unit-ID stickers for 6mm Team Yankee armies.</p>
+
+      <fieldset>
+        <legend>Army CSV</legend>
+        <label for="csv_name">Bundled list</label>
+        <select id="csv_name" name="csv_name">
+          <option value="">— pick one —</option>
+          {% for c in csvs %}
+          <option value="{{ c }}">{{ c }}</option>
+          {% endfor %}
+        </select>
+        <label for="csv_file">…or upload your own</label>
+        <input type="file" id="csv_file" name="csv_file" accept=".csv,text/csv" />
+        <div class="hint">Upload wins over the bundled selection.</div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Style</legend>
+        <div class="row">
+          <div>
+            <label for="affiliation">Affiliation</label>
+            <select id="affiliation" name="affiliation">
+              {% for a in affiliations %}
+              <option value="{{ a }}" {% if a == 'unknown' %}selected{% endif %}>{{ a }}</option>
+              {% endfor %}
+            </select>
+          </div>
+          <div>
+            <label for="country">Country flag</label>
+            <select id="country" name="country">
+              <option value="">— none —</option>
+              {% for f in flags %}
+              <option value="{{ f }}">{{ f }}</option>
+              {% endfor %}
+            </select>
+          </div>
+        </div>
+        <label for="background">Background override (hex)</label>
+        <input type="text" id="background" name="background" placeholder="#002F5F" pattern="#[0-9A-Fa-f]{3}([0-9A-Fa-f]{3})?" />
+        <div class="hint">Blank = affiliation default.</div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Output</legend>
+        <label for="action">What to generate</label>
+        <select id="action" name="action">
+          <option value="preview">Preview HTML (one of each unique sticker)</option>
+          <option value="stickers">Stickers — zip of per-base SVGs</option>
+          <option value="sheets">Sheets — zip of A4 PDFs per formation</option>
+        </select>
+      </fieldset>
+
+      <div class="actions">
+        <button type="submit">Generate</button>
+      </div>
+    </form>
+  </div>
+
+  <script>
+    const list = document.getElementById('symbol-list');
+    const affSelect = document.getElementById('affiliation');
+
+    async function loadSymbols() {
+      const aff = affSelect.value;
+      list.innerHTML = '<div class="sidebar-loading">Loading symbols\u2026</div>';
+      try {
+        const res = await fetch('/api/symbols?affiliation=' + encodeURIComponent(aff));
+        const data = await res.json();
+        list.innerHTML = '';
+        for (const s of data) {
+          const item = document.createElement('div');
+          item.className = 'symbol-item';
+          item.title = s.phrase + ' \u2014 ' + s.desc;
+          item.innerHTML =
+            '<div class="icon">' + s.svg + '</div>' +
+            '<div class="label">' +
+              '<div class="phrase">' + s.phrase + '</div>' +
+              '<div class="desc">' + s.desc + '</div>' +
+            '</div>';
+          list.appendChild(item);
+        }
+      } catch (e) {
+        list.innerHTML = '<div class="sidebar-loading">Failed to load symbols.</div>';
+      }
+    }
+
+    affSelect.addEventListener('change', loadSymbols);
+    loadSymbols();
+  </script>
 </body>
 </html>
