@@ -1,32 +1,32 @@
 #!/usr/bin/env python3
-"""Render preview.html — one sample sticker per unique (icon, label) combination.
+"""Render preview.html — one sample sticker per unique (symbol, label, width).
 
-Each sample is rendered to PNG via rsvg-convert and embedded as a base64 data URI
-so the page is self-contained.
+Each sample is rendered to PNG via rsvg-convert and embedded as a base64
+data URI so the page is self-contained.
 """
 
 from __future__ import annotations
 
+import argparse
 import base64
 import csv
 import html
 import shutil
 import subprocess
+import sys
 from pathlib import Path
 
 from generator import (
-    INPUT_CSV,
-    OUT_DIR,
-    map_role_to_description,
-    role_base_form,
-    row_name,
+    DEFAULT_OUT,
+    add_common_args,
+    parse_bool,
+    resolve_background,
+    row_width,
     sticker_filename,
-    sticker_width_mm,
-    HQ_ROLES,
 )
 
 ROOT = Path(__file__).parent
-PREVIEW_HTML = ROOT / "preview.html"
+DEFAULT_PREVIEW = ROOT / "preview.html"
 PREVIEW_DPI = 600
 
 
@@ -42,39 +42,49 @@ def render_svg_data_uri(svg_path: Path) -> str:
     return "data:image/svg+xml;base64," + base64.b64encode(svg_path.read_bytes()).decode("ascii")
 
 
-def main() -> int:
+def main(argv: list[str] | None = None) -> int:
+    p = argparse.ArgumentParser(description="Render a preview HTML of every unique sticker.")
+    add_common_args(p)
+    p.add_argument("--out-stickers", type=Path, default=DEFAULT_OUT,
+                   help="Directory where generator.py wrote the per-sticker SVGs.")
+    p.add_argument("--out", type=Path, default=DEFAULT_PREVIEW,
+                   help="Output HTML path.")
+    args = p.parse_args(argv)
+
+    bg = resolve_background(args)
+
     has_rsvg = shutil.which("rsvg-convert") is not None
     render = render_png_data_uri if has_rsvg else render_svg_data_uri
 
-    with INPUT_CSV.open(newline="", encoding="utf-8") as f:
+    if not args.csv.exists():
+        print(f"Missing input: {args.csv}", file=sys.stderr)
+        return 1
+
+    with args.csv.open(newline="", encoding="utf-8") as f:
         rows = list(csv.DictReader(f))
 
     seen: dict[tuple[str, bool, str, int], dict] = {}
     for row in rows:
-        team_role = row["team_role"]
-        unit_name = row["unit_name"]
-        description = map_role_to_description(team_role)
-        is_hq = role_base_form(team_role) in HQ_ROLES
-        name = row_name(row)
-        width = sticker_width_mm(row["base"])
-        key = (description, is_hq, name, width)
+        symbol = (row.get("symbol") or "").strip()
+        name = (row.get("name") or "").strip()
+        designation = (row.get("designation") or "").strip()
+        if not (symbol and name and designation):
+            continue
+        is_hq = parse_bool(row.get("hq"))
+        width = row_width(row)
+        key = (symbol, is_hq, name, width)
         if key not in seen:
             seen[key] = {
-                "description": description,
-                "is_hq": is_hq,
-                "name": name,
-                "width": width,
-                "team_role": team_role,
-                "unit_name": unit_name,
-                "designation": row["designation"],
-                "base": row["base"],
+                "symbol": symbol, "is_hq": is_hq, "name": name, "width": width,
+                "designation": designation,
+                "formation": (row.get("formation") or "").strip(),
             }
 
-    samples = sorted(seen.values(), key=lambda s: (s["width"], s["description"], s["name"]))
+    samples = sorted(seen.values(), key=lambda s: (s["width"], s["symbol"], s["name"]))
 
     cards = []
     for s in samples:
-        svg_path = OUT_DIR / sticker_filename(s["designation"], s["name"])
+        svg_path = args.out_stickers / sticker_filename(s["designation"], s["name"])
         if not svg_path.exists():
             continue
         uri = render(svg_path)
@@ -83,15 +93,15 @@ def main() -> int:
           <img src="{uri}" alt="{html.escape(s['designation'])}" />
           <figcaption>
             <div><b>{html.escape(s['designation'])}</b> &middot; {s['width']}×8 mm</div>
-            <div>{html.escape(s['name'])} &middot; {html.escape(s['description'])}{' + HQ' if s['is_hq'] else ''}</div>
-            <div class="muted">{html.escape(s['team_role'])} / {html.escape(s['unit_name'])}</div>
+            <div>{html.escape(s['name'])} &middot; {html.escape(args.affiliation)} {html.escape(s['symbol'])}{' + HQ' if s['is_hq'] else ''}</div>
+            <div class="muted">{html.escape(s['formation'])}</div>
           </figcaption>
         </figure>""")
 
-    PREVIEW_HTML.write_text(f"""<!DOCTYPE html>
+    args.out.write_text(f"""<!DOCTYPE html>
 <html lang="en"><head>
 <meta charset="utf-8" />
-<title>6mm IDF Sticker Preview</title>
+<title>6mm Sticker Preview</title>
 <style>
   body {{ font: 14px/1.4 -apple-system, BlinkMacSystemFont, sans-serif; background: #f5f5f5; margin: 24px; }}
   h1 {{ font-size: 18px; margin: 0 0 16px; }}
@@ -102,11 +112,11 @@ def main() -> int:
   .muted {{ color: #888; font-size: 11px; margin-top: 4px; }}
 </style>
 </head><body>
-<h1>IDF Team Yankee Stickers — {len(cards)} unique (icon × label × width)</h1>
+<h1>{html.escape(args.csv.name)} — {len(cards)} unique stickers ({html.escape(args.affiliation)}, bg {bg})</h1>
 <div class="grid">{''.join(cards)}</div>
 </body></html>
-""")
-    print(f"Wrote {PREVIEW_HTML} with {len(cards)} samples")
+""", encoding="utf-8")
+    print(f"Wrote {args.out} with {len(cards)} samples")
     return 0
 
 
