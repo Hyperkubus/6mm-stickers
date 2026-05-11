@@ -1,9 +1,11 @@
-FROM python:3.12-slim
+FROM python:3.12-slim-bookworm
 
 # librsvg2-bin gives us rsvg-convert (used by sheets.py + preview.py); the
 # fonts match what the generator's font stack expects so labels render the
-# same way they do on a host install.
-RUN apt-get update && apt-get install -y --no-install-recommends \
+# same way they do on a host install. Pinned to bookworm because the font
+# package names are stable there.
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends \
         librsvg2-bin \
         fonts-firacode \
         fonts-ibm-plex \
