@@ -31,13 +31,15 @@ renders to). If you want the proper version, download the Wikimedia
 Commons SVG and drop it in place — the renderer fits it into the slot
 with `preserveAspectRatio="none"`, so any source aspect works.
 
-## Not bundled — drop a Wikimedia Commons SVG here named `<iso>.svg`
+## Bundled (verbatim from [lipis/flag-icons](https://github.com/lipis/flag-icons), MIT, sourced from Wikimedia Commons)
+
+These have complex emblems (Union Jack, taegukgi, shahada script) or
+busy star arrangements that aren't worth rebuilding by hand, so we
+ship the upstream SVG as-is:
 
 `us` United States · `gb` United Kingdom · `ca` Canada ·
 `au` Australia · `nz` New Zealand · `kr` South Korea ·
 `kp` North Korea · `tw` Taiwan · `pk` Pakistan · `sa` Saudi Arabia.
-Each has either a complex emblem (Union Jack, taegukgi, shahada
-script) or a busy star arrangement that's tedious to build by hand.
 
 ## Regenerating
 
