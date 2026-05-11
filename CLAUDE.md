@@ -168,17 +168,22 @@ SVGs.
 
 ## IDF helpers (`idf_migrate.py`)
 
-`lists/israeli_full.csv` keeps its full army-list structure (`kind`,
-`formation_name`, `letter`, `slot_*`, `unit_*`, `team_role`,
-`team_position_*`, `base`) for editing. `idf_migrate.py` derives the
-minimal columns the generator needs:
+`lists/israeli_full.csv` is the rich source-of-truth: full army-list
+structure (`kind`, `formation_name`, `letter`, `slot_*`, `unit_*`,
+`team_role`, `team_position_*`, `base`) for composing and editing the
+army. `idf_migrate.py` derives the minimal CSV
+(`lists/israeli_minimal.csv`) the generator actually reads:
 
+- `designation` and `name` copied across (hand-edits to `name` in the
+  full CSV win; blanks are filled by `derive_name(team_role, unit_name)`).
 - `symbol` from `team_role` (via `ROLE_SYMBOLS` and `role_base_form()`).
 - `width` from `base`.
 - `hq` from `team_role in {"HQ Tank", "Galil HQ team"}`.
 - `formation` from `formation_name`.
 - `group` from `letter` (first token, so `"א (Aleph)"` → `"א"`).
-- `name` from `derive_name(team_role, unit_name)` if blank.
+
+The full CSV is never modified. Re-run `python idf_migrate.py` to
+refresh the minimal CSV after editing the source.
 
 The Israeli army renders as APP-6 `unknown` (yellow) by deliberate
 aesthetic choice, not a NATO-affiliation claim. Pass `--affiliation

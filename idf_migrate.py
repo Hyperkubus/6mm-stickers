@@ -1,19 +1,17 @@
 #!/usr/bin/env python3
-"""IDF-specific helpers for `lists/israeli_full.csv`.
+"""IDF-specific helpers for the Israeli army list.
 
-The generic generator only needs a minimal column set
-(designation, name, symbol, width, hq, formation, group). This script
-derives those columns from the rich IDF-specific columns we keep in the
-CSV for army-list editing — `kind`, `formation_name`, `letter`,
-`slot_*`, `unit_*`, `team_role`, `team_position_*`, `base`.
+The generic generator reads a minimal CSV (designation, name, symbol,
+width, hq, formation, group). `lists/israeli_full.csv` keeps the rich
+army-list structure (`kind`, `formation_name`, `letter`, `slot_*`,
+`unit_*`, `team_role`, `team_position_*`, `base`) used for composing
+and editing the army — this script derives the minimal columns and
+writes them to `lists/israeli_minimal.csv`, which is what the
+generator / sheets / preview scripts consume by default.
 
-Run after any edit to the CSV:
+Run whenever the full CSV changes:
 
-    python idf_migrate.py            # fill in blanks
-    python idf_migrate.py --force    # overwrite derived columns
-
-Original IDF columns are preserved; only the minimal derived columns
-are written (or rewritten with --force).
+    python idf_migrate.py
 
 The Israeli army renders as APP-6 `unknown` (yellow quatrefoils) by
 default — an aesthetic choice rather than a NATO-affiliation claim.
@@ -28,10 +26,10 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).parent
-DEFAULT_CSV = ROOT / "lists" / "israeli_full.csv"
+DEFAULT_SRC = ROOT / "lists" / "israeli_full.csv"
+DEFAULT_DST = ROOT / "lists" / "israeli_minimal.csv"
 
-# Minimal derived columns appended (in this order) to the CSV.
-DERIVED_COLS = ["symbol", "width", "hq", "formation", "group", "name"]
+MINIMAL_COLS = ["designation", "name", "symbol", "width", "hq", "formation", "group"]
 
 
 # ---------------------------------------------------------------------------
@@ -195,60 +193,48 @@ def group_for_letter(letter: str) -> str:
     return letter.strip().split()[0] if letter else ""
 
 
-def migrate(csv_path: Path, force: bool) -> int:
-    with csv_path.open(newline="", encoding="utf-8") as f:
-        reader = csv.DictReader(f)
-        fieldnames = list(reader.fieldnames or [])
-        rows = list(reader)
+def migrate(src: Path, dst: Path) -> int:
+    with src.open(newline="", encoding="utf-8") as f:
+        rows = list(csv.DictReader(f))
 
-    for col in DERIVED_COLS:
-        if col not in fieldnames:
-            fieldnames.append(col)
-
-    touched = 0
+    minimal_rows: list[dict[str, str]] = []
     for row in rows:
         team_role = row["team_role"]
         unit_name = row.get("unit_name", "")
+        existing_name = (row.get("name") or "").strip()
+        minimal_rows.append({
+            "designation": row["designation"],
+            "name":        existing_name or derive_name(team_role, unit_name),
+            "symbol":      map_role_to_symbol(team_role),
+            "width":       str(width_for_base(row["base"])),
+            "hq":          "true" if role_base_form(team_role) in HQ_ROLES else "",
+            "formation":   row.get("formation_name", ""),
+            "group":       group_for_letter(row.get("letter", "")),
+        })
 
-        updates = {
-            "symbol":    map_role_to_symbol(team_role),
-            "width":     str(width_for_base(row["base"])),
-            "hq":        "true" if role_base_form(team_role) in HQ_ROLES else "",
-            "formation": row.get("formation_name", ""),
-            "group":     group_for_letter(row.get("letter", "")),
-            "name":      row.get("name", "") or derive_name(team_role, unit_name),
-        }
-
-        changed = False
-        for col, value in updates.items():
-            current = row.get(col, "")
-            if force or not current:
-                if current != value:
-                    row[col] = value
-                    changed = True
-        if changed:
-            touched += 1
-
-    with csv_path.open("w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
+    dst.parent.mkdir(parents=True, exist_ok=True)
+    with dst.open("w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=MINIMAL_COLS)
         writer.writeheader()
-        writer.writerows(rows)
+        writer.writerows(minimal_rows)
 
-    verb = "rewrote" if force else "filled"
-    print(f"Updated {csv_path}: {verb} derived columns on {touched} rows ({len(rows)} total)")
+    print(f"Wrote {dst} ({len(minimal_rows)} rows, derived from {src.name})")
     return 0
 
 
 def main(argv: list[str] | None = None) -> int:
-    p = argparse.ArgumentParser(description="Populate IDF CSV's derived (minimal) columns.")
-    p.add_argument("--csv", type=Path, default=DEFAULT_CSV)
-    p.add_argument("--force", action="store_true",
-                   help="Overwrite existing values in derived columns.")
+    p = argparse.ArgumentParser(
+        description="Derive the minimal CSV the generator consumes from the rich IDF CSV.",
+    )
+    p.add_argument("--src", type=Path, default=DEFAULT_SRC,
+                   help="Path to the rich IDF source CSV (default: lists/israeli_full.csv).")
+    p.add_argument("--dst", type=Path, default=DEFAULT_DST,
+                   help="Path to write the minimal CSV (default: lists/israeli_minimal.csv).")
     args = p.parse_args(argv)
-    if not args.csv.exists():
-        print(f"Missing input: {args.csv}", file=sys.stderr)
+    if not args.src.exists():
+        print(f"Missing input: {args.src}", file=sys.stderr)
         return 1
-    return migrate(args.csv, args.force)
+    return migrate(args.src, args.dst)
 
 
 if __name__ == "__main__":

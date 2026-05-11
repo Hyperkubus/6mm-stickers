@@ -27,7 +27,7 @@ from pathlib import Path
 import military_symbol
 
 ROOT = Path(__file__).parent
-DEFAULT_CSV = ROOT / "lists" / "israeli_full.csv"
+DEFAULT_CSV = ROOT / "lists" / "israeli_minimal.csv"
 DEFAULT_OUT = ROOT / "out"
 FLAGS_DIR = ROOT / "flags"
 
