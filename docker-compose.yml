@@ -1,0 +1,7 @@
+services:
+  web:
+    build: .
+    image: 6mm-stickers-web
+    ports:
+      - "8000:8000"
+    restart: unless-stopped

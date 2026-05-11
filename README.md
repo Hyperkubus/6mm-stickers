@@ -98,6 +98,19 @@ quatrefoil reads well at 5 × 5 mm and avoids the question of which
 faction Israel "belongs to" on the Cold War map. Pass `--affiliation
 friend` to swap to NATO-blue rectangles if you'd rather.
 
+## Web UI (Docker)
+
+A small Flask wrapper around the same CLIs is provided for people who'd
+rather click than type:
+
+```sh
+docker compose up --build       # then open http://localhost:8000
+```
+
+Pick a bundled CSV (or upload your own), choose affiliation / flag /
+background, and download a preview HTML, a zip of per-sticker SVGs, or
+a zip of per-formation A4 PDFs. Source lives under `webapp/`.
+
 ## IDF list maintenance
 
 `lists/israeli_full.csv` is the rich source-of-truth for the worked
