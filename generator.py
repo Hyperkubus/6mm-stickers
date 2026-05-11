@@ -1,11 +1,24 @@
 #!/usr/bin/env python3
-"""Generate printed unit-ID stickers for a 6mm IDF Team Yankee army.
+"""Generate printed unit-ID stickers for 6mm Team Yankee armies.
 
-One sticker per row in lists/israeli_full.csv. Output goes to out/.
+Reads a minimal CSV (designation, name, symbol, width, plus optional
+hq/formation/group) and writes per-sticker SVGs under out/.
+
+Usage:
+    python generator.py --csv lists/israeli_full.csv \
+                        --affiliation unknown --country IL
+    python generator.py --list-symbols
+
+The Israeli army in lists/israeli_full.csv is rendered with
+`--affiliation unknown` (yellow APP-6 quatrefoils on a white background)
+by deliberate aesthetic choice — not a statement about Israel's relation
+to NATO. Override with --affiliation friend to get blue rectangles
+instead.
 """
 
 from __future__ import annotations
 
+import argparse
 import csv
 import re
 import sys
@@ -14,199 +27,60 @@ from pathlib import Path
 import military_symbol
 
 ROOT = Path(__file__).parent
-INPUT_CSV = ROOT / "lists" / "israeli_full.csv"
-OUT_DIR = ROOT / "out"
+DEFAULT_CSV = ROOT / "lists" / "israeli_full.csv"
+DEFAULT_OUT = ROOT / "out"
 FLAGS_DIR = ROOT / "flags"
 
-BG_COLOR = "#FFFFFF"
 FONT_FAMILY = '"Fira Code", "IBM Plex Sans Hebrew", "DejaVu Sans Mono", monospace'
-ISRAEL_BLUE = "#0038B8"
 
+AFFILIATIONS = ("friend", "hostile", "neutral", "unknown")
 
-# ---------------------------------------------------------------------------
-# team_role -> APP-6 description
-# ---------------------------------------------------------------------------
-
-ROLE_DESCRIPTIONS: dict[str, str] = {
-    "Tank": "unknown armor",
-    "HQ Tank": "unknown armor",
-    "Galil rifle": "unknown infantry",
-    "Galil HQ team": "unknown infantry",
-    "FN MAG": "unknown machine gun",
-    "RPG-7": "unknown anti-tank",
-    "M47 Dragon": "unknown anti-tank",
-    "52mm mortar": "unknown mortar",
-    "81mm mortar carrier": "unknown self-propelled mortar",
-    "120mm mortar carrier": "unknown self-propelled mortar",
-    "155mm SP gun": "unknown self-propelled artillery",
-    "ATGM carrier": "unknown anti-tank",
-    "Pereh": "unknown anti-tank",
-    "Jeep ATGM": "unknown wheeled anti-tank",
-    "Rabbi ATGM": "unknown wheeled anti-tank",
-    "BM-21": "unknown wheeled rocket artillery",
-    "MLRS": "unknown rocket artillery",
-    "Vulcan AA": "unknown self-propelled anti-aircraft",
-    "Shilka AA": "unknown self-propelled anti-aircraft",
-    "SAM": "unknown surface-to-air missile",
-    "MANPADS": "unknown manpads",
-    "Strike jet": "unknown fighter",
-    "Attack heli": "unknown attack helicopter",
-    "Transport": "unknown armored personnel carrier",
-    "Transport heli": "unknown utility helicopter",
-    "Transport heli swap": "unknown utility helicopter",
-    "Transport variant": "unknown armored personnel carrier",
-    "Recce": "unknown reconnaissance",
-    "Artillery observer": "unknown observation post",
+# Strong colors with white text + thin black outline on the dark three;
+# white background with black text on `unknown` (preserves the IDF look).
+AFFILIATION_BG = {
+    "friend":  "#002F5F",  # NATO field-manual navy
+    "hostile": "#DA291C",  # Soviet 1980 flag red
+    "neutral": "#808080",  # medium gray
+    "unknown": "#FFFFFF",
 }
 
-HQ_ROLES = {"HQ Tank", "Galil HQ team"}
 
-
-def role_base_form(team_role: str) -> str:
-    """Strip [Para]/[Reserve] tags, parenthetical option notes, em-dash annotations."""
-    s = re.sub(r"\s*[—–-]\s*same model as above\s*$", "", team_role, flags=re.IGNORECASE)
-    s = re.sub(r"\s*\[(Para|Reserve)\]", "", s)
-    s = re.sub(r"\s*\([^)]*\)", "", s).strip()
-    return s
-
-
-def map_role_to_description(team_role: str) -> str:
-    base = role_base_form(team_role)
-    # `Transport (... UH-1)` is a utility helicopter, not an APC. The base
-    # form is "Transport" so we'd otherwise route it to APC; check the
-    # parenthetical first.
-    if base == "Transport" and "UH-1" in team_role:
-        return "unknown utility helicopter"
-    if base in ROLE_DESCRIPTIONS:
-        return ROLE_DESCRIPTIONS[base]
-    raise ValueError(f"No description mapping for: {team_role!r} (base={base!r})")
+def text_style(bg_hex: str) -> tuple[str, str]:
+    """Return (fill, stroke) for text on `bg_hex`. Stroke is empty for light bgs."""
+    bg = bg_hex.lstrip("#")
+    r, g, b = int(bg[0:2], 16), int(bg[2:4], 16), int(bg[4:6], 16)
+    # Rec. 601 luminance; threshold tuned so #808080 (luma=128) gets white text.
+    luminance = 0.299 * r + 0.587 * g + 0.114 * b
+    if luminance < 160:
+        return ("#FFFFFF", "#000000")
+    return ("#000000", "")
 
 
 # ---------------------------------------------------------------------------
-# Unit name heuristics — populates the `name` column of the CSV.
-#
-# Rules (per project spec):
-# - Tanks: model only ("Merkava 3", "Magach 6", "Sho't Blazer").
-# - Infantry / weapons: weapon name ("Galil", "FN MAG", "RPG-7", …).
-# - APCs: IDF nickname in caps ("ZELDA", "VAYZATA", "NAGMASH").
-# - No size descriptors (Platoon / Company / Battery / Section).
-#
-# `derive_name` is the source of truth for the column. Once a row has a
-# `name` value in the CSV it wins; the function is only consulted when the
-# column is missing or empty (used by --update-csv to bootstrap).
+# APP-6 icon handling
 # ---------------------------------------------------------------------------
 
-TANK_NAMES = [
-    ("Merkava 3", "Merkava 3"),
-    ("Merkava 2", "Merkava 2"),
-    ("Merkava 1", "Merkava 1"),
-    ("Magach 6 (Blazer)", "Magach 6 Blazer"),
-    ("Magach 6", "Magach 6"),
-    ("Sho't", "Sho't Blazer"),
-]
-
-# IDF Hebrew name suffixes for the rotary fleet (UH-1 was never given a
-# settled Hebrew name in IDF service, so we leave it bare). Battlefront
-# stat-cards spell them out in Hebrew transliteration: Tzefa = "viper",
-# Peten = "asp/cobra", Yas'ur = "stormy petrel".
-HELI_MODELS: list[tuple[str, str]] = [
-    ("AH-64", "AH-64 PETEN"),
-    ("AH-1", "AH-1 TZEFA"),
-    ("CH-53", "CH-53 YAS'UR"),
-    ("UH-1", "UH-1"),
-]
+def _normalize_symbol(symbol: str) -> str:
+    """Apply known military_symbol library quirks at the phrase level."""
+    # 'rockets' (any affiliation) silently resolves to a generic land unit; the
+    # working phrase is 'rocket artillery'.
+    if symbol.endswith(" rockets") or symbol == "rockets":
+        return symbol.removesuffix("rockets") + "rocket artillery"
+    return symbol
 
 
-def derive_name(team_role: str, unit_name: str) -> str:
-    """Derive the (uppercase) display name for a row.
-
-    The CSV's `name` column is the source of truth at runtime; this
-    function only seeds it. All names are returned uppercase per project
-    spec — hand-edits in the CSV are preserved verbatim, so a user wanting
-    a mixed-case override can write one in.
-    """
-    base = role_base_form(team_role)
-
-    if base in ("Tank", "HQ Tank"):
-        for key, name in TANK_NAMES:
-            if key in unit_name:
-                return name.upper()
-        return "TANK"
-
-    if base == "Transport heli swap":
-        return "CH-53 YAS'UR"
-    if base in ("Attack heli", "Transport heli"):
-        for key, name in HELI_MODELS:
-            if key in unit_name:
-                return name
-        return "UH-1" if base == "Transport heli" else "HELI"
-
-    if base in ("Transport", "Transport variant"):
-        if "UH-1" in team_role:
-            return "UH-1"
-        m = re.search(r"\(([^)]+)\)", team_role)
-        if m:
-            content = m.group(1)
-            content = re.sub(r"^HQ\s+", "", content)
-            content = re.sub(r"^Reserve\s+", "", content)
-            content = re.sub(r"\s+variant$", "", content)
-            if "M113" in content:
-                return "M113 ZELDA"
-            if "Vayzata" in content:
-                return "M113 VAYZATA"
-            if "Nagmasho" in content:
-                return "NAGMASHOT"
-            return content.upper()
-        return "APC"
-
-    if base == "Recce":
-        if "Jeep" in unit_name:
-            return "JEEP"
-        if "M113" in unit_name:
-            return "M113 ZELDA"
-        if "Rabbi" in unit_name:
-            return "RABBI"
-        return "RECCE"
-
-    return {
-        "Galil HQ team": "GALIL",
-        "Galil rifle": "GALIL",
-        "FN MAG": "FN MAG",
-        "RPG-7": "RPG-7",
-        "M47 Dragon": "M47 DRAGON",
-        "52mm mortar": "52MM",
-        "81mm mortar carrier": "M125",
-        "120mm mortar carrier": "M106",
-        "155mm SP gun": "M109",
-        "ATGM carrier": "M150",
-        "Pereh": "PEREH",
-        "Jeep ATGM": "JEEP",
-        "Rabbi ATGM": "RABBI",
-        "BM-21": "BM-21 GRAD",
-        "MLRS": "M270 MLRS",
-        "Vulcan AA": "M163 VADS",
-        "Shilka AA": "ZSU-23-4 SHILKA",
-        "SAM": "M48 CHAPARRAL",
-        "MANPADS": "REDEYE",
-        "Strike jet": "A-4 SKYHAWK",
-        "Artillery observer": "M113 OP",
-    }.get(base, base.upper())
-
-
-# ---------------------------------------------------------------------------
-# Icon SVG handling
-# ---------------------------------------------------------------------------
-
-def get_icon_svg(description: str, is_hq: bool) -> str:
-    """Return a complete <svg>...</svg> string for the icon, with quirks applied."""
-    # quirk: 'unknown rockets' doesn't resolve; use rocket artillery
-    if description == "unknown rockets":
-        description = "unknown rocket artillery"
-
+def get_icon_svg(affiliation: str, symbol: str, is_hq: bool) -> str:
+    """Return a complete <svg>...</svg> string for the icon."""
+    symbol = _normalize_symbol(symbol)
+    description = f"{affiliation} {symbol}"
     raw = military_symbol.get_symbol_svg_string_from_name(description)
 
-    if description == "unknown fighter":
-        # Close the open path (cumulus).
+    # `unknown fighter` returns an SVG with open paths (cumulus frame missing
+    # its `z` closures) and an under-sized viewBox that clips the wingtips.
+    # The library bug is unknown-specific because only the cumulus shape is
+    # affected; friend/hostile/neutral fighters use rectangle/diamond/square
+    # frames that render fine.
+    if affiliation == "unknown" and symbol == "fighter":
         def close_d(m: re.Match[str]) -> str:
             d = m.group(1).rstrip()
             if not d.lower().endswith("z"):
@@ -214,12 +88,15 @@ def get_icon_svg(description: str, is_hq: bool) -> str:
             return f'd="{d}"'
 
         raw = re.sub(r'd="([^"]+)"', close_d, raw)
-        # Override viewBox so wider wings aren't clipped.
         raw = re.sub(r'viewBox="[^"]+"', 'viewBox="0 0 200 160"', raw)
         raw = re.sub(r'\bwidth="[^"]+"', 'width="200"', raw, count=1)
         raw = re.sub(r'\bheight="[^"]+"', 'height="160"', raw, count=1)
 
     if is_hq:
+        # Horizontal bar inside the icon at y=63 (upper-lobe junction of the
+        # unknown quatrefoil, also lands inside the friend rectangle / hostile
+        # diamond / neutral square). Avoids APP-6's flagstaff, which would
+        # break the sticker grid by sticking out the side.
         bar = (
             '<path d="M63,63 L137,63" stroke="rgb(0, 0, 0)" '
             'stroke-width="4" stroke-linecap="round" fill="none" />'
@@ -239,47 +116,42 @@ def extract_inner_svg(svg_str: str) -> tuple[str, str]:
 
 
 # ---------------------------------------------------------------------------
-# Israeli flag
+# Flag handling
 # ---------------------------------------------------------------------------
 
-def israel_flag_svg() -> str:
-    """Clean Israeli flag, 11:8, white field, two blue stripes, hollow Star of David."""
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 160" width="220" height="160">
-  <rect width="220" height="160" fill="#FFFFFF" />
-  <rect x="0" y="25" width="220" height="20" fill="{ISRAEL_BLUE}" />
-  <rect x="0" y="115" width="220" height="20" fill="{ISRAEL_BLUE}" />
-  <g fill="none" stroke="{ISRAEL_BLUE}" stroke-width="4" stroke-linejoin="miter">
-    <path d="M110,52 L138,100 L82,100 Z" />
-    <path d="M110,108 L138,60 L82,60 Z" />
-  </g>
-</svg>
-"""
-
-
-def israel_flag_inner() -> str:
-    return f"""<rect x="0" y="0" width="220" height="160" fill="#FFFFFF" />
-<rect x="0" y="25" width="220" height="20" fill="{ISRAEL_BLUE}" />
-<rect x="0" y="115" width="220" height="20" fill="{ISRAEL_BLUE}" />
-<g fill="none" stroke="{ISRAEL_BLUE}" stroke-width="4" stroke-linejoin="miter">
-<path d="M110,52 L138,100 L82,100 Z" />
-<path d="M110,108 L138,60 L82,60 Z" />
-</g>"""
+def load_flag(country: str | None, flag_path: Path | None) -> tuple[str, str]:
+    """Return (inner SVG content, viewBox) for the flag, or ('', '') if none."""
+    if flag_path:
+        path = flag_path
+    elif country:
+        path = FLAGS_DIR / f"{country.lower()}.svg"
+        if not path.exists():
+            raise SystemExit(
+                f"No bundled flag for country {country!r} (looked at {path}).\n"
+                f"Download an SVG from Wikimedia Commons and drop it there, "
+                f"or pass --flag PATH explicitly."
+            )
+    else:
+        return "", ""
+    return extract_inner_svg(path.read_text(encoding="utf-8"))
 
 
 # ---------------------------------------------------------------------------
 # Sticker construction
 # ---------------------------------------------------------------------------
 
-def sticker_width_mm(base: str) -> int:
-    return 40 if base == "40x20" else 20
-
-
 def sticker_filename(designation: str, name: str) -> str:
-    """Filename for a sticker SVG. Includes the name because mutually
-    exclusive variants (e.g. M113/Vayzata/Nagmasho't transports for the
-    same infantry team) deliberately share a designation, so the
-    designation alone is no longer unique."""
+    """Filename for a sticker SVG.
+
+    The name is included because mutually exclusive variants (e.g.
+    M113/Vayzata/Nagmasho't transports for the same infantry team) may
+    deliberately share a designation, so the designation alone is not
+    unique. The slug only uses ASCII + digits, so non-Latin scripts in
+    the name fall through to whatever's safe.
+    """
     slug = re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
+    if not slug:
+        slug = "sticker"
     return f"{designation}-{slug}.svg"
 
 
@@ -287,51 +159,74 @@ def escape_xml(s: str) -> str:
     return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
-def build_sticker(designation: str, name: str, icon_svg: str,
-                  width_mm: int, bg: str = BG_COLOR) -> str:
+def _mixes_scripts(s: str) -> bool:
+    """True if the string mixes ASCII and non-ASCII characters."""
+    has_ascii = any(ord(c) < 128 and c.isalnum() for c in s)
+    has_unicode = any(ord(c) >= 128 for c in s)
+    return has_ascii and has_unicode
+
+
+def build_sticker(
+    designation: str,
+    name: str,
+    icon_svg: str,
+    width_mm: int,
+    bg: str,
+    flag_inner: str,
+    flag_vb: str,
+) -> str:
     height_mm = 8
     is_wide = width_mm == 40
+    fill, stroke = text_style(bg)
 
     icon_size = 5.0
     flag_w = 5.0
-    flag_h = flag_w * 8 / 11  # standard Israeli flag is 11:8 (≈ 3.64 mm)
+    flag_h = flag_w * 8 / 11  # 11:8 (Israeli flag aspect; close enough for most others)
     x_margin = 0.3
     text_margin = 0.5
 
     icon_x = x_margin
-    icon_y = 2.5  # nudged down so label has its own breathing room above
+    icon_y = 2.5  # pushed down so the label has its own band above the icon/flag
     flag_x = width_mm - x_margin - flag_w
-    flag_y = icon_y + (icon_size - flag_h) / 2  # vertically centred against icon
+    flag_y = icon_y + (icon_size - flag_h) / 2
     text_x = width_mm / 2
 
-    # Label size is uniform across all sticker widths so the top label
-    # reads at the same height on every base. The vertical band above
-    # the icon (y=0.5 to icon_top=2.5) caps the height; the longest
-    # name in the army (`MAGACH 6 BLAZER`, 15 chars) caps the width on
-    # 20 mm bases (~19.4 mm of usable horizontal space). 2.1 mm
-    # satisfies both. Designation grows on wide bases since it has
-    # more horizontal room between icon and flag there.
     label_size = 2.1
     desig_size = 4.5 if is_wide else 3.6
 
     icon_inner, icon_vb = extract_inner_svg(icon_svg)
-    flag_inner = israel_flag_inner()
 
-    # Bottom text: leave `text_margin` between the descender and the sticker
-    # edge (Hebrew final letters like ן ך ץ ף have substantial descenders).
     desig_y = (height_mm - text_margin) - desig_size * 0.2
 
-    # The label sits in its own band above the icon/flag, so it can use
-    # the full sticker width (minus a small horizontal margin) — only
-    # the designation in the lower band has to thread between the icon
-    # and the flag. rsvg-convert ignores SVG `textLength`/`lengthAdjust`,
-    # so we shrink the font when the natural width would overflow.
-    # Monospace glyph cell ≈ 0.6 × font-size.
+    # rsvg-convert ignores SVG `textLength`/`lengthAdjust`, so we shrink the
+    # font when the natural width would overflow. Monospace cell ≈ 0.6 × size.
     available_w = width_mm - 2 * x_margin
-    natural_w = len(name) * label_size * 0.6
-    if natural_w > available_w:
-        label_size = max(available_w / (len(name) * 0.6), 1.3)
+    if name:
+        natural_w = len(name) * label_size * 0.6
+        if natural_w > available_w:
+            label_size = max(available_w / (len(name) * 0.6), 1.3)
     label_y = text_margin + label_size * 0.85
+
+    text_outline = (
+        f' stroke="{stroke}" stroke-width="0.06" paint-order="stroke"'
+        if stroke else ""
+    )
+
+    # Only flip on bidi-override when the designation mixes scripts (mixed
+    # digits + Hebrew/Arabic/etc). Pure-Latin designations don't need it.
+    bidi_attrs = (
+        ' direction="ltr" unicode-bidi="bidi-override"'
+        if _mixes_scripts(designation) else ""
+    )
+
+    flag_block = ""
+    if flag_inner:
+        flag_block = (
+            f'<svg x="{flag_x}" y="{flag_y}" width="{flag_w}" height="{flag_h:.3f}" '
+            f'viewBox="{flag_vb}" preserveAspectRatio="none">{flag_inner}</svg>\n  '
+            f'<rect x="{flag_x}" y="{flag_y}" width="{flag_w}" height="{flag_h:.3f}" '
+            f'fill="none" stroke="#000" stroke-width="0.15" />'
+        )
 
     return f"""<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg"
@@ -342,105 +237,147 @@ def build_sticker(designation: str, name: str, icon_svg: str,
        viewBox="{icon_vb}" preserveAspectRatio="xMidYMid meet">
     {icon_inner}
   </svg>
-  <svg x="{flag_x}" y="{flag_y}" width="{flag_w}" height="{flag_h:.3f}"
-       viewBox="0 0 220 160" preserveAspectRatio="none">
-    {flag_inner}
-  </svg>
-  <rect x="{flag_x}" y="{flag_y}" width="{flag_w}" height="{flag_h:.3f}"
-        fill="none" stroke="#000" stroke-width="0.15" />
+  {flag_block}
   <text x="{text_x}" y="{label_y:.2f}" font-family='{FONT_FAMILY}'
         font-size="{label_size:.2f}" text-anchor="middle"
-        font-weight="600" fill="#000">{escape_xml(name)}</text>
+        font-weight="600" fill="{fill}"{text_outline}>{escape_xml(name)}</text>
   <text x="{text_x}" y="{desig_y:.2f}" font-family='{FONT_FAMILY}'
         font-size="{desig_size}" text-anchor="middle" font-weight="bold"
-        fill="#000" direction="ltr" unicode-bidi="bidi-override"
-        >{escape_xml(designation)}</text>
+        fill="{fill}"{text_outline}{bidi_attrs}>{escape_xml(designation)}</text>
 </svg>
 """
+
+
+# ---------------------------------------------------------------------------
+# CSV row helpers
+# ---------------------------------------------------------------------------
+
+def parse_bool(value: str | None) -> bool:
+    return bool(value) and value.strip().lower() in ("1", "true", "yes", "y", "hq")
+
+
+def row_width(row: dict) -> int:
+    w = (row.get("width") or "").strip()
+    if not w:
+        return 20
+    return int(w)
+
+
+# ---------------------------------------------------------------------------
+# Common APP-6 symbol phrases
+# ---------------------------------------------------------------------------
+
+COMMON_SYMBOLS: list[tuple[str, str]] = [
+    ("armor", "tank / armored fighting vehicle"),
+    ("infantry", "rifle squad / team"),
+    ("anti-tank", "AT weapons (RPG, ATGM teams, dedicated AT)"),
+    ("wheeled anti-tank", "wheeled AT (Jeep TOW, BRDM-AT)"),
+    ("machine gun", "MG team"),
+    ("mortar", "light mortar team"),
+    ("self-propelled mortar", "vehicle-mounted mortar (M125, M106, 2S9)"),
+    ("self-propelled artillery", "SPG (M109, 2S1, 2S3)"),
+    ("artillery", "towed gun"),
+    ("rocket artillery", "MLRS, BM-21 (`rockets` is auto-fixed to this)"),
+    ("self-propelled anti-aircraft", "ZSU-23-4, M163 VADS, Gepard, Tunguska"),
+    ("anti-aircraft", "towed AA gun"),
+    ("surface-to-air missile", "SAM (Chaparral, SA-8, Hawk)"),
+    ("manpads", "shoulder-fired SAM (Stinger, Strela)"),
+    ("attack helicopter", "AH-64, Mi-24, AH-1"),
+    ("utility helicopter", "UH-1, Mi-8, CH-53"),
+    ("fighter", "fixed-wing strike (A-4, Su-25)"),
+    ("armored personnel carrier", "tracked APC (M113, BTR-50)"),
+    ("wheeled armored personnel carrier", "wheeled APC (BTR-70/80, Fuchs)"),
+    ("reconnaissance", "scout / recce element"),
+    ("wheeled reconnaissance", "BRDM, jeep recce, Luchs"),
+    ("observation post", "FO / artillery OP"),
+    ("engineer", "combat engineers"),
+    ("signal", "comms / signals"),
+    ("supply", "logistics"),
+]
+
+
+def print_symbol_list() -> int:
+    width = max(len(s) for s, _ in COMMON_SYMBOLS)
+    print("Common APP-6 symbol phrases (write these in the `symbol` column):\n")
+    for sym, desc in COMMON_SYMBOLS:
+        print(f"  {sym:<{width}}  — {desc}")
+    print()
+    print("Affiliation prefix (friend/hostile/neutral/unknown) is set per-army")
+    print("via --affiliation, not in the CSV. Anything `military_symbol` accepts")
+    print("as a symbol phrase will work; the list above is the convenient subset.")
+    return 0
 
 
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
-def row_name(row: dict) -> str:
-    """Return the display name for a row, deriving + filling it in if missing."""
-    existing = row.get("name", "").strip() if row.get("name") else ""
-    if existing:
-        return existing
-    return derive_name(row["team_role"], row["unit_name"])
+def add_common_args(p: argparse.ArgumentParser) -> None:
+    """Shared CLI args between generator / sheets / preview."""
+    p.add_argument("--csv", type=Path, default=DEFAULT_CSV, help="Path to the army CSV.")
+    p.add_argument("--affiliation", choices=AFFILIATIONS, default="unknown",
+                   help="APP-6 affiliation (default: unknown).")
+    p.add_argument("--background",
+                   help="Sticker background hex (default depends on --affiliation).")
+    p.add_argument("--country",
+                   help="ISO 3166-1 alpha-2 code for the bundled flag (e.g. IL, DE).")
+    p.add_argument("--flag", type=Path,
+                   help="Custom flag SVG path. Wins over --country.")
 
 
-def update_csv(force: bool = False) -> int:
-    """Add (or fill in) the `name` column. With `force`, overwrite existing values."""
-    with INPUT_CSV.open(newline="", encoding="utf-8") as f:
-        reader = csv.DictReader(f)
-        fieldnames = list(reader.fieldnames or [])
-        rows = list(reader)
-
-    if "name" not in fieldnames:
-        # Insert `name` right after `unit_name` for readability.
-        idx = fieldnames.index("unit_name") + 1 if "unit_name" in fieldnames else len(fieldnames)
-        fieldnames = fieldnames[:idx] + ["name"] + fieldnames[idx:]
-
-    touched = 0
-    for row in rows:
-        if force or not row.get("name", "").strip():
-            row["name"] = derive_name(row["team_role"], row["unit_name"])
-            touched += 1
-
-    with INPUT_CSV.open("w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(rows)
-
-    verb = "overwrote" if force else "filled"
-    print(f"Updated {INPUT_CSV}: {verb} `name` on {touched} rows ({len(rows)} total)")
-    return 0
+def resolve_background(args: argparse.Namespace) -> str:
+    return args.background or AFFILIATION_BG[args.affiliation]
 
 
 def main(argv: list[str] | None = None) -> int:
-    argv = list(sys.argv[1:] if argv is None else argv)
-    if argv and argv[0] == "--update-csv":
-        return update_csv(force="--force" in argv[1:])
-    return _generate()
+    p = argparse.ArgumentParser(description="Generate per-sticker SVGs from an army CSV.")
+    add_common_args(p)
+    p.add_argument("--out", type=Path, default=DEFAULT_OUT, help="Output directory.")
+    p.add_argument("--list-symbols", action="store_true",
+                   help="Print common APP-6 symbol phrases and exit.")
+    args = p.parse_args(argv)
 
+    if args.list_symbols:
+        return print_symbol_list()
 
-def _generate() -> int:
-    OUT_DIR.mkdir(exist_ok=True)
-    FLAGS_DIR.mkdir(exist_ok=True)
-    (FLAGS_DIR / "il.svg").write_text(israel_flag_svg())
-
-    if not INPUT_CSV.exists():
-        print(f"Missing input: {INPUT_CSV}", file=sys.stderr)
+    if not args.csv.exists():
+        print(f"Missing input: {args.csv}", file=sys.stderr)
         return 1
 
-    with INPUT_CSV.open(newline="", encoding="utf-8") as f:
+    bg = resolve_background(args)
+    flag_inner, flag_vb = load_flag(args.country, args.flag)
+
+    args.out.mkdir(exist_ok=True, parents=True)
+    with args.csv.open(newline="", encoding="utf-8") as f:
         rows = list(csv.DictReader(f))
 
     icon_cache: dict[tuple[str, bool], str] = {}
     written = 0
     for row in rows:
-        team_role = row["team_role"]
-        designation = row["designation"]
-        base = row["base"]
+        symbol = (row.get("symbol") or "").strip()
+        designation = (row.get("designation") or "").strip()
+        name = (row.get("name") or "").strip()
+        if not (symbol and designation and name):
+            print(
+                f"Skipping incomplete row (designation={designation!r}, "
+                f"name={name!r}, symbol={symbol!r})",
+                file=sys.stderr,
+            )
+            continue
 
-        description = map_role_to_description(team_role)
-        is_hq = role_base_form(team_role) in HQ_ROLES
-        cache_key = (description, is_hq)
+        is_hq = parse_bool(row.get("hq"))
+        cache_key = (symbol, is_hq)
         if cache_key not in icon_cache:
-            icon_cache[cache_key] = get_icon_svg(description, is_hq)
-        icon_svg = icon_cache[cache_key]
+            icon_cache[cache_key] = get_icon_svg(args.affiliation, symbol, is_hq)
 
-        name = row_name(row)
-        width_mm = sticker_width_mm(base)
-        sticker = build_sticker(designation, name, icon_svg, width_mm)
-
-        out_path = OUT_DIR / sticker_filename(designation, name)
-        out_path.write_text(sticker, encoding="utf-8")
+        sticker = build_sticker(
+            designation, name, icon_cache[cache_key], row_width(row),
+            bg, flag_inner, flag_vb,
+        )
+        (args.out / sticker_filename(designation, name)).write_text(sticker, encoding="utf-8")
         written += 1
 
-    print(f"Wrote {written} stickers to {OUT_DIR}")
+    print(f"Wrote {written} stickers to {args.out}")
     return 0
 
 

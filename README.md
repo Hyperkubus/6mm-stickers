@@ -1,35 +1,60 @@
-# 6mm IDF sticker generator
+# 6mm sticker generator
 
-Prints unit-ID stickers for a 6mm Team Yankee Israeli army — 1979
-stickers across 8 formations and the support pool, one per base.
+Prints unit-ID stickers for 6mm Team Yankee armies — one per base.
+Ships with a worked example for an Israeli 1979 army (`lists/israeli_full.csv`,
+1979 stickers across 8 formations + the support pool), but the generator
+itself is faction-agnostic.
 
 Each sticker is 8 mm tall and goes on the lower edge of the base:
 
 - **Top label** — equipment / weapon (e.g. `MERKAVA 3`, `M163 VADS`,
-  `AH-64 PETEN`).
-- **Designation** — the four-character team ID (`001א`, `611ך` …),
-  digits + Hebrew letter (Aleph through Tav, including final forms).
-- **APP-6 unit icon** on the left, **Israeli flag** on the right.
+  `AH-64 PETEN`, `LEOPARD 2`).
+- **Designation** — the team ID (`001א`, `1.PLT.A`, …).
+- **APP-6 unit icon** on the left, **national flag** on the right.
 
-A 20 mm base gets a 20 × 8 mm sticker, a 40 × 20 mm base gets a
-40 × 8 mm sticker.
+A 20 mm-wide base gets a 20 × 8 mm sticker; a 40 mm-wide base gets
+40 × 8 mm. (The Israeli CSV uses bases described as `20x40` — meaning
+20 mm wide, 40 mm deep for a tank — so most tank stickers are 20 mm
+wide.)
 
 ## Pipeline
 
 ```
-lists/israeli_full.csv          one row per base
+your_army.csv          one row per base, minimal columns
         │
         ▼
-  generator.py        →  out/<designation>.svg   (one per base)
+  generator.py        →  out/<designation>-<slug>.svg   (one per base)
         │
         ├── preview.py    →  preview.html        (sample of each unique sticker)
         │
-        └── sheets.py     →  sheets/<formation>.pdf
-                              (per-formation cut-out sheets, A4)
+        └── sheets.py     →  sheets/<formation>.pdf   (per-formation A4 sheets)
 ```
 
 `out/`, `sheets/`, and `preview.html` are gitignored — fully
 regenerable from the CSV plus the generator.
+
+## CSV schema
+
+Required columns:
+
+| column        | description                                            |
+| ------------- | ------------------------------------------------------ |
+| `designation` | team ID; goes in the bottom row of the sticker         |
+| `name`        | top-row label (model/weapon, e.g. `MERKAVA 3`)         |
+| `symbol`      | APP-6 symbol phrase (no affiliation prefix), e.g. `armor`, `infantry`. Run `python generator.py --list-symbols` for the common ones. |
+| `width`       | sticker width in mm — `20` or `40`                     |
+
+Optional columns:
+
+| column        | description                                            |
+| ------------- | ------------------------------------------------------ |
+| `hq`          | `true` to draw the HQ bar inside the icon              |
+| `formation`   | groups rows into one PDF per formation in `sheets.py`  |
+| `group`       | within a formation, breaks each `group` change onto a fresh line (with extra vertical space) — use to separate platoons / sub-blocks |
+
+Extra columns are ignored, so a richer source-of-truth CSV (like
+`lists/israeli_full.csv`, which keeps the full army-list structure)
+can coexist with the minimal generator columns.
 
 ## Usage
 
@@ -38,35 +63,57 @@ regenerable from the CSV plus the generator.
 nix develop                # or: python3.12 -m venv .venv && .venv/bin/pip install -r requirements.txt
 
 # generate every individual sticker SVG
-python generator.py
+python generator.py --csv lists/israeli_full.csv --affiliation unknown --country IL
 
 # preview a sample of each unique sticker (PNG embedded in HTML)
-python preview.py && open preview.html
+python preview.py --csv lists/israeli_full.csv --affiliation unknown --country IL
+open preview.html
 
 # render per-formation A4 cut-out sheets, one PDF per formation
-python sheets.py && open sheets/merkava-3-tank-company.pdf
+python sheets.py --csv lists/israeli_full.csv --affiliation unknown --country IL
+open sheets/merkava-3-tank-company.pdf
 ```
 
-`python generator.py --update-csv` fills in any blank `name` cells
-in the CSV from `derive_name(team_role, unit_name)`. Add `--force`
-to overwrite existing values (used after changing the naming
-rules).
+### Affiliation, background, flag
 
-## Naming rules
+`--affiliation` picks the APP-6 affiliation, which sets the icon
+frame/color and a default background:
 
-The `name` column drives the top label. Rules are documented in
-`CLAUDE.md` and implemented in `derive_name()`. Short summary:
+| affiliation | icon frame      | default bg   | text          |
+| ----------- | --------------- | ------------ | ------------- |
+| `friend`    | blue rectangle  | `#002F5F`    | white + black outline |
+| `hostile`   | red diamond     | `#DA291C`    | white + black outline |
+| `neutral`   | green square    | `#808080`    | white + black outline |
+| `unknown`   | yellow quatrefoil (cumulus for fixed-wing) | `#FFFFFF` | black |
 
-| Category                        | Example label      |
-| ------------------------------- | ------------------ |
-| Tanks                           | `MERKAVA 3`, `MAGACH 6 BLAZER`, `SHO'T BLAZER` |
-| Helicopters (model + IDF name)  | `AH-64 PETEN`, `AH-1 TZEFA`, `CH-53 YAS'UR`, `UH-1` |
-| APCs (chassis + IDF nickname)   | `M113 ZELDA`, `M113 VAYZATA`, `NAGMASHOT` |
-| Infantry (main weapon)          | `GALIL`, `FN MAG`, `RPG-7`, `M47 DRAGON`, `52MM`, `REDEYE` |
-| Mortars / SP / TOW (chassis)    | `M125`, `M106`, `M109`, `M150`, `PEREH` |
-| AA / SAM / rockets (chassis + system) | `M163 VADS`, `ZSU-23-4 SHILKA`, `M48 CHAPARRAL`, `M270 MLRS`, `BM-21 GRAD` |
-| Strike jet                      | `A-4 SKYHAWK` |
-| Artillery observer              | `M113 OP` |
+Override the background with `--background #RRGGBB`. The text color
+switches automatically based on background luminance.
+
+`--country IL` (lower- or upper-case ISO 3166-1 alpha-2) picks a flag
+from `flags/<iso>.svg`; `--flag PATH` overrides with a custom SVG.
+See `flags/README.md` for the bundled set and how to add more.
+
+### Why unknown for the Israeli example?
+
+Aesthetic preference, not a NATO-affiliation claim. The yellow
+quatrefoil reads well at 5 × 5 mm and avoids the question of which
+faction Israel "belongs to" on the Cold War map. Pass `--affiliation
+friend` to swap to NATO-blue rectangles if you'd rather.
+
+## IDF list maintenance
+
+`lists/israeli_full.csv` keeps the rich Israeli-army structure
+(`kind`, `formation_name`, `team_role`, `base`, etc.) used to compose
+the army, plus the minimal columns the generator reads. Run
+
+```sh
+python idf_migrate.py             # fill blank derived columns
+python idf_migrate.py --force     # rewrite derived columns
+```
+
+after editing the army-list columns. This is the IDF-specific
+counterpart to the generic pipeline — for any other army, just write
+the minimal columns directly.
 
 ## Stack
 
@@ -78,5 +125,5 @@ The `name` column drives the top label. Rules are documented in
   DejaVu Sans Mono (final fallback). Apt:
   `fonts-firacode fonts-ibm-plex fonts-dejavu`.
 
-See `CLAUDE.md` for the design notes — sticker layout maths,
-APP-6 quirks, font fallbacks, HQ-bar handling, etc.
+See `CLAUDE.md` for the design notes — sticker layout maths, APP-6
+quirks, font fallbacks, HQ-bar handling, etc.
