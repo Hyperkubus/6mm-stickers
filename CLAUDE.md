@@ -2,7 +2,7 @@
 
 Hobby project: prints unit-ID stickers for 6mm Team Yankee armies.
 The generator is faction-agnostic; the worked example is an Israeli
-1979 army (`lists/israeli_full.csv`, 1979 stickers across 8 formations
+1979 army (`sources/israeli_full.csv`, 1979 stickers across 8 formations
 + the support pool, one per base).
 
 ## Pipeline
@@ -174,7 +174,7 @@ SVGs.
 
 ## IDF helpers (`idf_migrate.py`)
 
-`lists/israeli_full.csv` is the rich source-of-truth: full army-list
+`sources/israeli_full.csv` is the rich source-of-truth: full army-list
 structure (`kind`, `formation_name`, `letter`, `slot_*`, `unit_*`,
 `team_role`, `team_position_*`, `base`) for composing and editing the
 army. `idf_migrate.py` derives the minimal CSV

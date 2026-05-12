@@ -1,7 +1,7 @@
 # 6mm sticker generator
 
 Prints unit-ID stickers for 6mm Team Yankee armies — one per base.
-Ships with a worked example for an Israeli 1979 army (`lists/israeli_full.csv`,
+Ships with a worked example for an Israeli 1979 army (`sources/israeli_full.csv`,
 1979 stickers across 8 formations + the support pool), but the generator
 itself is faction-agnostic.
 
@@ -53,7 +53,7 @@ Optional columns:
 | `group`       | within a formation, breaks each `group` change onto a fresh line (with extra vertical space) — use to separate platoons / sub-blocks |
 
 Extra columns are ignored, so a richer source-of-truth CSV (like
-`lists/israeli_full.csv`, which keeps the full army-list structure)
+`sources/israeli_full.csv`, which keeps the full army-list structure)
 can coexist with the minimal generator columns.
 
 ## Usage
@@ -113,7 +113,7 @@ a zip of per-formation A4 PDFs. Source lives under `webapp/`.
 
 ## IDF list maintenance
 
-`lists/israeli_full.csv` is the rich source-of-truth for the worked
+`sources/israeli_full.csv` is the rich source-of-truth for the worked
 example: full army-list structure (`kind`, `formation_name`,
 `team_role`, `base`, etc.) for composing and editing the army.
 `idf_migrate.py` derives the minimal CSV the generator actually reads:
