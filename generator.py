@@ -5,11 +5,11 @@ Reads a minimal CSV (designation, name, symbol, width, plus optional
 hq/formation/group) and writes per-sticker SVGs under out/.
 
 Usage:
-    python generator.py --csv lists/israeli_full.csv \
+    python generator.py --csv lists/israeli_minimal.csv \
                         --affiliation unknown --country IL
     python generator.py --list-symbols
 
-The Israeli army in lists/israeli_full.csv is rendered with
+The Israeli army in lists/israeli_minimal.csv is rendered with
 `--affiliation unknown` (yellow APP-6 quatrefoils on a white background)
 by deliberate aesthetic choice — not a statement about Israel's relation
 to NATO. Override with --affiliation friend to get blue rectangles

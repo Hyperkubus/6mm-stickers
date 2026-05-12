@@ -2,7 +2,7 @@
 """IDF-specific helpers for the Israeli army list.
 
 The generic generator reads a minimal CSV (designation, name, symbol,
-width, hq, formation, group). `lists/israeli_full.csv` keeps the rich
+width, hq, formation, group). `sources/israeli_full.csv` keeps the rich
 army-list structure (`kind`, `formation_name`, `letter`, `slot_*`,
 `unit_*`, `team_role`, `team_position_*`, `base`) used for composing
 and editing the army — this script derives the minimal columns and
@@ -26,7 +26,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).parent
-DEFAULT_SRC = ROOT / "lists" / "israeli_full.csv"
+DEFAULT_SRC = ROOT / "sources" / "israeli_full.csv"
 DEFAULT_DST = ROOT / "lists" / "israeli_minimal.csv"
 
 MINIMAL_COLS = ["designation", "name", "symbol", "width", "hq", "formation", "group"]
@@ -227,7 +227,7 @@ def main(argv: list[str] | None = None) -> int:
         description="Derive the minimal CSV the generator consumes from the rich IDF CSV.",
     )
     p.add_argument("--src", type=Path, default=DEFAULT_SRC,
-                   help="Path to the rich IDF source CSV (default: lists/israeli_full.csv).")
+                   help="Path to the rich IDF source CSV (default: sources/israeli_full.csv).")
     p.add_argument("--dst", type=Path, default=DEFAULT_DST,
                    help="Path to write the minimal CSV (default: lists/israeli_minimal.csv).")
     args = p.parse_args(argv)
