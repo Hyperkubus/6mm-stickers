@@ -49,6 +49,26 @@
            border: 1px solid #2a4d8f; background: #2a4d8f; color: white; }
   button.secondary { background: white; color: #2a4d8f; }
   .hint { font-size: 12px; color: #777; margin-top: 4px; }
+  details.csv-info { margin-top: 10px; font-size: 12px; color: #444;
+                     border: 1px solid #e0e0e0; border-radius: 4px;
+                     background: #fafafa; }
+  details.csv-info > summary { cursor: pointer; padding: 6px 10px;
+                               font-weight: 600; color: #2a4d8f;
+                               list-style: revert; }
+  details.csv-info[open] > summary { border-bottom: 1px solid #e0e0e0; }
+  details.csv-info .body { padding: 8px 12px 10px; }
+  details.csv-info p { margin: 6px 0; }
+  details.csv-info table { border-collapse: collapse; width: 100%;
+                           margin: 6px 0; font-size: 11px; }
+  details.csv-info th, details.csv-info td {
+    border: 1px solid #ddd; padding: 4px 6px; text-align: left;
+    vertical-align: top; }
+  details.csv-info th { background: #eef; }
+  details.csv-info code { background: #eee; padding: 0 3px; border-radius: 3px;
+                          font-size: 11px; }
+  details.csv-info pre { background: #1e293b; color: #e2e8f0; padding: 8px;
+                         border-radius: 4px; overflow-x: auto; font-size: 11px;
+                         margin: 6px 0; }
 </style>
 </head>
 <body>
@@ -78,6 +98,55 @@
         <label for="csv_file">…or upload your own</label>
         <input type="file" id="csv_file" name="csv_file" accept=".csv,text/csv" />
         <div class="hint">Upload wins over the bundled selection.</div>
+
+        <details class="csv-info">
+          <summary>CSV format</summary>
+          <div class="body">
+            <p>One row per base. The generator only reads the columns
+              below — extra columns are ignored, so a richer source-of-truth
+              CSV is fine.</p>
+            <table>
+              <thead>
+                <tr><th>Column</th><th>Required</th><th>Meaning</th></tr>
+              </thead>
+              <tbody>
+                <tr><td><code>designation</code></td><td>yes</td>
+                    <td>Bottom label, e.g. <code>001א</code>, <code>113</code>.
+                        Mixed ASCII + non-Latin is rendered left-to-right
+                        in CSV order.</td></tr>
+                <tr><td><code>name</code></td><td>yes</td>
+                    <td>Top label — equipment/weapon, e.g.
+                        <code>MERKAVA 3</code>, <code>FN MAG</code>,
+                        <code>AH-64</code>.</td></tr>
+                <tr><td><code>symbol</code></td><td>yes</td>
+                    <td>Bare APP-6 phrase from the sidebar
+                        (<code>armor</code>, <code>infantry</code>,
+                        <code>attack helicopter</code>, …). No echelon
+                        modifiers.</td></tr>
+                <tr><td><code>width</code></td><td>yes</td>
+                    <td>Base width in mm. <code>40</code> → wide sticker,
+                        anything else → 20&nbsp;mm sticker.</td></tr>
+                <tr><td><code>hq</code></td><td>no</td>
+                    <td>Truthy (<code>1</code>, <code>true</code>, <code>yes</code>)
+                        draws a horizontal HQ bar inside the icon.</td></tr>
+                <tr><td><code>formation</code></td><td>no</td>
+                    <td>Groups stickers into one A4 PDF per formation
+                        when generating sheets.</td></tr>
+                <tr><td><code>group</code></td><td>no</td>
+                    <td>Optional sub-grouping label (e.g. company letter).</td></tr>
+              </tbody>
+            </table>
+            <p>Example:</p>
+<pre>designation,name,symbol,width,hq,formation,group
+001א,Merkava 3,armor,40,1,1st Armor,א
+002,Merkava 3,armor,40,0,1st Armor,א
+113,M113 Zelda,armored personnel carrier,20,0,Mech,ב
+A1,FN MAG,infantry,20,0,Mech,ב</pre>
+            <p>Pick an affiliation above to change the icon frame
+              (friend / hostile / neutral / unknown). The same CSV
+              works with any affiliation.</p>
+          </div>
+        </details>
       </fieldset>
 
       <fieldset>
