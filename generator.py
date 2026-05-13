@@ -78,11 +78,36 @@ def _shrink_white_halo(svg: str, width: str = "2") -> str:
     )
 
 
+def _fix_friend_equipment_frame(svg: str) -> str:
+    """Friend equipment-class symbols (machine gun, APC) come back with a
+    circle frame instead of the unit rectangle, so they look out of place next
+    to every other friend sticker. Hostile/neutral/unknown already wrap these
+    inner icons in their normal unit frame — friend is the only odd one. Swap
+    the circle for the friend rectangle and resize the outer viewBox to match.
+    """
+    if 'cx="100" cy="100" r="60"' not in svg:
+        return svg
+    svg = re.sub(
+        r'<circle cx="100" cy="100" r="60"([^/]*)/>',
+        r'<path d="M25,50 l150,0 0,100 -150,0 z"\1/>',
+        svg,
+    )
+    svg = svg.replace(
+        'viewBox="20.0 20.0 160.0 160.0"',
+        'viewBox="5.0 30.0 190.0 140.0"',
+    )
+    svg = re.sub(r'\bwidth="160(?:\.0)?"', 'width="190.0"', svg, count=1)
+    svg = re.sub(r'\bheight="160(?:\.0)?"', 'height="140.0"', svg, count=1)
+    return svg
+
+
 def get_icon_svg(affiliation: str, symbol: str, is_hq: bool) -> str:
     """Return a complete <svg>...</svg> string for the icon."""
     symbol = _normalize_symbol(symbol)
     description = f"{affiliation} {symbol}"
     raw = military_symbol.get_symbol_svg_string_from_name(description)
+    if affiliation == "friend":
+        raw = _fix_friend_equipment_frame(raw)
     raw = _shrink_white_halo(raw)
 
     # `unknown fighter` returns an SVG with open paths (cumulus frame missing
