@@ -69,8 +69,15 @@ def _normalize_symbol(symbol: str) -> str:
     return symbol
 
 
-def _shrink_white_halo(svg: str, width: str = "2") -> str:
-    """Reduce the thick white halo stroke the library draws behind each frame."""
+def _shrink_white_halo(svg: str, width: str = "0") -> str:
+    """Drop the thick white halo stroke the library draws behind each frame.
+
+    The halo exists so APP-6 icons stay readable on busy terrain maps. On our
+    stickers the icon sits on a solid background that already contrasts with
+    the frame fill, and a non-zero halo dominates antialiased thumbnails (file
+    explorers, sidebars) — the black line collapses into the white halo at
+    small sizes, making the icon look white-lined.
+    """
     return re.sub(
         r'stroke="#ffffff" stroke-width="[^"]+"',
         f'stroke="#ffffff" stroke-width="{width}"',
@@ -128,12 +135,17 @@ def get_icon_svg(affiliation: str, symbol: str, is_hq: bool) -> str:
         raw = re.sub(r'\bheight="[^"]+"', 'height="160"', raw, count=1)
 
     if is_hq:
-        # Horizontal bar inside the icon at y=63 (upper-lobe junction of the
-        # unknown quatrefoil, also lands inside the friend rectangle / hostile
-        # diamond / neutral square). Avoids APP-6's flagstaff, which would
-        # break the sticker grid by sticking out the side.
+        # Horizontal bar at y=63: lobe junction of the unknown quatrefoil and
+        # diamond width at that height for hostile; the friend rectangle and
+        # neutral square are wider, so we extend the bar to span their full
+        # frame width. Avoids APP-6's flagstaff, which would break the sticker
+        # grid by sticking out the side.
+        x1, x2 = {
+            "friend":  (25, 175),
+            "neutral": (45, 155),
+        }.get(affiliation, (63, 137))
         bar = (
-            '<path d="M63,63 L137,63" stroke="rgb(0, 0, 0)" '
+            f'<path d="M{x1},63 L{x2},63" stroke="rgb(0, 0, 0)" '
             'stroke-width="4" stroke-linecap="round" fill="none" />'
         )
         raw = raw.replace("</svg>", bar + "</svg>")
