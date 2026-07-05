@@ -29,7 +29,7 @@ ROOT = Path(__file__).parent
 DEFAULT_SRC = ROOT / "sources" / "israeli_full.csv"
 DEFAULT_DST = ROOT / "lists" / "israeli_minimal.csv"
 
-MINIMAL_COLS = ["designation", "name", "symbol", "width", "hq", "formation", "group"]
+MINIMAL_COLS = ["designation", "name", "symbol", "width", "base", "hq", "formation", "group"]
 
 
 # ---------------------------------------------------------------------------
@@ -207,6 +207,7 @@ def migrate(src: Path, dst: Path) -> int:
             "name":        existing_name or derive_name(team_role, unit_name),
             "symbol":      map_role_to_symbol(team_role),
             "width":       str(width_for_base(row["base"])),
+            "base":        row["base"],
             "hq":          "true" if role_base_form(team_role) in HQ_ROLES else "",
             "formation":   row.get("formation_name", ""),
             "group":       group_for_letter(row.get("letter", "")),

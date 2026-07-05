@@ -27,6 +27,8 @@
           postVenvCreation = ''
             pip install -r requirements.txt
           '';
+          # pip-installed manylinux wheels (numpy, pillow) need libstdc++ at runtime
+          env.LD_LIBRARY_PATH = pkgs.lib.makeLibraryPath [ pkgs.stdenv.cc.cc.lib pkgs.zlib ];
         };
       });
     };

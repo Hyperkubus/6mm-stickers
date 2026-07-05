@@ -1,3 +1,5 @@
 military-symbol==2.0.2
 pyyaml>=6.0
 svgwrite==1.4.3
+pillow>=10.0
+numpy>=1.26
