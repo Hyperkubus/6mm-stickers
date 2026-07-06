@@ -260,9 +260,11 @@ Decisions (settled 2026-07, after a physical test print):
 - **Stickers are composited** onto the base texture — the paper sticker
   flow (`generator.py`/`sheets.py`/`preview.py`) stays fully functional
   without `bases.py`.
-- **Relief printing is on** (heightmaps, 0.3–0.5 mm max relief set in
-  Eufy Studio). Heightmap area under the sticker is flattened to 0.
-  **Polarity (white = raised) is still unverified in Eufy Studio.**
+- **Relief printing is on** (heightmaps, **0.8 mm max relief** in Eufy
+  Studio — settled 2026-07 via the 3D-viewer ×2 comparison and confirmed
+  on a physical test print; the handoff's 0.3–0.5 mm is obsolete).
+  Heightmap area under the sticker is flattened to 0. Polarity confirmed
+  on the test print: white = raised.
 - **Texture variants are per-platoon consistent, not identical**: all
   bases of one (formation, group) share a variant (reference / v1_rocky
   / v2_soil / v3_grass), each base gets its own random crop + 90°-step
@@ -270,9 +272,20 @@ Decisions (settled 2026-07, after a physical test print):
   **40×30 mm**, no sticker, crops centred on the vehicle track).
 - All randomness is seeded (`--seed`, default 1979) with stable per-row
   keys — reruns are byte-identical.
-- Substrate still open: 1 mm PLA warped under UV cure; PETG test
-  pending (worst case = with relief). Fallbacks: birch ply / MDF /
-  UV-DTF transfer.
+- Substrate: **laser overhead-transparency film (plain PET)** — test
+  print at 0.8 mm relief (worst case) is usable (2026-07; white
+  underlayer provides opacity on the clear film). The cured ink stack
+  curls the film slightly — a model's weight pushes it flat, so the
+  glue-down to a rigid base must hold the curl permanently:
+  full-surface bond (double-sided adhesive sheet / contact adhesive),
+  not glue dots, or corners lift. The rigid base itself never sees UV
+  heat. 1 mm PLA direct print had warped; PETG direct print untested
+  and likely moot. Still open: long-term ink adhesion on the smooth
+  PET (crosshatch-tape test) and the glue choice.
+  **Next test (due ~2026-07-07): 1 mm laser-cut acrylic** — acrylic is
+  the canonical UV-flatbed substrate; if direct print on pre-cut
+  acrylic blanks works, that revives the original jig plan and the
+  film route becomes the fallback.
 
 Scale is locked to the validated texture scale: 1536 px / 130 mm ≈
 11.815 px/mm ≈ 300 DPI, embedded in the PNGs — **place at 100% in Eufy
@@ -293,9 +306,72 @@ of D) drives crop sizes. Army base sizes: 20×20 (small weapon teams),
 20×30 (most vehicles), 20×40 (tanks, helis, jets, Nagmasho't, M109,
 BM-21, Pereh — big-model calls made 2026-07), 40×20 (wide infantry).
 
-**Next step when the jig is designed:** a plate compositor that places
-many per-base files (which stay the unit of truth) onto one 330×90 mm
-canvas per print job, positioned to match the jig's pockets.
+### Jig plates (`jig.py`)
+
+The plate compositor + jig generator, built around **one reusable jig
+per pocket geometry** (not per print job). Wide 40×20 infantry bases
+are rotated upright (`--no-rotate` to disable) — flatbed orientation
+is irrelevant — collapsing the classes to 20×40 / 20×30 / 20×20
++ 40×30 objectives. Outputs under gitignored `jig/`:
+
+- `jig-<class>.svg` + `jig-a4-N.svg` — 4 reusable jig strips
+  (297×90 A4 strips that fit the E1's 330×90 window), nested
+  two-per-A4; kerf-compensated holes, 3 mm rounded corners, engraved
+  slot numbers, flatbed-origin datum, red=cut / blue=engrave.
+- `blanks-<class>-N.svg` — dense A4 blank-cutting sheets (0.8 mm
+  spacing, 2 mm edge margin via `--blank-gap/--blank-margin`); each
+  jig's own dropouts count toward the blank total.
+- `plate-<class>-NN-color.png/-height.png` — print plates on the fixed
+  grid, 300.101 DPI, place at 100%. Empty grid slots on the last plate
+  of a class just print nothing.
+- `manifest.csv` — class/plate/slot → designation/position.
+
+Filters `--formation/--group/--objectives`; geometry
+`--margin/--gap/--clearance/--kerf/--radius`, `--plate WxH`.
+`--calibrate` writes four test artifacts in dependency order:
+`calibration-material.svg` first (power/speed: 16 squares in 16 stroke
+colors to map to a settings ladder in the laser software — or use the
+software's native material test), then `calibration-kerf.svg` at the
+chosen settings (30 mm square; kerf = (hole − dropout)/2), then re-run
+with the measured `--kerf` so `calibration-fit.svg`'s clearance-ladder
+labels are honest (snug pocket's label = `--clearance`; its two blanks
+sit at the production 0.8 mm sheet spacing as a nesting stress test),
+and `calibration-print.png` any time (window-origin check; border
+offset = `--origin-x/--origin-y`, which shift all print plates). Full
+army
+= 1983 bases → 4 jigs (2 A4) + 25 blank sheets (27 A4 total) + 81
+print plates. Workflow: cut jigs once, tape to flatbed against origin
+(**verify the window-starts-at-origin assumption with a calibration
+print**), drop blanks in — only size matters, the print makes each
+base self-identifying — print color+height at 100 %, unload, refill.
+Sticker bleed overprints ~1 mm onto the jig, so the jig gets inky;
+that's by design.
+
+## Rotor discs (`rotors.py`)
+
+PropBlur-style spinning-rotor discs for the helicopters, printed on
+clear laser-transparency film with the **white ink layer disabled**
+(the PNGs carry real alpha; white underlayer would kill the
+transparency). One disc per type at true 1:285 rotor diameter —
+AH-64/UH-1 51.3 mm, AH-1 47.1 mm, CH-53 77.3 mm — plus packed
+330×90 mm plates (`--counts ah64=8,...`) and `rotors/preview.png`.
+Same 300.101 DPI place-at-100% rule as the bases. Each plate copy gets
+a seeded random blade rotation so multiples don't look photocopied.
+Look tuning knobs at the top of the file: `SWEEP_*`, `SOLID_*`,
+`FEATHER_POW`.
+
+Plates are 297×90 A4-transparency strips. Each `plate-N.png` carries
+two magenta registration crosshairs; the matching `plate-N-cut.svg`
+has the same crosshairs plus per-disc perimeter circle (true rotor
+radius) and a 0.6 mm center hole (`HOLE_MM`). Laser side: LightBurn →
+Laser Tools → **Print and Cut**, align to the two crosshairs (handles
+offset + rotation), cut. Requires a CO₂ laser — clear PET is
+transparent to blue diodes.
+
+Assembly (validated on a test disc 2026-07): mount **ink-side down**
+(PET protects the print; residual film curl reads as rotor coning).
+Manual fallback: cut on the printed ring, punch the center hole on a
+hard flat backing — freehand drilling bends the disc.
 
 ## Stack
 

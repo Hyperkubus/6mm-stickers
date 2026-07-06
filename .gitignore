@@ -7,3 +7,6 @@ sheets/*.svg
 preview.html
 bases/
 bases_preview.html
+bases_3d.html
+rotors/
+jig/

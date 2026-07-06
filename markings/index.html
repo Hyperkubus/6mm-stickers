@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IDF markings &amp; painting reference — 6mm</title>
+<style>
+  :root {
+    --paper: #f4f1ea; --ink: #2b2925; --muted: #6b675e;
+    --card: #fffdf8; --line: #d8d2c4; --accent: #8a2f2b;
+    --sinai: #7e7b6a; --sinai-dust: #b3ac93; --od: #4b5340;
+    --orange: #f07818;
+  }
+  body { margin: 0; background: var(--paper); color: var(--ink);
+         font: 15px/1.55 Georgia, 'Times New Roman', serif; }
+  main { max-width: 980px; margin: 0 auto; padding: 24px 20px 80px; }
+  h1 { font-size: 26px; margin: 12px 0 2px; }
+  h2 { font-size: 20px; margin: 40px 0 6px; border-bottom: 2px solid var(--ink);
+       padding-bottom: 4px; }
+  h3 { font-size: 16px; margin: 0 0 6px; }
+  .era { color: var(--muted); font-style: italic; margin: 0 0 18px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 6px;
+          padding: 16px 18px; margin: 14px 0; }
+  .card .units { color: var(--accent); font-size: 13px; letter-spacing: .04em;
+                 text-transform: uppercase; margin: 0 0 8px; }
+  .cols { display: flex; gap: 20px; flex-wrap: wrap; align-items: flex-start; }
+  .cols > div { flex: 1 1 300px; min-width: 280px; }
+  .fig { background: #ecf0ee; border: 1px solid var(--line); border-radius: 4px;
+         padding: 8px; text-align: center; overflow-x: auto; }
+  .fig svg { max-width: 100%; height: auto; }
+  .fig .cap { font-size: 12px; color: var(--muted); margin-top: 4px; }
+  ul { margin: 6px 0; padding-left: 20px; }
+  li { margin: 3px 0; }
+  .mm { display: inline-block; background: #e8e2d2; border-radius: 3px;
+        font-size: 12px; padding: 0 6px; color: #55503f; }
+  .swatch { display: inline-block; width: 14px; height: 14px; border-radius: 3px;
+            border: 1px solid #0003; vertical-align: -2px; margin-right: 5px; }
+  table { border-collapse: collapse; width: 100%; font-size: 14px; }
+  th, td { text-align: left; border-bottom: 1px solid var(--line); padding: 6px 8px; }
+  th { font-size: 12px; text-transform: uppercase; letter-spacing: .05em;
+       color: var(--muted); }
+  .soft { color: var(--muted); font-size: 13px; }
+  .flag { background: #fdf3d7; border-left: 3px solid #d9a520; padding: 8px 12px;
+          font-size: 13px; margin: 10px 0; border-radius: 0 4px 4px 0; }
+  .tag { font-size: 11px; background: var(--ink); color: var(--paper);
+         border-radius: 3px; padding: 1px 6px; vertical-align: 2px;
+         letter-spacing: .05em; }
+  code { font-family: 'Fira Code', monospace; font-size: 13px;
+         background: #eae5d8; padding: 0 4px; border-radius: 3px; }
+  .photos { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 8px; margin-top: 12px; }
+  .photos figure { margin: 0; max-width: 300px; }
+  .photos img { width: 100%; border-radius: 3px; display: block;
+                border: 1px solid var(--line); }
+  .photos figcaption { font-size: 11px; color: var(--muted); margin-top: 2px; }
+</style>
+</head>
+<body>
+<main>
+
+<h1>IDF markings &amp; painting reference</h1>
+<p class="era">1:285 Israeli army — nominal early 1990s: Merkava&nbsp;3 and Peten
+are in service, the Sho&#8217;ts and Magachs are reservists on their last legs.
+The marking system and Sinai Grey were stable from 1982 through the whole
+period. Infantry teams intentionally omitted.</p>
+
+<h2>The marking system in one page</h2>
+<div class="card">
+<div class="cols">
+<div>
+<h3>Company chevrons — the marking that matters</h3>
+<p>Every tank and most AFVs carry a <b>white chevron</b> on both turret/hull
+sides (and often the rear). Orientation encodes the company within the
+battalion:</p>
+<ul>
+  <li><b>&#8744; opening up (point down)</b> — A&nbsp;Company</li>
+  <li><b>&#60; opening rear (point forward)</b> — B&nbsp;Company</li>
+  <li><b>&#8743; opening down (point up)</b> — C&nbsp;Company</li>
+  <li><b>&#62; opening forward (point rear)</b> — D&nbsp;Company</li>
+</ul>
+<p>Chevrons are usually <b>hollow outline</b>, roughly 40–60&nbsp;cm tall
+<span class="mm">≈1.5–2&nbsp;mm at 6&nbsp;mm scale</span>. Your CSV&#8217;s Hebrew
+letter-groups are companies — the assignment table below maps each letter to
+its chevron.</p>
+<h3>Platoon &amp; tank numbers</h3>
+<p>A digit (platoon) plus a Hebrew letter (individual tank), white, on the
+turret sides or on canvas drapes over the bustle rack.
+<span class="mm">&#8776;1&nbsp;mm — skip at this scale, the base sticker already
+carries the designation</span>.</p>
+</div>
+<div>
+<div class="fig">
+<svg viewBox="0 0 420 150" width="420">
+  <rect width="420" height="150" fill="#7e7b6a"/>
+  <g stroke="#fff" stroke-width="7" fill="none">
+    <path d="M40,45 L70,105 L100,45"/>
+    <path d="M195,40 L145,75 L195,110"/>
+    <path d="M250,105 L280,45 L310,105"/>
+    <path d="M355,40 L405,75 L355,110"/>
+  </g>
+  <g fill="#fff" font-family="Georgia" font-size="16" text-anchor="middle">
+    <text x="70" y="135">A</text><text x="170" y="135">B</text>
+    <text x="280" y="135">C</text><text x="380" y="135">D</text>
+  </g>
+</svg>
+<div class="cap">Company chevrons as seen on the vehicle side, front facing left.</div>
+</div>
+<h3>The other two universals</h3>
+<ul>
+  <li><b>&#1510; registration plate</b> — small black plate, white
+  <code>&#1510;-&#8203;12345</code>, hull front + rear on every vehicle.
+  <span class="mm">a 0.5&nbsp;mm white-on-black speck — paint a tiny light dot or skip</span></li>
+  <li><b>Air recognition panel</b> — bright fluorescent <b>orange</b> panel
+  lashed to the engine deck / roof (standard after 1973, ubiquitous in 1982).
+  <span class="mm">≈3&#215;2&nbsp;mm — the single highest-payoff marking at 6&nbsp;mm</span></li>
+</ul>
+<p class="soft">Brigade and battalion insignia are deliberately <i>not</i>
+painted on IDF combat vehicles in wartime — no unit badges to paint, which
+is good news at this scale.</p>
+</div>
+</div>
+</div>
+
+<h2>Chevron assignment for this army</h2>
+<div class="card">
+<p>Each formation&#8217;s three Hebrew letter-groups are <b>companies</b> —
+each group has its own HQ elements, and the chevron is a company marking.
+So the chevron varies <i>within</i> the formation, not between formations.
+With three companies per battalion, a straight A/B/C mapping would leave
+&#62; unused — instead each battalion fields <b>three of the four
+companies</b>, the missing one cross-attached elsewhere (standard IDF task
+organization). The omitted company rotates A&nbsp;&#8594;&nbsp;B&nbsp;&#8594;
+C&nbsp;&#8594;&nbsp;D down the list, so all four orientations appear six
+times each across the army. The sticker&#8217;s group letter + this table
+give the chevron.</p>
+<table>
+<tr><th>Formation</th>
+    <th>&#8744;&nbsp; A — down</th>
+    <th>&#60;&nbsp; B — forward</th>
+    <th>&#8743;&nbsp; C — up</th>
+    <th>&#62;&nbsp; D — rear</th></tr>
+<tr><td>Merkava 3 Tank Company</td><td>—</td><td>&#1488;</td><td>&#1489;</td><td>&#1490;</td></tr>
+<tr><td>Merkava 2 Tank Company</td><td>&#1491;</td><td>—</td><td>&#1492;</td><td>&#1493;</td></tr>
+<tr><td>Merkava 1 Tank Company</td><td>&#1494;</td><td>&#1495;</td><td>—</td><td>&#1496;</td></tr>
+<tr><td>Magach 6 Tank Company</td><td>&#1497;</td><td>&#1499;</td><td>&#1500;</td><td>—</td></tr>
+<tr><td>Sho&#8217;t (Blazer) Tank Company</td><td>—</td><td>&#1502;</td><td>&#1504;</td><td>&#1505;</td></tr>
+<tr><td>Mech Infantry Company</td><td>&#1506;</td><td>—</td><td>&#1508;</td><td>&#1510;</td></tr>
+<tr><td>Reserve Infantry Company</td><td>&#1511;</td><td>&#1512;</td><td>—</td><td>&#1513;</td></tr>
+<tr><td>Paratrooper Company</td><td>&#1498;</td><td>&#1501;</td><td>&#1514;</td><td>—</td></tr>
+<tr><td>Support Pool — Ground (&#1503;)</td>
+    <td colspan="4">no chevron — divisional assets mark battery digits + panels</td></tr>
+<tr><td>Support Pool — Air (&#1507;)</td>
+    <td colspan="4">roundels instead</td></tr>
+</table>
+<ul>
+  <li>Every vehicle in a group wears that group&#8217;s chevron,
+  <b>attachments and HQ included</b> — the HQ bar on the base sticker
+  already handles command disambiguation.</li>
+  <li>Formations are <i>not</i> distinguished by chevron — historically
+  battalion identity never lived in the chevron, and here the vehicle
+  types plus sticker letters carry it. Two Zeldas with the same chevron
+  but letters &#1506; and &#1511; are simply A&nbsp;Company of two
+  different battalions.</li>
+  <li><b>Captured Shilkas and BM-21s</b>: oversized chevrons in
+  <i>any</i> orientation — the point is being seen, not the encoding.</li>
+  <li>The glyph flips with the vehicle side: &#8220;point forward&#8221;
+  means toward the bow on both flanks, so B reads &#8220;&#60;&#8221; on
+  the left hull and &#8220;&#62;&#8221; on the right.</li>
+</ul>
+</div>
+
+<h2>Painting quick reference</h2>
+<div class="card">
+<table>
+<tr><th>Use</th><th>Color</th><th>Paint</th></tr>
+<tr><td>All armor &amp; vehicles, base</td>
+    <td><span class="swatch" style="background:#7e7b6a"></span>Sinai Grey</td>
+    <td>Vallejo Model Air 71.142 &#8220;IDF Sinai Grey 82&#8221;</td></tr>
+<tr><td>Dust drybrush (heavy, everything)</td>
+    <td><span class="swatch" style="background:#c8bd9c"></span>pale sand</td>
+    <td>Vallejo 70.819 Iraqi Sand</td></tr>
+<tr><td>Wash (after base, before drybrush)</td>
+    <td><span class="swatch" style="background:#4a3d2c"></span>dark brown</td>
+    <td>Agrax Earthshade / AP Strong Tone</td></tr>
+<tr><td>Tracks, tires, MGs</td>
+    <td><span class="swatch" style="background:#3d3d40"></span>dark grey</td>
+    <td>Vallejo 70.995 German Grey</td></tr>
+<tr><td>Stowage, tarps, crew helmets</td>
+    <td><span class="swatch" style="background:#8a8462"></span>khaki mix</td>
+    <td>Vallejo 70.988 Khaki (vary per bundle)</td></tr>
+<tr><td>Chevrons, numbers</td>
+    <td><span class="swatch" style="background:#fff"></span>white</td>
+    <td>fine brush or 0.3&nbsp;mm micro pen</td></tr>
+<tr><td>Air recognition panels</td>
+    <td><span class="swatch" style="background:#f07818"></span>fluo orange</td>
+    <td>Vallejo 70.851 Bright Orange</td></tr>
+<tr><td>Helicopters (UH-1, CH-53, AH-1)</td>
+    <td><span class="swatch" style="background:#4b5340"></span>olive drab</td>
+    <td>Vallejo 70.887 US Olive Drab</td></tr>
+<tr><td>A-4 uppers (three-tone)</td>
+    <td><span class="swatch" style="background:#b49a6e"></span>
+        <span class="swatch" style="background:#7d5f46"></span>
+        <span class="swatch" style="background:#5c6b4c"></span>sand/brown/green</td>
+    <td>70.819 / 70.874 Tan Earth / 70.893 US Dark Green</td></tr>
+<tr><td>A-4 undersides</td>
+    <td><span class="swatch" style="background:#b9c4c6"></span>pale grey-blue</td>
+    <td>Vallejo 70.907 Pale Greyblue</td></tr>
+</table>
+<p><b>6&nbsp;mm workflow (armor):</b> prime grey &#8594; base Sinai Grey
+&#8594; brown wash all over &#8594; heavy Iraqi Sand drybrush &#8594; tracks +
+MGs German Grey &#8594; pick out stowage in khakis &#8594; orange panel &#8594;
+white chevron last. Two evening sessions per formation, not per tank —
+batch by texture-platoon so the bases and paint jobs stay consistent.</p>
+</div>
+
+<h2>Bench tips</h2>
+<div class="card">
+<ul>
+  <li><b>White under orange.</b> Orange over Sinai Grey goes muddy — dot the
+  panel area white first, then orange over it. Two seconds extra per
+  vehicle, twice the pop.</li>
+  <li><b>Varnish sandwich.</b> Matte varnish &#8594; gel-pen markings &#8594;
+  matte varnish again. The pen glides better on varnish than on raw paint,
+  and unsealed gel ink scratches off in transport foam.</li>
+  <li><b>Pen rescue.</b> A botched chevron wipes off with a damp cotton bud
+  for ~30 seconds after the stroke — and over varnish it wipes clean even
+  later. You get unlimited retries; don&#8217;t repaint, just wipe.</li>
+  <li><b>Draw from the point outward.</b> Two strokes per chevron, both
+  starting at the vertex — overshoot lands at the open end where it
+  doesn&#8217;t show, not at the point where it does.</li>
+  <li><b>The 60&nbsp;cm rule.</b> Judge every marking at arm&#8217;s length,
+  not under the lamp. If it doesn&#8217;t read at tabletop distance, stop
+  adding detail — it&#8217;s already done.</li>
+  <li><b>Batch by group letter, not vehicle type.</b> One sitting = one
+  company: same chevron orientation, same texture variant on the bases, and
+  the finished company is a visible, motivating unit of progress —
+  24 sittings and the army is painted.</li>
+  <li><b>Paint before basing.</b> The printed bases arrive finished — prime
+  and paint the models on strips, then glue to the base as the last step.
+  No masking, no touch-ups on the texture.</li>
+</ul>
+</div>
+
+<h2>Unit cards</h2>
+
+<div class="card">
+<div class="units">Merkava 1 &#183; Merkava 2 &#183; Merkava 3</div>
+<div class="cols">
+<div>
+<ul>
+  <li><b>Chevron</b> white outline, both turret sides — on Merkava it often
+  sits on the rear turret basket canvas or the side skirts, since the turret
+  sides are small and sloped.</li>
+  <li><b>Platoon number + letter</b> on the bustle rack canvas (skip).</li>
+  <li><b>&#1510; plate</b> bow + rear left. <b>Orange panel</b> on the rear
+  hull roof — which on a Merkava is the crew compartment, not the engine:
+  the powerpack sits up front.</li>
+  <li>Chain-and-ball skirts under the turret bustle read as a shadow line —
+  a thin dark wash line is enough.</li>
+</ul>
+<p><b>Paint:</b> Sinai Grey; Merkavas ran noticeably dustier than the
+Pattons — push the sand drybrush harder. Rubber side-skirt lower edge
+slightly darker.</p>
+<div class="photos">
+<figure><img src="photos/merkava3.jpg" alt="Merkava 3 rear">
+<figcaption>Merkava 3 from the rear — the flat rear roof and chain skirts.</figcaption></figure>
+<figure><img src="photos/merkava2-1986.jpg" alt="Merkava 2, 1986">
+<figcaption>Merkava 2, 1986.</figcaption></figure>
+</div>
+</div>
+<div>
+<div class="fig">
+<svg viewBox="0 0 300 170" width="300">
+  <rect width="300" height="170" fill="#dfe4e0"/>
+  <g transform="translate(20,25)">
+    <rect x="0" y="20" width="230" height="80" rx="10" fill="#7e7b6a" stroke="#55523f"/>
+    <polygon points="230,25 258,45 258,75 230,95" fill="#7e7b6a" stroke="#55523f"/>
+    <path d="M60,40 L170,35 L200,50 L200,70 L170,85 L60,80 Z" fill="#8a8774" stroke="#55523f"/>
+    <rect x="-45" y="55" width="105" height="8" fill="#5c594a"/>
+    <rect x="205" y="30" width="42" height="26" rx="3" fill="#f07818" stroke="#a04e08"/>
+    <path d="M95,52 L110,68 L125,52" stroke="#fff" stroke-width="4" fill="none"/>
+    <rect x="252" y="52" width="9" height="16" fill="#181818"/>
+    <g font-family="Georgia" font-size="11" fill="#2b2925">
+      <text x="262" y="14" text-anchor="end">orange panel, rear hull roof</text>
+      <text x="70" y="118">chevron on turret side / bustle canvas</text>
+      <text x="196" y="86">&#1510; plate</text>
+    </g>
+  </g>
+</svg>
+<div class="cap">Top view, gun left = front. Engine is forward; the flat rear roof
+(crew compartment) carries the panel.</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="card">
+<div class="units">Magach 6 &#183; Magach 6 Blazer &#183; Sho&#8217;t Blazer</div>
+<div class="cols">
+<div>
+<ul>
+  <li>The classic layout: <b>chevron centered on each turret side</b>, big and
+  legible — these are the models where the marking is actually visible.</li>
+  <li>Blazer ERA bricks carry small white stencil digits full-scale
+  (block numbers) — at 6&nbsp;mm just let the wash pick out the brick edges.</li>
+  <li><b>&#1510; plate</b> front + rear, <b>orange panel</b> on rear deck,
+  often a second panel on the turret roof in Lebanon.</li>
+</ul>
+<p><b>Paint:</b> Sinai Grey. ERA blocks a half-shade darker (add a touch of
+German Grey), then drybrush unifies. Sho&#8217;t: stowage bins overflowing —
+khaki bedrolls along the turret rear give it the right silhouette.</p>
+<div class="photos">
+<figure><img src="photos/magach6m.jpg" alt="Magach with chevron">
+<figcaption>Magach — textbook white chevron + digits on the turret side.</figcaption></figure>
+<figure><img src="photos/shot-kal.jpg" alt="Sho't Kal">
+<figcaption>Sho&#8217;t Kal — chevron on the bow plate, &#8220;519&#8221; number.</figcaption></figure>
+<figure><img src="photos/magach6-blazer.jpg" alt="Magach 6 Blazer">
+<figcaption>Magach 6 with Blazer ERA (Latrun).</figcaption></figure>
+</div>
+</div>
+<div>
+<div class="fig">
+<svg viewBox="0 0 300 150" width="300">
+  <rect width="300" height="150" fill="#dfe4e0"/>
+  <g transform="translate(15,20)">
+    <rect x="0" y="30" width="150" height="70" rx="8" fill="#7e7b6a" stroke="#55523f"/>
+    <ellipse cx="185" cy="65" rx="48" ry="40" fill="#8a8774" stroke="#55523f"/>
+    <ellipse cx="185" cy="65" rx="48" ry="40" fill="none" stroke="#55523f" stroke-dasharray="3 3"/>
+    <rect x="228" y="60" width="45" height="9" fill="#5c594a"/>
+    <path d="M160,50 L178,72 L196,50" stroke="#fff" stroke-width="5" fill="none"/>
+    <rect x="8" y="36" width="34" height="22" rx="3" fill="#f07818" stroke="#a04e08"/>
+    <g font-family="Georgia" font-size="11" fill="#2b2925">
+      <text x="4" y="22">orange panel (engine deck)</text>
+      <text x="120" y="122">chevron both turret sides</text>
+    </g>
+  </g>
+</svg>
+<div class="cap">Top view, gun right = front (rear engine deck left).</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="card">
+<div class="units">Nagmasho&#8217;t</div>
+<ul>
+  <li>Centurion hull, no turret: <b>chevron on the hull sides</b>, forward of
+  the exhausts; number on the rear plate.</li>
+  <li><b>Orange panel</b> flat on the roof — troop carriers got shot at by
+  friendly air more than anyone, they marked generously.</li>
+  <li>Paint as the tanks; the raised superstructure sides collect the
+  drybrush and read nicely.</li>
+</ul>
+<div class="photos">
+<figure><img src="photos/nagmashot.jpg" alt="Nagmasho't">
+<figcaption>Nagmasho&#8217;t in the field — the raised superstructure silhouette.</figcaption></figure>
+</div>
+</div>
+
+<div class="card">
+<div class="units">M113 Zelda &#183; Vayzata &#183; recon Zelda &#183; M113 OP &#183; M125 &#183; M106 &#183; M150</div>
+<div class="cols">
+<div>
+<ul>
+  <li>M113s are less formally marked than tanks: <b>chevron or a white
+  tactical number on the hull sides</b> (often on the stowage racks), &#1510;
+  plate front and rear.</li>
+  <li><b>Orange panel across the roof</b> — on mech infantry this is
+  the marking to paint; it also tells the two M113 texture-platoons apart
+  from the tanks at arm&#8217;s length.</li>
+  <li>M125/M106 (mortar carriers): open roof hatch reads as a dark
+  rectangle — paint the interior near-black. M150: TOW tube on the roof,
+  white nose cap dot.</li>
+  <li>Zelda = external stowage everywhere: khaki/olive lumps along the
+  sides, jerrycans on the trim vane. Vary the khakis per platoon.</li>
+</ul>
+<div class="photos">
+<figure><img src="photos/m113-idf.jpg" alt="IDF M113 column">
+<figcaption>IDF M113 column — white tactical number on the hull side of the lead vehicle.</figcaption></figure>
+</div>
+</div>
+<div>
+<div class="fig">
+<svg viewBox="0 0 300 140" width="300">
+  <rect width="300" height="140" fill="#dfe4e0"/>
+  <g transform="translate(45,18)">
+    <rect x="0" y="15" width="200" height="75" rx="6" fill="#7e7b6a" stroke="#55523f"/>
+    <polygon points="0,15 -22,35 -22,70 0,90" fill="#8a8774" stroke="#55523f"/>
+    <rect x="70" y="30" width="60" height="42" rx="3" fill="#f07818" stroke="#a04e08"/>
+    <circle cx="40" cy="52" r="9" fill="#5c594a" stroke="#3d3d40"/>
+    <path d="M160,38 L172,58 L184,38" stroke="#fff" stroke-width="4" fill="none"/>
+    <g font-family="Georgia" font-size="11" fill="#2b2925">
+      <text x="42" y="112">orange panel across the roof</text>
+      <text x="240" y="10" text-anchor="end">chevron / number, hull side</text>
+    </g>
+  </g>
+</svg>
+<div class="cap">M113 top view, trim vane left = front; commander&#8217;s cupola on
+the centreline behind the bow.</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="card">
+<div class="units">M109</div>
+<ul>
+  <li>Artillery marks by battery: <b>white digit or letter on the hull/turret
+  sides</b>, chevrons less common. &#1510; plates, orange panel on the turret roof.</li>
+  <li>Barrel counterweight and mantlet dust cover in canvas khaki; huge
+  stowage racks on the turret — load them up, it&#8217;s what makes an M109
+  look IDF (&#8220;Rochev&#8221;).</li>
+</ul>
+<div class="photos">
+<figure><img src="photos/m109-doher.jpg" alt="IDF M109 firing">
+<figcaption>IDF M109 firing — note how green the vehicle reads next to spring grass.</figcaption></figure>
+</div>
+</div>
+
+<div class="card">
+<div class="units">Pereh</div>
+<ul>
+  <li>The missile carrier that spent its career pretending to be a tank.
+  The disguise was the vehicle itself — boxy fake turret, dummy gun —
+  not the markings: service photos show <b>standard chevrons and turret
+  numbers</b> like any Magach. Mark it as a tank; that&#8217;s the point.</li>
+  <li>Paint as the Magach it pretends to be. The boxy &#8220;turret&#8221;
+  gets the same dust treatment.</li>
+</ul>
+<div class="photos">
+<figure><img src="photos/pereh.jpg" alt="Pereh">
+<figcaption>Pereh, launcher stowed — chevron on the side skirt, &#8220;2&#8221; on
+the turret box. The rear overhang is the missile housing.</figcaption></figure>
+</div>
+</div>
+
+<div class="card">
+<div class="units">Jeep (recon &amp; 106mm RR) &#183; Rabbi / RBY (recon &amp; AT)</div>
+<ul>
+  <li>Soft-skins carry the <b>&#1510; plate</b> (white on black, bumper) and
+  little else painted; recon companies sometimes add a small white tactical
+  digit on the hood.</li>
+  <li><b>Orange panel on the hood or across the rear</b> — recon runs ahead
+  of everyone and wants the air on its side.</li>
+  <li>Paint: Sinai Grey, tires German Grey, seats/tilt khaki. The 106mm RR
+  and TOW tubes near-black with a dry-brushed muzzle. RBY: open crew
+  compartment — dark interior wash, then crew helmets as khaki dots.</li>
+</ul>
+<div class="photos">
+<figure><img src="photos/jeep-106rr.jpg" alt="IDF jeeps with 106mm RR">
+<figcaption>IDF jeeps with 106&nbsp;mm recoilless rifles on parade.</figcaption></figure>
+</div>
+</div>
+
+<div class="card">
+<div class="units">M163 VADS &#183; M48 Chaparral &#183; M270 MLRS</div>
+<ul>
+  <li>Air defense and MLRS follow the M113/tank pattern: <b>&#1510; plates,
+  white battery digit, orange roof panel</b>. Nothing exotic.</li>
+  <li>M163: the Vulcan barrel cluster near-black, radar drum a shade darker
+  than the hull. Chaparral: the four missiles white with dark glass seeker
+  noses — the white rounds are the visual signature. MLRS: launcher box
+  panel lines picked out by wash; IDF &#8220;Menatetz&#8221; ran plain
+  Sinai Grey.</li>
+</ul>
+<div class="photos">
+<figure><img src="photos/m163-vulcan.jpg" alt="M163 VADS">
+<figcaption>M163 VADS (Hatzerim).</figcaption></figure>
+<figure><img src="photos/chaparral.jpg" alt="M730 Chaparral">
+<figcaption>Chaparral — the white missiles carry the model.</figcaption></figure>
+<figure><img src="photos/mlrs-menatetz.jpg" alt="IDF MLRS">
+<figcaption>IDF Menatetz (M270).</figcaption></figure>
+</div>
+</div>
+
+<div class="card">
+<div class="units">ZSU-23-4 Shilka &#183; BM-21 Grad <span class="tag">captured</span></div>
+<ul>
+  <li>War booty pressed into IDF service — marked <b>loudly</b> so nobody
+  shoots them: <b>oversized white chevrons on every face, orange panels on
+  every horizontal surface</b>, &#1510; plates over the old Arabic plates.</li>
+  <li>Paint: either leave them in captured sand (Vallejo 70.819 base — a
+  nice one-off among the grey) or repaint Sinai Grey like the depot
+  eventually did. The four white-on-sand Shilkas will be the most
+  photographed models in the army; lean into it.</li>
+</ul>
+</div>
+
+<div class="card">
+<div class="units">AH-1 Tzefa &#183; AH-64 Peten &#183; UH-1 &#183; CH-53 Yas&#8217;ur</div>
+<div class="cols">
+<div>
+<ul>
+  <li><b>IAF roundel</b> (blue Star of David on white disc) on the tail boom
+  sides, plus a <b>2–3 digit black tail number</b> on the nose or boom.
+  <span class="mm">roundel ≈1&nbsp;mm — a white dot with a blue center dot
+  sells it completely</span></li>
+  <li>Rotor heads and engine housings near-black; canopy frames dark over a
+  gunmetal canopy.</li>
+</ul>
+<p><b>Paint:</b> UH-1 and CH-53 overall US Olive Drab (Yas&#8217;ur weathered
+toward brown — add Tan Earth to the drybrush). AH-1 Tzefa: olive drab, and by
+the 90s IAF Cobras were picking up sand/tan schemes — either is
+period-correct, so paint the squadron the scheme you like. AH-64 Peten:
+very dark US helo drab — near-black green (German Grey + a drop of olive).</p>
+</div>
+<div>
+<div class="fig">
+<svg viewBox="0 0 300 130" width="300">
+  <rect width="300" height="130" fill="#dfe4e0"/>
+  <g transform="translate(10,20)">
+    <path d="M30,55 Q45,30 85,32 L150,40 L255,52 L255,62 L150,64 L85,72 Q45,74 30,55 Z"
+          fill="#4b5340" stroke="#333a2c"/>
+    <rect x="238" y="30" width="6" height="24" fill="#4b5340" stroke="#333a2c"/>
+    <line x1="60" y1="52" x2="120" y2="10" stroke="#333" stroke-width="3"/>
+    <line x1="60" y1="52" x2="0" y2="90" stroke="#333" stroke-width="3"/>
+    <circle cx="195" cy="57" r="9" fill="#fff"/>
+    <circle cx="195" cy="57" r="4.5" fill="#1c46a0"/>
+    <g font-family="Georgia" font-size="11" fill="#2b2925">
+      <text x="255" y="95" text-anchor="end">roundel + black number, tail boom</text>
+    </g>
+  </g>
+</svg>
+<div class="cap">Side view. One white dot + one blue dot = roundel at this scale.</div>
+</div>
+</div>
+</div>
+<div class="photos">
+<figure><img src="photos/ah1-tzefa.jpg" alt="AH-1 Tzefa">
+<figcaption>AH-1 Tzefa in the later sand scheme, squadron art on the fuselage.</figcaption></figure>
+<figure><img src="photos/ch53-yasur.jpg" alt="CH-53 Yas'ur">
+<figcaption>CH-53 Yas&#8217;ur — the olive reads warm brown in strong light.</figcaption></figure>
+</div>
+</div>
+
+<div class="card">
+<div class="units">A-4 Skyhawk</div>
+<div class="cols">
+<div>
+<ul>
+  <li><b>Three-tone uppers</b> (sand / brown / green in soft-edged bands),
+  pale grey-blue undersides.</li>
+  <li><b>Roundels</b>: six positions — top and bottom of <i>both</i> wings,
+  plus both fuselage sides aft of the wing.</li>
+  <li><b>Yellow-and-black ID stripes on the rudder</b> — the War of
+  Attrition quick-recognition marking IAF Skyhawks kept for years; at this
+  scale a plain yellow rudder reads correctly.</li>
+  <li>Black 2-digit nose number; skip at 6&nbsp;mm.</li>
+</ul>
+</div>
+<div>
+<div class="fig">
+<svg viewBox="0 0 300 150" width="300">
+  <rect width="300" height="150" fill="#dfe4e0"/>
+  <defs>
+    <path id="a4" d="M18,80 L50,72 L100,70 L108,66 L172,24 L184,30 L152,72
+      L225,71 L233,55 L246,57 L246,66 L258,71 L266,80 L258,89 L246,94
+      L246,103 L233,105 L225,89 L152,88 L184,130 L172,136 L108,94 L100,90
+      L50,88 Z"/>
+    <clipPath id="a4clip"><use href="#a4"/></clipPath>
+  </defs>
+  <use href="#a4" fill="#b49a6e" stroke="#6b5b3e"/>
+  <g clip-path="url(#a4clip)" opacity="0.95">
+    <path d="M90,55 Q130,30 175,25 Q150,60 115,75 Q95,70 90,55 Z" fill="#7d5f46"/>
+    <path d="M120,95 Q160,135 190,130 Q170,95 145,84 Q128,84 120,95 Z" fill="#5c6b4c"/>
+    <path d="M195,65 Q230,60 260,72 Q235,92 200,88 Z" fill="#5c6b4c"/>
+    <path d="M30,72 Q55,64 80,70 Q60,86 35,86 Z" fill="#7d5f46"/>
+  </g>
+  <circle cx="140" cy="48" r="10" fill="#fff"/><circle cx="140" cy="48" r="5" fill="#1c46a0"/>
+  <circle cx="140" cy="112" r="10" fill="#fff"/><circle cx="140" cy="112" r="5" fill="#1c46a0"/>
+  <g transform="translate(240,8)">
+    <rect width="34" height="26" fill="#f3c218" stroke="#6b5b3e"/>
+    <rect x="8" width="6" height="26" fill="#141414"/>
+    <rect x="22" width="6" height="26" fill="#141414"/>
+  </g>
+  <g font-family="Georgia" font-size="11" fill="#2b2925">
+    <text x="236" y="46" text-anchor="end">fin, seen from the side</text>
+    <text x="60" y="22">roundels: both wings, top and bottom</text>
+  </g>
+</svg>
+<div class="cap">Top view, nose left. Soft-edged three-tone; exact band layout varied per airframe.</div>
+</div>
+</div>
+</div>
+<div class="photos">
+<figure><img src="photos/a4-skyhawk.jpg" alt="IAF A-4 Skyhawks">
+<figcaption>IAF A-4s — three-tone uppers and roundel placement.</figcaption></figure>
+</div>
+</div>
+
+<h2>Confidence notes</h2>
+<div class="flag">
+<b>Solid:</b> chevron orientation system, platoon number + Hebrew letter scheme,
+&#1510; plates, hollow-white style, no unit insignia in the field, Sinai Grey as
+the universal vehicle color (Vallejo 71.142), IAF roundel placement.<br>
+<b>Softer — check photos before painting if you care:</b> exact orange-panel
+shapes/positions per vehicle (they were lashed wherever they fit), captured-
+vehicle marking details, AH-64 delivery scheme, exact A-4 camo band layout and
+whether the rudder stripes were still worn by the mid-80s. None of these
+change anything visible at 6&nbsp;mm except the panel positions.<br>
+<b>Era:</b> anchored to the early 1990s, which makes the whole roster fit —
+MLRS, Peten and Merkava&nbsp;3 are in service, and Sho&#8217;t/Magach reserve
+formations are historical reality, not a fudge. The A-4s were flying with
+reserve squadrons by then; whether they still wore the rudder stripes is the
+one open question left.
+</div>
+<p class="soft">Sources: Flames of War &#8220;Israeli Decals Deciphered&#8221;
+(chevron/platoon system), Vallejo IDF color range (71.142 Sinai Grey 82),
+period photo references. Diagrams are schematic, not to scale. Photos in
+<code>photos/</code> are from Wikimedia Commons (search the filename there
+for the original and full resolution); private reference use.</p>
+
+</main>
+</body>
+</html>
