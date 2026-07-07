@@ -65,7 +65,9 @@ Left → right inside the sticker:
   at y=2.5 — pushed down so the label has its own band above).
 - Top text — equipment / weapon name (e.g. `MERKAVA 3`, `FN MAG`,
   `AH-64`). 0.5 mm clearance from the sticker top edge.
-- Bottom text — designation, prominent, centered (e.g. `001א`).
+- Bottom text — designation, prominent, centered (e.g. `א001` —
+  letter-first per the IDF panel photo; `idf_migrate.letter_first()`
+  does the reorder, the full CSV stays digits-first).
   0.5 mm clearance from the sticker bottom (descender to edge —
   matters for Hebrew final letters ן ך ץ ף).
 - 5×3.64 mm flag (11:8 aspect, the renderer stretches non-11:8 flags
@@ -314,10 +316,15 @@ are rotated upright (`--no-rotate` to disable) — flatbed orientation
 is irrelevant — collapsing the classes to 20×40 / 20×30 / 20×20
 + 40×30 objectives. Outputs under gitignored `jig/`:
 
-- `jig-<class>.svg` + `jig-a4-N.svg` — 4 reusable jig strips
-  (297×90 A4 strips that fit the E1's 330×90 window), nested
-  two-per-A4; kerf-compensated holes, 3 mm rounded corners, engraved
-  slot numbers, flatbed-origin datum, red=cut / blue=engrave.
+- `jig-<class>.svg` + `jig-a4-N.svg` — 4 reusable jig strips, nested
+  two-per-A4 inset 5 mm from the sheet edges (no cut lands on a sheet
+  edge). All four jigs share ONE uniform outer footprint (290×90, the max
+  pocket extent across classes — smaller-pocket jigs just carry extra
+  border) so a single printed clamp fits every jig. Outline a few mm
+  shorter than the sheet, all four corners 3 mm rounded; the engraved
+  origin datum (not the corner) is the flatbed reference, refined by
+  the calibration print. Kerf-compensated holes, engraved slot numbers,
+  red=cut / blue=engrave.
 - `blanks-<class>-N.svg` — dense A4 blank-cutting sheets (0.8 mm
   spacing, 2 mm edge margin via `--blank-gap/--blank-margin`); each
   jig's own dropouts count toward the blank total.
@@ -327,7 +334,10 @@ is irrelevant — collapsing the classes to 20×40 / 20×30 / 20×20
 - `manifest.csv` — class/plate/slot → designation/position.
 
 Filters `--formation/--group/--objectives`; geometry
-`--margin/--gap/--clearance/--kerf/--radius`, `--plate WxH`.
+`--margin/--gap/--clearance/--kerf/--radius`, `--plate WxH`. Calibrated
+values (2026-07, 1 mm acrylic): `--kerf 0.15`, `--clearance 0.0` (slip
+fit — the coupon's c=0.0 pocket seated perfectly; empirical fit is
+kerf-independent as long as production reuses the coupon's kerf).
 `--calibrate` writes four test artifacts in dependency order:
 `calibration-material.svg` first (power/speed: 16 squares in 16 stroke
 colors to map to a settings ladder in the laser software — or use the

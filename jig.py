@@ -96,17 +96,26 @@ def grid(w: float, d: float, plate_w: float, plate_h: float,
             for r in range(rows) for c in range(cols)]
 
 
-def svg_group(pockets: list[dict], plate_w: float, plate_h: float,
+def svg_group(pockets: list[dict], ow: float, oh: float,
               clearance: float, kerf: float, radius: float,
               label: str = "") -> str:
     # target hole = base + clearance; the beam eats kerf/2 per edge on a
-    # hole, so draw the rect kerf smaller and keep it centered
-    tx, ty = plate_w - 2.5, 3.0
+    # hole, so draw the rect kerf smaller and keep it centered.
+    # ow/oh are the UNIFORM outer dimensions shared by all four jigs, so a
+    # single clamp fits every one — a few mm shorter than the sheet so the
+    # cut never lands on a sheet edge. All four corners rounded; the
+    # engraved origin datum (not the corner itself) is the flatbed
+    # reference, refined by the calibration print.
+    r = radius
+    tx, ty = ow - 2.5, 3.0
     parts = [
-        f'<rect x="0" y="0" width="{plate_w}" height="{plate_h}" '
+        f'<path d="M{r},0 L{ow - r:.3f},0 A{r},{r} 0 0 1 {ow:.3f},{r} '
+        f'L{ow:.3f},{oh - r:.3f} A{r},{r} 0 0 1 {ow - r:.3f},{oh:.3f} '
+        f'L{r},{oh:.3f} A{r},{r} 0 0 1 0,{oh - r:.3f} '
+        f'L0,{r} A{r},{r} 0 0 1 {r},0 Z" '
         f'fill="none" stroke="{CUT}" stroke-width="0.05"/>',
-        # origin corner mark stays at the flatbed origin; the label text
-        # runs down the unused right end of the strip, out of the print area
+        # engraved origin datum at the (0,0) coordinate origin; the rounded
+        # corner trims its tip, leaving two edge ticks that point at origin
         f'<path d="M0,6 L0,0 L6,0" fill="none" stroke="{ENGRAVE}" stroke-width="0.3"/>',
         f'<text x="{tx}" y="{ty}" font-size="2.2" fill="{ENGRAVE}" '
         f'font-family="monospace" transform="rotate(90 {tx} {ty})">'
@@ -305,8 +314,9 @@ def main(argv: list[str] | None = None) -> int:
                    help="spacing between blanks on the dense cutting sheets, mm")
     p.add_argument("--blank-margin", type=float, default=2.0,
                    help="sheet edge margin on the blank cutting sheets, mm")
-    p.add_argument("--clearance", type=float, default=0.2,
-                   help="pocket oversize vs blank, mm")
+    p.add_argument("--clearance", type=float, default=0.0,
+                   help="pocket oversize vs blank, mm (0.0 = slip fit, "
+                        "measured on the fit coupon 2026-07 at kerf 0.15)")
     p.add_argument("--kerf", type=float, default=0.15,
                    help="laser kerf compensation, mm")
     p.add_argument("--radius", type=float, default=3.0,
@@ -355,6 +365,17 @@ def main(argv: list[str] | None = None) -> int:
     for it in items:
         classes.setdefault(f"{it['w']}x{it['d']}", []).append(it)
 
+    # pre-pass: pocket grid per class + the uniform outer size (max extent
+    # across all classes) so every jig shares one footprint / clamp
+    class_grid: dict[str, tuple[float, float, list]] = {}
+    uw = uh = 0.0
+    for cls in classes:
+        w, d = parse_base(cls)
+        positions = grid(w, d, plate_w, plate_h, args.margin, args.gap)
+        class_grid[cls] = (w, d, positions)
+        uw = max(uw, max(x + w for x, y in positions) + args.margin)
+        uh = max(uh, max(y + d for x, y in positions) + args.margin)
+
     args.out.mkdir(parents=True, exist_ok=True)
     jig_groups = []
     total_plates = 0
@@ -366,13 +387,12 @@ def main(argv: list[str] | None = None) -> int:
         wr.writerow(["class", "plate", "slot", "x_mm", "y_mm",
                      "designation", "name"])
         for cls, members in classes.items():
-            w, d = parse_base(cls)
-            positions = grid(w, d, plate_w, plate_h, args.margin, args.gap)
+            w, d, positions = class_grid[cls]
             pockets = [dict(w=w, d=d, x=x, y=y) for x, y in positions]
-            g = svg_group(pockets, plate_w, plate_h, args.clearance,
+            g = svg_group(pockets, uw, uh, args.clearance,
                           args.kerf, args.radius, label=f"JIG {cls}")
             jig_groups.append(g)
-            write_svg(args.out / f"jig-{cls}.svg", g, plate_w, plate_h)
+            write_svg(args.out / f"jig-{cls}.svg", g, uw, uh)
 
             n_plates = ceil(len(members) / len(positions))
             for n in range(1, n_plates + 1):
@@ -398,12 +418,17 @@ def main(argv: list[str] | None = None) -> int:
                            f"{len(positions)}/jig, {n_plates} plates, "
                            f"{sheets} blank sheets")
 
-    # nest the jig strips two-per-A4
+    # nest the uniform jig strips two-per-A4: centered horizontally and
+    # stacked with margins so no cut line lands on a sheet edge
+    xoff = max(3.0, (A4[0] - uw) / 2)
+    vgap = 10.0
+    yoff = max(5.0, (A4[1] - 2 * uh - vgap) / 2)
     for s, i in enumerate(range(0, len(jig_groups), 2), 1):
-        pair = [f'<g transform="translate(0,8)">{jig_groups[i]}</g>']
+        pair = [f'<g transform="translate({xoff:.2f},{yoff:.2f})">'
+                f'{jig_groups[i]}</g>']
         if i + 1 < len(jig_groups):
-            pair.append(f'<g transform="translate(0,{8 + plate_h + 10})">'
-                        f'{jig_groups[i + 1]}</g>')
+            pair.append(f'<g transform="translate({xoff:.2f},'
+                        f'{yoff + uh + vgap:.2f})">{jig_groups[i + 1]}</g>')
         write_svg(args.out / f"jig-a4-{s}.svg", "\n".join(pair), *A4)
 
     for line in summary:

@@ -193,6 +193,15 @@ def group_for_letter(letter: str) -> str:
     return letter.strip().split()[0] if letter else ""
 
 
+def letter_first(designation: str) -> str:
+    """`001א` -> `א001`: the company letter leads, matching the visual
+    order on real IDF designation panels (letter left of the digits —
+    see markings/photos/merkava-designation-panels.jpg). The source CSV
+    keeps digits-first; this is a presentation transform."""
+    m = re.fullmatch(r"(\d+)([א-ת]+)", designation.strip())
+    return f"{m.group(2)}{m.group(1)}" if m else designation
+
+
 def migrate(src: Path, dst: Path) -> int:
     with src.open(newline="", encoding="utf-8") as f:
         rows = list(csv.DictReader(f))
@@ -203,7 +212,7 @@ def migrate(src: Path, dst: Path) -> int:
         unit_name = row.get("unit_name", "")
         existing_name = (row.get("name") or "").strip()
         minimal_rows.append({
-            "designation": row["designation"],
+            "designation": letter_first(row["designation"]),
             "name":        existing_name or derive_name(team_role, unit_name),
             "symbol":      map_role_to_symbol(team_role),
             "width":       str(width_for_base(row["base"])),

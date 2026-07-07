@@ -16,7 +16,9 @@ Each sticker is 8 mm tall and goes on the lower edge of the base:
 
 - **Top label** — equipment / weapon (e.g. `MERKAVA 3`, `M163 VADS`,
   `AH-64 PETEN`, `LEOPARD 2`).
-- **Designation** — the team ID (`001א`, `1.PLT.A`, …).
+- **Designation** — the team ID (`א001`, `1.PLT.A`, …). The Israeli
+  example leads with the company letter, matching the visual order on
+  real IDF designation panels.
 - **APP-6 unit icon** on the left, **national flag** on the right.
 
 A 20 mm-wide base gets a 20 × 8 mm sticker; a 40 mm-wide base gets
