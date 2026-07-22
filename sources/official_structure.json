@@ -1,0 +1,159 @@
+{
+  "_source": "forces.team-yankee.com Israeli force builder (dynamic points), crawled 2026-07-22",
+  "_notes": [
+    "REQ/opt = compulsory/optional slot. Choices within a slot are mutually exclusive.",
+    "Unit compositions list the MAX option per card; smaller fieldings exist but stickers print max.",
+    "Checkbox options that add/replace models are listed under options."
+  ],
+  "formations": {
+    "Merkava 3 Tank Company": {
+      "slots": [
+        {"req": true,  "choices": ["Merkava 3 Tank Company HQ"]},
+        {"req": true,  "choices": ["Merkava 3 Tank Platoon"]},
+        {"req": true,  "choices": ["Merkava 3 Tank Platoon", "Merkava 2 Tank Platoon", "Merkava 1 Tank Platoon"]},
+        {"req": false, "choices": ["Merkava 3 Tank Platoon"]},
+        {"req": false, "choices": ["Jeep Recce Platoon", "M113 Recce Platoon", "Rabbi Recce Platoon"]},
+        {"req": false, "choices": ["Mech Infantry Platoon", "Reserve Infantry Platoon"]}
+      ]
+    },
+    "Merkava 2 Tank Company": {
+      "slots": [
+        {"req": true,  "choices": ["Merkava 2 Tank Company HQ"]},
+        {"req": true,  "choices": ["Merkava 2 Tank Platoon"]},
+        {"req": true,  "choices": ["Merkava 2 Tank Platoon", "Merkava 1 Tank Platoon", "Merkava 3 Tank Platoon"]},
+        {"req": false, "choices": ["Merkava 2 Tank Platoon"]},
+        {"req": false, "choices": ["Mech Infantry Platoon", "Reserve Infantry Platoon"]},
+        {"req": false, "choices": ["Jeep Recce Platoon", "M113 Recce Platoon", "Rabbi Recce Platoon"]}
+      ]
+    },
+    "Merkava 1 Tank Company": {
+      "slots": [
+        {"req": true,  "choices": ["Merkava 1 Tank Company HQ"]},
+        {"req": true,  "choices": ["Merkava 1 Tank Platoon"]},
+        {"req": true,  "choices": ["Merkava 1 Tank Platoon", "Merkava 2 Tank Platoon", "Merkava 3 Tank Platoon"]},
+        {"req": false, "choices": ["Merkava 1 Tank Platoon"]},
+        {"req": false, "choices": ["Mech Infantry Platoon", "Reserve Infantry Platoon"]},
+        {"req": false, "choices": ["Jeep Recce Platoon", "M113 Recce Platoon", "Rabbi Recce Platoon"]}
+      ]
+    },
+    "Magach 6 Tank Company": {
+      "slots": [
+        {"req": true,  "choices": ["Magach 6 Tank Company HQ"]},
+        {"req": true,  "choices": ["Magach 6 Tank Platoon"]},
+        {"req": true,  "choices": ["Magach 6 Tank Platoon"]},
+        {"req": false, "choices": ["Magach 6 Tank Platoon"]},
+        {"req": false, "choices": ["Jeep Recce Platoon", "M113 Recce Platoon", "Rabbi Recce Platoon"]},
+        {"req": false, "choices": ["Mech Infantry Platoon", "Reserve Infantry Platoon"]}
+      ]
+    },
+    "Sho't (Blazer) Tank Company": {
+      "slots": [
+        {"req": true,  "choices": ["Sho't (Blazer) Tank Company HQ"]},
+        {"req": true,  "choices": ["Sho't (Blazer) Tank Platoon"]},
+        {"req": true,  "choices": ["Sho't (Blazer) Tank Platoon"]},
+        {"req": false, "choices": ["Sho't (Blazer) Tank Platoon"]},
+        {"req": false, "choices": ["Jeep Recce Platoon", "M113 Recce Platoon", "Rabbi Recce Platoon"]},
+        {"req": false, "choices": ["Mech Infantry Platoon", "Reserve Infantry Platoon"]}
+      ]
+    },
+    "Mech Infantry Company": {
+      "slots": [
+        {"req": true,  "choices": ["Mech Infantry Company HQ"]},
+        {"req": true,  "choices": ["Mech Infantry Platoon"]},
+        {"req": true,  "choices": ["Mech Infantry Platoon"]},
+        {"req": false, "choices": ["Mech Infantry Platoon"]},
+        {"req": false, "choices": ["Merkava 1 Tank Platoon", "Merkava 2 Tank Platoon", "Magach 6 Tank Platoon", "Sho't (Blazer) Tank Platoon", "Merkava 3 Tank Platoon"]},
+        {"req": false, "choices": ["M125 81mm Mortar Platoon"]},
+        {"req": false, "choices": ["M150 Anti-tank Platoon"]}
+      ]
+    },
+    "Reserve Infantry Company": {
+      "slots": [
+        {"req": true,  "choices": ["Reserve Infantry Company HQ"]},
+        {"req": true,  "choices": ["Reserve Infantry Platoon"]},
+        {"req": true,  "choices": ["Reserve Infantry Platoon"]},
+        {"req": false, "choices": ["Reserve Infantry Platoon"]},
+        {"req": false, "choices": ["Merkava 3 Tank Platoon", "Merkava 1 Tank Platoon", "Merkava 2 Tank Platoon", "Magach 6 Tank Platoon", "Sho't (Blazer) Tank Platoon"]},
+        {"req": false, "choices": ["Reserve M125 81mm Mortar Platoon"]},
+        {"req": false, "choices": ["Reserve M150 Anti-tank Section", "Reserve Jeep Anti-tank Platoon"]}
+      ]
+    },
+    "Paratrooper Company": {
+      "slots": [
+        {"req": true,  "choices": ["Paratrooper Company HQ"]},
+        {"req": true,  "choices": ["Paratrooper Platoon"]},
+        {"req": true,  "choices": ["Paratrooper Platoon"]},
+        {"req": false, "choices": ["Paratrooper Platoon"]},
+        {"req": false, "choices": ["Merkava 3 Tank Platoon", "Merkava 1 Tank Platoon", "Merkava 2 Tank Platoon", "Magach 6 Tank Platoon", "Sho't (Blazer) Tank Platoon"]},
+        {"req": false, "choices": ["M125 81mm Mortar Platoon"]},
+        {"req": false, "choices": ["Jeep Anti-tank Platoon", "Rabbi Anti-tank Platoon", "M150 Anti-tank Platoon"]}
+      ]
+    }
+  },
+  "force_support": [
+    {"choices": ["M109 SP Artillery Battery"]},
+    {"choices": ["M109 SP Artillery Battery", "M106 120mm Mortar Battery"]},
+    {"choices": ["M270 MLRS SP Rocket Battery", "BM-21 Hail SP Rocket Battery"]},
+    {"choices": ["M113 OP Artillery Observer"]},
+    {"choices": ["Pereh Anti-tank Platoon"]},
+    {"choices": ["Jeep Anti-tank Platoon", "Rabbi Anti-tank Platoon"]},
+    {"choices": ["Jeep Recce Platoon", "Rabbi Recce Platoon"]},
+    {"choices": ["M163 VADS AA Platoon", "ZSU-23-4 Shilka AA Platoon"]},
+    {"choices": ["M48 Chaparral SAM Platoon"]},
+    {"choices": ["Redeye SAM Platoon"]},
+    {"choices": ["Skyhawk Fighter Flight"]},
+    {"choices": ["AH-64 Cobra Attack Helicopter Platoon", "AH-1 Viper Attack Helicopter Platoon"]},
+    {"choices": ["AH-64 Cobra Attack Helicopter Platoon", "AH-1 Viper Attack Helicopter Platoon"]}
+  ],
+  "formation_support_single_platoons": [
+    "Merkava 3 Tank Platoon", "Merkava 2 Tank Platoon", "Merkava 1 Tank Platoon",
+    "Magach 6 Tank Platoon", "Sho't (Blazer) Tank Platoon",
+    "Mech Infantry Platoon", "Reserve Infantry Platoon", "Paratrooper Platoon"
+  ],
+  "units": {
+    "Merkava 3 Tank Company HQ":  {"max": {"Merkava 3": 2}},
+    "Merkava 2 Tank Company HQ":  {"max": {"Merkava 2": 2}},
+    "Merkava 1 Tank Company HQ":  {"max": {"Merkava 1": 2}},
+    "Magach 6 Tank Company HQ":   {"max": {"Magach 6": 2}, "variants": ["Magach 6 (Blazer)"]},
+    "Sho't (Blazer) Tank Company HQ": {"max": {"Sho't (Blazer)": 2}},
+    "Merkava 3 Tank Platoon":     {"max": {"Merkava 3": 3}},
+    "Merkava 2 Tank Platoon":     {"max": {"Merkava 2": 3}},
+    "Merkava 1 Tank Platoon":     {"max": {"Merkava 1": 3}},
+    "Magach 6 Tank Platoon":      {"max": {"Magach 6": 3}, "variants": ["Magach 6 (Blazer)"]},
+    "Sho't (Blazer) Tank Platoon": {"max": {"Sho't (Blazer)": 3}},
+    "Mech Infantry Company HQ":   {"max": {"Galil team": 1, "M113": 1},
+                                   "options": ["M113 -> Vayzata", "M113 -> Nagmasho't"]},
+    "Mech Infantry Platoon":      {"max": {"Galil team": 4, "FN MAG team": 3, "RPG-7 team": 3, "M47 Dragon team": 1, "52mm mortar team": 1, "M113": 4},
+                                   "options": ["Dragon -> Dragon 2", "M113 -> Vayzata (all)", "M113 -> Nagmasho't (all)", "RPG-7 -> B-300 (all)"]},
+    "Reserve Infantry Company HQ": {"max": {"Galil team": 1, "Reserve M113": 1}},
+    "Reserve Infantry Platoon":   {"max": {"Galil team": 4, "FN MAG team": 3, "RPG-7 team": 3, "Dragon team": 1, "52mm mortar team": 1},
+                                   "options": ["Add 4x Reserve M113", "Dragon -> Dragon 2"]},
+    "Paratrooper Company HQ":     {"max": {"Galil team": 1},
+                                   "options": ["Add M113", "M113 -> UH-1"]},
+    "Paratrooper Platoon":        {"max": {"Galil team": 4, "FN MAG team": 3, "RPG-7 team": 3, "Dragon team": 1, "52mm mortar team": 1},
+                                   "options": ["Add 4x M113", "M113 -> UH-1 (up to 4)", "4x UH-1 -> 2x CH-53", "RPG-7 -> B-300 (all)", "Dragon -> Dragon 2"]},
+    "M125 81mm Mortar Platoon":   {"max": {"M125": 3}},
+    "M150 Anti-tank Platoon":     {"max": {"M150": 2}, "variants": ["iTOW", "MAPATS"]},
+    "Reserve M125 81mm Mortar Platoon": {"max": {"M125": 3}},
+    "Reserve M150 Anti-tank Section":   {"max": {"M150": 2}, "variants": ["iTOW", "MAPATS"]},
+    "Reserve Jeep Anti-tank Platoon":   {"max": {"Jeep": 4}, "variants": ["iTOW", "MAPATS"]},
+    "Jeep Recce Platoon":         {"max": {"Recce Jeep": 3}},
+    "M113 Recce Platoon":         {"max": {"Recce M113": 4}},
+    "Rabbi Recce Platoon":        {"max": {"Rabbi (MGs)": 3}, "options": ["Add 1 CH-53 per 2 Rabbi (max 2)"]},
+    "Jeep Anti-tank Platoon":     {"max": {"Jeep": 4}, "variants": ["iTOW", "MAPATS"]},
+    "Rabbi Anti-tank Platoon":    {"max": {"Rabbi": 4}, "variants": ["iTOW", "MAPATS"], "options": ["Add 1 CH-53 per 2 Rabbi (max 2)"]},
+    "Pereh Anti-tank Platoon":    {"max": {"Pereh": 3}, "variants": ["Tammuz", "Tammuz 2"]},
+    "M109 SP Artillery Battery":  {"max": {"M109": 6}},
+    "M106 120mm Mortar Battery":  {"max": {"M106": 4}},
+    "M270 MLRS SP Rocket Battery": {"max": {"M270 MLRS": 6}},
+    "BM-21 Hail SP Rocket Battery": {"max": {"BM-21": 6}},
+    "M113 OP Artillery Observer": {"max": {"M113 OP": 1}},
+    "M163 VADS AA Platoon":       {"max": {"M163 VADS": 4}},
+    "ZSU-23-4 Shilka AA Platoon": {"max": {"ZSU-23-4": 4}},
+    "M48 Chaparral SAM Platoon":  {"max": {"M48 Chaparral": 4}},
+    "Redeye SAM Platoon":         {"max": {"Redeye team": 4}},
+    "Skyhawk Fighter Flight":     {"max": {"Skyhawk": 4}},
+    "AH-64 Cobra Attack Helicopter Platoon": {"max": {"AH-64": 4}},
+    "AH-1 Viper Attack Helicopter Platoon":  {"max": {"AH-1": 4}, "variants": ["iTOW", "MAPATS"]}
+  }
+}

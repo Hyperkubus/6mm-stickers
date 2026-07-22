@@ -7,70 +7,67 @@ designation,name,symbol,width,base,hq,formation,group
 א201,MERKAVA 3,armor,20,20x40,,Merkava 3 Tank Company,א
 א202,MERKAVA 3,armor,20,20x40,,Merkava 3 Tank Company,א
 א203,MERKAVA 3,armor,20,20x40,,Merkava 3 Tank Company,א
+א204,MERKAVA 2,armor,20,20x40,,Merkava 3 Tank Company,א
+א205,MERKAVA 2,armor,20,20x40,,Merkava 3 Tank Company,א
+א206,MERKAVA 2,armor,20,20x40,,Merkava 3 Tank Company,א
+א207,MERKAVA 1,armor,20,20x40,,Merkava 3 Tank Company,א
+א208,MERKAVA 1,armor,20,20x40,,Merkava 3 Tank Company,א
+א209,MERKAVA 1,armor,20,20x40,,Merkava 3 Tank Company,א
 א301,MERKAVA 3,armor,20,20x40,,Merkava 3 Tank Company,א
 א302,MERKAVA 3,armor,20,20x40,,Merkava 3 Tank Company,א
 א303,MERKAVA 3,armor,20,20x40,,Merkava 3 Tank Company,א
-א304,MERKAVA 2,armor,20,20x40,,Merkava 3 Tank Company,א
-א305,MERKAVA 2,armor,20,20x40,,Merkava 3 Tank Company,א
-א306,MERKAVA 2,armor,20,20x40,,Merkava 3 Tank Company,א
-א307,MERKAVA 1,armor,20,20x40,,Merkava 3 Tank Company,א
-א308,MERKAVA 1,armor,20,20x40,,Merkava 3 Tank Company,א
-א309,MERKAVA 1,armor,20,20x40,,Merkava 3 Tank Company,א
-א401,MERKAVA 3,armor,20,20x40,,Merkava 3 Tank Company,א
-א402,MERKAVA 3,armor,20,20x40,,Merkava 3 Tank Company,א
-א403,MERKAVA 3,armor,20,20x40,,Merkava 3 Tank Company,א
-א501,JEEP,reconnaissance,20,20x30,,Merkava 3 Tank Company,א
-א502,JEEP,reconnaissance,20,20x30,,Merkava 3 Tank Company,א
-א503,JEEP,reconnaissance,20,20x30,,Merkava 3 Tank Company,א
-א504,M113 ZELDA,reconnaissance,20,20x30,,Merkava 3 Tank Company,א
-א505,M113 ZELDA,reconnaissance,20,20x30,,Merkava 3 Tank Company,א
-א506,M113 ZELDA,reconnaissance,20,20x30,,Merkava 3 Tank Company,א
-א507,M113 ZELDA,reconnaissance,20,20x30,,Merkava 3 Tank Company,א
-א508,RABBI,reconnaissance,20,20x30,,Merkava 3 Tank Company,א
-א509,RABBI,reconnaissance,20,20x30,,Merkava 3 Tank Company,א
-א510,RABBI,reconnaissance,20,20x30,,Merkava 3 Tank Company,א
-א511,UH-1,utility helicopter,20,20x40,,Merkava 3 Tank Company,א
-א512,UH-1,utility helicopter,20,20x40,,Merkava 3 Tank Company,א
-א601,GALIL,infantry,40,40x20,,Merkava 3 Tank Company,א
-א602,GALIL,infantry,40,40x20,,Merkava 3 Tank Company,א
-א603,GALIL,infantry,40,40x20,,Merkava 3 Tank Company,א
-א604,GALIL,infantry,40,40x20,,Merkava 3 Tank Company,א
-א605,FN MAG,machine gun,40,40x20,,Merkava 3 Tank Company,א
-א606,FN MAG,machine gun,40,40x20,,Merkava 3 Tank Company,א
-א607,FN MAG,machine gun,40,40x20,,Merkava 3 Tank Company,א
-א608,RPG-7,anti-tank,20,20x20,,Merkava 3 Tank Company,א
-א609,RPG-7,anti-tank,20,20x20,,Merkava 3 Tank Company,א
-א610,RPG-7,anti-tank,20,20x20,,Merkava 3 Tank Company,א
-א611,M47 DRAGON,anti-tank,20,20x20,,Merkava 3 Tank Company,א
-א612,52MM,mortar,20,20x20,,Merkava 3 Tank Company,א
-א613,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,א
-א614,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,א
-א615,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,א
-א616,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,א
-א613,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,א
-א614,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,א
-א615,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,א
-א616,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,א
-א613,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 3 Tank Company,א
-א614,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 3 Tank Company,א
-א615,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 3 Tank Company,א
-א616,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 3 Tank Company,א
-א625,GALIL,infantry,40,40x20,,Merkava 3 Tank Company,א
-א626,GALIL,infantry,40,40x20,,Merkava 3 Tank Company,א
-א627,GALIL,infantry,40,40x20,,Merkava 3 Tank Company,א
-א628,GALIL,infantry,40,40x20,,Merkava 3 Tank Company,א
-א629,FN MAG,machine gun,40,40x20,,Merkava 3 Tank Company,א
-א630,FN MAG,machine gun,40,40x20,,Merkava 3 Tank Company,א
-א631,FN MAG,machine gun,40,40x20,,Merkava 3 Tank Company,א
-א632,RPG-7,anti-tank,20,20x20,,Merkava 3 Tank Company,א
-א633,RPG-7,anti-tank,20,20x20,,Merkava 3 Tank Company,א
-א634,RPG-7,anti-tank,20,20x20,,Merkava 3 Tank Company,א
-א635,M47 DRAGON,anti-tank,20,20x20,,Merkava 3 Tank Company,א
-א636,52MM,mortar,20,20x20,,Merkava 3 Tank Company,א
-א637,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,א
-א638,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,א
-א639,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,א
-א640,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,א
+א401,JEEP,reconnaissance,20,20x30,,Merkava 3 Tank Company,א
+א402,JEEP,reconnaissance,20,20x30,,Merkava 3 Tank Company,א
+א403,JEEP,reconnaissance,20,20x30,,Merkava 3 Tank Company,א
+א404,M113 ZELDA,reconnaissance,20,20x30,,Merkava 3 Tank Company,א
+א405,M113 ZELDA,reconnaissance,20,20x30,,Merkava 3 Tank Company,א
+א406,M113 ZELDA,reconnaissance,20,20x30,,Merkava 3 Tank Company,א
+א407,M113 ZELDA,reconnaissance,20,20x30,,Merkava 3 Tank Company,א
+א408,RABBI,reconnaissance,20,20x30,,Merkava 3 Tank Company,א
+א409,RABBI,reconnaissance,20,20x30,,Merkava 3 Tank Company,א
+א410,RABBI,reconnaissance,20,20x30,,Merkava 3 Tank Company,א
+א411,CH-53 YAS'UR,utility helicopter,20,20x40,,Merkava 3 Tank Company,א
+א412,CH-53 YAS'UR,utility helicopter,20,20x40,,Merkava 3 Tank Company,א
+א501,GALIL,infantry,40,40x20,,Merkava 3 Tank Company,א
+א502,GALIL,infantry,40,40x20,,Merkava 3 Tank Company,א
+א503,GALIL,infantry,40,40x20,,Merkava 3 Tank Company,א
+א504,GALIL,infantry,40,40x20,,Merkava 3 Tank Company,א
+א505,FN MAG,machine gun,40,40x20,,Merkava 3 Tank Company,א
+א506,FN MAG,machine gun,40,40x20,,Merkava 3 Tank Company,א
+א507,FN MAG,machine gun,40,40x20,,Merkava 3 Tank Company,א
+א508,RPG-7,anti-tank,20,20x20,,Merkava 3 Tank Company,א
+א509,RPG-7,anti-tank,20,20x20,,Merkava 3 Tank Company,א
+א510,RPG-7,anti-tank,20,20x20,,Merkava 3 Tank Company,א
+א511,M47 DRAGON,anti-tank,20,20x20,,Merkava 3 Tank Company,א
+א512,52MM,mortar,20,20x20,,Merkava 3 Tank Company,א
+א513,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,א
+א514,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,א
+א515,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,א
+א516,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,א
+א513,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,א
+א514,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,א
+א515,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,א
+א516,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,א
+א513,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 3 Tank Company,א
+א514,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 3 Tank Company,א
+א515,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 3 Tank Company,א
+א516,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 3 Tank Company,א
+א525,GALIL,infantry,40,40x20,,Merkava 3 Tank Company,א
+א526,GALIL,infantry,40,40x20,,Merkava 3 Tank Company,א
+א527,GALIL,infantry,40,40x20,,Merkava 3 Tank Company,א
+א528,GALIL,infantry,40,40x20,,Merkava 3 Tank Company,א
+א529,FN MAG,machine gun,40,40x20,,Merkava 3 Tank Company,א
+א530,FN MAG,machine gun,40,40x20,,Merkava 3 Tank Company,א
+א531,FN MAG,machine gun,40,40x20,,Merkava 3 Tank Company,א
+א532,RPG-7,anti-tank,20,20x20,,Merkava 3 Tank Company,א
+א533,RPG-7,anti-tank,20,20x20,,Merkava 3 Tank Company,א
+א534,RPG-7,anti-tank,20,20x20,,Merkava 3 Tank Company,א
+א535,M47 DRAGON,anti-tank,20,20x20,,Merkava 3 Tank Company,א
+א536,52MM,mortar,20,20x20,,Merkava 3 Tank Company,א
+א537,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,א
+א538,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,א
+א539,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,א
+א540,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,א
 ב001,MERKAVA 3,armor,20,20x40,true,Merkava 3 Tank Company,ב
 ב002,MERKAVA 3,armor,20,20x40,true,Merkava 3 Tank Company,ב
 ב101,MERKAVA 3,armor,20,20x40,,Merkava 3 Tank Company,ב
@@ -79,70 +76,67 @@ designation,name,symbol,width,base,hq,formation,group
 ב201,MERKAVA 3,armor,20,20x40,,Merkava 3 Tank Company,ב
 ב202,MERKAVA 3,armor,20,20x40,,Merkava 3 Tank Company,ב
 ב203,MERKAVA 3,armor,20,20x40,,Merkava 3 Tank Company,ב
+ב204,MERKAVA 2,armor,20,20x40,,Merkava 3 Tank Company,ב
+ב205,MERKAVA 2,armor,20,20x40,,Merkava 3 Tank Company,ב
+ב206,MERKAVA 2,armor,20,20x40,,Merkava 3 Tank Company,ב
+ב207,MERKAVA 1,armor,20,20x40,,Merkava 3 Tank Company,ב
+ב208,MERKAVA 1,armor,20,20x40,,Merkava 3 Tank Company,ב
+ב209,MERKAVA 1,armor,20,20x40,,Merkava 3 Tank Company,ב
 ב301,MERKAVA 3,armor,20,20x40,,Merkava 3 Tank Company,ב
 ב302,MERKAVA 3,armor,20,20x40,,Merkava 3 Tank Company,ב
 ב303,MERKAVA 3,armor,20,20x40,,Merkava 3 Tank Company,ב
-ב304,MERKAVA 2,armor,20,20x40,,Merkava 3 Tank Company,ב
-ב305,MERKAVA 2,armor,20,20x40,,Merkava 3 Tank Company,ב
-ב306,MERKAVA 2,armor,20,20x40,,Merkava 3 Tank Company,ב
-ב307,MERKAVA 1,armor,20,20x40,,Merkava 3 Tank Company,ב
-ב308,MERKAVA 1,armor,20,20x40,,Merkava 3 Tank Company,ב
-ב309,MERKAVA 1,armor,20,20x40,,Merkava 3 Tank Company,ב
-ב401,MERKAVA 3,armor,20,20x40,,Merkava 3 Tank Company,ב
-ב402,MERKAVA 3,armor,20,20x40,,Merkava 3 Tank Company,ב
-ב403,MERKAVA 3,armor,20,20x40,,Merkava 3 Tank Company,ב
-ב501,JEEP,reconnaissance,20,20x30,,Merkava 3 Tank Company,ב
-ב502,JEEP,reconnaissance,20,20x30,,Merkava 3 Tank Company,ב
-ב503,JEEP,reconnaissance,20,20x30,,Merkava 3 Tank Company,ב
-ב504,M113 ZELDA,reconnaissance,20,20x30,,Merkava 3 Tank Company,ב
-ב505,M113 ZELDA,reconnaissance,20,20x30,,Merkava 3 Tank Company,ב
-ב506,M113 ZELDA,reconnaissance,20,20x30,,Merkava 3 Tank Company,ב
-ב507,M113 ZELDA,reconnaissance,20,20x30,,Merkava 3 Tank Company,ב
-ב508,RABBI,reconnaissance,20,20x30,,Merkava 3 Tank Company,ב
-ב509,RABBI,reconnaissance,20,20x30,,Merkava 3 Tank Company,ב
-ב510,RABBI,reconnaissance,20,20x30,,Merkava 3 Tank Company,ב
-ב511,UH-1,utility helicopter,20,20x40,,Merkava 3 Tank Company,ב
-ב512,UH-1,utility helicopter,20,20x40,,Merkava 3 Tank Company,ב
-ב601,GALIL,infantry,40,40x20,,Merkava 3 Tank Company,ב
-ב602,GALIL,infantry,40,40x20,,Merkava 3 Tank Company,ב
-ב603,GALIL,infantry,40,40x20,,Merkava 3 Tank Company,ב
-ב604,GALIL,infantry,40,40x20,,Merkava 3 Tank Company,ב
-ב605,FN MAG,machine gun,40,40x20,,Merkava 3 Tank Company,ב
-ב606,FN MAG,machine gun,40,40x20,,Merkava 3 Tank Company,ב
-ב607,FN MAG,machine gun,40,40x20,,Merkava 3 Tank Company,ב
-ב608,RPG-7,anti-tank,20,20x20,,Merkava 3 Tank Company,ב
-ב609,RPG-7,anti-tank,20,20x20,,Merkava 3 Tank Company,ב
-ב610,RPG-7,anti-tank,20,20x20,,Merkava 3 Tank Company,ב
-ב611,M47 DRAGON,anti-tank,20,20x20,,Merkava 3 Tank Company,ב
-ב612,52MM,mortar,20,20x20,,Merkava 3 Tank Company,ב
-ב613,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,ב
-ב614,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,ב
-ב615,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,ב
-ב616,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,ב
-ב613,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,ב
-ב614,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,ב
-ב615,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,ב
-ב616,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,ב
-ב613,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 3 Tank Company,ב
-ב614,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 3 Tank Company,ב
-ב615,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 3 Tank Company,ב
-ב616,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 3 Tank Company,ב
-ב625,GALIL,infantry,40,40x20,,Merkava 3 Tank Company,ב
-ב626,GALIL,infantry,40,40x20,,Merkava 3 Tank Company,ב
-ב627,GALIL,infantry,40,40x20,,Merkava 3 Tank Company,ב
-ב628,GALIL,infantry,40,40x20,,Merkava 3 Tank Company,ב
-ב629,FN MAG,machine gun,40,40x20,,Merkava 3 Tank Company,ב
-ב630,FN MAG,machine gun,40,40x20,,Merkava 3 Tank Company,ב
-ב631,FN MAG,machine gun,40,40x20,,Merkava 3 Tank Company,ב
-ב632,RPG-7,anti-tank,20,20x20,,Merkava 3 Tank Company,ב
-ב633,RPG-7,anti-tank,20,20x20,,Merkava 3 Tank Company,ב
-ב634,RPG-7,anti-tank,20,20x20,,Merkava 3 Tank Company,ב
-ב635,M47 DRAGON,anti-tank,20,20x20,,Merkava 3 Tank Company,ב
-ב636,52MM,mortar,20,20x20,,Merkava 3 Tank Company,ב
-ב637,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,ב
-ב638,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,ב
-ב639,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,ב
-ב640,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,ב
+ב401,JEEP,reconnaissance,20,20x30,,Merkava 3 Tank Company,ב
+ב402,JEEP,reconnaissance,20,20x30,,Merkava 3 Tank Company,ב
+ב403,JEEP,reconnaissance,20,20x30,,Merkava 3 Tank Company,ב
+ב404,M113 ZELDA,reconnaissance,20,20x30,,Merkava 3 Tank Company,ב
+ב405,M113 ZELDA,reconnaissance,20,20x30,,Merkava 3 Tank Company,ב
+ב406,M113 ZELDA,reconnaissance,20,20x30,,Merkava 3 Tank Company,ב
+ב407,M113 ZELDA,reconnaissance,20,20x30,,Merkava 3 Tank Company,ב
+ב408,RABBI,reconnaissance,20,20x30,,Merkava 3 Tank Company,ב
+ב409,RABBI,reconnaissance,20,20x30,,Merkava 3 Tank Company,ב
+ב410,RABBI,reconnaissance,20,20x30,,Merkava 3 Tank Company,ב
+ב411,CH-53 YAS'UR,utility helicopter,20,20x40,,Merkava 3 Tank Company,ב
+ב412,CH-53 YAS'UR,utility helicopter,20,20x40,,Merkava 3 Tank Company,ב
+ב501,GALIL,infantry,40,40x20,,Merkava 3 Tank Company,ב
+ב502,GALIL,infantry,40,40x20,,Merkava 3 Tank Company,ב
+ב503,GALIL,infantry,40,40x20,,Merkava 3 Tank Company,ב
+ב504,GALIL,infantry,40,40x20,,Merkava 3 Tank Company,ב
+ב505,FN MAG,machine gun,40,40x20,,Merkava 3 Tank Company,ב
+ב506,FN MAG,machine gun,40,40x20,,Merkava 3 Tank Company,ב
+ב507,FN MAG,machine gun,40,40x20,,Merkava 3 Tank Company,ב
+ב508,RPG-7,anti-tank,20,20x20,,Merkava 3 Tank Company,ב
+ב509,RPG-7,anti-tank,20,20x20,,Merkava 3 Tank Company,ב
+ב510,RPG-7,anti-tank,20,20x20,,Merkava 3 Tank Company,ב
+ב511,M47 DRAGON,anti-tank,20,20x20,,Merkava 3 Tank Company,ב
+ב512,52MM,mortar,20,20x20,,Merkava 3 Tank Company,ב
+ב513,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,ב
+ב514,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,ב
+ב515,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,ב
+ב516,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,ב
+ב513,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,ב
+ב514,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,ב
+ב515,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,ב
+ב516,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,ב
+ב513,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 3 Tank Company,ב
+ב514,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 3 Tank Company,ב
+ב515,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 3 Tank Company,ב
+ב516,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 3 Tank Company,ב
+ב525,GALIL,infantry,40,40x20,,Merkava 3 Tank Company,ב
+ב526,GALIL,infantry,40,40x20,,Merkava 3 Tank Company,ב
+ב527,GALIL,infantry,40,40x20,,Merkava 3 Tank Company,ב
+ב528,GALIL,infantry,40,40x20,,Merkava 3 Tank Company,ב
+ב529,FN MAG,machine gun,40,40x20,,Merkava 3 Tank Company,ב
+ב530,FN MAG,machine gun,40,40x20,,Merkava 3 Tank Company,ב
+ב531,FN MAG,machine gun,40,40x20,,Merkava 3 Tank Company,ב
+ב532,RPG-7,anti-tank,20,20x20,,Merkava 3 Tank Company,ב
+ב533,RPG-7,anti-tank,20,20x20,,Merkava 3 Tank Company,ב
+ב534,RPG-7,anti-tank,20,20x20,,Merkava 3 Tank Company,ב
+ב535,M47 DRAGON,anti-tank,20,20x20,,Merkava 3 Tank Company,ב
+ב536,52MM,mortar,20,20x20,,Merkava 3 Tank Company,ב
+ב537,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,ב
+ב538,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,ב
+ב539,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,ב
+ב540,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,ב
 ג001,MERKAVA 3,armor,20,20x40,true,Merkava 3 Tank Company,ג
 ג002,MERKAVA 3,armor,20,20x40,true,Merkava 3 Tank Company,ג
 ג101,MERKAVA 3,armor,20,20x40,,Merkava 3 Tank Company,ג
@@ -151,70 +145,67 @@ designation,name,symbol,width,base,hq,formation,group
 ג201,MERKAVA 3,armor,20,20x40,,Merkava 3 Tank Company,ג
 ג202,MERKAVA 3,armor,20,20x40,,Merkava 3 Tank Company,ג
 ג203,MERKAVA 3,armor,20,20x40,,Merkava 3 Tank Company,ג
+ג204,MERKAVA 2,armor,20,20x40,,Merkava 3 Tank Company,ג
+ג205,MERKAVA 2,armor,20,20x40,,Merkava 3 Tank Company,ג
+ג206,MERKAVA 2,armor,20,20x40,,Merkava 3 Tank Company,ג
+ג207,MERKAVA 1,armor,20,20x40,,Merkava 3 Tank Company,ג
+ג208,MERKAVA 1,armor,20,20x40,,Merkava 3 Tank Company,ג
+ג209,MERKAVA 1,armor,20,20x40,,Merkava 3 Tank Company,ג
 ג301,MERKAVA 3,armor,20,20x40,,Merkava 3 Tank Company,ג
 ג302,MERKAVA 3,armor,20,20x40,,Merkava 3 Tank Company,ג
 ג303,MERKAVA 3,armor,20,20x40,,Merkava 3 Tank Company,ג
-ג304,MERKAVA 2,armor,20,20x40,,Merkava 3 Tank Company,ג
-ג305,MERKAVA 2,armor,20,20x40,,Merkava 3 Tank Company,ג
-ג306,MERKAVA 2,armor,20,20x40,,Merkava 3 Tank Company,ג
-ג307,MERKAVA 1,armor,20,20x40,,Merkava 3 Tank Company,ג
-ג308,MERKAVA 1,armor,20,20x40,,Merkava 3 Tank Company,ג
-ג309,MERKAVA 1,armor,20,20x40,,Merkava 3 Tank Company,ג
-ג401,MERKAVA 3,armor,20,20x40,,Merkava 3 Tank Company,ג
-ג402,MERKAVA 3,armor,20,20x40,,Merkava 3 Tank Company,ג
-ג403,MERKAVA 3,armor,20,20x40,,Merkava 3 Tank Company,ג
-ג501,JEEP,reconnaissance,20,20x30,,Merkava 3 Tank Company,ג
-ג502,JEEP,reconnaissance,20,20x30,,Merkava 3 Tank Company,ג
-ג503,JEEP,reconnaissance,20,20x30,,Merkava 3 Tank Company,ג
-ג504,M113 ZELDA,reconnaissance,20,20x30,,Merkava 3 Tank Company,ג
-ג505,M113 ZELDA,reconnaissance,20,20x30,,Merkava 3 Tank Company,ג
-ג506,M113 ZELDA,reconnaissance,20,20x30,,Merkava 3 Tank Company,ג
-ג507,M113 ZELDA,reconnaissance,20,20x30,,Merkava 3 Tank Company,ג
-ג508,RABBI,reconnaissance,20,20x30,,Merkava 3 Tank Company,ג
-ג509,RABBI,reconnaissance,20,20x30,,Merkava 3 Tank Company,ג
-ג510,RABBI,reconnaissance,20,20x30,,Merkava 3 Tank Company,ג
-ג511,UH-1,utility helicopter,20,20x40,,Merkava 3 Tank Company,ג
-ג512,UH-1,utility helicopter,20,20x40,,Merkava 3 Tank Company,ג
-ג601,GALIL,infantry,40,40x20,,Merkava 3 Tank Company,ג
-ג602,GALIL,infantry,40,40x20,,Merkava 3 Tank Company,ג
-ג603,GALIL,infantry,40,40x20,,Merkava 3 Tank Company,ג
-ג604,GALIL,infantry,40,40x20,,Merkava 3 Tank Company,ג
-ג605,FN MAG,machine gun,40,40x20,,Merkava 3 Tank Company,ג
-ג606,FN MAG,machine gun,40,40x20,,Merkava 3 Tank Company,ג
-ג607,FN MAG,machine gun,40,40x20,,Merkava 3 Tank Company,ג
-ג608,RPG-7,anti-tank,20,20x20,,Merkava 3 Tank Company,ג
-ג609,RPG-7,anti-tank,20,20x20,,Merkava 3 Tank Company,ג
-ג610,RPG-7,anti-tank,20,20x20,,Merkava 3 Tank Company,ג
-ג611,M47 DRAGON,anti-tank,20,20x20,,Merkava 3 Tank Company,ג
-ג612,52MM,mortar,20,20x20,,Merkava 3 Tank Company,ג
-ג613,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,ג
-ג614,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,ג
-ג615,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,ג
-ג616,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,ג
-ג613,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,ג
-ג614,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,ג
-ג615,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,ג
-ג616,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,ג
-ג613,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 3 Tank Company,ג
-ג614,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 3 Tank Company,ג
-ג615,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 3 Tank Company,ג
-ג616,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 3 Tank Company,ג
-ג625,GALIL,infantry,40,40x20,,Merkava 3 Tank Company,ג
-ג626,GALIL,infantry,40,40x20,,Merkava 3 Tank Company,ג
-ג627,GALIL,infantry,40,40x20,,Merkava 3 Tank Company,ג
-ג628,GALIL,infantry,40,40x20,,Merkava 3 Tank Company,ג
-ג629,FN MAG,machine gun,40,40x20,,Merkava 3 Tank Company,ג
-ג630,FN MAG,machine gun,40,40x20,,Merkava 3 Tank Company,ג
-ג631,FN MAG,machine gun,40,40x20,,Merkava 3 Tank Company,ג
-ג632,RPG-7,anti-tank,20,20x20,,Merkava 3 Tank Company,ג
-ג633,RPG-7,anti-tank,20,20x20,,Merkava 3 Tank Company,ג
-ג634,RPG-7,anti-tank,20,20x20,,Merkava 3 Tank Company,ג
-ג635,M47 DRAGON,anti-tank,20,20x20,,Merkava 3 Tank Company,ג
-ג636,52MM,mortar,20,20x20,,Merkava 3 Tank Company,ג
-ג637,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,ג
-ג638,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,ג
-ג639,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,ג
-ג640,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,ג
+ג401,JEEP,reconnaissance,20,20x30,,Merkava 3 Tank Company,ג
+ג402,JEEP,reconnaissance,20,20x30,,Merkava 3 Tank Company,ג
+ג403,JEEP,reconnaissance,20,20x30,,Merkava 3 Tank Company,ג
+ג404,M113 ZELDA,reconnaissance,20,20x30,,Merkava 3 Tank Company,ג
+ג405,M113 ZELDA,reconnaissance,20,20x30,,Merkava 3 Tank Company,ג
+ג406,M113 ZELDA,reconnaissance,20,20x30,,Merkava 3 Tank Company,ג
+ג407,M113 ZELDA,reconnaissance,20,20x30,,Merkava 3 Tank Company,ג
+ג408,RABBI,reconnaissance,20,20x30,,Merkava 3 Tank Company,ג
+ג409,RABBI,reconnaissance,20,20x30,,Merkava 3 Tank Company,ג
+ג410,RABBI,reconnaissance,20,20x30,,Merkava 3 Tank Company,ג
+ג411,CH-53 YAS'UR,utility helicopter,20,20x40,,Merkava 3 Tank Company,ג
+ג412,CH-53 YAS'UR,utility helicopter,20,20x40,,Merkava 3 Tank Company,ג
+ג501,GALIL,infantry,40,40x20,,Merkava 3 Tank Company,ג
+ג502,GALIL,infantry,40,40x20,,Merkava 3 Tank Company,ג
+ג503,GALIL,infantry,40,40x20,,Merkava 3 Tank Company,ג
+ג504,GALIL,infantry,40,40x20,,Merkava 3 Tank Company,ג
+ג505,FN MAG,machine gun,40,40x20,,Merkava 3 Tank Company,ג
+ג506,FN MAG,machine gun,40,40x20,,Merkava 3 Tank Company,ג
+ג507,FN MAG,machine gun,40,40x20,,Merkava 3 Tank Company,ג
+ג508,RPG-7,anti-tank,20,20x20,,Merkava 3 Tank Company,ג
+ג509,RPG-7,anti-tank,20,20x20,,Merkava 3 Tank Company,ג
+ג510,RPG-7,anti-tank,20,20x20,,Merkava 3 Tank Company,ג
+ג511,M47 DRAGON,anti-tank,20,20x20,,Merkava 3 Tank Company,ג
+ג512,52MM,mortar,20,20x20,,Merkava 3 Tank Company,ג
+ג513,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,ג
+ג514,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,ג
+ג515,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,ג
+ג516,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,ג
+ג513,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,ג
+ג514,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,ג
+ג515,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,ג
+ג516,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,ג
+ג513,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 3 Tank Company,ג
+ג514,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 3 Tank Company,ג
+ג515,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 3 Tank Company,ג
+ג516,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 3 Tank Company,ג
+ג525,GALIL,infantry,40,40x20,,Merkava 3 Tank Company,ג
+ג526,GALIL,infantry,40,40x20,,Merkava 3 Tank Company,ג
+ג527,GALIL,infantry,40,40x20,,Merkava 3 Tank Company,ג
+ג528,GALIL,infantry,40,40x20,,Merkava 3 Tank Company,ג
+ג529,FN MAG,machine gun,40,40x20,,Merkava 3 Tank Company,ג
+ג530,FN MAG,machine gun,40,40x20,,Merkava 3 Tank Company,ג
+ג531,FN MAG,machine gun,40,40x20,,Merkava 3 Tank Company,ג
+ג532,RPG-7,anti-tank,20,20x20,,Merkava 3 Tank Company,ג
+ג533,RPG-7,anti-tank,20,20x20,,Merkava 3 Tank Company,ג
+ג534,RPG-7,anti-tank,20,20x20,,Merkava 3 Tank Company,ג
+ג535,M47 DRAGON,anti-tank,20,20x20,,Merkava 3 Tank Company,ג
+ג536,52MM,mortar,20,20x20,,Merkava 3 Tank Company,ג
+ג537,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,ג
+ג538,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,ג
+ג539,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,ג
+ג540,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 3 Tank Company,ג
 ד001,MERKAVA 2,armor,20,20x40,true,Merkava 2 Tank Company,ד
 ד002,MERKAVA 2,armor,20,20x40,true,Merkava 2 Tank Company,ד
 ד101,MERKAVA 2,armor,20,20x40,,Merkava 2 Tank Company,ד
@@ -223,70 +214,67 @@ designation,name,symbol,width,base,hq,formation,group
 ד201,MERKAVA 2,armor,20,20x40,,Merkava 2 Tank Company,ד
 ד202,MERKAVA 2,armor,20,20x40,,Merkava 2 Tank Company,ד
 ד203,MERKAVA 2,armor,20,20x40,,Merkava 2 Tank Company,ד
+ד204,MERKAVA 1,armor,20,20x40,,Merkava 2 Tank Company,ד
+ד205,MERKAVA 1,armor,20,20x40,,Merkava 2 Tank Company,ד
+ד206,MERKAVA 1,armor,20,20x40,,Merkava 2 Tank Company,ד
+ד207,MERKAVA 3,armor,20,20x40,,Merkava 2 Tank Company,ד
+ד208,MERKAVA 3,armor,20,20x40,,Merkava 2 Tank Company,ד
+ד209,MERKAVA 3,armor,20,20x40,,Merkava 2 Tank Company,ד
 ד301,MERKAVA 2,armor,20,20x40,,Merkava 2 Tank Company,ד
 ד302,MERKAVA 2,armor,20,20x40,,Merkava 2 Tank Company,ד
 ד303,MERKAVA 2,armor,20,20x40,,Merkava 2 Tank Company,ד
-ד304,MERKAVA 1,armor,20,20x40,,Merkava 2 Tank Company,ד
-ד305,MERKAVA 1,armor,20,20x40,,Merkava 2 Tank Company,ד
-ד306,MERKAVA 1,armor,20,20x40,,Merkava 2 Tank Company,ד
-ד307,MERKAVA 3,armor,20,20x40,,Merkava 2 Tank Company,ד
-ד308,MERKAVA 3,armor,20,20x40,,Merkava 2 Tank Company,ד
-ד309,MERKAVA 3,armor,20,20x40,,Merkava 2 Tank Company,ד
-ד401,MERKAVA 2,armor,20,20x40,,Merkava 2 Tank Company,ד
-ד402,MERKAVA 2,armor,20,20x40,,Merkava 2 Tank Company,ד
-ד403,MERKAVA 2,armor,20,20x40,,Merkava 2 Tank Company,ד
-ד501,JEEP,reconnaissance,20,20x30,,Merkava 2 Tank Company,ד
-ד502,JEEP,reconnaissance,20,20x30,,Merkava 2 Tank Company,ד
-ד503,JEEP,reconnaissance,20,20x30,,Merkava 2 Tank Company,ד
-ד504,M113 ZELDA,reconnaissance,20,20x30,,Merkava 2 Tank Company,ד
-ד505,M113 ZELDA,reconnaissance,20,20x30,,Merkava 2 Tank Company,ד
-ד506,M113 ZELDA,reconnaissance,20,20x30,,Merkava 2 Tank Company,ד
-ד507,M113 ZELDA,reconnaissance,20,20x30,,Merkava 2 Tank Company,ד
-ד508,RABBI,reconnaissance,20,20x30,,Merkava 2 Tank Company,ד
-ד509,RABBI,reconnaissance,20,20x30,,Merkava 2 Tank Company,ד
-ד510,RABBI,reconnaissance,20,20x30,,Merkava 2 Tank Company,ד
-ד511,UH-1,utility helicopter,20,20x40,,Merkava 2 Tank Company,ד
-ד512,UH-1,utility helicopter,20,20x40,,Merkava 2 Tank Company,ד
-ד601,GALIL,infantry,40,40x20,,Merkava 2 Tank Company,ד
-ד602,GALIL,infantry,40,40x20,,Merkava 2 Tank Company,ד
-ד603,GALIL,infantry,40,40x20,,Merkava 2 Tank Company,ד
-ד604,GALIL,infantry,40,40x20,,Merkava 2 Tank Company,ד
-ד605,FN MAG,machine gun,40,40x20,,Merkava 2 Tank Company,ד
-ד606,FN MAG,machine gun,40,40x20,,Merkava 2 Tank Company,ד
-ד607,FN MAG,machine gun,40,40x20,,Merkava 2 Tank Company,ד
-ד608,RPG-7,anti-tank,20,20x20,,Merkava 2 Tank Company,ד
-ד609,RPG-7,anti-tank,20,20x20,,Merkava 2 Tank Company,ד
-ד610,RPG-7,anti-tank,20,20x20,,Merkava 2 Tank Company,ד
-ד611,M47 DRAGON,anti-tank,20,20x20,,Merkava 2 Tank Company,ד
-ד612,52MM,mortar,20,20x20,,Merkava 2 Tank Company,ד
-ד613,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ד
-ד614,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ד
-ד615,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ד
-ד616,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ד
-ד613,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ד
-ד614,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ד
-ד615,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ד
-ד616,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ד
-ד613,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 2 Tank Company,ד
-ד614,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 2 Tank Company,ד
-ד615,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 2 Tank Company,ד
-ד616,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 2 Tank Company,ד
-ד625,GALIL,infantry,40,40x20,,Merkava 2 Tank Company,ד
-ד626,GALIL,infantry,40,40x20,,Merkava 2 Tank Company,ד
-ד627,GALIL,infantry,40,40x20,,Merkava 2 Tank Company,ד
-ד628,GALIL,infantry,40,40x20,,Merkava 2 Tank Company,ד
-ד629,FN MAG,machine gun,40,40x20,,Merkava 2 Tank Company,ד
-ד630,FN MAG,machine gun,40,40x20,,Merkava 2 Tank Company,ד
-ד631,FN MAG,machine gun,40,40x20,,Merkava 2 Tank Company,ד
-ד632,RPG-7,anti-tank,20,20x20,,Merkava 2 Tank Company,ד
-ד633,RPG-7,anti-tank,20,20x20,,Merkava 2 Tank Company,ד
-ד634,RPG-7,anti-tank,20,20x20,,Merkava 2 Tank Company,ד
-ד635,M47 DRAGON,anti-tank,20,20x20,,Merkava 2 Tank Company,ד
-ד636,52MM,mortar,20,20x20,,Merkava 2 Tank Company,ד
-ד637,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ד
-ד638,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ד
-ד639,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ד
-ד640,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ד
+ד401,JEEP,reconnaissance,20,20x30,,Merkava 2 Tank Company,ד
+ד402,JEEP,reconnaissance,20,20x30,,Merkava 2 Tank Company,ד
+ד403,JEEP,reconnaissance,20,20x30,,Merkava 2 Tank Company,ד
+ד404,M113 ZELDA,reconnaissance,20,20x30,,Merkava 2 Tank Company,ד
+ד405,M113 ZELDA,reconnaissance,20,20x30,,Merkava 2 Tank Company,ד
+ד406,M113 ZELDA,reconnaissance,20,20x30,,Merkava 2 Tank Company,ד
+ד407,M113 ZELDA,reconnaissance,20,20x30,,Merkava 2 Tank Company,ד
+ד408,RABBI,reconnaissance,20,20x30,,Merkava 2 Tank Company,ד
+ד409,RABBI,reconnaissance,20,20x30,,Merkava 2 Tank Company,ד
+ד410,RABBI,reconnaissance,20,20x30,,Merkava 2 Tank Company,ד
+ד411,CH-53 YAS'UR,utility helicopter,20,20x40,,Merkava 2 Tank Company,ד
+ד412,CH-53 YAS'UR,utility helicopter,20,20x40,,Merkava 2 Tank Company,ד
+ד501,GALIL,infantry,40,40x20,,Merkava 2 Tank Company,ד
+ד502,GALIL,infantry,40,40x20,,Merkava 2 Tank Company,ד
+ד503,GALIL,infantry,40,40x20,,Merkava 2 Tank Company,ד
+ד504,GALIL,infantry,40,40x20,,Merkava 2 Tank Company,ד
+ד505,FN MAG,machine gun,40,40x20,,Merkava 2 Tank Company,ד
+ד506,FN MAG,machine gun,40,40x20,,Merkava 2 Tank Company,ד
+ד507,FN MAG,machine gun,40,40x20,,Merkava 2 Tank Company,ד
+ד508,RPG-7,anti-tank,20,20x20,,Merkava 2 Tank Company,ד
+ד509,RPG-7,anti-tank,20,20x20,,Merkava 2 Tank Company,ד
+ד510,RPG-7,anti-tank,20,20x20,,Merkava 2 Tank Company,ד
+ד511,M47 DRAGON,anti-tank,20,20x20,,Merkava 2 Tank Company,ד
+ד512,52MM,mortar,20,20x20,,Merkava 2 Tank Company,ד
+ד513,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ד
+ד514,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ד
+ד515,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ד
+ד516,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ד
+ד513,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ד
+ד514,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ד
+ד515,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ד
+ד516,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ד
+ד513,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 2 Tank Company,ד
+ד514,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 2 Tank Company,ד
+ד515,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 2 Tank Company,ד
+ד516,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 2 Tank Company,ד
+ד525,GALIL,infantry,40,40x20,,Merkava 2 Tank Company,ד
+ד526,GALIL,infantry,40,40x20,,Merkava 2 Tank Company,ד
+ד527,GALIL,infantry,40,40x20,,Merkava 2 Tank Company,ד
+ד528,GALIL,infantry,40,40x20,,Merkava 2 Tank Company,ד
+ד529,FN MAG,machine gun,40,40x20,,Merkava 2 Tank Company,ד
+ד530,FN MAG,machine gun,40,40x20,,Merkava 2 Tank Company,ד
+ד531,FN MAG,machine gun,40,40x20,,Merkava 2 Tank Company,ד
+ד532,RPG-7,anti-tank,20,20x20,,Merkava 2 Tank Company,ד
+ד533,RPG-7,anti-tank,20,20x20,,Merkava 2 Tank Company,ד
+ד534,RPG-7,anti-tank,20,20x20,,Merkava 2 Tank Company,ד
+ד535,M47 DRAGON,anti-tank,20,20x20,,Merkava 2 Tank Company,ד
+ד536,52MM,mortar,20,20x20,,Merkava 2 Tank Company,ד
+ד537,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ד
+ד538,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ד
+ד539,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ד
+ד540,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ד
 ה001,MERKAVA 2,armor,20,20x40,true,Merkava 2 Tank Company,ה
 ה002,MERKAVA 2,armor,20,20x40,true,Merkava 2 Tank Company,ה
 ה101,MERKAVA 2,armor,20,20x40,,Merkava 2 Tank Company,ה
@@ -295,70 +283,67 @@ designation,name,symbol,width,base,hq,formation,group
 ה201,MERKAVA 2,armor,20,20x40,,Merkava 2 Tank Company,ה
 ה202,MERKAVA 2,armor,20,20x40,,Merkava 2 Tank Company,ה
 ה203,MERKAVA 2,armor,20,20x40,,Merkava 2 Tank Company,ה
+ה204,MERKAVA 1,armor,20,20x40,,Merkava 2 Tank Company,ה
+ה205,MERKAVA 1,armor,20,20x40,,Merkava 2 Tank Company,ה
+ה206,MERKAVA 1,armor,20,20x40,,Merkava 2 Tank Company,ה
+ה207,MERKAVA 3,armor,20,20x40,,Merkava 2 Tank Company,ה
+ה208,MERKAVA 3,armor,20,20x40,,Merkava 2 Tank Company,ה
+ה209,MERKAVA 3,armor,20,20x40,,Merkava 2 Tank Company,ה
 ה301,MERKAVA 2,armor,20,20x40,,Merkava 2 Tank Company,ה
 ה302,MERKAVA 2,armor,20,20x40,,Merkava 2 Tank Company,ה
 ה303,MERKAVA 2,armor,20,20x40,,Merkava 2 Tank Company,ה
-ה304,MERKAVA 1,armor,20,20x40,,Merkava 2 Tank Company,ה
-ה305,MERKAVA 1,armor,20,20x40,,Merkava 2 Tank Company,ה
-ה306,MERKAVA 1,armor,20,20x40,,Merkava 2 Tank Company,ה
-ה307,MERKAVA 3,armor,20,20x40,,Merkava 2 Tank Company,ה
-ה308,MERKAVA 3,armor,20,20x40,,Merkava 2 Tank Company,ה
-ה309,MERKAVA 3,armor,20,20x40,,Merkava 2 Tank Company,ה
-ה401,MERKAVA 2,armor,20,20x40,,Merkava 2 Tank Company,ה
-ה402,MERKAVA 2,armor,20,20x40,,Merkava 2 Tank Company,ה
-ה403,MERKAVA 2,armor,20,20x40,,Merkava 2 Tank Company,ה
-ה501,JEEP,reconnaissance,20,20x30,,Merkava 2 Tank Company,ה
-ה502,JEEP,reconnaissance,20,20x30,,Merkava 2 Tank Company,ה
-ה503,JEEP,reconnaissance,20,20x30,,Merkava 2 Tank Company,ה
-ה504,M113 ZELDA,reconnaissance,20,20x30,,Merkava 2 Tank Company,ה
-ה505,M113 ZELDA,reconnaissance,20,20x30,,Merkava 2 Tank Company,ה
-ה506,M113 ZELDA,reconnaissance,20,20x30,,Merkava 2 Tank Company,ה
-ה507,M113 ZELDA,reconnaissance,20,20x30,,Merkava 2 Tank Company,ה
-ה508,RABBI,reconnaissance,20,20x30,,Merkava 2 Tank Company,ה
-ה509,RABBI,reconnaissance,20,20x30,,Merkava 2 Tank Company,ה
-ה510,RABBI,reconnaissance,20,20x30,,Merkava 2 Tank Company,ה
-ה511,UH-1,utility helicopter,20,20x40,,Merkava 2 Tank Company,ה
-ה512,UH-1,utility helicopter,20,20x40,,Merkava 2 Tank Company,ה
-ה601,GALIL,infantry,40,40x20,,Merkava 2 Tank Company,ה
-ה602,GALIL,infantry,40,40x20,,Merkava 2 Tank Company,ה
-ה603,GALIL,infantry,40,40x20,,Merkava 2 Tank Company,ה
-ה604,GALIL,infantry,40,40x20,,Merkava 2 Tank Company,ה
-ה605,FN MAG,machine gun,40,40x20,,Merkava 2 Tank Company,ה
-ה606,FN MAG,machine gun,40,40x20,,Merkava 2 Tank Company,ה
-ה607,FN MAG,machine gun,40,40x20,,Merkava 2 Tank Company,ה
-ה608,RPG-7,anti-tank,20,20x20,,Merkava 2 Tank Company,ה
-ה609,RPG-7,anti-tank,20,20x20,,Merkava 2 Tank Company,ה
-ה610,RPG-7,anti-tank,20,20x20,,Merkava 2 Tank Company,ה
-ה611,M47 DRAGON,anti-tank,20,20x20,,Merkava 2 Tank Company,ה
-ה612,52MM,mortar,20,20x20,,Merkava 2 Tank Company,ה
-ה613,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ה
-ה614,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ה
-ה615,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ה
-ה616,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ה
-ה613,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ה
-ה614,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ה
-ה615,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ה
-ה616,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ה
-ה613,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 2 Tank Company,ה
-ה614,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 2 Tank Company,ה
-ה615,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 2 Tank Company,ה
-ה616,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 2 Tank Company,ה
-ה625,GALIL,infantry,40,40x20,,Merkava 2 Tank Company,ה
-ה626,GALIL,infantry,40,40x20,,Merkava 2 Tank Company,ה
-ה627,GALIL,infantry,40,40x20,,Merkava 2 Tank Company,ה
-ה628,GALIL,infantry,40,40x20,,Merkava 2 Tank Company,ה
-ה629,FN MAG,machine gun,40,40x20,,Merkava 2 Tank Company,ה
-ה630,FN MAG,machine gun,40,40x20,,Merkava 2 Tank Company,ה
-ה631,FN MAG,machine gun,40,40x20,,Merkava 2 Tank Company,ה
-ה632,RPG-7,anti-tank,20,20x20,,Merkava 2 Tank Company,ה
-ה633,RPG-7,anti-tank,20,20x20,,Merkava 2 Tank Company,ה
-ה634,RPG-7,anti-tank,20,20x20,,Merkava 2 Tank Company,ה
-ה635,M47 DRAGON,anti-tank,20,20x20,,Merkava 2 Tank Company,ה
-ה636,52MM,mortar,20,20x20,,Merkava 2 Tank Company,ה
-ה637,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ה
-ה638,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ה
-ה639,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ה
-ה640,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ה
+ה401,JEEP,reconnaissance,20,20x30,,Merkava 2 Tank Company,ה
+ה402,JEEP,reconnaissance,20,20x30,,Merkava 2 Tank Company,ה
+ה403,JEEP,reconnaissance,20,20x30,,Merkava 2 Tank Company,ה
+ה404,M113 ZELDA,reconnaissance,20,20x30,,Merkava 2 Tank Company,ה
+ה405,M113 ZELDA,reconnaissance,20,20x30,,Merkava 2 Tank Company,ה
+ה406,M113 ZELDA,reconnaissance,20,20x30,,Merkava 2 Tank Company,ה
+ה407,M113 ZELDA,reconnaissance,20,20x30,,Merkava 2 Tank Company,ה
+ה408,RABBI,reconnaissance,20,20x30,,Merkava 2 Tank Company,ה
+ה409,RABBI,reconnaissance,20,20x30,,Merkava 2 Tank Company,ה
+ה410,RABBI,reconnaissance,20,20x30,,Merkava 2 Tank Company,ה
+ה411,CH-53 YAS'UR,utility helicopter,20,20x40,,Merkava 2 Tank Company,ה
+ה412,CH-53 YAS'UR,utility helicopter,20,20x40,,Merkava 2 Tank Company,ה
+ה501,GALIL,infantry,40,40x20,,Merkava 2 Tank Company,ה
+ה502,GALIL,infantry,40,40x20,,Merkava 2 Tank Company,ה
+ה503,GALIL,infantry,40,40x20,,Merkava 2 Tank Company,ה
+ה504,GALIL,infantry,40,40x20,,Merkava 2 Tank Company,ה
+ה505,FN MAG,machine gun,40,40x20,,Merkava 2 Tank Company,ה
+ה506,FN MAG,machine gun,40,40x20,,Merkava 2 Tank Company,ה
+ה507,FN MAG,machine gun,40,40x20,,Merkava 2 Tank Company,ה
+ה508,RPG-7,anti-tank,20,20x20,,Merkava 2 Tank Company,ה
+ה509,RPG-7,anti-tank,20,20x20,,Merkava 2 Tank Company,ה
+ה510,RPG-7,anti-tank,20,20x20,,Merkava 2 Tank Company,ה
+ה511,M47 DRAGON,anti-tank,20,20x20,,Merkava 2 Tank Company,ה
+ה512,52MM,mortar,20,20x20,,Merkava 2 Tank Company,ה
+ה513,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ה
+ה514,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ה
+ה515,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ה
+ה516,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ה
+ה513,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ה
+ה514,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ה
+ה515,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ה
+ה516,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ה
+ה513,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 2 Tank Company,ה
+ה514,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 2 Tank Company,ה
+ה515,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 2 Tank Company,ה
+ה516,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 2 Tank Company,ה
+ה525,GALIL,infantry,40,40x20,,Merkava 2 Tank Company,ה
+ה526,GALIL,infantry,40,40x20,,Merkava 2 Tank Company,ה
+ה527,GALIL,infantry,40,40x20,,Merkava 2 Tank Company,ה
+ה528,GALIL,infantry,40,40x20,,Merkava 2 Tank Company,ה
+ה529,FN MAG,machine gun,40,40x20,,Merkava 2 Tank Company,ה
+ה530,FN MAG,machine gun,40,40x20,,Merkava 2 Tank Company,ה
+ה531,FN MAG,machine gun,40,40x20,,Merkava 2 Tank Company,ה
+ה532,RPG-7,anti-tank,20,20x20,,Merkava 2 Tank Company,ה
+ה533,RPG-7,anti-tank,20,20x20,,Merkava 2 Tank Company,ה
+ה534,RPG-7,anti-tank,20,20x20,,Merkava 2 Tank Company,ה
+ה535,M47 DRAGON,anti-tank,20,20x20,,Merkava 2 Tank Company,ה
+ה536,52MM,mortar,20,20x20,,Merkava 2 Tank Company,ה
+ה537,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ה
+ה538,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ה
+ה539,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ה
+ה540,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ה
 ו001,MERKAVA 2,armor,20,20x40,true,Merkava 2 Tank Company,ו
 ו002,MERKAVA 2,armor,20,20x40,true,Merkava 2 Tank Company,ו
 ו101,MERKAVA 2,armor,20,20x40,,Merkava 2 Tank Company,ו
@@ -367,70 +352,67 @@ designation,name,symbol,width,base,hq,formation,group
 ו201,MERKAVA 2,armor,20,20x40,,Merkava 2 Tank Company,ו
 ו202,MERKAVA 2,armor,20,20x40,,Merkava 2 Tank Company,ו
 ו203,MERKAVA 2,armor,20,20x40,,Merkava 2 Tank Company,ו
+ו204,MERKAVA 1,armor,20,20x40,,Merkava 2 Tank Company,ו
+ו205,MERKAVA 1,armor,20,20x40,,Merkava 2 Tank Company,ו
+ו206,MERKAVA 1,armor,20,20x40,,Merkava 2 Tank Company,ו
+ו207,MERKAVA 3,armor,20,20x40,,Merkava 2 Tank Company,ו
+ו208,MERKAVA 3,armor,20,20x40,,Merkava 2 Tank Company,ו
+ו209,MERKAVA 3,armor,20,20x40,,Merkava 2 Tank Company,ו
 ו301,MERKAVA 2,armor,20,20x40,,Merkava 2 Tank Company,ו
 ו302,MERKAVA 2,armor,20,20x40,,Merkava 2 Tank Company,ו
 ו303,MERKAVA 2,armor,20,20x40,,Merkava 2 Tank Company,ו
-ו304,MERKAVA 1,armor,20,20x40,,Merkava 2 Tank Company,ו
-ו305,MERKAVA 1,armor,20,20x40,,Merkava 2 Tank Company,ו
-ו306,MERKAVA 1,armor,20,20x40,,Merkava 2 Tank Company,ו
-ו307,MERKAVA 3,armor,20,20x40,,Merkava 2 Tank Company,ו
-ו308,MERKAVA 3,armor,20,20x40,,Merkava 2 Tank Company,ו
-ו309,MERKAVA 3,armor,20,20x40,,Merkava 2 Tank Company,ו
-ו401,MERKAVA 2,armor,20,20x40,,Merkava 2 Tank Company,ו
-ו402,MERKAVA 2,armor,20,20x40,,Merkava 2 Tank Company,ו
-ו403,MERKAVA 2,armor,20,20x40,,Merkava 2 Tank Company,ו
-ו501,JEEP,reconnaissance,20,20x30,,Merkava 2 Tank Company,ו
-ו502,JEEP,reconnaissance,20,20x30,,Merkava 2 Tank Company,ו
-ו503,JEEP,reconnaissance,20,20x30,,Merkava 2 Tank Company,ו
-ו504,M113 ZELDA,reconnaissance,20,20x30,,Merkava 2 Tank Company,ו
-ו505,M113 ZELDA,reconnaissance,20,20x30,,Merkava 2 Tank Company,ו
-ו506,M113 ZELDA,reconnaissance,20,20x30,,Merkava 2 Tank Company,ו
-ו507,M113 ZELDA,reconnaissance,20,20x30,,Merkava 2 Tank Company,ו
-ו508,RABBI,reconnaissance,20,20x30,,Merkava 2 Tank Company,ו
-ו509,RABBI,reconnaissance,20,20x30,,Merkava 2 Tank Company,ו
-ו510,RABBI,reconnaissance,20,20x30,,Merkava 2 Tank Company,ו
-ו511,UH-1,utility helicopter,20,20x40,,Merkava 2 Tank Company,ו
-ו512,UH-1,utility helicopter,20,20x40,,Merkava 2 Tank Company,ו
-ו601,GALIL,infantry,40,40x20,,Merkava 2 Tank Company,ו
-ו602,GALIL,infantry,40,40x20,,Merkava 2 Tank Company,ו
-ו603,GALIL,infantry,40,40x20,,Merkava 2 Tank Company,ו
-ו604,GALIL,infantry,40,40x20,,Merkava 2 Tank Company,ו
-ו605,FN MAG,machine gun,40,40x20,,Merkava 2 Tank Company,ו
-ו606,FN MAG,machine gun,40,40x20,,Merkava 2 Tank Company,ו
-ו607,FN MAG,machine gun,40,40x20,,Merkava 2 Tank Company,ו
-ו608,RPG-7,anti-tank,20,20x20,,Merkava 2 Tank Company,ו
-ו609,RPG-7,anti-tank,20,20x20,,Merkava 2 Tank Company,ו
-ו610,RPG-7,anti-tank,20,20x20,,Merkava 2 Tank Company,ו
-ו611,M47 DRAGON,anti-tank,20,20x20,,Merkava 2 Tank Company,ו
-ו612,52MM,mortar,20,20x20,,Merkava 2 Tank Company,ו
-ו613,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ו
-ו614,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ו
-ו615,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ו
-ו616,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ו
-ו613,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ו
-ו614,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ו
-ו615,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ו
-ו616,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ו
-ו613,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 2 Tank Company,ו
-ו614,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 2 Tank Company,ו
-ו615,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 2 Tank Company,ו
-ו616,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 2 Tank Company,ו
-ו625,GALIL,infantry,40,40x20,,Merkava 2 Tank Company,ו
-ו626,GALIL,infantry,40,40x20,,Merkava 2 Tank Company,ו
-ו627,GALIL,infantry,40,40x20,,Merkava 2 Tank Company,ו
-ו628,GALIL,infantry,40,40x20,,Merkava 2 Tank Company,ו
-ו629,FN MAG,machine gun,40,40x20,,Merkava 2 Tank Company,ו
-ו630,FN MAG,machine gun,40,40x20,,Merkava 2 Tank Company,ו
-ו631,FN MAG,machine gun,40,40x20,,Merkava 2 Tank Company,ו
-ו632,RPG-7,anti-tank,20,20x20,,Merkava 2 Tank Company,ו
-ו633,RPG-7,anti-tank,20,20x20,,Merkava 2 Tank Company,ו
-ו634,RPG-7,anti-tank,20,20x20,,Merkava 2 Tank Company,ו
-ו635,M47 DRAGON,anti-tank,20,20x20,,Merkava 2 Tank Company,ו
-ו636,52MM,mortar,20,20x20,,Merkava 2 Tank Company,ו
-ו637,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ו
-ו638,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ו
-ו639,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ו
-ו640,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ו
+ו401,JEEP,reconnaissance,20,20x30,,Merkava 2 Tank Company,ו
+ו402,JEEP,reconnaissance,20,20x30,,Merkava 2 Tank Company,ו
+ו403,JEEP,reconnaissance,20,20x30,,Merkava 2 Tank Company,ו
+ו404,M113 ZELDA,reconnaissance,20,20x30,,Merkava 2 Tank Company,ו
+ו405,M113 ZELDA,reconnaissance,20,20x30,,Merkava 2 Tank Company,ו
+ו406,M113 ZELDA,reconnaissance,20,20x30,,Merkava 2 Tank Company,ו
+ו407,M113 ZELDA,reconnaissance,20,20x30,,Merkava 2 Tank Company,ו
+ו408,RABBI,reconnaissance,20,20x30,,Merkava 2 Tank Company,ו
+ו409,RABBI,reconnaissance,20,20x30,,Merkava 2 Tank Company,ו
+ו410,RABBI,reconnaissance,20,20x30,,Merkava 2 Tank Company,ו
+ו411,CH-53 YAS'UR,utility helicopter,20,20x40,,Merkava 2 Tank Company,ו
+ו412,CH-53 YAS'UR,utility helicopter,20,20x40,,Merkava 2 Tank Company,ו
+ו501,GALIL,infantry,40,40x20,,Merkava 2 Tank Company,ו
+ו502,GALIL,infantry,40,40x20,,Merkava 2 Tank Company,ו
+ו503,GALIL,infantry,40,40x20,,Merkava 2 Tank Company,ו
+ו504,GALIL,infantry,40,40x20,,Merkava 2 Tank Company,ו
+ו505,FN MAG,machine gun,40,40x20,,Merkava 2 Tank Company,ו
+ו506,FN MAG,machine gun,40,40x20,,Merkava 2 Tank Company,ו
+ו507,FN MAG,machine gun,40,40x20,,Merkava 2 Tank Company,ו
+ו508,RPG-7,anti-tank,20,20x20,,Merkava 2 Tank Company,ו
+ו509,RPG-7,anti-tank,20,20x20,,Merkava 2 Tank Company,ו
+ו510,RPG-7,anti-tank,20,20x20,,Merkava 2 Tank Company,ו
+ו511,M47 DRAGON,anti-tank,20,20x20,,Merkava 2 Tank Company,ו
+ו512,52MM,mortar,20,20x20,,Merkava 2 Tank Company,ו
+ו513,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ו
+ו514,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ו
+ו515,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ו
+ו516,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ו
+ו513,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ו
+ו514,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ו
+ו515,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ו
+ו516,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ו
+ו513,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 2 Tank Company,ו
+ו514,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 2 Tank Company,ו
+ו515,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 2 Tank Company,ו
+ו516,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 2 Tank Company,ו
+ו525,GALIL,infantry,40,40x20,,Merkava 2 Tank Company,ו
+ו526,GALIL,infantry,40,40x20,,Merkava 2 Tank Company,ו
+ו527,GALIL,infantry,40,40x20,,Merkava 2 Tank Company,ו
+ו528,GALIL,infantry,40,40x20,,Merkava 2 Tank Company,ו
+ו529,FN MAG,machine gun,40,40x20,,Merkava 2 Tank Company,ו
+ו530,FN MAG,machine gun,40,40x20,,Merkava 2 Tank Company,ו
+ו531,FN MAG,machine gun,40,40x20,,Merkava 2 Tank Company,ו
+ו532,RPG-7,anti-tank,20,20x20,,Merkava 2 Tank Company,ו
+ו533,RPG-7,anti-tank,20,20x20,,Merkava 2 Tank Company,ו
+ו534,RPG-7,anti-tank,20,20x20,,Merkava 2 Tank Company,ו
+ו535,M47 DRAGON,anti-tank,20,20x20,,Merkava 2 Tank Company,ו
+ו536,52MM,mortar,20,20x20,,Merkava 2 Tank Company,ו
+ו537,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ו
+ו538,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ו
+ו539,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ו
+ו540,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 2 Tank Company,ו
 ז001,MERKAVA 1,armor,20,20x40,true,Merkava 1 Tank Company,ז
 ז002,MERKAVA 1,armor,20,20x40,true,Merkava 1 Tank Company,ז
 ז101,MERKAVA 1,armor,20,20x40,,Merkava 1 Tank Company,ז
@@ -439,70 +421,67 @@ designation,name,symbol,width,base,hq,formation,group
 ז201,MERKAVA 1,armor,20,20x40,,Merkava 1 Tank Company,ז
 ז202,MERKAVA 1,armor,20,20x40,,Merkava 1 Tank Company,ז
 ז203,MERKAVA 1,armor,20,20x40,,Merkava 1 Tank Company,ז
+ז204,MERKAVA 2,armor,20,20x40,,Merkava 1 Tank Company,ז
+ז205,MERKAVA 2,armor,20,20x40,,Merkava 1 Tank Company,ז
+ז206,MERKAVA 2,armor,20,20x40,,Merkava 1 Tank Company,ז
+ז207,MERKAVA 3,armor,20,20x40,,Merkava 1 Tank Company,ז
+ז208,MERKAVA 3,armor,20,20x40,,Merkava 1 Tank Company,ז
+ז209,MERKAVA 3,armor,20,20x40,,Merkava 1 Tank Company,ז
 ז301,MERKAVA 1,armor,20,20x40,,Merkava 1 Tank Company,ז
 ז302,MERKAVA 1,armor,20,20x40,,Merkava 1 Tank Company,ז
 ז303,MERKAVA 1,armor,20,20x40,,Merkava 1 Tank Company,ז
-ז304,MERKAVA 2,armor,20,20x40,,Merkava 1 Tank Company,ז
-ז305,MERKAVA 2,armor,20,20x40,,Merkava 1 Tank Company,ז
-ז306,MERKAVA 2,armor,20,20x40,,Merkava 1 Tank Company,ז
-ז307,MERKAVA 3,armor,20,20x40,,Merkava 1 Tank Company,ז
-ז308,MERKAVA 3,armor,20,20x40,,Merkava 1 Tank Company,ז
-ז309,MERKAVA 3,armor,20,20x40,,Merkava 1 Tank Company,ז
-ז401,MERKAVA 1,armor,20,20x40,,Merkava 1 Tank Company,ז
-ז402,MERKAVA 1,armor,20,20x40,,Merkava 1 Tank Company,ז
-ז403,MERKAVA 1,armor,20,20x40,,Merkava 1 Tank Company,ז
-ז501,JEEP,reconnaissance,20,20x30,,Merkava 1 Tank Company,ז
-ז502,JEEP,reconnaissance,20,20x30,,Merkava 1 Tank Company,ז
-ז503,JEEP,reconnaissance,20,20x30,,Merkava 1 Tank Company,ז
-ז504,M113 ZELDA,reconnaissance,20,20x30,,Merkava 1 Tank Company,ז
-ז505,M113 ZELDA,reconnaissance,20,20x30,,Merkava 1 Tank Company,ז
-ז506,M113 ZELDA,reconnaissance,20,20x30,,Merkava 1 Tank Company,ז
-ז507,M113 ZELDA,reconnaissance,20,20x30,,Merkava 1 Tank Company,ז
-ז508,RABBI,reconnaissance,20,20x30,,Merkava 1 Tank Company,ז
-ז509,RABBI,reconnaissance,20,20x30,,Merkava 1 Tank Company,ז
-ז510,RABBI,reconnaissance,20,20x30,,Merkava 1 Tank Company,ז
-ז511,UH-1,utility helicopter,20,20x40,,Merkava 1 Tank Company,ז
-ז512,UH-1,utility helicopter,20,20x40,,Merkava 1 Tank Company,ז
-ז601,GALIL,infantry,40,40x20,,Merkava 1 Tank Company,ז
-ז602,GALIL,infantry,40,40x20,,Merkava 1 Tank Company,ז
-ז603,GALIL,infantry,40,40x20,,Merkava 1 Tank Company,ז
-ז604,GALIL,infantry,40,40x20,,Merkava 1 Tank Company,ז
-ז605,FN MAG,machine gun,40,40x20,,Merkava 1 Tank Company,ז
-ז606,FN MAG,machine gun,40,40x20,,Merkava 1 Tank Company,ז
-ז607,FN MAG,machine gun,40,40x20,,Merkava 1 Tank Company,ז
-ז608,RPG-7,anti-tank,20,20x20,,Merkava 1 Tank Company,ז
-ז609,RPG-7,anti-tank,20,20x20,,Merkava 1 Tank Company,ז
-ז610,RPG-7,anti-tank,20,20x20,,Merkava 1 Tank Company,ז
-ז611,M47 DRAGON,anti-tank,20,20x20,,Merkava 1 Tank Company,ז
-ז612,52MM,mortar,20,20x20,,Merkava 1 Tank Company,ז
-ז613,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ז
-ז614,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ז
-ז615,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ז
-ז616,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ז
-ז613,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ז
-ז614,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ז
-ז615,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ז
-ז616,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ז
-ז613,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 1 Tank Company,ז
-ז614,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 1 Tank Company,ז
-ז615,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 1 Tank Company,ז
-ז616,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 1 Tank Company,ז
-ז625,GALIL,infantry,40,40x20,,Merkava 1 Tank Company,ז
-ז626,GALIL,infantry,40,40x20,,Merkava 1 Tank Company,ז
-ז627,GALIL,infantry,40,40x20,,Merkava 1 Tank Company,ז
-ז628,GALIL,infantry,40,40x20,,Merkava 1 Tank Company,ז
-ז629,FN MAG,machine gun,40,40x20,,Merkava 1 Tank Company,ז
-ז630,FN MAG,machine gun,40,40x20,,Merkava 1 Tank Company,ז
-ז631,FN MAG,machine gun,40,40x20,,Merkava 1 Tank Company,ז
-ז632,RPG-7,anti-tank,20,20x20,,Merkava 1 Tank Company,ז
-ז633,RPG-7,anti-tank,20,20x20,,Merkava 1 Tank Company,ז
-ז634,RPG-7,anti-tank,20,20x20,,Merkava 1 Tank Company,ז
-ז635,M47 DRAGON,anti-tank,20,20x20,,Merkava 1 Tank Company,ז
-ז636,52MM,mortar,20,20x20,,Merkava 1 Tank Company,ז
-ז637,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ז
-ז638,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ז
-ז639,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ז
-ז640,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ז
+ז401,JEEP,reconnaissance,20,20x30,,Merkava 1 Tank Company,ז
+ז402,JEEP,reconnaissance,20,20x30,,Merkava 1 Tank Company,ז
+ז403,JEEP,reconnaissance,20,20x30,,Merkava 1 Tank Company,ז
+ז404,M113 ZELDA,reconnaissance,20,20x30,,Merkava 1 Tank Company,ז
+ז405,M113 ZELDA,reconnaissance,20,20x30,,Merkava 1 Tank Company,ז
+ז406,M113 ZELDA,reconnaissance,20,20x30,,Merkava 1 Tank Company,ז
+ז407,M113 ZELDA,reconnaissance,20,20x30,,Merkava 1 Tank Company,ז
+ז408,RABBI,reconnaissance,20,20x30,,Merkava 1 Tank Company,ז
+ז409,RABBI,reconnaissance,20,20x30,,Merkava 1 Tank Company,ז
+ז410,RABBI,reconnaissance,20,20x30,,Merkava 1 Tank Company,ז
+ז411,CH-53 YAS'UR,utility helicopter,20,20x40,,Merkava 1 Tank Company,ז
+ז412,CH-53 YAS'UR,utility helicopter,20,20x40,,Merkava 1 Tank Company,ז
+ז501,GALIL,infantry,40,40x20,,Merkava 1 Tank Company,ז
+ז502,GALIL,infantry,40,40x20,,Merkava 1 Tank Company,ז
+ז503,GALIL,infantry,40,40x20,,Merkava 1 Tank Company,ז
+ז504,GALIL,infantry,40,40x20,,Merkava 1 Tank Company,ז
+ז505,FN MAG,machine gun,40,40x20,,Merkava 1 Tank Company,ז
+ז506,FN MAG,machine gun,40,40x20,,Merkava 1 Tank Company,ז
+ז507,FN MAG,machine gun,40,40x20,,Merkava 1 Tank Company,ז
+ז508,RPG-7,anti-tank,20,20x20,,Merkava 1 Tank Company,ז
+ז509,RPG-7,anti-tank,20,20x20,,Merkava 1 Tank Company,ז
+ז510,RPG-7,anti-tank,20,20x20,,Merkava 1 Tank Company,ז
+ז511,M47 DRAGON,anti-tank,20,20x20,,Merkava 1 Tank Company,ז
+ז512,52MM,mortar,20,20x20,,Merkava 1 Tank Company,ז
+ז513,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ז
+ז514,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ז
+ז515,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ז
+ז516,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ז
+ז513,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ז
+ז514,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ז
+ז515,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ז
+ז516,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ז
+ז513,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 1 Tank Company,ז
+ז514,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 1 Tank Company,ז
+ז515,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 1 Tank Company,ז
+ז516,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 1 Tank Company,ז
+ז525,GALIL,infantry,40,40x20,,Merkava 1 Tank Company,ז
+ז526,GALIL,infantry,40,40x20,,Merkava 1 Tank Company,ז
+ז527,GALIL,infantry,40,40x20,,Merkava 1 Tank Company,ז
+ז528,GALIL,infantry,40,40x20,,Merkava 1 Tank Company,ז
+ז529,FN MAG,machine gun,40,40x20,,Merkava 1 Tank Company,ז
+ז530,FN MAG,machine gun,40,40x20,,Merkava 1 Tank Company,ז
+ז531,FN MAG,machine gun,40,40x20,,Merkava 1 Tank Company,ז
+ז532,RPG-7,anti-tank,20,20x20,,Merkava 1 Tank Company,ז
+ז533,RPG-7,anti-tank,20,20x20,,Merkava 1 Tank Company,ז
+ז534,RPG-7,anti-tank,20,20x20,,Merkava 1 Tank Company,ז
+ז535,M47 DRAGON,anti-tank,20,20x20,,Merkava 1 Tank Company,ז
+ז536,52MM,mortar,20,20x20,,Merkava 1 Tank Company,ז
+ז537,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ז
+ז538,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ז
+ז539,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ז
+ז540,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ז
 ח001,MERKAVA 1,armor,20,20x40,true,Merkava 1 Tank Company,ח
 ח002,MERKAVA 1,armor,20,20x40,true,Merkava 1 Tank Company,ח
 ח101,MERKAVA 1,armor,20,20x40,,Merkava 1 Tank Company,ח
@@ -511,70 +490,67 @@ designation,name,symbol,width,base,hq,formation,group
 ח201,MERKAVA 1,armor,20,20x40,,Merkava 1 Tank Company,ח
 ח202,MERKAVA 1,armor,20,20x40,,Merkava 1 Tank Company,ח
 ח203,MERKAVA 1,armor,20,20x40,,Merkava 1 Tank Company,ח
+ח204,MERKAVA 2,armor,20,20x40,,Merkava 1 Tank Company,ח
+ח205,MERKAVA 2,armor,20,20x40,,Merkava 1 Tank Company,ח
+ח206,MERKAVA 2,armor,20,20x40,,Merkava 1 Tank Company,ח
+ח207,MERKAVA 3,armor,20,20x40,,Merkava 1 Tank Company,ח
+ח208,MERKAVA 3,armor,20,20x40,,Merkava 1 Tank Company,ח
+ח209,MERKAVA 3,armor,20,20x40,,Merkava 1 Tank Company,ח
 ח301,MERKAVA 1,armor,20,20x40,,Merkava 1 Tank Company,ח
 ח302,MERKAVA 1,armor,20,20x40,,Merkava 1 Tank Company,ח
 ח303,MERKAVA 1,armor,20,20x40,,Merkava 1 Tank Company,ח
-ח304,MERKAVA 2,armor,20,20x40,,Merkava 1 Tank Company,ח
-ח305,MERKAVA 2,armor,20,20x40,,Merkava 1 Tank Company,ח
-ח306,MERKAVA 2,armor,20,20x40,,Merkava 1 Tank Company,ח
-ח307,MERKAVA 3,armor,20,20x40,,Merkava 1 Tank Company,ח
-ח308,MERKAVA 3,armor,20,20x40,,Merkava 1 Tank Company,ח
-ח309,MERKAVA 3,armor,20,20x40,,Merkava 1 Tank Company,ח
-ח401,MERKAVA 1,armor,20,20x40,,Merkava 1 Tank Company,ח
-ח402,MERKAVA 1,armor,20,20x40,,Merkava 1 Tank Company,ח
-ח403,MERKAVA 1,armor,20,20x40,,Merkava 1 Tank Company,ח
-ח501,JEEP,reconnaissance,20,20x30,,Merkava 1 Tank Company,ח
-ח502,JEEP,reconnaissance,20,20x30,,Merkava 1 Tank Company,ח
-ח503,JEEP,reconnaissance,20,20x30,,Merkava 1 Tank Company,ח
-ח504,M113 ZELDA,reconnaissance,20,20x30,,Merkava 1 Tank Company,ח
-ח505,M113 ZELDA,reconnaissance,20,20x30,,Merkava 1 Tank Company,ח
-ח506,M113 ZELDA,reconnaissance,20,20x30,,Merkava 1 Tank Company,ח
-ח507,M113 ZELDA,reconnaissance,20,20x30,,Merkava 1 Tank Company,ח
-ח508,RABBI,reconnaissance,20,20x30,,Merkava 1 Tank Company,ח
-ח509,RABBI,reconnaissance,20,20x30,,Merkava 1 Tank Company,ח
-ח510,RABBI,reconnaissance,20,20x30,,Merkava 1 Tank Company,ח
-ח511,UH-1,utility helicopter,20,20x40,,Merkava 1 Tank Company,ח
-ח512,UH-1,utility helicopter,20,20x40,,Merkava 1 Tank Company,ח
-ח601,GALIL,infantry,40,40x20,,Merkava 1 Tank Company,ח
-ח602,GALIL,infantry,40,40x20,,Merkava 1 Tank Company,ח
-ח603,GALIL,infantry,40,40x20,,Merkava 1 Tank Company,ח
-ח604,GALIL,infantry,40,40x20,,Merkava 1 Tank Company,ח
-ח605,FN MAG,machine gun,40,40x20,,Merkava 1 Tank Company,ח
-ח606,FN MAG,machine gun,40,40x20,,Merkava 1 Tank Company,ח
-ח607,FN MAG,machine gun,40,40x20,,Merkava 1 Tank Company,ח
-ח608,RPG-7,anti-tank,20,20x20,,Merkava 1 Tank Company,ח
-ח609,RPG-7,anti-tank,20,20x20,,Merkava 1 Tank Company,ח
-ח610,RPG-7,anti-tank,20,20x20,,Merkava 1 Tank Company,ח
-ח611,M47 DRAGON,anti-tank,20,20x20,,Merkava 1 Tank Company,ח
-ח612,52MM,mortar,20,20x20,,Merkava 1 Tank Company,ח
-ח613,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ח
-ח614,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ח
-ח615,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ח
-ח616,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ח
-ח613,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ח
-ח614,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ח
-ח615,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ח
-ח616,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ח
-ח613,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 1 Tank Company,ח
-ח614,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 1 Tank Company,ח
-ח615,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 1 Tank Company,ח
-ח616,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 1 Tank Company,ח
-ח625,GALIL,infantry,40,40x20,,Merkava 1 Tank Company,ח
-ח626,GALIL,infantry,40,40x20,,Merkava 1 Tank Company,ח
-ח627,GALIL,infantry,40,40x20,,Merkava 1 Tank Company,ח
-ח628,GALIL,infantry,40,40x20,,Merkava 1 Tank Company,ח
-ח629,FN MAG,machine gun,40,40x20,,Merkava 1 Tank Company,ח
-ח630,FN MAG,machine gun,40,40x20,,Merkava 1 Tank Company,ח
-ח631,FN MAG,machine gun,40,40x20,,Merkava 1 Tank Company,ח
-ח632,RPG-7,anti-tank,20,20x20,,Merkava 1 Tank Company,ח
-ח633,RPG-7,anti-tank,20,20x20,,Merkava 1 Tank Company,ח
-ח634,RPG-7,anti-tank,20,20x20,,Merkava 1 Tank Company,ח
-ח635,M47 DRAGON,anti-tank,20,20x20,,Merkava 1 Tank Company,ח
-ח636,52MM,mortar,20,20x20,,Merkava 1 Tank Company,ח
-ח637,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ח
-ח638,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ח
-ח639,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ח
-ח640,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ח
+ח401,JEEP,reconnaissance,20,20x30,,Merkava 1 Tank Company,ח
+ח402,JEEP,reconnaissance,20,20x30,,Merkava 1 Tank Company,ח
+ח403,JEEP,reconnaissance,20,20x30,,Merkava 1 Tank Company,ח
+ח404,M113 ZELDA,reconnaissance,20,20x30,,Merkava 1 Tank Company,ח
+ח405,M113 ZELDA,reconnaissance,20,20x30,,Merkava 1 Tank Company,ח
+ח406,M113 ZELDA,reconnaissance,20,20x30,,Merkava 1 Tank Company,ח
+ח407,M113 ZELDA,reconnaissance,20,20x30,,Merkava 1 Tank Company,ח
+ח408,RABBI,reconnaissance,20,20x30,,Merkava 1 Tank Company,ח
+ח409,RABBI,reconnaissance,20,20x30,,Merkava 1 Tank Company,ח
+ח410,RABBI,reconnaissance,20,20x30,,Merkava 1 Tank Company,ח
+ח411,CH-53 YAS'UR,utility helicopter,20,20x40,,Merkava 1 Tank Company,ח
+ח412,CH-53 YAS'UR,utility helicopter,20,20x40,,Merkava 1 Tank Company,ח
+ח501,GALIL,infantry,40,40x20,,Merkava 1 Tank Company,ח
+ח502,GALIL,infantry,40,40x20,,Merkava 1 Tank Company,ח
+ח503,GALIL,infantry,40,40x20,,Merkava 1 Tank Company,ח
+ח504,GALIL,infantry,40,40x20,,Merkava 1 Tank Company,ח
+ח505,FN MAG,machine gun,40,40x20,,Merkava 1 Tank Company,ח
+ח506,FN MAG,machine gun,40,40x20,,Merkava 1 Tank Company,ח
+ח507,FN MAG,machine gun,40,40x20,,Merkava 1 Tank Company,ח
+ח508,RPG-7,anti-tank,20,20x20,,Merkava 1 Tank Company,ח
+ח509,RPG-7,anti-tank,20,20x20,,Merkava 1 Tank Company,ח
+ח510,RPG-7,anti-tank,20,20x20,,Merkava 1 Tank Company,ח
+ח511,M47 DRAGON,anti-tank,20,20x20,,Merkava 1 Tank Company,ח
+ח512,52MM,mortar,20,20x20,,Merkava 1 Tank Company,ח
+ח513,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ח
+ח514,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ח
+ח515,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ח
+ח516,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ח
+ח513,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ח
+ח514,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ח
+ח515,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ח
+ח516,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ח
+ח513,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 1 Tank Company,ח
+ח514,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 1 Tank Company,ח
+ח515,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 1 Tank Company,ח
+ח516,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 1 Tank Company,ח
+ח525,GALIL,infantry,40,40x20,,Merkava 1 Tank Company,ח
+ח526,GALIL,infantry,40,40x20,,Merkava 1 Tank Company,ח
+ח527,GALIL,infantry,40,40x20,,Merkava 1 Tank Company,ח
+ח528,GALIL,infantry,40,40x20,,Merkava 1 Tank Company,ח
+ח529,FN MAG,machine gun,40,40x20,,Merkava 1 Tank Company,ח
+ח530,FN MAG,machine gun,40,40x20,,Merkava 1 Tank Company,ח
+ח531,FN MAG,machine gun,40,40x20,,Merkava 1 Tank Company,ח
+ח532,RPG-7,anti-tank,20,20x20,,Merkava 1 Tank Company,ח
+ח533,RPG-7,anti-tank,20,20x20,,Merkava 1 Tank Company,ח
+ח534,RPG-7,anti-tank,20,20x20,,Merkava 1 Tank Company,ח
+ח535,M47 DRAGON,anti-tank,20,20x20,,Merkava 1 Tank Company,ח
+ח536,52MM,mortar,20,20x20,,Merkava 1 Tank Company,ח
+ח537,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ח
+ח538,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ח
+ח539,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ח
+ח540,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ח
 ט001,MERKAVA 1,armor,20,20x40,true,Merkava 1 Tank Company,ט
 ט002,MERKAVA 1,armor,20,20x40,true,Merkava 1 Tank Company,ט
 ט101,MERKAVA 1,armor,20,20x40,,Merkava 1 Tank Company,ט
@@ -583,70 +559,67 @@ designation,name,symbol,width,base,hq,formation,group
 ט201,MERKAVA 1,armor,20,20x40,,Merkava 1 Tank Company,ט
 ט202,MERKAVA 1,armor,20,20x40,,Merkava 1 Tank Company,ט
 ט203,MERKAVA 1,armor,20,20x40,,Merkava 1 Tank Company,ט
+ט204,MERKAVA 2,armor,20,20x40,,Merkava 1 Tank Company,ט
+ט205,MERKAVA 2,armor,20,20x40,,Merkava 1 Tank Company,ט
+ט206,MERKAVA 2,armor,20,20x40,,Merkava 1 Tank Company,ט
+ט207,MERKAVA 3,armor,20,20x40,,Merkava 1 Tank Company,ט
+ט208,MERKAVA 3,armor,20,20x40,,Merkava 1 Tank Company,ט
+ט209,MERKAVA 3,armor,20,20x40,,Merkava 1 Tank Company,ט
 ט301,MERKAVA 1,armor,20,20x40,,Merkava 1 Tank Company,ט
 ט302,MERKAVA 1,armor,20,20x40,,Merkava 1 Tank Company,ט
 ט303,MERKAVA 1,armor,20,20x40,,Merkava 1 Tank Company,ט
-ט304,MERKAVA 2,armor,20,20x40,,Merkava 1 Tank Company,ט
-ט305,MERKAVA 2,armor,20,20x40,,Merkava 1 Tank Company,ט
-ט306,MERKAVA 2,armor,20,20x40,,Merkava 1 Tank Company,ט
-ט307,MERKAVA 3,armor,20,20x40,,Merkava 1 Tank Company,ט
-ט308,MERKAVA 3,armor,20,20x40,,Merkava 1 Tank Company,ט
-ט309,MERKAVA 3,armor,20,20x40,,Merkava 1 Tank Company,ט
-ט401,MERKAVA 1,armor,20,20x40,,Merkava 1 Tank Company,ט
-ט402,MERKAVA 1,armor,20,20x40,,Merkava 1 Tank Company,ט
-ט403,MERKAVA 1,armor,20,20x40,,Merkava 1 Tank Company,ט
-ט501,JEEP,reconnaissance,20,20x30,,Merkava 1 Tank Company,ט
-ט502,JEEP,reconnaissance,20,20x30,,Merkava 1 Tank Company,ט
-ט503,JEEP,reconnaissance,20,20x30,,Merkava 1 Tank Company,ט
-ט504,M113 ZELDA,reconnaissance,20,20x30,,Merkava 1 Tank Company,ט
-ט505,M113 ZELDA,reconnaissance,20,20x30,,Merkava 1 Tank Company,ט
-ט506,M113 ZELDA,reconnaissance,20,20x30,,Merkava 1 Tank Company,ט
-ט507,M113 ZELDA,reconnaissance,20,20x30,,Merkava 1 Tank Company,ט
-ט508,RABBI,reconnaissance,20,20x30,,Merkava 1 Tank Company,ט
-ט509,RABBI,reconnaissance,20,20x30,,Merkava 1 Tank Company,ט
-ט510,RABBI,reconnaissance,20,20x30,,Merkava 1 Tank Company,ט
-ט511,UH-1,utility helicopter,20,20x40,,Merkava 1 Tank Company,ט
-ט512,UH-1,utility helicopter,20,20x40,,Merkava 1 Tank Company,ט
-ט601,GALIL,infantry,40,40x20,,Merkava 1 Tank Company,ט
-ט602,GALIL,infantry,40,40x20,,Merkava 1 Tank Company,ט
-ט603,GALIL,infantry,40,40x20,,Merkava 1 Tank Company,ט
-ט604,GALIL,infantry,40,40x20,,Merkava 1 Tank Company,ט
-ט605,FN MAG,machine gun,40,40x20,,Merkava 1 Tank Company,ט
-ט606,FN MAG,machine gun,40,40x20,,Merkava 1 Tank Company,ט
-ט607,FN MAG,machine gun,40,40x20,,Merkava 1 Tank Company,ט
-ט608,RPG-7,anti-tank,20,20x20,,Merkava 1 Tank Company,ט
-ט609,RPG-7,anti-tank,20,20x20,,Merkava 1 Tank Company,ט
-ט610,RPG-7,anti-tank,20,20x20,,Merkava 1 Tank Company,ט
-ט611,M47 DRAGON,anti-tank,20,20x20,,Merkava 1 Tank Company,ט
-ט612,52MM,mortar,20,20x20,,Merkava 1 Tank Company,ט
-ט613,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ט
-ט614,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ט
-ט615,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ט
-ט616,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ט
-ט613,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ט
-ט614,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ט
-ט615,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ט
-ט616,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ט
-ט613,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 1 Tank Company,ט
-ט614,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 1 Tank Company,ט
-ט615,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 1 Tank Company,ט
-ט616,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 1 Tank Company,ט
-ט625,GALIL,infantry,40,40x20,,Merkava 1 Tank Company,ט
-ט626,GALIL,infantry,40,40x20,,Merkava 1 Tank Company,ט
-ט627,GALIL,infantry,40,40x20,,Merkava 1 Tank Company,ט
-ט628,GALIL,infantry,40,40x20,,Merkava 1 Tank Company,ט
-ט629,FN MAG,machine gun,40,40x20,,Merkava 1 Tank Company,ט
-ט630,FN MAG,machine gun,40,40x20,,Merkava 1 Tank Company,ט
-ט631,FN MAG,machine gun,40,40x20,,Merkava 1 Tank Company,ט
-ט632,RPG-7,anti-tank,20,20x20,,Merkava 1 Tank Company,ט
-ט633,RPG-7,anti-tank,20,20x20,,Merkava 1 Tank Company,ט
-ט634,RPG-7,anti-tank,20,20x20,,Merkava 1 Tank Company,ט
-ט635,M47 DRAGON,anti-tank,20,20x20,,Merkava 1 Tank Company,ט
-ט636,52MM,mortar,20,20x20,,Merkava 1 Tank Company,ט
-ט637,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ט
-ט638,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ט
-ט639,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ט
-ט640,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ט
+ט401,JEEP,reconnaissance,20,20x30,,Merkava 1 Tank Company,ט
+ט402,JEEP,reconnaissance,20,20x30,,Merkava 1 Tank Company,ט
+ט403,JEEP,reconnaissance,20,20x30,,Merkava 1 Tank Company,ט
+ט404,M113 ZELDA,reconnaissance,20,20x30,,Merkava 1 Tank Company,ט
+ט405,M113 ZELDA,reconnaissance,20,20x30,,Merkava 1 Tank Company,ט
+ט406,M113 ZELDA,reconnaissance,20,20x30,,Merkava 1 Tank Company,ט
+ט407,M113 ZELDA,reconnaissance,20,20x30,,Merkava 1 Tank Company,ט
+ט408,RABBI,reconnaissance,20,20x30,,Merkava 1 Tank Company,ט
+ט409,RABBI,reconnaissance,20,20x30,,Merkava 1 Tank Company,ט
+ט410,RABBI,reconnaissance,20,20x30,,Merkava 1 Tank Company,ט
+ט411,CH-53 YAS'UR,utility helicopter,20,20x40,,Merkava 1 Tank Company,ט
+ט412,CH-53 YAS'UR,utility helicopter,20,20x40,,Merkava 1 Tank Company,ט
+ט501,GALIL,infantry,40,40x20,,Merkava 1 Tank Company,ט
+ט502,GALIL,infantry,40,40x20,,Merkava 1 Tank Company,ט
+ט503,GALIL,infantry,40,40x20,,Merkava 1 Tank Company,ט
+ט504,GALIL,infantry,40,40x20,,Merkava 1 Tank Company,ט
+ט505,FN MAG,machine gun,40,40x20,,Merkava 1 Tank Company,ט
+ט506,FN MAG,machine gun,40,40x20,,Merkava 1 Tank Company,ט
+ט507,FN MAG,machine gun,40,40x20,,Merkava 1 Tank Company,ט
+ט508,RPG-7,anti-tank,20,20x20,,Merkava 1 Tank Company,ט
+ט509,RPG-7,anti-tank,20,20x20,,Merkava 1 Tank Company,ט
+ט510,RPG-7,anti-tank,20,20x20,,Merkava 1 Tank Company,ט
+ט511,M47 DRAGON,anti-tank,20,20x20,,Merkava 1 Tank Company,ט
+ט512,52MM,mortar,20,20x20,,Merkava 1 Tank Company,ט
+ט513,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ט
+ט514,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ט
+ט515,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ט
+ט516,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ט
+ט513,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ט
+ט514,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ט
+ט515,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ט
+ט516,M113 VAYZATA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ט
+ט513,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 1 Tank Company,ט
+ט514,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 1 Tank Company,ט
+ט515,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 1 Tank Company,ט
+ט516,NAGMASHOT,armored personnel carrier,20,20x40,,Merkava 1 Tank Company,ט
+ט525,GALIL,infantry,40,40x20,,Merkava 1 Tank Company,ט
+ט526,GALIL,infantry,40,40x20,,Merkava 1 Tank Company,ט
+ט527,GALIL,infantry,40,40x20,,Merkava 1 Tank Company,ט
+ט528,GALIL,infantry,40,40x20,,Merkava 1 Tank Company,ט
+ט529,FN MAG,machine gun,40,40x20,,Merkava 1 Tank Company,ט
+ט530,FN MAG,machine gun,40,40x20,,Merkava 1 Tank Company,ט
+ט531,FN MAG,machine gun,40,40x20,,Merkava 1 Tank Company,ט
+ט532,RPG-7,anti-tank,20,20x20,,Merkava 1 Tank Company,ט
+ט533,RPG-7,anti-tank,20,20x20,,Merkava 1 Tank Company,ט
+ט534,RPG-7,anti-tank,20,20x20,,Merkava 1 Tank Company,ט
+ט535,M47 DRAGON,anti-tank,20,20x20,,Merkava 1 Tank Company,ט
+ט536,52MM,mortar,20,20x20,,Merkava 1 Tank Company,ט
+ט537,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ט
+ט538,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ט
+ט539,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ט
+ט540,M113 ZELDA,armored personnel carrier,20,20x30,,Merkava 1 Tank Company,ט
 י001,MAGACH 6,armor,20,20x40,true,Magach 6 Tank Company,י
 י002,MAGACH 6,armor,20,20x40,true,Magach 6 Tank Company,י
 י101,MAGACH 6,armor,20,20x40,,Magach 6 Tank Company,י
@@ -677,8 +650,8 @@ designation,name,symbol,width,base,hq,formation,group
 י408,RABBI,reconnaissance,20,20x30,,Magach 6 Tank Company,י
 י409,RABBI,reconnaissance,20,20x30,,Magach 6 Tank Company,י
 י410,RABBI,reconnaissance,20,20x30,,Magach 6 Tank Company,י
-י411,UH-1,utility helicopter,20,20x40,,Magach 6 Tank Company,י
-י412,UH-1,utility helicopter,20,20x40,,Magach 6 Tank Company,י
+י411,CH-53 YAS'UR,utility helicopter,20,20x40,,Magach 6 Tank Company,י
+י412,CH-53 YAS'UR,utility helicopter,20,20x40,,Magach 6 Tank Company,י
 י501,GALIL,infantry,40,40x20,,Magach 6 Tank Company,י
 י502,GALIL,infantry,40,40x20,,Magach 6 Tank Company,י
 י503,GALIL,infantry,40,40x20,,Magach 6 Tank Company,י
@@ -749,8 +722,8 @@ designation,name,symbol,width,base,hq,formation,group
 כ408,RABBI,reconnaissance,20,20x30,,Magach 6 Tank Company,כ
 כ409,RABBI,reconnaissance,20,20x30,,Magach 6 Tank Company,כ
 כ410,RABBI,reconnaissance,20,20x30,,Magach 6 Tank Company,כ
-כ411,UH-1,utility helicopter,20,20x40,,Magach 6 Tank Company,כ
-כ412,UH-1,utility helicopter,20,20x40,,Magach 6 Tank Company,כ
+כ411,CH-53 YAS'UR,utility helicopter,20,20x40,,Magach 6 Tank Company,כ
+כ412,CH-53 YAS'UR,utility helicopter,20,20x40,,Magach 6 Tank Company,כ
 כ501,GALIL,infantry,40,40x20,,Magach 6 Tank Company,כ
 כ502,GALIL,infantry,40,40x20,,Magach 6 Tank Company,כ
 כ503,GALIL,infantry,40,40x20,,Magach 6 Tank Company,כ
@@ -821,8 +794,8 @@ designation,name,symbol,width,base,hq,formation,group
 ל408,RABBI,reconnaissance,20,20x30,,Magach 6 Tank Company,ל
 ל409,RABBI,reconnaissance,20,20x30,,Magach 6 Tank Company,ל
 ל410,RABBI,reconnaissance,20,20x30,,Magach 6 Tank Company,ל
-ל411,UH-1,utility helicopter,20,20x40,,Magach 6 Tank Company,ל
-ל412,UH-1,utility helicopter,20,20x40,,Magach 6 Tank Company,ל
+ל411,CH-53 YAS'UR,utility helicopter,20,20x40,,Magach 6 Tank Company,ל
+ל412,CH-53 YAS'UR,utility helicopter,20,20x40,,Magach 6 Tank Company,ל
 ל501,GALIL,infantry,40,40x20,,Magach 6 Tank Company,ל
 ל502,GALIL,infantry,40,40x20,,Magach 6 Tank Company,ל
 ל503,GALIL,infantry,40,40x20,,Magach 6 Tank Company,ל
@@ -884,8 +857,8 @@ designation,name,symbol,width,base,hq,formation,group
 מ408,RABBI,reconnaissance,20,20x30,,Sho't (Blazer) Tank Company,מ
 מ409,RABBI,reconnaissance,20,20x30,,Sho't (Blazer) Tank Company,מ
 מ410,RABBI,reconnaissance,20,20x30,,Sho't (Blazer) Tank Company,מ
-מ411,UH-1,utility helicopter,20,20x40,,Sho't (Blazer) Tank Company,מ
-מ412,UH-1,utility helicopter,20,20x40,,Sho't (Blazer) Tank Company,מ
+מ411,CH-53 YAS'UR,utility helicopter,20,20x40,,Sho't (Blazer) Tank Company,מ
+מ412,CH-53 YAS'UR,utility helicopter,20,20x40,,Sho't (Blazer) Tank Company,מ
 מ501,GALIL,infantry,40,40x20,,Sho't (Blazer) Tank Company,מ
 מ502,GALIL,infantry,40,40x20,,Sho't (Blazer) Tank Company,מ
 מ503,GALIL,infantry,40,40x20,,Sho't (Blazer) Tank Company,מ
@@ -947,8 +920,8 @@ designation,name,symbol,width,base,hq,formation,group
 נ408,RABBI,reconnaissance,20,20x30,,Sho't (Blazer) Tank Company,נ
 נ409,RABBI,reconnaissance,20,20x30,,Sho't (Blazer) Tank Company,נ
 נ410,RABBI,reconnaissance,20,20x30,,Sho't (Blazer) Tank Company,נ
-נ411,UH-1,utility helicopter,20,20x40,,Sho't (Blazer) Tank Company,נ
-נ412,UH-1,utility helicopter,20,20x40,,Sho't (Blazer) Tank Company,נ
+נ411,CH-53 YAS'UR,utility helicopter,20,20x40,,Sho't (Blazer) Tank Company,נ
+נ412,CH-53 YAS'UR,utility helicopter,20,20x40,,Sho't (Blazer) Tank Company,נ
 נ501,GALIL,infantry,40,40x20,,Sho't (Blazer) Tank Company,נ
 נ502,GALIL,infantry,40,40x20,,Sho't (Blazer) Tank Company,נ
 נ503,GALIL,infantry,40,40x20,,Sho't (Blazer) Tank Company,נ
@@ -1010,8 +983,8 @@ designation,name,symbol,width,base,hq,formation,group
 ס408,RABBI,reconnaissance,20,20x30,,Sho't (Blazer) Tank Company,ס
 ס409,RABBI,reconnaissance,20,20x30,,Sho't (Blazer) Tank Company,ס
 ס410,RABBI,reconnaissance,20,20x30,,Sho't (Blazer) Tank Company,ס
-ס411,UH-1,utility helicopter,20,20x40,,Sho't (Blazer) Tank Company,ס
-ס412,UH-1,utility helicopter,20,20x40,,Sho't (Blazer) Tank Company,ס
+ס411,CH-53 YAS'UR,utility helicopter,20,20x40,,Sho't (Blazer) Tank Company,ס
+ס412,CH-53 YAS'UR,utility helicopter,20,20x40,,Sho't (Blazer) Tank Company,ס
 ס501,GALIL,infantry,40,40x20,,Sho't (Blazer) Tank Company,ס
 ס502,GALIL,infantry,40,40x20,,Sho't (Blazer) Tank Company,ס
 ס503,GALIL,infantry,40,40x20,,Sho't (Blazer) Tank Company,ס
@@ -1684,8 +1657,8 @@ designation,name,symbol,width,base,hq,formation,group
 ת606,RABBI,wheeled anti-tank,20,20x30,,Paratrooper Company,ת
 ת607,RABBI,wheeled anti-tank,20,20x30,,Paratrooper Company,ת
 ת608,RABBI,wheeled anti-tank,20,20x30,,Paratrooper Company,ת
-ת609,UH-1,utility helicopter,20,20x40,,Paratrooper Company,ת
-ת610,UH-1,utility helicopter,20,20x40,,Paratrooper Company,ת
+ת609,CH-53 YAS'UR,utility helicopter,20,20x40,,Paratrooper Company,ת
+ת610,CH-53 YAS'UR,utility helicopter,20,20x40,,Paratrooper Company,ת
 ת611,M150,anti-tank,20,20x30,,Paratrooper Company,ת
 ת612,M150,anti-tank,20,20x30,,Paratrooper Company,ת
 ך001,GALIL,infantry,20,20x20,true,Paratrooper Company,ך
@@ -1786,8 +1759,8 @@ designation,name,symbol,width,base,hq,formation,group
 ך606,RABBI,wheeled anti-tank,20,20x30,,Paratrooper Company,ך
 ך607,RABBI,wheeled anti-tank,20,20x30,,Paratrooper Company,ך
 ך608,RABBI,wheeled anti-tank,20,20x30,,Paratrooper Company,ך
-ך609,UH-1,utility helicopter,20,20x40,,Paratrooper Company,ך
-ך610,UH-1,utility helicopter,20,20x40,,Paratrooper Company,ך
+ך609,CH-53 YAS'UR,utility helicopter,20,20x40,,Paratrooper Company,ך
+ך610,CH-53 YAS'UR,utility helicopter,20,20x40,,Paratrooper Company,ך
 ך611,M150,anti-tank,20,20x30,,Paratrooper Company,ך
 ך612,M150,anti-tank,20,20x30,,Paratrooper Company,ך
 ם001,GALIL,infantry,20,20x20,true,Paratrooper Company,ם
@@ -1888,8 +1861,8 @@ designation,name,symbol,width,base,hq,formation,group
 ם606,RABBI,wheeled anti-tank,20,20x30,,Paratrooper Company,ם
 ם607,RABBI,wheeled anti-tank,20,20x30,,Paratrooper Company,ם
 ם608,RABBI,wheeled anti-tank,20,20x30,,Paratrooper Company,ם
-ם609,UH-1,utility helicopter,20,20x40,,Paratrooper Company,ם
-ם610,UH-1,utility helicopter,20,20x40,,Paratrooper Company,ם
+ם609,CH-53 YAS'UR,utility helicopter,20,20x40,,Paratrooper Company,ם
+ם610,CH-53 YAS'UR,utility helicopter,20,20x40,,Paratrooper Company,ם
 ם611,M150,anti-tank,20,20x30,,Paratrooper Company,ם
 ם612,M150,anti-tank,20,20x30,,Paratrooper Company,ם
 ן001,M109,self-propelled artillery,20,20x40,,Support Pool — Ground,ן
@@ -1932,16 +1905,16 @@ designation,name,symbol,width,base,hq,formation,group
 ן506,RABBI,wheeled anti-tank,20,20x30,,Support Pool — Ground,ן
 ן507,RABBI,wheeled anti-tank,20,20x30,,Support Pool — Ground,ן
 ן508,RABBI,wheeled anti-tank,20,20x30,,Support Pool — Ground,ן
-ן509,UH-1,utility helicopter,20,20x40,,Support Pool — Ground,ן
-ן510,UH-1,utility helicopter,20,20x40,,Support Pool — Ground,ן
+ן509,CH-53 YAS'UR,utility helicopter,20,20x40,,Support Pool — Ground,ן
+ן510,CH-53 YAS'UR,utility helicopter,20,20x40,,Support Pool — Ground,ן
 ן601,JEEP,reconnaissance,20,20x30,,Support Pool — Ground,ן
 ן602,JEEP,reconnaissance,20,20x30,,Support Pool — Ground,ן
 ן603,JEEP,reconnaissance,20,20x30,,Support Pool — Ground,ן
 ן604,RABBI,reconnaissance,20,20x30,,Support Pool — Ground,ן
 ן605,RABBI,reconnaissance,20,20x30,,Support Pool — Ground,ן
 ן606,RABBI,reconnaissance,20,20x30,,Support Pool — Ground,ן
-ן607,UH-1,utility helicopter,20,20x40,,Support Pool — Ground,ן
-ן608,UH-1,utility helicopter,20,20x40,,Support Pool — Ground,ן
+ן607,CH-53 YAS'UR,utility helicopter,20,20x40,,Support Pool — Ground,ן
+ן608,CH-53 YAS'UR,utility helicopter,20,20x40,,Support Pool — Ground,ן
 ן701,M163 VADS,self-propelled anti-aircraft,20,20x30,,Support Pool — Ground,ן
 ן702,M163 VADS,self-propelled anti-aircraft,20,20x30,,Support Pool — Ground,ן
 ן703,M163 VADS,self-propelled anti-aircraft,20,20x30,,Support Pool — Ground,ן

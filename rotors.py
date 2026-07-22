@@ -21,11 +21,12 @@ from __future__ import annotations
 
 import argparse
 import random
+import subprocess
 import sys
 from pathlib import Path
 
 import numpy as np
-from PIL import Image
+from PIL import Image, ImageDraw, ImageFont
 
 from bases import DPI, PX_PER_MM
 
@@ -42,8 +43,15 @@ SS = 3  # supersampling factor
 ROTORS = {
     "ah64": dict(label="AH-64 Peten", diameter=14.63, blades=4, chord=0.53, count=8),
     "ah1": dict(label="AH-1 Tzefa", diameter=13.41, blades=2, chord=0.69, count=8),
-    "uh1": dict(label="UH-1", diameter=14.63, blades=2, chord=0.53, count=12),
-    "ch53": dict(label="CH-53 Yas'ur", diameter=22.02, blades=6, chord=0.66, count=6),
+    "uh1": dict(label="UH-1", diameter=14.63, blades=2, chord=0.53, count=39),
+    "ch53": dict(label="CH-53 Yas'ur", diameter=22.02, blades=6, chord=0.66, count=58),
+    # tail rotors (verified diameters; AH-64's real 55/125 spacing is drawn as
+    # even 4-blade — the spin blur hides it). One per airframe -> counts match.
+    "ah64_tail": dict(label="AH-64 tail", diameter=2.54, blades=4, chord=0.27, count=8, hub=0.7,
+                      angles=[0, 55, 180, 235]),  # 55/125 scissor pair, not even 90
+    "ah1_tail": dict(label="AH-1 tail", diameter=2.59, blades=2, chord=0.27, count=8, hub=0.7),
+    "uh1_tail": dict(label="UH-1 tail", diameter=2.59, blades=2, chord=0.27, count=39, hub=0.7),
+    "ch53_tail": dict(label="CH-53 tail", diameter=4.88, blades=4, chord=0.40, count=58, hub=0.9),
 }
 
 PLATE_MM = (297.0, 90.0)  # A4-transparency strip inside the E1's window
@@ -51,8 +59,23 @@ MARGIN_MM = 0.6  # canvas margin around the cut line
 GAP_MM = 2.0  # spacing between discs on a plate
 CROSSHAIRS = ((5.0, 5.0), (292.0, 85.0))  # LightBurn Print-and-Cut marks
 HOLE_MM = 0.6  # center hole diameter for the rotor shaft
+LABEL_MM = 3.2  # printed id band below each disc (outside the cut, discarded)
 CUT = "#ff0000"
 ENGRAVE = "#0000ff"
+
+
+def _font(px: int) -> ImageFont.FreeTypeFont:
+    """Best-effort legible font; fall back to PIL's bitmap default."""
+    for q in ("DejaVu Sans:style=Bold", "monospace"):
+        try:
+            path = subprocess.run(["fc-match", "-f", "%{file}", q],
+                                  capture_output=True, text=True,
+                                  check=True).stdout.strip()
+            if path:
+                return ImageFont.truetype(path, px)
+        except Exception:
+            pass
+    return ImageFont.load_default()
 
 INK = (35, 35, 35)
 SWEEP_ROOT_DEG = 10.0  # angular smear at the blade root...
@@ -69,6 +92,7 @@ def render_disc(spec: dict) -> Image.Image:
     r_mm = spec["diameter"] * 1000 / SCALE / 2
     chord_mm = spec["chord"] * 1000 / SCALE
     n = spec["blades"]
+    hub_mm = spec.get("hub", HUB_MM)  # small tail rotors need a smaller hub
 
     size_mm = 2 * (r_mm + MARGIN_MM)
     size = int(round(size_mm * PX_PER_MM)) * SS
@@ -89,9 +113,13 @@ def render_disc(spec: dict) -> Image.Image:
     sweep = np.radians(SWEEP_ROOT_DEG + (SWEEP_TIP_DEG - SWEEP_ROOT_DEG) * t**1.4)
     solid = SOLID_ROOT + (SOLID_TIP - SOLID_ROOT) * t**1.2
     beta = np.arctan2(chord_mm / 2, rr)  # blade angular half-width at radius r
+    # even spacing unless the spec pins explicit blade angles (e.g. the
+    # AH-64 tail's 55/125 scissor pair)
+    angles = spec.get("angles")
+    leads = ([np.radians(a) for a in angles] if angles
+             else [k * 2 * np.pi / n for k in range(n)])
     alpha = np.zeros_like(r)
-    for k in range(n):
-        lead = k * 2 * np.pi / n
+    for lead in leads:
         d = np.mod(lead - theta, 2 * np.pi)  # trailing distance behind the blade
         d2 = np.minimum(d, 2 * np.pi - d)  # unsigned distance to the blade axis
         half = beta * (1 + 2.5 * t)  # motion blur widens the core toward the tip
@@ -102,7 +130,7 @@ def render_disc(spec: dict) -> Image.Image:
     alpha *= np.clip((r_mm - r) / 0.12, 0, 1)  # anti-aliased rim
 
     # solid hub, fading into the disc
-    alpha = np.maximum(alpha, np.clip((HUB_MM * 1.7 - r) / (HUB_MM * 0.7), 0, 1))
+    alpha = np.maximum(alpha, np.clip((hub_mm * 1.7 - r) / (hub_mm * 0.7), 0, 1))
 
     # cut guide ring at the exact rotor radius
     ring = np.abs(r - r_mm) < CUT_RING_MM / 2
@@ -128,7 +156,8 @@ def pack_plates(discs: list[tuple[str, Image.Image]]) -> list[list[dict]]:
     x = y = shelf_h = 0.0
     for key, disc in sorted(discs, key=lambda d: -d[1].width):
         w = disc.width / PX_PER_MM
-        if plate and x + w > pw and y + shelf_h + w > ph:
+        cell_h = w + LABEL_MM  # disc + printed id band below it
+        if plate and x + w > pw and y + shelf_h + cell_h > ph:
             plates.append(plate)
             plate, x, y, shelf_h = [], 0.0, 0.0, 0.0
         if x + w > pw:
@@ -136,7 +165,7 @@ def pack_plates(discs: list[tuple[str, Image.Image]]) -> list[list[dict]]:
             x = shelf_h = 0.0
         plate.append({"key": key, "img": disc, "x": x, "y": y, "w": w})
         x += w + GAP_MM
-        shelf_h = max(shelf_h, w)
+        shelf_h = max(shelf_h, cell_h)
     if plate:
         plates.append(plate)
     return plates
@@ -151,10 +180,21 @@ def write_plate(placed: list[dict], out: Path, n: int, dpi) -> None:
     pw, ph = PLATE_MM
     img = Image.new("RGBA", (int(round(pw * PX_PER_MM)),
                              int(round(ph * PX_PER_MM))), (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
     for p in placed:
         img.paste(p["img"], (int(round(p["x"] * PX_PER_MM)),
                              int(round(p["y"] * PX_PER_MM))), p["img"])
-    d = ImageDraw.Draw(img)
+        # printed id label centred in the band below the disc (outside the
+        # perimeter cut, so it identifies discs on the plate then discards)
+        text = ROTORS[p["key"]]["label"]
+        size = int(LABEL_MM * PX_PER_MM * 0.78)
+        font = _font(size)
+        while size > 6 and d.textlength(text, font=font) > (p["w"] - 0.5) * PX_PER_MM:
+            size = int(size * 0.9)
+            font = _font(size)
+        d.text(((p["x"] + p["w"] / 2) * PX_PER_MM,
+                (p["y"] + p["w"] + LABEL_MM / 2) * PX_PER_MM),
+               text, fill=INK + (255,), font=font, anchor="mm")
     lw = max(1, int(round(0.25 * PX_PER_MM)))
     arm = 3 * PX_PER_MM
     for cx, cy in CROSSHAIRS:

@@ -4,649 +4,622 @@ formation,Merkava 3 Tank Company,א (Aleph),S1,HQ,1-2,A,Merkava 3 Tank Company H
 formation,Merkava 3 Tank Company,א (Aleph),S2a,Combat,1 of 2 mandatory,A,Merkava 3 Tank Platoon (1st),MERKAVA 3,1,1,Tank,101א,20x40
 formation,Merkava 3 Tank Company,א (Aleph),S2a,Combat,1 of 2 mandatory,A,Merkava 3 Tank Platoon (1st),MERKAVA 3,2,2,Tank,102א,20x40
 formation,Merkava 3 Tank Company,א (Aleph),S2a,Combat,1 of 2 mandatory,A,Merkava 3 Tank Platoon (1st),MERKAVA 3,3,3,Tank,103א,20x40
-formation,Merkava 3 Tank Company,א (Aleph),S2b,Combat,2 of 2 mandatory,A,Merkava 3 Tank Platoon (2nd),MERKAVA 3,1,1,Tank,201א,20x40
-formation,Merkava 3 Tank Company,א (Aleph),S2b,Combat,2 of 2 mandatory,A,Merkava 3 Tank Platoon (2nd),MERKAVA 3,2,2,Tank,202א,20x40
-formation,Merkava 3 Tank Company,א (Aleph),S2b,Combat,2 of 2 mandatory,A,Merkava 3 Tank Platoon (2nd),MERKAVA 3,3,3,Tank,203א,20x40
-formation,Merkava 3 Tank Company,א (Aleph),S3,Combat,1 (choice),A,Merkava 3 Tank Platoon,MERKAVA 3,1,1,Tank,301א,20x40
-formation,Merkava 3 Tank Company,א (Aleph),S3,Combat,1 (choice),A,Merkava 3 Tank Platoon,MERKAVA 3,2,2,Tank,302א,20x40
-formation,Merkava 3 Tank Company,א (Aleph),S3,Combat,1 (choice),A,Merkava 3 Tank Platoon,MERKAVA 3,3,3,Tank,303א,20x40
-formation,Merkava 3 Tank Company,א (Aleph),S3,Combat,1 (choice),B,Merkava 2 Tank Platoon,MERKAVA 2,1,4,Tank,304א,20x40
-formation,Merkava 3 Tank Company,א (Aleph),S3,Combat,1 (choice),B,Merkava 2 Tank Platoon,MERKAVA 2,2,5,Tank,305א,20x40
-formation,Merkava 3 Tank Company,א (Aleph),S3,Combat,1 (choice),B,Merkava 2 Tank Platoon,MERKAVA 2,3,6,Tank,306א,20x40
-formation,Merkava 3 Tank Company,א (Aleph),S3,Combat,1 (choice),C,Merkava 1 Tank Platoon,MERKAVA 1,1,7,Tank,307א,20x40
-formation,Merkava 3 Tank Company,א (Aleph),S3,Combat,1 (choice),C,Merkava 1 Tank Platoon,MERKAVA 1,2,8,Tank,308א,20x40
-formation,Merkava 3 Tank Company,א (Aleph),S3,Combat,1 (choice),C,Merkava 1 Tank Platoon,MERKAVA 1,3,9,Tank,309א,20x40
-formation,Merkava 3 Tank Company,א (Aleph),S4,Combat,1,A,Merkava 3 Tank Platoon (3rd),MERKAVA 3,1,1,Tank,401א,20x40
-formation,Merkava 3 Tank Company,א (Aleph),S4,Combat,1,A,Merkava 3 Tank Platoon (3rd),MERKAVA 3,2,2,Tank,402א,20x40
-formation,Merkava 3 Tank Company,א (Aleph),S4,Combat,1,A,Merkava 3 Tank Platoon (3rd),MERKAVA 3,3,3,Tank,403א,20x40
-formation,Merkava 3 Tank Company,א (Aleph),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,1,1,Recce,501א,20x30
-formation,Merkava 3 Tank Company,א (Aleph),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,2,2,Recce,502א,20x30
-formation,Merkava 3 Tank Company,א (Aleph),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,3,3,Recce,503א,20x30
-formation,Merkava 3 Tank Company,א (Aleph),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,1,4,Recce,504א,20x30
-formation,Merkava 3 Tank Company,א (Aleph),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,2,5,Recce,505א,20x30
-formation,Merkava 3 Tank Company,א (Aleph),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,3,6,Recce,506א,20x30
-formation,Merkava 3 Tank Company,א (Aleph),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,4,7,Recce,507א,20x30
-formation,Merkava 3 Tank Company,א (Aleph),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,1,8,Recce,508א,20x30
-formation,Merkava 3 Tank Company,א (Aleph),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,2,9,Recce,509א,20x30
-formation,Merkava 3 Tank Company,א (Aleph),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,3,10,Recce,510א,20x30
-formation,Merkava 3 Tank Company,א (Aleph),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,UH-1,4,11,Transport heli,511א,20x40
-formation,Merkava 3 Tank Company,א (Aleph),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,UH-1,5,12,Transport heli,512א,20x40
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,1,1,Galil rifle (M72 LAW),601א,40x20
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,2,2,Galil rifle (M72 LAW),602א,40x20
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,3,3,Galil rifle (M72 LAW),603א,40x20
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,4,4,Galil rifle (M72 LAW),604א,40x20
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,5,5,FN MAG (M72 LAW),605א,40x20
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,6,6,FN MAG (M72 LAW),606א,40x20
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,7,7,FN MAG (M72 LAW),607א,40x20
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,8,8,RPG-7 (or B-300),608א,20x20
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,9,9,RPG-7 (or B-300),609א,20x20
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,10,10,RPG-7 (or B-300),610א,20x20
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M47 DRAGON,11,11,M47 Dragon (or Dragon 2),611א,20x20
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,52MM,12,12,52mm mortar,612א,20x20
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,13,13,Transport (M113),613א,20x30
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,14,14,Transport (M113),614א,20x30
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,15,15,Transport (M113),615א,20x30
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,16,16,Transport (M113),616א,20x30
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,17,17,Transport (Vayzata variant),613א,20x30
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,18,18,Transport (Vayzata variant),614א,20x30
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,19,19,Transport (Vayzata variant),615א,20x30
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,20,20,Transport (Vayzata variant),616א,20x30
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,21,21,Transport (Nagmasho't variant),613א,20x40
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,22,22,Transport (Nagmasho't variant),614א,20x40
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,23,23,Transport (Nagmasho't variant),615א,20x40
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,24,24,Transport (Nagmasho't variant),616א,20x40
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,1,25,Galil rifle (M72 LAW) [Reserve],625א,40x20
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,2,26,Galil rifle (M72 LAW) [Reserve],626א,40x20
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,3,27,Galil rifle (M72 LAW) [Reserve],627א,40x20
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,4,28,Galil rifle (M72 LAW) [Reserve],628א,40x20
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,5,29,FN MAG (M72 LAW) [Reserve],629א,40x20
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,6,30,FN MAG (M72 LAW) [Reserve],630א,40x20
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,7,31,FN MAG (M72 LAW) [Reserve],631א,40x20
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,8,32,RPG-7 [Reserve],632א,20x20
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,9,33,RPG-7 [Reserve],633א,20x20
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,10,34,RPG-7 [Reserve],634א,20x20
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M47 DRAGON,11,35,M47 Dragon (or Dragon 2) [Reserve],635א,20x20
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,52MM,12,36,52mm mortar [Reserve],636א,20x20
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,13,37,Transport (Reserve M113),637א,20x30
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,14,38,Transport (Reserve M113),638א,20x30
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,15,39,Transport (Reserve M113),639א,20x30
-formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,16,40,Transport (Reserve M113),640א,20x30
+formation,Merkava 3 Tank Company,א (Aleph),S3,Combat,1 (choice),A,Merkava 3 Tank Platoon,MERKAVA 3,1,1,Tank,201א,20x40
+formation,Merkava 3 Tank Company,א (Aleph),S3,Combat,1 (choice),A,Merkava 3 Tank Platoon,MERKAVA 3,2,2,Tank,202א,20x40
+formation,Merkava 3 Tank Company,א (Aleph),S3,Combat,1 (choice),A,Merkava 3 Tank Platoon,MERKAVA 3,3,3,Tank,203א,20x40
+formation,Merkava 3 Tank Company,א (Aleph),S3,Combat,1 (choice),B,Merkava 2 Tank Platoon,MERKAVA 2,1,4,Tank,204א,20x40
+formation,Merkava 3 Tank Company,א (Aleph),S3,Combat,1 (choice),B,Merkava 2 Tank Platoon,MERKAVA 2,2,5,Tank,205א,20x40
+formation,Merkava 3 Tank Company,א (Aleph),S3,Combat,1 (choice),B,Merkava 2 Tank Platoon,MERKAVA 2,3,6,Tank,206א,20x40
+formation,Merkava 3 Tank Company,א (Aleph),S3,Combat,1 (choice),C,Merkava 1 Tank Platoon,MERKAVA 1,1,7,Tank,207א,20x40
+formation,Merkava 3 Tank Company,א (Aleph),S3,Combat,1 (choice),C,Merkava 1 Tank Platoon,MERKAVA 1,2,8,Tank,208א,20x40
+formation,Merkava 3 Tank Company,א (Aleph),S3,Combat,1 (choice),C,Merkava 1 Tank Platoon,MERKAVA 1,3,9,Tank,209א,20x40
+formation,Merkava 3 Tank Company,א (Aleph),S4,Combat,1,A,Merkava 3 Tank Platoon (3rd),MERKAVA 3,1,1,Tank,301א,20x40
+formation,Merkava 3 Tank Company,א (Aleph),S4,Combat,1,A,Merkava 3 Tank Platoon (3rd),MERKAVA 3,2,2,Tank,302א,20x40
+formation,Merkava 3 Tank Company,א (Aleph),S4,Combat,1,A,Merkava 3 Tank Platoon (3rd),MERKAVA 3,3,3,Tank,303א,20x40
+formation,Merkava 3 Tank Company,א (Aleph),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,1,1,Recce,401א,20x30
+formation,Merkava 3 Tank Company,א (Aleph),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,2,2,Recce,402א,20x30
+formation,Merkava 3 Tank Company,א (Aleph),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,3,3,Recce,403א,20x30
+formation,Merkava 3 Tank Company,א (Aleph),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,1,4,Recce,404א,20x30
+formation,Merkava 3 Tank Company,א (Aleph),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,2,5,Recce,405א,20x30
+formation,Merkava 3 Tank Company,א (Aleph),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,3,6,Recce,406א,20x30
+formation,Merkava 3 Tank Company,א (Aleph),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,4,7,Recce,407א,20x30
+formation,Merkava 3 Tank Company,א (Aleph),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,1,8,Recce,408א,20x30
+formation,Merkava 3 Tank Company,א (Aleph),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,2,9,Recce,409א,20x30
+formation,Merkava 3 Tank Company,א (Aleph),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,3,10,Recce,410א,20x30
+formation,Merkava 3 Tank Company,א (Aleph),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,CH-53 YAS'UR,4,11,Transport heli,411א,20x40
+formation,Merkava 3 Tank Company,א (Aleph),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,CH-53 YAS'UR,5,12,Transport heli,412א,20x40
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,1,1,Galil rifle (M72 LAW),501א,40x20
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,2,2,Galil rifle (M72 LAW),502א,40x20
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,3,3,Galil rifle (M72 LAW),503א,40x20
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,4,4,Galil rifle (M72 LAW),504א,40x20
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,5,5,FN MAG (M72 LAW),505א,40x20
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,6,6,FN MAG (M72 LAW),506א,40x20
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,7,7,FN MAG (M72 LAW),507א,40x20
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,8,8,RPG-7 (or B-300),508א,20x20
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,9,9,RPG-7 (or B-300),509א,20x20
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,10,10,RPG-7 (or B-300),510א,20x20
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M47 DRAGON,11,11,M47 Dragon (or Dragon 2),511א,20x20
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,52MM,12,12,52mm mortar,512א,20x20
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,13,13,Transport (M113),513א,20x30
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,14,14,Transport (M113),514א,20x30
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,15,15,Transport (M113),515א,20x30
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,16,16,Transport (M113),516א,20x30
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,17,17,Transport (Vayzata variant),513א,20x30
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,18,18,Transport (Vayzata variant),514א,20x30
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,19,19,Transport (Vayzata variant),515א,20x30
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,20,20,Transport (Vayzata variant),516א,20x30
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,21,21,Transport (Nagmasho't variant),513א,20x40
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,22,22,Transport (Nagmasho't variant),514א,20x40
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,23,23,Transport (Nagmasho't variant),515א,20x40
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,24,24,Transport (Nagmasho't variant),516א,20x40
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,1,25,Galil rifle (M72 LAW) [Reserve],525א,40x20
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,2,26,Galil rifle (M72 LAW) [Reserve],526א,40x20
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,3,27,Galil rifle (M72 LAW) [Reserve],527א,40x20
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,4,28,Galil rifle (M72 LAW) [Reserve],528א,40x20
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,5,29,FN MAG (M72 LAW) [Reserve],529א,40x20
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,6,30,FN MAG (M72 LAW) [Reserve],530א,40x20
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,7,31,FN MAG (M72 LAW) [Reserve],531א,40x20
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,8,32,RPG-7 [Reserve],532א,20x20
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,9,33,RPG-7 [Reserve],533א,20x20
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,10,34,RPG-7 [Reserve],534א,20x20
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M47 DRAGON,11,35,M47 Dragon (or Dragon 2) [Reserve],535א,20x20
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,52MM,12,36,52mm mortar [Reserve],536א,20x20
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,13,37,Transport (Reserve M113),537א,20x30
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,14,38,Transport (Reserve M113),538א,20x30
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,15,39,Transport (Reserve M113),539א,20x30
+formation,Merkava 3 Tank Company,א (Aleph),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,16,40,Transport (Reserve M113),540א,20x30
 formation,Merkava 3 Tank Company,ב (Bet),S1,HQ,1-2,A,Merkava 3 Tank Company HQ,MERKAVA 3,1,1,HQ Tank,001ב,20x40
 formation,Merkava 3 Tank Company,ב (Bet),S1,HQ,1-2,A,Merkava 3 Tank Company HQ,MERKAVA 3,2,2,HQ Tank,002ב,20x40
 formation,Merkava 3 Tank Company,ב (Bet),S2a,Combat,1 of 2 mandatory,A,Merkava 3 Tank Platoon (1st),MERKAVA 3,1,1,Tank,101ב,20x40
 formation,Merkava 3 Tank Company,ב (Bet),S2a,Combat,1 of 2 mandatory,A,Merkava 3 Tank Platoon (1st),MERKAVA 3,2,2,Tank,102ב,20x40
 formation,Merkava 3 Tank Company,ב (Bet),S2a,Combat,1 of 2 mandatory,A,Merkava 3 Tank Platoon (1st),MERKAVA 3,3,3,Tank,103ב,20x40
-formation,Merkava 3 Tank Company,ב (Bet),S2b,Combat,2 of 2 mandatory,A,Merkava 3 Tank Platoon (2nd),MERKAVA 3,1,1,Tank,201ב,20x40
-formation,Merkava 3 Tank Company,ב (Bet),S2b,Combat,2 of 2 mandatory,A,Merkava 3 Tank Platoon (2nd),MERKAVA 3,2,2,Tank,202ב,20x40
-formation,Merkava 3 Tank Company,ב (Bet),S2b,Combat,2 of 2 mandatory,A,Merkava 3 Tank Platoon (2nd),MERKAVA 3,3,3,Tank,203ב,20x40
-formation,Merkava 3 Tank Company,ב (Bet),S3,Combat,1 (choice),A,Merkava 3 Tank Platoon,MERKAVA 3,1,1,Tank,301ב,20x40
-formation,Merkava 3 Tank Company,ב (Bet),S3,Combat,1 (choice),A,Merkava 3 Tank Platoon,MERKAVA 3,2,2,Tank,302ב,20x40
-formation,Merkava 3 Tank Company,ב (Bet),S3,Combat,1 (choice),A,Merkava 3 Tank Platoon,MERKAVA 3,3,3,Tank,303ב,20x40
-formation,Merkava 3 Tank Company,ב (Bet),S3,Combat,1 (choice),B,Merkava 2 Tank Platoon,MERKAVA 2,1,4,Tank,304ב,20x40
-formation,Merkava 3 Tank Company,ב (Bet),S3,Combat,1 (choice),B,Merkava 2 Tank Platoon,MERKAVA 2,2,5,Tank,305ב,20x40
-formation,Merkava 3 Tank Company,ב (Bet),S3,Combat,1 (choice),B,Merkava 2 Tank Platoon,MERKAVA 2,3,6,Tank,306ב,20x40
-formation,Merkava 3 Tank Company,ב (Bet),S3,Combat,1 (choice),C,Merkava 1 Tank Platoon,MERKAVA 1,1,7,Tank,307ב,20x40
-formation,Merkava 3 Tank Company,ב (Bet),S3,Combat,1 (choice),C,Merkava 1 Tank Platoon,MERKAVA 1,2,8,Tank,308ב,20x40
-formation,Merkava 3 Tank Company,ב (Bet),S3,Combat,1 (choice),C,Merkava 1 Tank Platoon,MERKAVA 1,3,9,Tank,309ב,20x40
-formation,Merkava 3 Tank Company,ב (Bet),S4,Combat,1,A,Merkava 3 Tank Platoon (3rd),MERKAVA 3,1,1,Tank,401ב,20x40
-formation,Merkava 3 Tank Company,ב (Bet),S4,Combat,1,A,Merkava 3 Tank Platoon (3rd),MERKAVA 3,2,2,Tank,402ב,20x40
-formation,Merkava 3 Tank Company,ב (Bet),S4,Combat,1,A,Merkava 3 Tank Platoon (3rd),MERKAVA 3,3,3,Tank,403ב,20x40
-formation,Merkava 3 Tank Company,ב (Bet),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,1,1,Recce,501ב,20x30
-formation,Merkava 3 Tank Company,ב (Bet),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,2,2,Recce,502ב,20x30
-formation,Merkava 3 Tank Company,ב (Bet),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,3,3,Recce,503ב,20x30
-formation,Merkava 3 Tank Company,ב (Bet),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,1,4,Recce,504ב,20x30
-formation,Merkava 3 Tank Company,ב (Bet),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,2,5,Recce,505ב,20x30
-formation,Merkava 3 Tank Company,ב (Bet),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,3,6,Recce,506ב,20x30
-formation,Merkava 3 Tank Company,ב (Bet),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,4,7,Recce,507ב,20x30
-formation,Merkava 3 Tank Company,ב (Bet),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,1,8,Recce,508ב,20x30
-formation,Merkava 3 Tank Company,ב (Bet),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,2,9,Recce,509ב,20x30
-formation,Merkava 3 Tank Company,ב (Bet),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,3,10,Recce,510ב,20x30
-formation,Merkava 3 Tank Company,ב (Bet),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,UH-1,4,11,Transport heli,511ב,20x40
-formation,Merkava 3 Tank Company,ב (Bet),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,UH-1,5,12,Transport heli,512ב,20x40
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,1,1,Galil rifle (M72 LAW),601ב,40x20
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,2,2,Galil rifle (M72 LAW),602ב,40x20
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,3,3,Galil rifle (M72 LAW),603ב,40x20
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,4,4,Galil rifle (M72 LAW),604ב,40x20
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,5,5,FN MAG (M72 LAW),605ב,40x20
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,6,6,FN MAG (M72 LAW),606ב,40x20
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,7,7,FN MAG (M72 LAW),607ב,40x20
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,8,8,RPG-7 (or B-300),608ב,20x20
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,9,9,RPG-7 (or B-300),609ב,20x20
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,10,10,RPG-7 (or B-300),610ב,20x20
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M47 DRAGON,11,11,M47 Dragon (or Dragon 2),611ב,20x20
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,52MM,12,12,52mm mortar,612ב,20x20
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,13,13,Transport (M113),613ב,20x30
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,14,14,Transport (M113),614ב,20x30
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,15,15,Transport (M113),615ב,20x30
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,16,16,Transport (M113),616ב,20x30
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,17,17,Transport (Vayzata variant),613ב,20x30
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,18,18,Transport (Vayzata variant),614ב,20x30
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,19,19,Transport (Vayzata variant),615ב,20x30
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,20,20,Transport (Vayzata variant),616ב,20x30
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,21,21,Transport (Nagmasho't variant),613ב,20x40
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,22,22,Transport (Nagmasho't variant),614ב,20x40
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,23,23,Transport (Nagmasho't variant),615ב,20x40
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,24,24,Transport (Nagmasho't variant),616ב,20x40
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,1,25,Galil rifle (M72 LAW) [Reserve],625ב,40x20
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,2,26,Galil rifle (M72 LAW) [Reserve],626ב,40x20
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,3,27,Galil rifle (M72 LAW) [Reserve],627ב,40x20
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,4,28,Galil rifle (M72 LAW) [Reserve],628ב,40x20
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,5,29,FN MAG (M72 LAW) [Reserve],629ב,40x20
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,6,30,FN MAG (M72 LAW) [Reserve],630ב,40x20
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,7,31,FN MAG (M72 LAW) [Reserve],631ב,40x20
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,8,32,RPG-7 [Reserve],632ב,20x20
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,9,33,RPG-7 [Reserve],633ב,20x20
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,10,34,RPG-7 [Reserve],634ב,20x20
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M47 DRAGON,11,35,M47 Dragon (or Dragon 2) [Reserve],635ב,20x20
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,52MM,12,36,52mm mortar [Reserve],636ב,20x20
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,13,37,Transport (Reserve M113),637ב,20x30
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,14,38,Transport (Reserve M113),638ב,20x30
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,15,39,Transport (Reserve M113),639ב,20x30
-formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,16,40,Transport (Reserve M113),640ב,20x30
+formation,Merkava 3 Tank Company,ב (Bet),S3,Combat,1 (choice),A,Merkava 3 Tank Platoon,MERKAVA 3,1,1,Tank,201ב,20x40
+formation,Merkava 3 Tank Company,ב (Bet),S3,Combat,1 (choice),A,Merkava 3 Tank Platoon,MERKAVA 3,2,2,Tank,202ב,20x40
+formation,Merkava 3 Tank Company,ב (Bet),S3,Combat,1 (choice),A,Merkava 3 Tank Platoon,MERKAVA 3,3,3,Tank,203ב,20x40
+formation,Merkava 3 Tank Company,ב (Bet),S3,Combat,1 (choice),B,Merkava 2 Tank Platoon,MERKAVA 2,1,4,Tank,204ב,20x40
+formation,Merkava 3 Tank Company,ב (Bet),S3,Combat,1 (choice),B,Merkava 2 Tank Platoon,MERKAVA 2,2,5,Tank,205ב,20x40
+formation,Merkava 3 Tank Company,ב (Bet),S3,Combat,1 (choice),B,Merkava 2 Tank Platoon,MERKAVA 2,3,6,Tank,206ב,20x40
+formation,Merkava 3 Tank Company,ב (Bet),S3,Combat,1 (choice),C,Merkava 1 Tank Platoon,MERKAVA 1,1,7,Tank,207ב,20x40
+formation,Merkava 3 Tank Company,ב (Bet),S3,Combat,1 (choice),C,Merkava 1 Tank Platoon,MERKAVA 1,2,8,Tank,208ב,20x40
+formation,Merkava 3 Tank Company,ב (Bet),S3,Combat,1 (choice),C,Merkava 1 Tank Platoon,MERKAVA 1,3,9,Tank,209ב,20x40
+formation,Merkava 3 Tank Company,ב (Bet),S4,Combat,1,A,Merkava 3 Tank Platoon (3rd),MERKAVA 3,1,1,Tank,301ב,20x40
+formation,Merkava 3 Tank Company,ב (Bet),S4,Combat,1,A,Merkava 3 Tank Platoon (3rd),MERKAVA 3,2,2,Tank,302ב,20x40
+formation,Merkava 3 Tank Company,ב (Bet),S4,Combat,1,A,Merkava 3 Tank Platoon (3rd),MERKAVA 3,3,3,Tank,303ב,20x40
+formation,Merkava 3 Tank Company,ב (Bet),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,1,1,Recce,401ב,20x30
+formation,Merkava 3 Tank Company,ב (Bet),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,2,2,Recce,402ב,20x30
+formation,Merkava 3 Tank Company,ב (Bet),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,3,3,Recce,403ב,20x30
+formation,Merkava 3 Tank Company,ב (Bet),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,1,4,Recce,404ב,20x30
+formation,Merkava 3 Tank Company,ב (Bet),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,2,5,Recce,405ב,20x30
+formation,Merkava 3 Tank Company,ב (Bet),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,3,6,Recce,406ב,20x30
+formation,Merkava 3 Tank Company,ב (Bet),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,4,7,Recce,407ב,20x30
+formation,Merkava 3 Tank Company,ב (Bet),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,1,8,Recce,408ב,20x30
+formation,Merkava 3 Tank Company,ב (Bet),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,2,9,Recce,409ב,20x30
+formation,Merkava 3 Tank Company,ב (Bet),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,3,10,Recce,410ב,20x30
+formation,Merkava 3 Tank Company,ב (Bet),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,CH-53 YAS'UR,4,11,Transport heli,411ב,20x40
+formation,Merkava 3 Tank Company,ב (Bet),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,CH-53 YAS'UR,5,12,Transport heli,412ב,20x40
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,1,1,Galil rifle (M72 LAW),501ב,40x20
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,2,2,Galil rifle (M72 LAW),502ב,40x20
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,3,3,Galil rifle (M72 LAW),503ב,40x20
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,4,4,Galil rifle (M72 LAW),504ב,40x20
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,5,5,FN MAG (M72 LAW),505ב,40x20
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,6,6,FN MAG (M72 LAW),506ב,40x20
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,7,7,FN MAG (M72 LAW),507ב,40x20
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,8,8,RPG-7 (or B-300),508ב,20x20
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,9,9,RPG-7 (or B-300),509ב,20x20
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,10,10,RPG-7 (or B-300),510ב,20x20
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M47 DRAGON,11,11,M47 Dragon (or Dragon 2),511ב,20x20
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,52MM,12,12,52mm mortar,512ב,20x20
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,13,13,Transport (M113),513ב,20x30
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,14,14,Transport (M113),514ב,20x30
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,15,15,Transport (M113),515ב,20x30
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,16,16,Transport (M113),516ב,20x30
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,17,17,Transport (Vayzata variant),513ב,20x30
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,18,18,Transport (Vayzata variant),514ב,20x30
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,19,19,Transport (Vayzata variant),515ב,20x30
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,20,20,Transport (Vayzata variant),516ב,20x30
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,21,21,Transport (Nagmasho't variant),513ב,20x40
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,22,22,Transport (Nagmasho't variant),514ב,20x40
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,23,23,Transport (Nagmasho't variant),515ב,20x40
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,24,24,Transport (Nagmasho't variant),516ב,20x40
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,1,25,Galil rifle (M72 LAW) [Reserve],525ב,40x20
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,2,26,Galil rifle (M72 LAW) [Reserve],526ב,40x20
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,3,27,Galil rifle (M72 LAW) [Reserve],527ב,40x20
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,4,28,Galil rifle (M72 LAW) [Reserve],528ב,40x20
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,5,29,FN MAG (M72 LAW) [Reserve],529ב,40x20
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,6,30,FN MAG (M72 LAW) [Reserve],530ב,40x20
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,7,31,FN MAG (M72 LAW) [Reserve],531ב,40x20
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,8,32,RPG-7 [Reserve],532ב,20x20
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,9,33,RPG-7 [Reserve],533ב,20x20
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,10,34,RPG-7 [Reserve],534ב,20x20
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M47 DRAGON,11,35,M47 Dragon (or Dragon 2) [Reserve],535ב,20x20
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,52MM,12,36,52mm mortar [Reserve],536ב,20x20
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,13,37,Transport (Reserve M113),537ב,20x30
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,14,38,Transport (Reserve M113),538ב,20x30
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,15,39,Transport (Reserve M113),539ב,20x30
+formation,Merkava 3 Tank Company,ב (Bet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,16,40,Transport (Reserve M113),540ב,20x30
 formation,Merkava 3 Tank Company,ג (Gimel),S1,HQ,1-2,A,Merkava 3 Tank Company HQ,MERKAVA 3,1,1,HQ Tank,001ג,20x40
 formation,Merkava 3 Tank Company,ג (Gimel),S1,HQ,1-2,A,Merkava 3 Tank Company HQ,MERKAVA 3,2,2,HQ Tank,002ג,20x40
 formation,Merkava 3 Tank Company,ג (Gimel),S2a,Combat,1 of 2 mandatory,A,Merkava 3 Tank Platoon (1st),MERKAVA 3,1,1,Tank,101ג,20x40
 formation,Merkava 3 Tank Company,ג (Gimel),S2a,Combat,1 of 2 mandatory,A,Merkava 3 Tank Platoon (1st),MERKAVA 3,2,2,Tank,102ג,20x40
 formation,Merkava 3 Tank Company,ג (Gimel),S2a,Combat,1 of 2 mandatory,A,Merkava 3 Tank Platoon (1st),MERKAVA 3,3,3,Tank,103ג,20x40
-formation,Merkava 3 Tank Company,ג (Gimel),S2b,Combat,2 of 2 mandatory,A,Merkava 3 Tank Platoon (2nd),MERKAVA 3,1,1,Tank,201ג,20x40
-formation,Merkava 3 Tank Company,ג (Gimel),S2b,Combat,2 of 2 mandatory,A,Merkava 3 Tank Platoon (2nd),MERKAVA 3,2,2,Tank,202ג,20x40
-formation,Merkava 3 Tank Company,ג (Gimel),S2b,Combat,2 of 2 mandatory,A,Merkava 3 Tank Platoon (2nd),MERKAVA 3,3,3,Tank,203ג,20x40
-formation,Merkava 3 Tank Company,ג (Gimel),S3,Combat,1 (choice),A,Merkava 3 Tank Platoon,MERKAVA 3,1,1,Tank,301ג,20x40
-formation,Merkava 3 Tank Company,ג (Gimel),S3,Combat,1 (choice),A,Merkava 3 Tank Platoon,MERKAVA 3,2,2,Tank,302ג,20x40
-formation,Merkava 3 Tank Company,ג (Gimel),S3,Combat,1 (choice),A,Merkava 3 Tank Platoon,MERKAVA 3,3,3,Tank,303ג,20x40
-formation,Merkava 3 Tank Company,ג (Gimel),S3,Combat,1 (choice),B,Merkava 2 Tank Platoon,MERKAVA 2,1,4,Tank,304ג,20x40
-formation,Merkava 3 Tank Company,ג (Gimel),S3,Combat,1 (choice),B,Merkava 2 Tank Platoon,MERKAVA 2,2,5,Tank,305ג,20x40
-formation,Merkava 3 Tank Company,ג (Gimel),S3,Combat,1 (choice),B,Merkava 2 Tank Platoon,MERKAVA 2,3,6,Tank,306ג,20x40
-formation,Merkava 3 Tank Company,ג (Gimel),S3,Combat,1 (choice),C,Merkava 1 Tank Platoon,MERKAVA 1,1,7,Tank,307ג,20x40
-formation,Merkava 3 Tank Company,ג (Gimel),S3,Combat,1 (choice),C,Merkava 1 Tank Platoon,MERKAVA 1,2,8,Tank,308ג,20x40
-formation,Merkava 3 Tank Company,ג (Gimel),S3,Combat,1 (choice),C,Merkava 1 Tank Platoon,MERKAVA 1,3,9,Tank,309ג,20x40
-formation,Merkava 3 Tank Company,ג (Gimel),S4,Combat,1,A,Merkava 3 Tank Platoon (3rd),MERKAVA 3,1,1,Tank,401ג,20x40
-formation,Merkava 3 Tank Company,ג (Gimel),S4,Combat,1,A,Merkava 3 Tank Platoon (3rd),MERKAVA 3,2,2,Tank,402ג,20x40
-formation,Merkava 3 Tank Company,ג (Gimel),S4,Combat,1,A,Merkava 3 Tank Platoon (3rd),MERKAVA 3,3,3,Tank,403ג,20x40
-formation,Merkava 3 Tank Company,ג (Gimel),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,1,1,Recce,501ג,20x30
-formation,Merkava 3 Tank Company,ג (Gimel),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,2,2,Recce,502ג,20x30
-formation,Merkava 3 Tank Company,ג (Gimel),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,3,3,Recce,503ג,20x30
-formation,Merkava 3 Tank Company,ג (Gimel),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,1,4,Recce,504ג,20x30
-formation,Merkava 3 Tank Company,ג (Gimel),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,2,5,Recce,505ג,20x30
-formation,Merkava 3 Tank Company,ג (Gimel),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,3,6,Recce,506ג,20x30
-formation,Merkava 3 Tank Company,ג (Gimel),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,4,7,Recce,507ג,20x30
-formation,Merkava 3 Tank Company,ג (Gimel),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,1,8,Recce,508ג,20x30
-formation,Merkava 3 Tank Company,ג (Gimel),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,2,9,Recce,509ג,20x30
-formation,Merkava 3 Tank Company,ג (Gimel),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,3,10,Recce,510ג,20x30
-formation,Merkava 3 Tank Company,ג (Gimel),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,UH-1,4,11,Transport heli,511ג,20x40
-formation,Merkava 3 Tank Company,ג (Gimel),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,UH-1,5,12,Transport heli,512ג,20x40
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,1,1,Galil rifle (M72 LAW),601ג,40x20
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,2,2,Galil rifle (M72 LAW),602ג,40x20
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,3,3,Galil rifle (M72 LAW),603ג,40x20
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,4,4,Galil rifle (M72 LAW),604ג,40x20
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,5,5,FN MAG (M72 LAW),605ג,40x20
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,6,6,FN MAG (M72 LAW),606ג,40x20
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,7,7,FN MAG (M72 LAW),607ג,40x20
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,8,8,RPG-7 (or B-300),608ג,20x20
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,9,9,RPG-7 (or B-300),609ג,20x20
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,10,10,RPG-7 (or B-300),610ג,20x20
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M47 DRAGON,11,11,M47 Dragon (or Dragon 2),611ג,20x20
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,52MM,12,12,52mm mortar,612ג,20x20
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,13,13,Transport (M113),613ג,20x30
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,14,14,Transport (M113),614ג,20x30
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,15,15,Transport (M113),615ג,20x30
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,16,16,Transport (M113),616ג,20x30
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,17,17,Transport (Vayzata variant),613ג,20x30
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,18,18,Transport (Vayzata variant),614ג,20x30
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,19,19,Transport (Vayzata variant),615ג,20x30
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,20,20,Transport (Vayzata variant),616ג,20x30
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,21,21,Transport (Nagmasho't variant),613ג,20x40
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,22,22,Transport (Nagmasho't variant),614ג,20x40
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,23,23,Transport (Nagmasho't variant),615ג,20x40
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,24,24,Transport (Nagmasho't variant),616ג,20x40
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,1,25,Galil rifle (M72 LAW) [Reserve],625ג,40x20
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,2,26,Galil rifle (M72 LAW) [Reserve],626ג,40x20
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,3,27,Galil rifle (M72 LAW) [Reserve],627ג,40x20
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,4,28,Galil rifle (M72 LAW) [Reserve],628ג,40x20
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,5,29,FN MAG (M72 LAW) [Reserve],629ג,40x20
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,6,30,FN MAG (M72 LAW) [Reserve],630ג,40x20
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,7,31,FN MAG (M72 LAW) [Reserve],631ג,40x20
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,8,32,RPG-7 [Reserve],632ג,20x20
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,9,33,RPG-7 [Reserve],633ג,20x20
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,10,34,RPG-7 [Reserve],634ג,20x20
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M47 DRAGON,11,35,M47 Dragon (or Dragon 2) [Reserve],635ג,20x20
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,52MM,12,36,52mm mortar [Reserve],636ג,20x20
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,13,37,Transport (Reserve M113),637ג,20x30
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,14,38,Transport (Reserve M113),638ג,20x30
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,15,39,Transport (Reserve M113),639ג,20x30
-formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,16,40,Transport (Reserve M113),640ג,20x30
+formation,Merkava 3 Tank Company,ג (Gimel),S3,Combat,1 (choice),A,Merkava 3 Tank Platoon,MERKAVA 3,1,1,Tank,201ג,20x40
+formation,Merkava 3 Tank Company,ג (Gimel),S3,Combat,1 (choice),A,Merkava 3 Tank Platoon,MERKAVA 3,2,2,Tank,202ג,20x40
+formation,Merkava 3 Tank Company,ג (Gimel),S3,Combat,1 (choice),A,Merkava 3 Tank Platoon,MERKAVA 3,3,3,Tank,203ג,20x40
+formation,Merkava 3 Tank Company,ג (Gimel),S3,Combat,1 (choice),B,Merkava 2 Tank Platoon,MERKAVA 2,1,4,Tank,204ג,20x40
+formation,Merkava 3 Tank Company,ג (Gimel),S3,Combat,1 (choice),B,Merkava 2 Tank Platoon,MERKAVA 2,2,5,Tank,205ג,20x40
+formation,Merkava 3 Tank Company,ג (Gimel),S3,Combat,1 (choice),B,Merkava 2 Tank Platoon,MERKAVA 2,3,6,Tank,206ג,20x40
+formation,Merkava 3 Tank Company,ג (Gimel),S3,Combat,1 (choice),C,Merkava 1 Tank Platoon,MERKAVA 1,1,7,Tank,207ג,20x40
+formation,Merkava 3 Tank Company,ג (Gimel),S3,Combat,1 (choice),C,Merkava 1 Tank Platoon,MERKAVA 1,2,8,Tank,208ג,20x40
+formation,Merkava 3 Tank Company,ג (Gimel),S3,Combat,1 (choice),C,Merkava 1 Tank Platoon,MERKAVA 1,3,9,Tank,209ג,20x40
+formation,Merkava 3 Tank Company,ג (Gimel),S4,Combat,1,A,Merkava 3 Tank Platoon (3rd),MERKAVA 3,1,1,Tank,301ג,20x40
+formation,Merkava 3 Tank Company,ג (Gimel),S4,Combat,1,A,Merkava 3 Tank Platoon (3rd),MERKAVA 3,2,2,Tank,302ג,20x40
+formation,Merkava 3 Tank Company,ג (Gimel),S4,Combat,1,A,Merkava 3 Tank Platoon (3rd),MERKAVA 3,3,3,Tank,303ג,20x40
+formation,Merkava 3 Tank Company,ג (Gimel),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,1,1,Recce,401ג,20x30
+formation,Merkava 3 Tank Company,ג (Gimel),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,2,2,Recce,402ג,20x30
+formation,Merkava 3 Tank Company,ג (Gimel),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,3,3,Recce,403ג,20x30
+formation,Merkava 3 Tank Company,ג (Gimel),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,1,4,Recce,404ג,20x30
+formation,Merkava 3 Tank Company,ג (Gimel),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,2,5,Recce,405ג,20x30
+formation,Merkava 3 Tank Company,ג (Gimel),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,3,6,Recce,406ג,20x30
+formation,Merkava 3 Tank Company,ג (Gimel),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,4,7,Recce,407ג,20x30
+formation,Merkava 3 Tank Company,ג (Gimel),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,1,8,Recce,408ג,20x30
+formation,Merkava 3 Tank Company,ג (Gimel),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,2,9,Recce,409ג,20x30
+formation,Merkava 3 Tank Company,ג (Gimel),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,3,10,Recce,410ג,20x30
+formation,Merkava 3 Tank Company,ג (Gimel),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,CH-53 YAS'UR,4,11,Transport heli,411ג,20x40
+formation,Merkava 3 Tank Company,ג (Gimel),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,CH-53 YAS'UR,5,12,Transport heli,412ג,20x40
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,1,1,Galil rifle (M72 LAW),501ג,40x20
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,2,2,Galil rifle (M72 LAW),502ג,40x20
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,3,3,Galil rifle (M72 LAW),503ג,40x20
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,4,4,Galil rifle (M72 LAW),504ג,40x20
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,5,5,FN MAG (M72 LAW),505ג,40x20
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,6,6,FN MAG (M72 LAW),506ג,40x20
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,7,7,FN MAG (M72 LAW),507ג,40x20
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,8,8,RPG-7 (or B-300),508ג,20x20
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,9,9,RPG-7 (or B-300),509ג,20x20
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,10,10,RPG-7 (or B-300),510ג,20x20
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M47 DRAGON,11,11,M47 Dragon (or Dragon 2),511ג,20x20
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,52MM,12,12,52mm mortar,512ג,20x20
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,13,13,Transport (M113),513ג,20x30
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,14,14,Transport (M113),514ג,20x30
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,15,15,Transport (M113),515ג,20x30
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,16,16,Transport (M113),516ג,20x30
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,17,17,Transport (Vayzata variant),513ג,20x30
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,18,18,Transport (Vayzata variant),514ג,20x30
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,19,19,Transport (Vayzata variant),515ג,20x30
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,20,20,Transport (Vayzata variant),516ג,20x30
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,21,21,Transport (Nagmasho't variant),513ג,20x40
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,22,22,Transport (Nagmasho't variant),514ג,20x40
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,23,23,Transport (Nagmasho't variant),515ג,20x40
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,24,24,Transport (Nagmasho't variant),516ג,20x40
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,1,25,Galil rifle (M72 LAW) [Reserve],525ג,40x20
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,2,26,Galil rifle (M72 LAW) [Reserve],526ג,40x20
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,3,27,Galil rifle (M72 LAW) [Reserve],527ג,40x20
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,4,28,Galil rifle (M72 LAW) [Reserve],528ג,40x20
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,5,29,FN MAG (M72 LAW) [Reserve],529ג,40x20
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,6,30,FN MAG (M72 LAW) [Reserve],530ג,40x20
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,7,31,FN MAG (M72 LAW) [Reserve],531ג,40x20
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,8,32,RPG-7 [Reserve],532ג,20x20
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,9,33,RPG-7 [Reserve],533ג,20x20
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,10,34,RPG-7 [Reserve],534ג,20x20
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M47 DRAGON,11,35,M47 Dragon (or Dragon 2) [Reserve],535ג,20x20
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,52MM,12,36,52mm mortar [Reserve],536ג,20x20
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,13,37,Transport (Reserve M113),537ג,20x30
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,14,38,Transport (Reserve M113),538ג,20x30
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,15,39,Transport (Reserve M113),539ג,20x30
+formation,Merkava 3 Tank Company,ג (Gimel),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,16,40,Transport (Reserve M113),540ג,20x30
 formation,Merkava 2 Tank Company,ד (Dalet),S1,HQ,1-2,A,Merkava 2 Tank Company HQ,MERKAVA 2,1,1,HQ Tank,001ד,20x40
 formation,Merkava 2 Tank Company,ד (Dalet),S1,HQ,1-2,A,Merkava 2 Tank Company HQ,MERKAVA 2,2,2,HQ Tank,002ד,20x40
 formation,Merkava 2 Tank Company,ד (Dalet),S2a,Combat,1 of 2 mandatory,A,Merkava 2 Tank Platoon (1st),MERKAVA 2,1,1,Tank,101ד,20x40
 formation,Merkava 2 Tank Company,ד (Dalet),S2a,Combat,1 of 2 mandatory,A,Merkava 2 Tank Platoon (1st),MERKAVA 2,2,2,Tank,102ד,20x40
 formation,Merkava 2 Tank Company,ד (Dalet),S2a,Combat,1 of 2 mandatory,A,Merkava 2 Tank Platoon (1st),MERKAVA 2,3,3,Tank,103ד,20x40
-formation,Merkava 2 Tank Company,ד (Dalet),S2b,Combat,2 of 2 mandatory,A,Merkava 2 Tank Platoon (2nd),MERKAVA 2,1,1,Tank,201ד,20x40
-formation,Merkava 2 Tank Company,ד (Dalet),S2b,Combat,2 of 2 mandatory,A,Merkava 2 Tank Platoon (2nd),MERKAVA 2,2,2,Tank,202ד,20x40
-formation,Merkava 2 Tank Company,ד (Dalet),S2b,Combat,2 of 2 mandatory,A,Merkava 2 Tank Platoon (2nd),MERKAVA 2,3,3,Tank,203ד,20x40
-formation,Merkava 2 Tank Company,ד (Dalet),S3,Combat,1 (choice),A,Merkava 2 Tank Platoon,MERKAVA 2,1,1,Tank,301ד,20x40
-formation,Merkava 2 Tank Company,ד (Dalet),S3,Combat,1 (choice),A,Merkava 2 Tank Platoon,MERKAVA 2,2,2,Tank,302ד,20x40
-formation,Merkava 2 Tank Company,ד (Dalet),S3,Combat,1 (choice),A,Merkava 2 Tank Platoon,MERKAVA 2,3,3,Tank,303ד,20x40
-formation,Merkava 2 Tank Company,ד (Dalet),S3,Combat,1 (choice),B,Merkava 1 Tank Platoon,MERKAVA 1,1,4,Tank,304ד,20x40
-formation,Merkava 2 Tank Company,ד (Dalet),S3,Combat,1 (choice),B,Merkava 1 Tank Platoon,MERKAVA 1,2,5,Tank,305ד,20x40
-formation,Merkava 2 Tank Company,ד (Dalet),S3,Combat,1 (choice),B,Merkava 1 Tank Platoon,MERKAVA 1,3,6,Tank,306ד,20x40
-formation,Merkava 2 Tank Company,ד (Dalet),S3,Combat,1 (choice),C,Merkava 3 Tank Platoon,MERKAVA 3,1,7,Tank,307ד,20x40
-formation,Merkava 2 Tank Company,ד (Dalet),S3,Combat,1 (choice),C,Merkava 3 Tank Platoon,MERKAVA 3,2,8,Tank,308ד,20x40
-formation,Merkava 2 Tank Company,ד (Dalet),S3,Combat,1 (choice),C,Merkava 3 Tank Platoon,MERKAVA 3,3,9,Tank,309ד,20x40
-formation,Merkava 2 Tank Company,ד (Dalet),S4,Combat,1,A,Merkava 2 Tank Platoon (3rd),MERKAVA 2,1,1,Tank,401ד,20x40
-formation,Merkava 2 Tank Company,ד (Dalet),S4,Combat,1,A,Merkava 2 Tank Platoon (3rd),MERKAVA 2,2,2,Tank,402ד,20x40
-formation,Merkava 2 Tank Company,ד (Dalet),S4,Combat,1,A,Merkava 2 Tank Platoon (3rd),MERKAVA 2,3,3,Tank,403ד,20x40
-formation,Merkava 2 Tank Company,ד (Dalet),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,1,1,Recce,501ד,20x30
-formation,Merkava 2 Tank Company,ד (Dalet),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,2,2,Recce,502ד,20x30
-formation,Merkava 2 Tank Company,ד (Dalet),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,3,3,Recce,503ד,20x30
-formation,Merkava 2 Tank Company,ד (Dalet),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,1,4,Recce,504ד,20x30
-formation,Merkava 2 Tank Company,ד (Dalet),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,2,5,Recce,505ד,20x30
-formation,Merkava 2 Tank Company,ד (Dalet),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,3,6,Recce,506ד,20x30
-formation,Merkava 2 Tank Company,ד (Dalet),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,4,7,Recce,507ד,20x30
-formation,Merkava 2 Tank Company,ד (Dalet),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,1,8,Recce,508ד,20x30
-formation,Merkava 2 Tank Company,ד (Dalet),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,2,9,Recce,509ד,20x30
-formation,Merkava 2 Tank Company,ד (Dalet),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,3,10,Recce,510ד,20x30
-formation,Merkava 2 Tank Company,ד (Dalet),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,UH-1,4,11,Transport heli,511ד,20x40
-formation,Merkava 2 Tank Company,ד (Dalet),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,UH-1,5,12,Transport heli,512ד,20x40
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,1,1,Galil rifle (M72 LAW),601ד,40x20
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,2,2,Galil rifle (M72 LAW),602ד,40x20
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,3,3,Galil rifle (M72 LAW),603ד,40x20
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,4,4,Galil rifle (M72 LAW),604ד,40x20
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,5,5,FN MAG (M72 LAW),605ד,40x20
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,6,6,FN MAG (M72 LAW),606ד,40x20
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,7,7,FN MAG (M72 LAW),607ד,40x20
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,8,8,RPG-7 (or B-300),608ד,20x20
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,9,9,RPG-7 (or B-300),609ד,20x20
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,10,10,RPG-7 (or B-300),610ד,20x20
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M47 DRAGON,11,11,M47 Dragon (or Dragon 2),611ד,20x20
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,52MM,12,12,52mm mortar,612ד,20x20
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,13,13,Transport (M113),613ד,20x30
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,14,14,Transport (M113),614ד,20x30
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,15,15,Transport (M113),615ד,20x30
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,16,16,Transport (M113),616ד,20x30
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,17,17,Transport (Vayzata variant),613ד,20x30
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,18,18,Transport (Vayzata variant),614ד,20x30
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,19,19,Transport (Vayzata variant),615ד,20x30
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,20,20,Transport (Vayzata variant),616ד,20x30
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,21,21,Transport (Nagmasho't variant),613ד,20x40
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,22,22,Transport (Nagmasho't variant),614ד,20x40
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,23,23,Transport (Nagmasho't variant),615ד,20x40
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,24,24,Transport (Nagmasho't variant),616ד,20x40
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,1,25,Galil rifle (M72 LAW) [Reserve],625ד,40x20
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,2,26,Galil rifle (M72 LAW) [Reserve],626ד,40x20
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,3,27,Galil rifle (M72 LAW) [Reserve],627ד,40x20
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,4,28,Galil rifle (M72 LAW) [Reserve],628ד,40x20
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,5,29,FN MAG (M72 LAW) [Reserve],629ד,40x20
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,6,30,FN MAG (M72 LAW) [Reserve],630ד,40x20
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,7,31,FN MAG (M72 LAW) [Reserve],631ד,40x20
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,8,32,RPG-7 [Reserve],632ד,20x20
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,9,33,RPG-7 [Reserve],633ד,20x20
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,10,34,RPG-7 [Reserve],634ד,20x20
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M47 DRAGON,11,35,M47 Dragon (or Dragon 2) [Reserve],635ד,20x20
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,52MM,12,36,52mm mortar [Reserve],636ד,20x20
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,13,37,Transport (Reserve M113),637ד,20x30
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,14,38,Transport (Reserve M113),638ד,20x30
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,15,39,Transport (Reserve M113),639ד,20x30
-formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,16,40,Transport (Reserve M113),640ד,20x30
+formation,Merkava 2 Tank Company,ד (Dalet),S3,Combat,1 (choice),A,Merkava 2 Tank Platoon,MERKAVA 2,1,1,Tank,201ד,20x40
+formation,Merkava 2 Tank Company,ד (Dalet),S3,Combat,1 (choice),A,Merkava 2 Tank Platoon,MERKAVA 2,2,2,Tank,202ד,20x40
+formation,Merkava 2 Tank Company,ד (Dalet),S3,Combat,1 (choice),A,Merkava 2 Tank Platoon,MERKAVA 2,3,3,Tank,203ד,20x40
+formation,Merkava 2 Tank Company,ד (Dalet),S3,Combat,1 (choice),B,Merkava 1 Tank Platoon,MERKAVA 1,1,4,Tank,204ד,20x40
+formation,Merkava 2 Tank Company,ד (Dalet),S3,Combat,1 (choice),B,Merkava 1 Tank Platoon,MERKAVA 1,2,5,Tank,205ד,20x40
+formation,Merkava 2 Tank Company,ד (Dalet),S3,Combat,1 (choice),B,Merkava 1 Tank Platoon,MERKAVA 1,3,6,Tank,206ד,20x40
+formation,Merkava 2 Tank Company,ד (Dalet),S3,Combat,1 (choice),C,Merkava 3 Tank Platoon,MERKAVA 3,1,7,Tank,207ד,20x40
+formation,Merkava 2 Tank Company,ד (Dalet),S3,Combat,1 (choice),C,Merkava 3 Tank Platoon,MERKAVA 3,2,8,Tank,208ד,20x40
+formation,Merkava 2 Tank Company,ד (Dalet),S3,Combat,1 (choice),C,Merkava 3 Tank Platoon,MERKAVA 3,3,9,Tank,209ד,20x40
+formation,Merkava 2 Tank Company,ד (Dalet),S4,Combat,1,A,Merkava 2 Tank Platoon (3rd),MERKAVA 2,1,1,Tank,301ד,20x40
+formation,Merkava 2 Tank Company,ד (Dalet),S4,Combat,1,A,Merkava 2 Tank Platoon (3rd),MERKAVA 2,2,2,Tank,302ד,20x40
+formation,Merkava 2 Tank Company,ד (Dalet),S4,Combat,1,A,Merkava 2 Tank Platoon (3rd),MERKAVA 2,3,3,Tank,303ד,20x40
+formation,Merkava 2 Tank Company,ד (Dalet),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,1,1,Recce,401ד,20x30
+formation,Merkava 2 Tank Company,ד (Dalet),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,2,2,Recce,402ד,20x30
+formation,Merkava 2 Tank Company,ד (Dalet),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,3,3,Recce,403ד,20x30
+formation,Merkava 2 Tank Company,ד (Dalet),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,1,4,Recce,404ד,20x30
+formation,Merkava 2 Tank Company,ד (Dalet),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,2,5,Recce,405ד,20x30
+formation,Merkava 2 Tank Company,ד (Dalet),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,3,6,Recce,406ד,20x30
+formation,Merkava 2 Tank Company,ד (Dalet),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,4,7,Recce,407ד,20x30
+formation,Merkava 2 Tank Company,ד (Dalet),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,1,8,Recce,408ד,20x30
+formation,Merkava 2 Tank Company,ד (Dalet),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,2,9,Recce,409ד,20x30
+formation,Merkava 2 Tank Company,ד (Dalet),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,3,10,Recce,410ד,20x30
+formation,Merkava 2 Tank Company,ד (Dalet),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,CH-53 YAS'UR,4,11,Transport heli,411ד,20x40
+formation,Merkava 2 Tank Company,ד (Dalet),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,CH-53 YAS'UR,5,12,Transport heli,412ד,20x40
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,1,1,Galil rifle (M72 LAW),501ד,40x20
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,2,2,Galil rifle (M72 LAW),502ד,40x20
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,3,3,Galil rifle (M72 LAW),503ד,40x20
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,4,4,Galil rifle (M72 LAW),504ד,40x20
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,5,5,FN MAG (M72 LAW),505ד,40x20
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,6,6,FN MAG (M72 LAW),506ד,40x20
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,7,7,FN MAG (M72 LAW),507ד,40x20
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,8,8,RPG-7 (or B-300),508ד,20x20
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,9,9,RPG-7 (or B-300),509ד,20x20
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,10,10,RPG-7 (or B-300),510ד,20x20
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M47 DRAGON,11,11,M47 Dragon (or Dragon 2),511ד,20x20
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,52MM,12,12,52mm mortar,512ד,20x20
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,13,13,Transport (M113),513ד,20x30
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,14,14,Transport (M113),514ד,20x30
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,15,15,Transport (M113),515ד,20x30
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,16,16,Transport (M113),516ד,20x30
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,17,17,Transport (Vayzata variant),513ד,20x30
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,18,18,Transport (Vayzata variant),514ד,20x30
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,19,19,Transport (Vayzata variant),515ד,20x30
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,20,20,Transport (Vayzata variant),516ד,20x30
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,21,21,Transport (Nagmasho't variant),513ד,20x40
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,22,22,Transport (Nagmasho't variant),514ד,20x40
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,23,23,Transport (Nagmasho't variant),515ד,20x40
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,24,24,Transport (Nagmasho't variant),516ד,20x40
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,1,25,Galil rifle (M72 LAW) [Reserve],525ד,40x20
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,2,26,Galil rifle (M72 LAW) [Reserve],526ד,40x20
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,3,27,Galil rifle (M72 LAW) [Reserve],527ד,40x20
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,4,28,Galil rifle (M72 LAW) [Reserve],528ד,40x20
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,5,29,FN MAG (M72 LAW) [Reserve],529ד,40x20
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,6,30,FN MAG (M72 LAW) [Reserve],530ד,40x20
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,7,31,FN MAG (M72 LAW) [Reserve],531ד,40x20
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,8,32,RPG-7 [Reserve],532ד,20x20
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,9,33,RPG-7 [Reserve],533ד,20x20
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,10,34,RPG-7 [Reserve],534ד,20x20
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M47 DRAGON,11,35,M47 Dragon (or Dragon 2) [Reserve],535ד,20x20
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,52MM,12,36,52mm mortar [Reserve],536ד,20x20
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,13,37,Transport (Reserve M113),537ד,20x30
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,14,38,Transport (Reserve M113),538ד,20x30
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,15,39,Transport (Reserve M113),539ד,20x30
+formation,Merkava 2 Tank Company,ד (Dalet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,16,40,Transport (Reserve M113),540ד,20x30
 formation,Merkava 2 Tank Company,ה (He),S1,HQ,1-2,A,Merkava 2 Tank Company HQ,MERKAVA 2,1,1,HQ Tank,001ה,20x40
 formation,Merkava 2 Tank Company,ה (He),S1,HQ,1-2,A,Merkava 2 Tank Company HQ,MERKAVA 2,2,2,HQ Tank,002ה,20x40
 formation,Merkava 2 Tank Company,ה (He),S2a,Combat,1 of 2 mandatory,A,Merkava 2 Tank Platoon (1st),MERKAVA 2,1,1,Tank,101ה,20x40
 formation,Merkava 2 Tank Company,ה (He),S2a,Combat,1 of 2 mandatory,A,Merkava 2 Tank Platoon (1st),MERKAVA 2,2,2,Tank,102ה,20x40
 formation,Merkava 2 Tank Company,ה (He),S2a,Combat,1 of 2 mandatory,A,Merkava 2 Tank Platoon (1st),MERKAVA 2,3,3,Tank,103ה,20x40
-formation,Merkava 2 Tank Company,ה (He),S2b,Combat,2 of 2 mandatory,A,Merkava 2 Tank Platoon (2nd),MERKAVA 2,1,1,Tank,201ה,20x40
-formation,Merkava 2 Tank Company,ה (He),S2b,Combat,2 of 2 mandatory,A,Merkava 2 Tank Platoon (2nd),MERKAVA 2,2,2,Tank,202ה,20x40
-formation,Merkava 2 Tank Company,ה (He),S2b,Combat,2 of 2 mandatory,A,Merkava 2 Tank Platoon (2nd),MERKAVA 2,3,3,Tank,203ה,20x40
-formation,Merkava 2 Tank Company,ה (He),S3,Combat,1 (choice),A,Merkava 2 Tank Platoon,MERKAVA 2,1,1,Tank,301ה,20x40
-formation,Merkava 2 Tank Company,ה (He),S3,Combat,1 (choice),A,Merkava 2 Tank Platoon,MERKAVA 2,2,2,Tank,302ה,20x40
-formation,Merkava 2 Tank Company,ה (He),S3,Combat,1 (choice),A,Merkava 2 Tank Platoon,MERKAVA 2,3,3,Tank,303ה,20x40
-formation,Merkava 2 Tank Company,ה (He),S3,Combat,1 (choice),B,Merkava 1 Tank Platoon,MERKAVA 1,1,4,Tank,304ה,20x40
-formation,Merkava 2 Tank Company,ה (He),S3,Combat,1 (choice),B,Merkava 1 Tank Platoon,MERKAVA 1,2,5,Tank,305ה,20x40
-formation,Merkava 2 Tank Company,ה (He),S3,Combat,1 (choice),B,Merkava 1 Tank Platoon,MERKAVA 1,3,6,Tank,306ה,20x40
-formation,Merkava 2 Tank Company,ה (He),S3,Combat,1 (choice),C,Merkava 3 Tank Platoon,MERKAVA 3,1,7,Tank,307ה,20x40
-formation,Merkava 2 Tank Company,ה (He),S3,Combat,1 (choice),C,Merkava 3 Tank Platoon,MERKAVA 3,2,8,Tank,308ה,20x40
-formation,Merkava 2 Tank Company,ה (He),S3,Combat,1 (choice),C,Merkava 3 Tank Platoon,MERKAVA 3,3,9,Tank,309ה,20x40
-formation,Merkava 2 Tank Company,ה (He),S4,Combat,1,A,Merkava 2 Tank Platoon (3rd),MERKAVA 2,1,1,Tank,401ה,20x40
-formation,Merkava 2 Tank Company,ה (He),S4,Combat,1,A,Merkava 2 Tank Platoon (3rd),MERKAVA 2,2,2,Tank,402ה,20x40
-formation,Merkava 2 Tank Company,ה (He),S4,Combat,1,A,Merkava 2 Tank Platoon (3rd),MERKAVA 2,3,3,Tank,403ה,20x40
-formation,Merkava 2 Tank Company,ה (He),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,1,1,Recce,501ה,20x30
-formation,Merkava 2 Tank Company,ה (He),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,2,2,Recce,502ה,20x30
-formation,Merkava 2 Tank Company,ה (He),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,3,3,Recce,503ה,20x30
-formation,Merkava 2 Tank Company,ה (He),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,1,4,Recce,504ה,20x30
-formation,Merkava 2 Tank Company,ה (He),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,2,5,Recce,505ה,20x30
-formation,Merkava 2 Tank Company,ה (He),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,3,6,Recce,506ה,20x30
-formation,Merkava 2 Tank Company,ה (He),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,4,7,Recce,507ה,20x30
-formation,Merkava 2 Tank Company,ה (He),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,1,8,Recce,508ה,20x30
-formation,Merkava 2 Tank Company,ה (He),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,2,9,Recce,509ה,20x30
-formation,Merkava 2 Tank Company,ה (He),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,3,10,Recce,510ה,20x30
-formation,Merkava 2 Tank Company,ה (He),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,UH-1,4,11,Transport heli,511ה,20x40
-formation,Merkava 2 Tank Company,ה (He),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,UH-1,5,12,Transport heli,512ה,20x40
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,1,1,Galil rifle (M72 LAW),601ה,40x20
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,2,2,Galil rifle (M72 LAW),602ה,40x20
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,3,3,Galil rifle (M72 LAW),603ה,40x20
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,4,4,Galil rifle (M72 LAW),604ה,40x20
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,5,5,FN MAG (M72 LAW),605ה,40x20
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,6,6,FN MAG (M72 LAW),606ה,40x20
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,7,7,FN MAG (M72 LAW),607ה,40x20
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,8,8,RPG-7 (or B-300),608ה,20x20
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,9,9,RPG-7 (or B-300),609ה,20x20
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,10,10,RPG-7 (or B-300),610ה,20x20
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M47 DRAGON,11,11,M47 Dragon (or Dragon 2),611ה,20x20
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,52MM,12,12,52mm mortar,612ה,20x20
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,13,13,Transport (M113),613ה,20x30
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,14,14,Transport (M113),614ה,20x30
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,15,15,Transport (M113),615ה,20x30
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,16,16,Transport (M113),616ה,20x30
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,17,17,Transport (Vayzata variant),613ה,20x30
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,18,18,Transport (Vayzata variant),614ה,20x30
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,19,19,Transport (Vayzata variant),615ה,20x30
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,20,20,Transport (Vayzata variant),616ה,20x30
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,21,21,Transport (Nagmasho't variant),613ה,20x40
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,22,22,Transport (Nagmasho't variant),614ה,20x40
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,23,23,Transport (Nagmasho't variant),615ה,20x40
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,24,24,Transport (Nagmasho't variant),616ה,20x40
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,1,25,Galil rifle (M72 LAW) [Reserve],625ה,40x20
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,2,26,Galil rifle (M72 LAW) [Reserve],626ה,40x20
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,3,27,Galil rifle (M72 LAW) [Reserve],627ה,40x20
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,4,28,Galil rifle (M72 LAW) [Reserve],628ה,40x20
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,5,29,FN MAG (M72 LAW) [Reserve],629ה,40x20
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,6,30,FN MAG (M72 LAW) [Reserve],630ה,40x20
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,7,31,FN MAG (M72 LAW) [Reserve],631ה,40x20
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,8,32,RPG-7 [Reserve],632ה,20x20
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,9,33,RPG-7 [Reserve],633ה,20x20
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,10,34,RPG-7 [Reserve],634ה,20x20
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M47 DRAGON,11,35,M47 Dragon (or Dragon 2) [Reserve],635ה,20x20
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,52MM,12,36,52mm mortar [Reserve],636ה,20x20
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,13,37,Transport (Reserve M113),637ה,20x30
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,14,38,Transport (Reserve M113),638ה,20x30
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,15,39,Transport (Reserve M113),639ה,20x30
-formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,16,40,Transport (Reserve M113),640ה,20x30
+formation,Merkava 2 Tank Company,ה (He),S3,Combat,1 (choice),A,Merkava 2 Tank Platoon,MERKAVA 2,1,1,Tank,201ה,20x40
+formation,Merkava 2 Tank Company,ה (He),S3,Combat,1 (choice),A,Merkava 2 Tank Platoon,MERKAVA 2,2,2,Tank,202ה,20x40
+formation,Merkava 2 Tank Company,ה (He),S3,Combat,1 (choice),A,Merkava 2 Tank Platoon,MERKAVA 2,3,3,Tank,203ה,20x40
+formation,Merkava 2 Tank Company,ה (He),S3,Combat,1 (choice),B,Merkava 1 Tank Platoon,MERKAVA 1,1,4,Tank,204ה,20x40
+formation,Merkava 2 Tank Company,ה (He),S3,Combat,1 (choice),B,Merkava 1 Tank Platoon,MERKAVA 1,2,5,Tank,205ה,20x40
+formation,Merkava 2 Tank Company,ה (He),S3,Combat,1 (choice),B,Merkava 1 Tank Platoon,MERKAVA 1,3,6,Tank,206ה,20x40
+formation,Merkava 2 Tank Company,ה (He),S3,Combat,1 (choice),C,Merkava 3 Tank Platoon,MERKAVA 3,1,7,Tank,207ה,20x40
+formation,Merkava 2 Tank Company,ה (He),S3,Combat,1 (choice),C,Merkava 3 Tank Platoon,MERKAVA 3,2,8,Tank,208ה,20x40
+formation,Merkava 2 Tank Company,ה (He),S3,Combat,1 (choice),C,Merkava 3 Tank Platoon,MERKAVA 3,3,9,Tank,209ה,20x40
+formation,Merkava 2 Tank Company,ה (He),S4,Combat,1,A,Merkava 2 Tank Platoon (3rd),MERKAVA 2,1,1,Tank,301ה,20x40
+formation,Merkava 2 Tank Company,ה (He),S4,Combat,1,A,Merkava 2 Tank Platoon (3rd),MERKAVA 2,2,2,Tank,302ה,20x40
+formation,Merkava 2 Tank Company,ה (He),S4,Combat,1,A,Merkava 2 Tank Platoon (3rd),MERKAVA 2,3,3,Tank,303ה,20x40
+formation,Merkava 2 Tank Company,ה (He),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,1,1,Recce,401ה,20x30
+formation,Merkava 2 Tank Company,ה (He),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,2,2,Recce,402ה,20x30
+formation,Merkava 2 Tank Company,ה (He),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,3,3,Recce,403ה,20x30
+formation,Merkava 2 Tank Company,ה (He),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,1,4,Recce,404ה,20x30
+formation,Merkava 2 Tank Company,ה (He),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,2,5,Recce,405ה,20x30
+formation,Merkava 2 Tank Company,ה (He),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,3,6,Recce,406ה,20x30
+formation,Merkava 2 Tank Company,ה (He),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,4,7,Recce,407ה,20x30
+formation,Merkava 2 Tank Company,ה (He),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,1,8,Recce,408ה,20x30
+formation,Merkava 2 Tank Company,ה (He),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,2,9,Recce,409ה,20x30
+formation,Merkava 2 Tank Company,ה (He),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,3,10,Recce,410ה,20x30
+formation,Merkava 2 Tank Company,ה (He),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,CH-53 YAS'UR,4,11,Transport heli,411ה,20x40
+formation,Merkava 2 Tank Company,ה (He),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,CH-53 YAS'UR,5,12,Transport heli,412ה,20x40
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,1,1,Galil rifle (M72 LAW),501ה,40x20
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,2,2,Galil rifle (M72 LAW),502ה,40x20
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,3,3,Galil rifle (M72 LAW),503ה,40x20
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,4,4,Galil rifle (M72 LAW),504ה,40x20
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,5,5,FN MAG (M72 LAW),505ה,40x20
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,6,6,FN MAG (M72 LAW),506ה,40x20
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,7,7,FN MAG (M72 LAW),507ה,40x20
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,8,8,RPG-7 (or B-300),508ה,20x20
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,9,9,RPG-7 (or B-300),509ה,20x20
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,10,10,RPG-7 (or B-300),510ה,20x20
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M47 DRAGON,11,11,M47 Dragon (or Dragon 2),511ה,20x20
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,52MM,12,12,52mm mortar,512ה,20x20
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,13,13,Transport (M113),513ה,20x30
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,14,14,Transport (M113),514ה,20x30
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,15,15,Transport (M113),515ה,20x30
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,16,16,Transport (M113),516ה,20x30
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,17,17,Transport (Vayzata variant),513ה,20x30
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,18,18,Transport (Vayzata variant),514ה,20x30
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,19,19,Transport (Vayzata variant),515ה,20x30
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,20,20,Transport (Vayzata variant),516ה,20x30
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,21,21,Transport (Nagmasho't variant),513ה,20x40
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,22,22,Transport (Nagmasho't variant),514ה,20x40
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,23,23,Transport (Nagmasho't variant),515ה,20x40
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,24,24,Transport (Nagmasho't variant),516ה,20x40
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,1,25,Galil rifle (M72 LAW) [Reserve],525ה,40x20
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,2,26,Galil rifle (M72 LAW) [Reserve],526ה,40x20
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,3,27,Galil rifle (M72 LAW) [Reserve],527ה,40x20
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,4,28,Galil rifle (M72 LAW) [Reserve],528ה,40x20
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,5,29,FN MAG (M72 LAW) [Reserve],529ה,40x20
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,6,30,FN MAG (M72 LAW) [Reserve],530ה,40x20
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,7,31,FN MAG (M72 LAW) [Reserve],531ה,40x20
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,8,32,RPG-7 [Reserve],532ה,20x20
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,9,33,RPG-7 [Reserve],533ה,20x20
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,10,34,RPG-7 [Reserve],534ה,20x20
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M47 DRAGON,11,35,M47 Dragon (or Dragon 2) [Reserve],535ה,20x20
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,52MM,12,36,52mm mortar [Reserve],536ה,20x20
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,13,37,Transport (Reserve M113),537ה,20x30
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,14,38,Transport (Reserve M113),538ה,20x30
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,15,39,Transport (Reserve M113),539ה,20x30
+formation,Merkava 2 Tank Company,ה (He),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,16,40,Transport (Reserve M113),540ה,20x30
 formation,Merkava 2 Tank Company,ו (Vav),S1,HQ,1-2,A,Merkava 2 Tank Company HQ,MERKAVA 2,1,1,HQ Tank,001ו,20x40
 formation,Merkava 2 Tank Company,ו (Vav),S1,HQ,1-2,A,Merkava 2 Tank Company HQ,MERKAVA 2,2,2,HQ Tank,002ו,20x40
 formation,Merkava 2 Tank Company,ו (Vav),S2a,Combat,1 of 2 mandatory,A,Merkava 2 Tank Platoon (1st),MERKAVA 2,1,1,Tank,101ו,20x40
 formation,Merkava 2 Tank Company,ו (Vav),S2a,Combat,1 of 2 mandatory,A,Merkava 2 Tank Platoon (1st),MERKAVA 2,2,2,Tank,102ו,20x40
 formation,Merkava 2 Tank Company,ו (Vav),S2a,Combat,1 of 2 mandatory,A,Merkava 2 Tank Platoon (1st),MERKAVA 2,3,3,Tank,103ו,20x40
-formation,Merkava 2 Tank Company,ו (Vav),S2b,Combat,2 of 2 mandatory,A,Merkava 2 Tank Platoon (2nd),MERKAVA 2,1,1,Tank,201ו,20x40
-formation,Merkava 2 Tank Company,ו (Vav),S2b,Combat,2 of 2 mandatory,A,Merkava 2 Tank Platoon (2nd),MERKAVA 2,2,2,Tank,202ו,20x40
-formation,Merkava 2 Tank Company,ו (Vav),S2b,Combat,2 of 2 mandatory,A,Merkava 2 Tank Platoon (2nd),MERKAVA 2,3,3,Tank,203ו,20x40
-formation,Merkava 2 Tank Company,ו (Vav),S3,Combat,1 (choice),A,Merkava 2 Tank Platoon,MERKAVA 2,1,1,Tank,301ו,20x40
-formation,Merkava 2 Tank Company,ו (Vav),S3,Combat,1 (choice),A,Merkava 2 Tank Platoon,MERKAVA 2,2,2,Tank,302ו,20x40
-formation,Merkava 2 Tank Company,ו (Vav),S3,Combat,1 (choice),A,Merkava 2 Tank Platoon,MERKAVA 2,3,3,Tank,303ו,20x40
-formation,Merkava 2 Tank Company,ו (Vav),S3,Combat,1 (choice),B,Merkava 1 Tank Platoon,MERKAVA 1,1,4,Tank,304ו,20x40
-formation,Merkava 2 Tank Company,ו (Vav),S3,Combat,1 (choice),B,Merkava 1 Tank Platoon,MERKAVA 1,2,5,Tank,305ו,20x40
-formation,Merkava 2 Tank Company,ו (Vav),S3,Combat,1 (choice),B,Merkava 1 Tank Platoon,MERKAVA 1,3,6,Tank,306ו,20x40
-formation,Merkava 2 Tank Company,ו (Vav),S3,Combat,1 (choice),C,Merkava 3 Tank Platoon,MERKAVA 3,1,7,Tank,307ו,20x40
-formation,Merkava 2 Tank Company,ו (Vav),S3,Combat,1 (choice),C,Merkava 3 Tank Platoon,MERKAVA 3,2,8,Tank,308ו,20x40
-formation,Merkava 2 Tank Company,ו (Vav),S3,Combat,1 (choice),C,Merkava 3 Tank Platoon,MERKAVA 3,3,9,Tank,309ו,20x40
-formation,Merkava 2 Tank Company,ו (Vav),S4,Combat,1,A,Merkava 2 Tank Platoon (3rd),MERKAVA 2,1,1,Tank,401ו,20x40
-formation,Merkava 2 Tank Company,ו (Vav),S4,Combat,1,A,Merkava 2 Tank Platoon (3rd),MERKAVA 2,2,2,Tank,402ו,20x40
-formation,Merkava 2 Tank Company,ו (Vav),S4,Combat,1,A,Merkava 2 Tank Platoon (3rd),MERKAVA 2,3,3,Tank,403ו,20x40
-formation,Merkava 2 Tank Company,ו (Vav),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,1,1,Recce,501ו,20x30
-formation,Merkava 2 Tank Company,ו (Vav),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,2,2,Recce,502ו,20x30
-formation,Merkava 2 Tank Company,ו (Vav),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,3,3,Recce,503ו,20x30
-formation,Merkava 2 Tank Company,ו (Vav),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,1,4,Recce,504ו,20x30
-formation,Merkava 2 Tank Company,ו (Vav),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,2,5,Recce,505ו,20x30
-formation,Merkava 2 Tank Company,ו (Vav),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,3,6,Recce,506ו,20x30
-formation,Merkava 2 Tank Company,ו (Vav),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,4,7,Recce,507ו,20x30
-formation,Merkava 2 Tank Company,ו (Vav),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,1,8,Recce,508ו,20x30
-formation,Merkava 2 Tank Company,ו (Vav),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,2,9,Recce,509ו,20x30
-formation,Merkava 2 Tank Company,ו (Vav),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,3,10,Recce,510ו,20x30
-formation,Merkava 2 Tank Company,ו (Vav),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,UH-1,4,11,Transport heli,511ו,20x40
-formation,Merkava 2 Tank Company,ו (Vav),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,UH-1,5,12,Transport heli,512ו,20x40
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,1,1,Galil rifle (M72 LAW),601ו,40x20
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,2,2,Galil rifle (M72 LAW),602ו,40x20
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,3,3,Galil rifle (M72 LAW),603ו,40x20
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,4,4,Galil rifle (M72 LAW),604ו,40x20
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,5,5,FN MAG (M72 LAW),605ו,40x20
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,6,6,FN MAG (M72 LAW),606ו,40x20
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,7,7,FN MAG (M72 LAW),607ו,40x20
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,8,8,RPG-7 (or B-300),608ו,20x20
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,9,9,RPG-7 (or B-300),609ו,20x20
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,10,10,RPG-7 (or B-300),610ו,20x20
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M47 DRAGON,11,11,M47 Dragon (or Dragon 2),611ו,20x20
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,52MM,12,12,52mm mortar,612ו,20x20
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,13,13,Transport (M113),613ו,20x30
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,14,14,Transport (M113),614ו,20x30
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,15,15,Transport (M113),615ו,20x30
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,16,16,Transport (M113),616ו,20x30
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,17,17,Transport (Vayzata variant),613ו,20x30
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,18,18,Transport (Vayzata variant),614ו,20x30
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,19,19,Transport (Vayzata variant),615ו,20x30
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,20,20,Transport (Vayzata variant),616ו,20x30
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,21,21,Transport (Nagmasho't variant),613ו,20x40
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,22,22,Transport (Nagmasho't variant),614ו,20x40
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,23,23,Transport (Nagmasho't variant),615ו,20x40
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,24,24,Transport (Nagmasho't variant),616ו,20x40
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,1,25,Galil rifle (M72 LAW) [Reserve],625ו,40x20
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,2,26,Galil rifle (M72 LAW) [Reserve],626ו,40x20
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,3,27,Galil rifle (M72 LAW) [Reserve],627ו,40x20
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,4,28,Galil rifle (M72 LAW) [Reserve],628ו,40x20
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,5,29,FN MAG (M72 LAW) [Reserve],629ו,40x20
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,6,30,FN MAG (M72 LAW) [Reserve],630ו,40x20
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,7,31,FN MAG (M72 LAW) [Reserve],631ו,40x20
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,8,32,RPG-7 [Reserve],632ו,20x20
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,9,33,RPG-7 [Reserve],633ו,20x20
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,10,34,RPG-7 [Reserve],634ו,20x20
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M47 DRAGON,11,35,M47 Dragon (or Dragon 2) [Reserve],635ו,20x20
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,52MM,12,36,52mm mortar [Reserve],636ו,20x20
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,13,37,Transport (Reserve M113),637ו,20x30
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,14,38,Transport (Reserve M113),638ו,20x30
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,15,39,Transport (Reserve M113),639ו,20x30
-formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,16,40,Transport (Reserve M113),640ו,20x30
+formation,Merkava 2 Tank Company,ו (Vav),S3,Combat,1 (choice),A,Merkava 2 Tank Platoon,MERKAVA 2,1,1,Tank,201ו,20x40
+formation,Merkava 2 Tank Company,ו (Vav),S3,Combat,1 (choice),A,Merkava 2 Tank Platoon,MERKAVA 2,2,2,Tank,202ו,20x40
+formation,Merkava 2 Tank Company,ו (Vav),S3,Combat,1 (choice),A,Merkava 2 Tank Platoon,MERKAVA 2,3,3,Tank,203ו,20x40
+formation,Merkava 2 Tank Company,ו (Vav),S3,Combat,1 (choice),B,Merkava 1 Tank Platoon,MERKAVA 1,1,4,Tank,204ו,20x40
+formation,Merkava 2 Tank Company,ו (Vav),S3,Combat,1 (choice),B,Merkava 1 Tank Platoon,MERKAVA 1,2,5,Tank,205ו,20x40
+formation,Merkava 2 Tank Company,ו (Vav),S3,Combat,1 (choice),B,Merkava 1 Tank Platoon,MERKAVA 1,3,6,Tank,206ו,20x40
+formation,Merkava 2 Tank Company,ו (Vav),S3,Combat,1 (choice),C,Merkava 3 Tank Platoon,MERKAVA 3,1,7,Tank,207ו,20x40
+formation,Merkava 2 Tank Company,ו (Vav),S3,Combat,1 (choice),C,Merkava 3 Tank Platoon,MERKAVA 3,2,8,Tank,208ו,20x40
+formation,Merkava 2 Tank Company,ו (Vav),S3,Combat,1 (choice),C,Merkava 3 Tank Platoon,MERKAVA 3,3,9,Tank,209ו,20x40
+formation,Merkava 2 Tank Company,ו (Vav),S4,Combat,1,A,Merkava 2 Tank Platoon (3rd),MERKAVA 2,1,1,Tank,301ו,20x40
+formation,Merkava 2 Tank Company,ו (Vav),S4,Combat,1,A,Merkava 2 Tank Platoon (3rd),MERKAVA 2,2,2,Tank,302ו,20x40
+formation,Merkava 2 Tank Company,ו (Vav),S4,Combat,1,A,Merkava 2 Tank Platoon (3rd),MERKAVA 2,3,3,Tank,303ו,20x40
+formation,Merkava 2 Tank Company,ו (Vav),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,1,1,Recce,401ו,20x30
+formation,Merkava 2 Tank Company,ו (Vav),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,2,2,Recce,402ו,20x30
+formation,Merkava 2 Tank Company,ו (Vav),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,3,3,Recce,403ו,20x30
+formation,Merkava 2 Tank Company,ו (Vav),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,1,4,Recce,404ו,20x30
+formation,Merkava 2 Tank Company,ו (Vav),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,2,5,Recce,405ו,20x30
+formation,Merkava 2 Tank Company,ו (Vav),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,3,6,Recce,406ו,20x30
+formation,Merkava 2 Tank Company,ו (Vav),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,4,7,Recce,407ו,20x30
+formation,Merkava 2 Tank Company,ו (Vav),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,1,8,Recce,408ו,20x30
+formation,Merkava 2 Tank Company,ו (Vav),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,2,9,Recce,409ו,20x30
+formation,Merkava 2 Tank Company,ו (Vav),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,3,10,Recce,410ו,20x30
+formation,Merkava 2 Tank Company,ו (Vav),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,CH-53 YAS'UR,4,11,Transport heli,411ו,20x40
+formation,Merkava 2 Tank Company,ו (Vav),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,CH-53 YAS'UR,5,12,Transport heli,412ו,20x40
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,1,1,Galil rifle (M72 LAW),501ו,40x20
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,2,2,Galil rifle (M72 LAW),502ו,40x20
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,3,3,Galil rifle (M72 LAW),503ו,40x20
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,4,4,Galil rifle (M72 LAW),504ו,40x20
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,5,5,FN MAG (M72 LAW),505ו,40x20
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,6,6,FN MAG (M72 LAW),506ו,40x20
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,7,7,FN MAG (M72 LAW),507ו,40x20
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,8,8,RPG-7 (or B-300),508ו,20x20
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,9,9,RPG-7 (or B-300),509ו,20x20
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,10,10,RPG-7 (or B-300),510ו,20x20
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M47 DRAGON,11,11,M47 Dragon (or Dragon 2),511ו,20x20
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,52MM,12,12,52mm mortar,512ו,20x20
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,13,13,Transport (M113),513ו,20x30
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,14,14,Transport (M113),514ו,20x30
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,15,15,Transport (M113),515ו,20x30
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,16,16,Transport (M113),516ו,20x30
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,17,17,Transport (Vayzata variant),513ו,20x30
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,18,18,Transport (Vayzata variant),514ו,20x30
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,19,19,Transport (Vayzata variant),515ו,20x30
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,20,20,Transport (Vayzata variant),516ו,20x30
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,21,21,Transport (Nagmasho't variant),513ו,20x40
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,22,22,Transport (Nagmasho't variant),514ו,20x40
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,23,23,Transport (Nagmasho't variant),515ו,20x40
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,24,24,Transport (Nagmasho't variant),516ו,20x40
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,1,25,Galil rifle (M72 LAW) [Reserve],525ו,40x20
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,2,26,Galil rifle (M72 LAW) [Reserve],526ו,40x20
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,3,27,Galil rifle (M72 LAW) [Reserve],527ו,40x20
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,4,28,Galil rifle (M72 LAW) [Reserve],528ו,40x20
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,5,29,FN MAG (M72 LAW) [Reserve],529ו,40x20
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,6,30,FN MAG (M72 LAW) [Reserve],530ו,40x20
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,7,31,FN MAG (M72 LAW) [Reserve],531ו,40x20
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,8,32,RPG-7 [Reserve],532ו,20x20
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,9,33,RPG-7 [Reserve],533ו,20x20
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,10,34,RPG-7 [Reserve],534ו,20x20
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M47 DRAGON,11,35,M47 Dragon (or Dragon 2) [Reserve],535ו,20x20
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,52MM,12,36,52mm mortar [Reserve],536ו,20x20
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,13,37,Transport (Reserve M113),537ו,20x30
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,14,38,Transport (Reserve M113),538ו,20x30
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,15,39,Transport (Reserve M113),539ו,20x30
+formation,Merkava 2 Tank Company,ו (Vav),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,16,40,Transport (Reserve M113),540ו,20x30
 formation,Merkava 1 Tank Company,ז (Zayin),S1,HQ,1-2,A,Merkava 1 Tank Company HQ,MERKAVA 1,1,1,HQ Tank,001ז,20x40
 formation,Merkava 1 Tank Company,ז (Zayin),S1,HQ,1-2,A,Merkava 1 Tank Company HQ,MERKAVA 1,2,2,HQ Tank,002ז,20x40
 formation,Merkava 1 Tank Company,ז (Zayin),S2a,Combat,1 of 2 mandatory,A,Merkava 1 Tank Platoon (1st),MERKAVA 1,1,1,Tank,101ז,20x40
 formation,Merkava 1 Tank Company,ז (Zayin),S2a,Combat,1 of 2 mandatory,A,Merkava 1 Tank Platoon (1st),MERKAVA 1,2,2,Tank,102ז,20x40
 formation,Merkava 1 Tank Company,ז (Zayin),S2a,Combat,1 of 2 mandatory,A,Merkava 1 Tank Platoon (1st),MERKAVA 1,3,3,Tank,103ז,20x40
-formation,Merkava 1 Tank Company,ז (Zayin),S2b,Combat,2 of 2 mandatory,A,Merkava 1 Tank Platoon (2nd),MERKAVA 1,1,1,Tank,201ז,20x40
-formation,Merkava 1 Tank Company,ז (Zayin),S2b,Combat,2 of 2 mandatory,A,Merkava 1 Tank Platoon (2nd),MERKAVA 1,2,2,Tank,202ז,20x40
-formation,Merkava 1 Tank Company,ז (Zayin),S2b,Combat,2 of 2 mandatory,A,Merkava 1 Tank Platoon (2nd),MERKAVA 1,3,3,Tank,203ז,20x40
-formation,Merkava 1 Tank Company,ז (Zayin),S3,Combat,1 (choice),A,Merkava 1 Tank Platoon,MERKAVA 1,1,1,Tank,301ז,20x40
-formation,Merkava 1 Tank Company,ז (Zayin),S3,Combat,1 (choice),A,Merkava 1 Tank Platoon,MERKAVA 1,2,2,Tank,302ז,20x40
-formation,Merkava 1 Tank Company,ז (Zayin),S3,Combat,1 (choice),A,Merkava 1 Tank Platoon,MERKAVA 1,3,3,Tank,303ז,20x40
-formation,Merkava 1 Tank Company,ז (Zayin),S3,Combat,1 (choice),B,Merkava 2 Tank Platoon,MERKAVA 2,1,4,Tank,304ז,20x40
-formation,Merkava 1 Tank Company,ז (Zayin),S3,Combat,1 (choice),B,Merkava 2 Tank Platoon,MERKAVA 2,2,5,Tank,305ז,20x40
-formation,Merkava 1 Tank Company,ז (Zayin),S3,Combat,1 (choice),B,Merkava 2 Tank Platoon,MERKAVA 2,3,6,Tank,306ז,20x40
-formation,Merkava 1 Tank Company,ז (Zayin),S3,Combat,1 (choice),C,Merkava 3 Tank Platoon,MERKAVA 3,1,7,Tank,307ז,20x40
-formation,Merkava 1 Tank Company,ז (Zayin),S3,Combat,1 (choice),C,Merkava 3 Tank Platoon,MERKAVA 3,2,8,Tank,308ז,20x40
-formation,Merkava 1 Tank Company,ז (Zayin),S3,Combat,1 (choice),C,Merkava 3 Tank Platoon,MERKAVA 3,3,9,Tank,309ז,20x40
-formation,Merkava 1 Tank Company,ז (Zayin),S4,Combat,1,A,Merkava 1 Tank Platoon (3rd),MERKAVA 1,1,1,Tank,401ז,20x40
-formation,Merkava 1 Tank Company,ז (Zayin),S4,Combat,1,A,Merkava 1 Tank Platoon (3rd),MERKAVA 1,2,2,Tank,402ז,20x40
-formation,Merkava 1 Tank Company,ז (Zayin),S4,Combat,1,A,Merkava 1 Tank Platoon (3rd),MERKAVA 1,3,3,Tank,403ז,20x40
-formation,Merkava 1 Tank Company,ז (Zayin),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,1,1,Recce,501ז,20x30
-formation,Merkava 1 Tank Company,ז (Zayin),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,2,2,Recce,502ז,20x30
-formation,Merkava 1 Tank Company,ז (Zayin),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,3,3,Recce,503ז,20x30
-formation,Merkava 1 Tank Company,ז (Zayin),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,1,4,Recce,504ז,20x30
-formation,Merkava 1 Tank Company,ז (Zayin),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,2,5,Recce,505ז,20x30
-formation,Merkava 1 Tank Company,ז (Zayin),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,3,6,Recce,506ז,20x30
-formation,Merkava 1 Tank Company,ז (Zayin),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,4,7,Recce,507ז,20x30
-formation,Merkava 1 Tank Company,ז (Zayin),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,1,8,Recce,508ז,20x30
-formation,Merkava 1 Tank Company,ז (Zayin),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,2,9,Recce,509ז,20x30
-formation,Merkava 1 Tank Company,ז (Zayin),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,3,10,Recce,510ז,20x30
-formation,Merkava 1 Tank Company,ז (Zayin),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,UH-1,4,11,Transport heli,511ז,20x40
-formation,Merkava 1 Tank Company,ז (Zayin),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,UH-1,5,12,Transport heli,512ז,20x40
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,1,1,Galil rifle (M72 LAW),601ז,40x20
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,2,2,Galil rifle (M72 LAW),602ז,40x20
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,3,3,Galil rifle (M72 LAW),603ז,40x20
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,4,4,Galil rifle (M72 LAW),604ז,40x20
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,5,5,FN MAG (M72 LAW),605ז,40x20
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,6,6,FN MAG (M72 LAW),606ז,40x20
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,7,7,FN MAG (M72 LAW),607ז,40x20
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,8,8,RPG-7 (or B-300),608ז,20x20
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,9,9,RPG-7 (or B-300),609ז,20x20
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,10,10,RPG-7 (or B-300),610ז,20x20
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M47 DRAGON,11,11,M47 Dragon (or Dragon 2),611ז,20x20
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,52MM,12,12,52mm mortar,612ז,20x20
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,13,13,Transport (M113),613ז,20x30
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,14,14,Transport (M113),614ז,20x30
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,15,15,Transport (M113),615ז,20x30
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,16,16,Transport (M113),616ז,20x30
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,17,17,Transport (Vayzata variant),613ז,20x30
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,18,18,Transport (Vayzata variant),614ז,20x30
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,19,19,Transport (Vayzata variant),615ז,20x30
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,20,20,Transport (Vayzata variant),616ז,20x30
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,21,21,Transport (Nagmasho't variant),613ז,20x40
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,22,22,Transport (Nagmasho't variant),614ז,20x40
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,23,23,Transport (Nagmasho't variant),615ז,20x40
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,24,24,Transport (Nagmasho't variant),616ז,20x40
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,1,25,Galil rifle (M72 LAW) [Reserve],625ז,40x20
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,2,26,Galil rifle (M72 LAW) [Reserve],626ז,40x20
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,3,27,Galil rifle (M72 LAW) [Reserve],627ז,40x20
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,4,28,Galil rifle (M72 LAW) [Reserve],628ז,40x20
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,5,29,FN MAG (M72 LAW) [Reserve],629ז,40x20
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,6,30,FN MAG (M72 LAW) [Reserve],630ז,40x20
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,7,31,FN MAG (M72 LAW) [Reserve],631ז,40x20
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,8,32,RPG-7 [Reserve],632ז,20x20
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,9,33,RPG-7 [Reserve],633ז,20x20
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,10,34,RPG-7 [Reserve],634ז,20x20
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M47 DRAGON,11,35,M47 Dragon (or Dragon 2) [Reserve],635ז,20x20
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,52MM,12,36,52mm mortar [Reserve],636ז,20x20
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,13,37,Transport (Reserve M113),637ז,20x30
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,14,38,Transport (Reserve M113),638ז,20x30
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,15,39,Transport (Reserve M113),639ז,20x30
-formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,16,40,Transport (Reserve M113),640ז,20x30
+formation,Merkava 1 Tank Company,ז (Zayin),S3,Combat,1 (choice),A,Merkava 1 Tank Platoon,MERKAVA 1,1,1,Tank,201ז,20x40
+formation,Merkava 1 Tank Company,ז (Zayin),S3,Combat,1 (choice),A,Merkava 1 Tank Platoon,MERKAVA 1,2,2,Tank,202ז,20x40
+formation,Merkava 1 Tank Company,ז (Zayin),S3,Combat,1 (choice),A,Merkava 1 Tank Platoon,MERKAVA 1,3,3,Tank,203ז,20x40
+formation,Merkava 1 Tank Company,ז (Zayin),S3,Combat,1 (choice),B,Merkava 2 Tank Platoon,MERKAVA 2,1,4,Tank,204ז,20x40
+formation,Merkava 1 Tank Company,ז (Zayin),S3,Combat,1 (choice),B,Merkava 2 Tank Platoon,MERKAVA 2,2,5,Tank,205ז,20x40
+formation,Merkava 1 Tank Company,ז (Zayin),S3,Combat,1 (choice),B,Merkava 2 Tank Platoon,MERKAVA 2,3,6,Tank,206ז,20x40
+formation,Merkava 1 Tank Company,ז (Zayin),S3,Combat,1 (choice),C,Merkava 3 Tank Platoon,MERKAVA 3,1,7,Tank,207ז,20x40
+formation,Merkava 1 Tank Company,ז (Zayin),S3,Combat,1 (choice),C,Merkava 3 Tank Platoon,MERKAVA 3,2,8,Tank,208ז,20x40
+formation,Merkava 1 Tank Company,ז (Zayin),S3,Combat,1 (choice),C,Merkava 3 Tank Platoon,MERKAVA 3,3,9,Tank,209ז,20x40
+formation,Merkava 1 Tank Company,ז (Zayin),S4,Combat,1,A,Merkava 1 Tank Platoon (3rd),MERKAVA 1,1,1,Tank,301ז,20x40
+formation,Merkava 1 Tank Company,ז (Zayin),S4,Combat,1,A,Merkava 1 Tank Platoon (3rd),MERKAVA 1,2,2,Tank,302ז,20x40
+formation,Merkava 1 Tank Company,ז (Zayin),S4,Combat,1,A,Merkava 1 Tank Platoon (3rd),MERKAVA 1,3,3,Tank,303ז,20x40
+formation,Merkava 1 Tank Company,ז (Zayin),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,1,1,Recce,401ז,20x30
+formation,Merkava 1 Tank Company,ז (Zayin),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,2,2,Recce,402ז,20x30
+formation,Merkava 1 Tank Company,ז (Zayin),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,3,3,Recce,403ז,20x30
+formation,Merkava 1 Tank Company,ז (Zayin),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,1,4,Recce,404ז,20x30
+formation,Merkava 1 Tank Company,ז (Zayin),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,2,5,Recce,405ז,20x30
+formation,Merkava 1 Tank Company,ז (Zayin),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,3,6,Recce,406ז,20x30
+formation,Merkava 1 Tank Company,ז (Zayin),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,4,7,Recce,407ז,20x30
+formation,Merkava 1 Tank Company,ז (Zayin),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,1,8,Recce,408ז,20x30
+formation,Merkava 1 Tank Company,ז (Zayin),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,2,9,Recce,409ז,20x30
+formation,Merkava 1 Tank Company,ז (Zayin),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,3,10,Recce,410ז,20x30
+formation,Merkava 1 Tank Company,ז (Zayin),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,CH-53 YAS'UR,4,11,Transport heli,411ז,20x40
+formation,Merkava 1 Tank Company,ז (Zayin),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,CH-53 YAS'UR,5,12,Transport heli,412ז,20x40
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,1,1,Galil rifle (M72 LAW),501ז,40x20
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,2,2,Galil rifle (M72 LAW),502ז,40x20
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,3,3,Galil rifle (M72 LAW),503ז,40x20
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,4,4,Galil rifle (M72 LAW),504ז,40x20
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,5,5,FN MAG (M72 LAW),505ז,40x20
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,6,6,FN MAG (M72 LAW),506ז,40x20
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,7,7,FN MAG (M72 LAW),507ז,40x20
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,8,8,RPG-7 (or B-300),508ז,20x20
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,9,9,RPG-7 (or B-300),509ז,20x20
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,10,10,RPG-7 (or B-300),510ז,20x20
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M47 DRAGON,11,11,M47 Dragon (or Dragon 2),511ז,20x20
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,52MM,12,12,52mm mortar,512ז,20x20
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,13,13,Transport (M113),513ז,20x30
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,14,14,Transport (M113),514ז,20x30
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,15,15,Transport (M113),515ז,20x30
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,16,16,Transport (M113),516ז,20x30
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,17,17,Transport (Vayzata variant),513ז,20x30
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,18,18,Transport (Vayzata variant),514ז,20x30
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,19,19,Transport (Vayzata variant),515ז,20x30
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,20,20,Transport (Vayzata variant),516ז,20x30
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,21,21,Transport (Nagmasho't variant),513ז,20x40
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,22,22,Transport (Nagmasho't variant),514ז,20x40
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,23,23,Transport (Nagmasho't variant),515ז,20x40
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,24,24,Transport (Nagmasho't variant),516ז,20x40
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,1,25,Galil rifle (M72 LAW) [Reserve],525ז,40x20
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,2,26,Galil rifle (M72 LAW) [Reserve],526ז,40x20
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,3,27,Galil rifle (M72 LAW) [Reserve],527ז,40x20
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,4,28,Galil rifle (M72 LAW) [Reserve],528ז,40x20
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,5,29,FN MAG (M72 LAW) [Reserve],529ז,40x20
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,6,30,FN MAG (M72 LAW) [Reserve],530ז,40x20
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,7,31,FN MAG (M72 LAW) [Reserve],531ז,40x20
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,8,32,RPG-7 [Reserve],532ז,20x20
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,9,33,RPG-7 [Reserve],533ז,20x20
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,10,34,RPG-7 [Reserve],534ז,20x20
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M47 DRAGON,11,35,M47 Dragon (or Dragon 2) [Reserve],535ז,20x20
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,52MM,12,36,52mm mortar [Reserve],536ז,20x20
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,13,37,Transport (Reserve M113),537ז,20x30
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,14,38,Transport (Reserve M113),538ז,20x30
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,15,39,Transport (Reserve M113),539ז,20x30
+formation,Merkava 1 Tank Company,ז (Zayin),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,16,40,Transport (Reserve M113),540ז,20x30
 formation,Merkava 1 Tank Company,ח (Het),S1,HQ,1-2,A,Merkava 1 Tank Company HQ,MERKAVA 1,1,1,HQ Tank,001ח,20x40
 formation,Merkava 1 Tank Company,ח (Het),S1,HQ,1-2,A,Merkava 1 Tank Company HQ,MERKAVA 1,2,2,HQ Tank,002ח,20x40
 formation,Merkava 1 Tank Company,ח (Het),S2a,Combat,1 of 2 mandatory,A,Merkava 1 Tank Platoon (1st),MERKAVA 1,1,1,Tank,101ח,20x40
 formation,Merkava 1 Tank Company,ח (Het),S2a,Combat,1 of 2 mandatory,A,Merkava 1 Tank Platoon (1st),MERKAVA 1,2,2,Tank,102ח,20x40
 formation,Merkava 1 Tank Company,ח (Het),S2a,Combat,1 of 2 mandatory,A,Merkava 1 Tank Platoon (1st),MERKAVA 1,3,3,Tank,103ח,20x40
-formation,Merkava 1 Tank Company,ח (Het),S2b,Combat,2 of 2 mandatory,A,Merkava 1 Tank Platoon (2nd),MERKAVA 1,1,1,Tank,201ח,20x40
-formation,Merkava 1 Tank Company,ח (Het),S2b,Combat,2 of 2 mandatory,A,Merkava 1 Tank Platoon (2nd),MERKAVA 1,2,2,Tank,202ח,20x40
-formation,Merkava 1 Tank Company,ח (Het),S2b,Combat,2 of 2 mandatory,A,Merkava 1 Tank Platoon (2nd),MERKAVA 1,3,3,Tank,203ח,20x40
-formation,Merkava 1 Tank Company,ח (Het),S3,Combat,1 (choice),A,Merkava 1 Tank Platoon,MERKAVA 1,1,1,Tank,301ח,20x40
-formation,Merkava 1 Tank Company,ח (Het),S3,Combat,1 (choice),A,Merkava 1 Tank Platoon,MERKAVA 1,2,2,Tank,302ח,20x40
-formation,Merkava 1 Tank Company,ח (Het),S3,Combat,1 (choice),A,Merkava 1 Tank Platoon,MERKAVA 1,3,3,Tank,303ח,20x40
-formation,Merkava 1 Tank Company,ח (Het),S3,Combat,1 (choice),B,Merkava 2 Tank Platoon,MERKAVA 2,1,4,Tank,304ח,20x40
-formation,Merkava 1 Tank Company,ח (Het),S3,Combat,1 (choice),B,Merkava 2 Tank Platoon,MERKAVA 2,2,5,Tank,305ח,20x40
-formation,Merkava 1 Tank Company,ח (Het),S3,Combat,1 (choice),B,Merkava 2 Tank Platoon,MERKAVA 2,3,6,Tank,306ח,20x40
-formation,Merkava 1 Tank Company,ח (Het),S3,Combat,1 (choice),C,Merkava 3 Tank Platoon,MERKAVA 3,1,7,Tank,307ח,20x40
-formation,Merkava 1 Tank Company,ח (Het),S3,Combat,1 (choice),C,Merkava 3 Tank Platoon,MERKAVA 3,2,8,Tank,308ח,20x40
-formation,Merkava 1 Tank Company,ח (Het),S3,Combat,1 (choice),C,Merkava 3 Tank Platoon,MERKAVA 3,3,9,Tank,309ח,20x40
-formation,Merkava 1 Tank Company,ח (Het),S4,Combat,1,A,Merkava 1 Tank Platoon (3rd),MERKAVA 1,1,1,Tank,401ח,20x40
-formation,Merkava 1 Tank Company,ח (Het),S4,Combat,1,A,Merkava 1 Tank Platoon (3rd),MERKAVA 1,2,2,Tank,402ח,20x40
-formation,Merkava 1 Tank Company,ח (Het),S4,Combat,1,A,Merkava 1 Tank Platoon (3rd),MERKAVA 1,3,3,Tank,403ח,20x40
-formation,Merkava 1 Tank Company,ח (Het),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,1,1,Recce,501ח,20x30
-formation,Merkava 1 Tank Company,ח (Het),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,2,2,Recce,502ח,20x30
-formation,Merkava 1 Tank Company,ח (Het),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,3,3,Recce,503ח,20x30
-formation,Merkava 1 Tank Company,ח (Het),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,1,4,Recce,504ח,20x30
-formation,Merkava 1 Tank Company,ח (Het),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,2,5,Recce,505ח,20x30
-formation,Merkava 1 Tank Company,ח (Het),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,3,6,Recce,506ח,20x30
-formation,Merkava 1 Tank Company,ח (Het),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,4,7,Recce,507ח,20x30
-formation,Merkava 1 Tank Company,ח (Het),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,1,8,Recce,508ח,20x30
-formation,Merkava 1 Tank Company,ח (Het),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,2,9,Recce,509ח,20x30
-formation,Merkava 1 Tank Company,ח (Het),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,3,10,Recce,510ח,20x30
-formation,Merkava 1 Tank Company,ח (Het),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,UH-1,4,11,Transport heli,511ח,20x40
-formation,Merkava 1 Tank Company,ח (Het),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,UH-1,5,12,Transport heli,512ח,20x40
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,1,1,Galil rifle (M72 LAW),601ח,40x20
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,2,2,Galil rifle (M72 LAW),602ח,40x20
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,3,3,Galil rifle (M72 LAW),603ח,40x20
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,4,4,Galil rifle (M72 LAW),604ח,40x20
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,5,5,FN MAG (M72 LAW),605ח,40x20
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,6,6,FN MAG (M72 LAW),606ח,40x20
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,7,7,FN MAG (M72 LAW),607ח,40x20
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,8,8,RPG-7 (or B-300),608ח,20x20
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,9,9,RPG-7 (or B-300),609ח,20x20
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,10,10,RPG-7 (or B-300),610ח,20x20
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M47 DRAGON,11,11,M47 Dragon (or Dragon 2),611ח,20x20
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,52MM,12,12,52mm mortar,612ח,20x20
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,13,13,Transport (M113),613ח,20x30
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,14,14,Transport (M113),614ח,20x30
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,15,15,Transport (M113),615ח,20x30
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,16,16,Transport (M113),616ח,20x30
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,17,17,Transport (Vayzata variant),613ח,20x30
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,18,18,Transport (Vayzata variant),614ח,20x30
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,19,19,Transport (Vayzata variant),615ח,20x30
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,20,20,Transport (Vayzata variant),616ח,20x30
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,21,21,Transport (Nagmasho't variant),613ח,20x40
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,22,22,Transport (Nagmasho't variant),614ח,20x40
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,23,23,Transport (Nagmasho't variant),615ח,20x40
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,24,24,Transport (Nagmasho't variant),616ח,20x40
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,1,25,Galil rifle (M72 LAW) [Reserve],625ח,40x20
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,2,26,Galil rifle (M72 LAW) [Reserve],626ח,40x20
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,3,27,Galil rifle (M72 LAW) [Reserve],627ח,40x20
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,4,28,Galil rifle (M72 LAW) [Reserve],628ח,40x20
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,5,29,FN MAG (M72 LAW) [Reserve],629ח,40x20
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,6,30,FN MAG (M72 LAW) [Reserve],630ח,40x20
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,7,31,FN MAG (M72 LAW) [Reserve],631ח,40x20
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,8,32,RPG-7 [Reserve],632ח,20x20
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,9,33,RPG-7 [Reserve],633ח,20x20
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,10,34,RPG-7 [Reserve],634ח,20x20
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M47 DRAGON,11,35,M47 Dragon (or Dragon 2) [Reserve],635ח,20x20
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,52MM,12,36,52mm mortar [Reserve],636ח,20x20
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,13,37,Transport (Reserve M113),637ח,20x30
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,14,38,Transport (Reserve M113),638ח,20x30
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,15,39,Transport (Reserve M113),639ח,20x30
-formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,16,40,Transport (Reserve M113),640ח,20x30
+formation,Merkava 1 Tank Company,ח (Het),S3,Combat,1 (choice),A,Merkava 1 Tank Platoon,MERKAVA 1,1,1,Tank,201ח,20x40
+formation,Merkava 1 Tank Company,ח (Het),S3,Combat,1 (choice),A,Merkava 1 Tank Platoon,MERKAVA 1,2,2,Tank,202ח,20x40
+formation,Merkava 1 Tank Company,ח (Het),S3,Combat,1 (choice),A,Merkava 1 Tank Platoon,MERKAVA 1,3,3,Tank,203ח,20x40
+formation,Merkava 1 Tank Company,ח (Het),S3,Combat,1 (choice),B,Merkava 2 Tank Platoon,MERKAVA 2,1,4,Tank,204ח,20x40
+formation,Merkava 1 Tank Company,ח (Het),S3,Combat,1 (choice),B,Merkava 2 Tank Platoon,MERKAVA 2,2,5,Tank,205ח,20x40
+formation,Merkava 1 Tank Company,ח (Het),S3,Combat,1 (choice),B,Merkava 2 Tank Platoon,MERKAVA 2,3,6,Tank,206ח,20x40
+formation,Merkava 1 Tank Company,ח (Het),S3,Combat,1 (choice),C,Merkava 3 Tank Platoon,MERKAVA 3,1,7,Tank,207ח,20x40
+formation,Merkava 1 Tank Company,ח (Het),S3,Combat,1 (choice),C,Merkava 3 Tank Platoon,MERKAVA 3,2,8,Tank,208ח,20x40
+formation,Merkava 1 Tank Company,ח (Het),S3,Combat,1 (choice),C,Merkava 3 Tank Platoon,MERKAVA 3,3,9,Tank,209ח,20x40
+formation,Merkava 1 Tank Company,ח (Het),S4,Combat,1,A,Merkava 1 Tank Platoon (3rd),MERKAVA 1,1,1,Tank,301ח,20x40
+formation,Merkava 1 Tank Company,ח (Het),S4,Combat,1,A,Merkava 1 Tank Platoon (3rd),MERKAVA 1,2,2,Tank,302ח,20x40
+formation,Merkava 1 Tank Company,ח (Het),S4,Combat,1,A,Merkava 1 Tank Platoon (3rd),MERKAVA 1,3,3,Tank,303ח,20x40
+formation,Merkava 1 Tank Company,ח (Het),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,1,1,Recce,401ח,20x30
+formation,Merkava 1 Tank Company,ח (Het),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,2,2,Recce,402ח,20x30
+formation,Merkava 1 Tank Company,ח (Het),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,3,3,Recce,403ח,20x30
+formation,Merkava 1 Tank Company,ח (Het),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,1,4,Recce,404ח,20x30
+formation,Merkava 1 Tank Company,ח (Het),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,2,5,Recce,405ח,20x30
+formation,Merkava 1 Tank Company,ח (Het),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,3,6,Recce,406ח,20x30
+formation,Merkava 1 Tank Company,ח (Het),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,4,7,Recce,407ח,20x30
+formation,Merkava 1 Tank Company,ח (Het),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,1,8,Recce,408ח,20x30
+formation,Merkava 1 Tank Company,ח (Het),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,2,9,Recce,409ח,20x30
+formation,Merkava 1 Tank Company,ח (Het),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,3,10,Recce,410ח,20x30
+formation,Merkava 1 Tank Company,ח (Het),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,CH-53 YAS'UR,4,11,Transport heli,411ח,20x40
+formation,Merkava 1 Tank Company,ח (Het),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,CH-53 YAS'UR,5,12,Transport heli,412ח,20x40
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,1,1,Galil rifle (M72 LAW),501ח,40x20
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,2,2,Galil rifle (M72 LAW),502ח,40x20
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,3,3,Galil rifle (M72 LAW),503ח,40x20
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,4,4,Galil rifle (M72 LAW),504ח,40x20
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,5,5,FN MAG (M72 LAW),505ח,40x20
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,6,6,FN MAG (M72 LAW),506ח,40x20
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,7,7,FN MAG (M72 LAW),507ח,40x20
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,8,8,RPG-7 (or B-300),508ח,20x20
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,9,9,RPG-7 (or B-300),509ח,20x20
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,10,10,RPG-7 (or B-300),510ח,20x20
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M47 DRAGON,11,11,M47 Dragon (or Dragon 2),511ח,20x20
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,52MM,12,12,52mm mortar,512ח,20x20
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,13,13,Transport (M113),513ח,20x30
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,14,14,Transport (M113),514ח,20x30
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,15,15,Transport (M113),515ח,20x30
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,16,16,Transport (M113),516ח,20x30
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,17,17,Transport (Vayzata variant),513ח,20x30
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,18,18,Transport (Vayzata variant),514ח,20x30
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,19,19,Transport (Vayzata variant),515ח,20x30
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,20,20,Transport (Vayzata variant),516ח,20x30
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,21,21,Transport (Nagmasho't variant),513ח,20x40
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,22,22,Transport (Nagmasho't variant),514ח,20x40
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,23,23,Transport (Nagmasho't variant),515ח,20x40
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,24,24,Transport (Nagmasho't variant),516ח,20x40
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,1,25,Galil rifle (M72 LAW) [Reserve],525ח,40x20
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,2,26,Galil rifle (M72 LAW) [Reserve],526ח,40x20
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,3,27,Galil rifle (M72 LAW) [Reserve],527ח,40x20
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,4,28,Galil rifle (M72 LAW) [Reserve],528ח,40x20
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,5,29,FN MAG (M72 LAW) [Reserve],529ח,40x20
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,6,30,FN MAG (M72 LAW) [Reserve],530ח,40x20
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,7,31,FN MAG (M72 LAW) [Reserve],531ח,40x20
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,8,32,RPG-7 [Reserve],532ח,20x20
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,9,33,RPG-7 [Reserve],533ח,20x20
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,10,34,RPG-7 [Reserve],534ח,20x20
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M47 DRAGON,11,35,M47 Dragon (or Dragon 2) [Reserve],535ח,20x20
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,52MM,12,36,52mm mortar [Reserve],536ח,20x20
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,13,37,Transport (Reserve M113),537ח,20x30
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,14,38,Transport (Reserve M113),538ח,20x30
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,15,39,Transport (Reserve M113),539ח,20x30
+formation,Merkava 1 Tank Company,ח (Het),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,16,40,Transport (Reserve M113),540ח,20x30
 formation,Merkava 1 Tank Company,ט (Tet),S1,HQ,1-2,A,Merkava 1 Tank Company HQ,MERKAVA 1,1,1,HQ Tank,001ט,20x40
 formation,Merkava 1 Tank Company,ט (Tet),S1,HQ,1-2,A,Merkava 1 Tank Company HQ,MERKAVA 1,2,2,HQ Tank,002ט,20x40
 formation,Merkava 1 Tank Company,ט (Tet),S2a,Combat,1 of 2 mandatory,A,Merkava 1 Tank Platoon (1st),MERKAVA 1,1,1,Tank,101ט,20x40
 formation,Merkava 1 Tank Company,ט (Tet),S2a,Combat,1 of 2 mandatory,A,Merkava 1 Tank Platoon (1st),MERKAVA 1,2,2,Tank,102ט,20x40
 formation,Merkava 1 Tank Company,ט (Tet),S2a,Combat,1 of 2 mandatory,A,Merkava 1 Tank Platoon (1st),MERKAVA 1,3,3,Tank,103ט,20x40
-formation,Merkava 1 Tank Company,ט (Tet),S2b,Combat,2 of 2 mandatory,A,Merkava 1 Tank Platoon (2nd),MERKAVA 1,1,1,Tank,201ט,20x40
-formation,Merkava 1 Tank Company,ט (Tet),S2b,Combat,2 of 2 mandatory,A,Merkava 1 Tank Platoon (2nd),MERKAVA 1,2,2,Tank,202ט,20x40
-formation,Merkava 1 Tank Company,ט (Tet),S2b,Combat,2 of 2 mandatory,A,Merkava 1 Tank Platoon (2nd),MERKAVA 1,3,3,Tank,203ט,20x40
-formation,Merkava 1 Tank Company,ט (Tet),S3,Combat,1 (choice),A,Merkava 1 Tank Platoon,MERKAVA 1,1,1,Tank,301ט,20x40
-formation,Merkava 1 Tank Company,ט (Tet),S3,Combat,1 (choice),A,Merkava 1 Tank Platoon,MERKAVA 1,2,2,Tank,302ט,20x40
-formation,Merkava 1 Tank Company,ט (Tet),S3,Combat,1 (choice),A,Merkava 1 Tank Platoon,MERKAVA 1,3,3,Tank,303ט,20x40
-formation,Merkava 1 Tank Company,ט (Tet),S3,Combat,1 (choice),B,Merkava 2 Tank Platoon,MERKAVA 2,1,4,Tank,304ט,20x40
-formation,Merkava 1 Tank Company,ט (Tet),S3,Combat,1 (choice),B,Merkava 2 Tank Platoon,MERKAVA 2,2,5,Tank,305ט,20x40
-formation,Merkava 1 Tank Company,ט (Tet),S3,Combat,1 (choice),B,Merkava 2 Tank Platoon,MERKAVA 2,3,6,Tank,306ט,20x40
-formation,Merkava 1 Tank Company,ט (Tet),S3,Combat,1 (choice),C,Merkava 3 Tank Platoon,MERKAVA 3,1,7,Tank,307ט,20x40
-formation,Merkava 1 Tank Company,ט (Tet),S3,Combat,1 (choice),C,Merkava 3 Tank Platoon,MERKAVA 3,2,8,Tank,308ט,20x40
-formation,Merkava 1 Tank Company,ט (Tet),S3,Combat,1 (choice),C,Merkava 3 Tank Platoon,MERKAVA 3,3,9,Tank,309ט,20x40
-formation,Merkava 1 Tank Company,ט (Tet),S4,Combat,1,A,Merkava 1 Tank Platoon (3rd),MERKAVA 1,1,1,Tank,401ט,20x40
-formation,Merkava 1 Tank Company,ט (Tet),S4,Combat,1,A,Merkava 1 Tank Platoon (3rd),MERKAVA 1,2,2,Tank,402ט,20x40
-formation,Merkava 1 Tank Company,ט (Tet),S4,Combat,1,A,Merkava 1 Tank Platoon (3rd),MERKAVA 1,3,3,Tank,403ט,20x40
-formation,Merkava 1 Tank Company,ט (Tet),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,1,1,Recce,501ט,20x30
-formation,Merkava 1 Tank Company,ט (Tet),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,2,2,Recce,502ט,20x30
-formation,Merkava 1 Tank Company,ט (Tet),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,3,3,Recce,503ט,20x30
-formation,Merkava 1 Tank Company,ט (Tet),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,1,4,Recce,504ט,20x30
-formation,Merkava 1 Tank Company,ט (Tet),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,2,5,Recce,505ט,20x30
-formation,Merkava 1 Tank Company,ט (Tet),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,3,6,Recce,506ט,20x30
-formation,Merkava 1 Tank Company,ט (Tet),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,4,7,Recce,507ט,20x30
-formation,Merkava 1 Tank Company,ט (Tet),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,1,8,Recce,508ט,20x30
-formation,Merkava 1 Tank Company,ט (Tet),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,2,9,Recce,509ט,20x30
-formation,Merkava 1 Tank Company,ט (Tet),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,3,10,Recce,510ט,20x30
-formation,Merkava 1 Tank Company,ט (Tet),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,UH-1,4,11,Transport heli,511ט,20x40
-formation,Merkava 1 Tank Company,ט (Tet),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,UH-1,5,12,Transport heli,512ט,20x40
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,1,1,Galil rifle (M72 LAW),601ט,40x20
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,2,2,Galil rifle (M72 LAW),602ט,40x20
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,3,3,Galil rifle (M72 LAW),603ט,40x20
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,4,4,Galil rifle (M72 LAW),604ט,40x20
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,5,5,FN MAG (M72 LAW),605ט,40x20
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,6,6,FN MAG (M72 LAW),606ט,40x20
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,7,7,FN MAG (M72 LAW),607ט,40x20
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,8,8,RPG-7 (or B-300),608ט,20x20
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,9,9,RPG-7 (or B-300),609ט,20x20
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,10,10,RPG-7 (or B-300),610ט,20x20
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M47 DRAGON,11,11,M47 Dragon (or Dragon 2),611ט,20x20
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,52MM,12,12,52mm mortar,612ט,20x20
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,13,13,Transport (M113),613ט,20x30
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,14,14,Transport (M113),614ט,20x30
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,15,15,Transport (M113),615ט,20x30
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,16,16,Transport (M113),616ט,20x30
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,17,17,Transport (Vayzata variant),613ט,20x30
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,18,18,Transport (Vayzata variant),614ט,20x30
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,19,19,Transport (Vayzata variant),615ט,20x30
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,20,20,Transport (Vayzata variant),616ט,20x30
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,21,21,Transport (Nagmasho't variant),613ט,20x40
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,22,22,Transport (Nagmasho't variant),614ט,20x40
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,23,23,Transport (Nagmasho't variant),615ט,20x40
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,24,24,Transport (Nagmasho't variant),616ט,20x40
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,1,25,Galil rifle (M72 LAW) [Reserve],625ט,40x20
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,2,26,Galil rifle (M72 LAW) [Reserve],626ט,40x20
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,3,27,Galil rifle (M72 LAW) [Reserve],627ט,40x20
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,4,28,Galil rifle (M72 LAW) [Reserve],628ט,40x20
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,5,29,FN MAG (M72 LAW) [Reserve],629ט,40x20
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,6,30,FN MAG (M72 LAW) [Reserve],630ט,40x20
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,7,31,FN MAG (M72 LAW) [Reserve],631ט,40x20
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,8,32,RPG-7 [Reserve],632ט,20x20
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,9,33,RPG-7 [Reserve],633ט,20x20
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,10,34,RPG-7 [Reserve],634ט,20x20
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M47 DRAGON,11,35,M47 Dragon (or Dragon 2) [Reserve],635ט,20x20
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,52MM,12,36,52mm mortar [Reserve],636ט,20x20
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,13,37,Transport (Reserve M113),637ט,20x30
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,14,38,Transport (Reserve M113),638ט,20x30
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,15,39,Transport (Reserve M113),639ט,20x30
-formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,16,40,Transport (Reserve M113),640ט,20x30
+formation,Merkava 1 Tank Company,ט (Tet),S3,Combat,1 (choice),A,Merkava 1 Tank Platoon,MERKAVA 1,1,1,Tank,201ט,20x40
+formation,Merkava 1 Tank Company,ט (Tet),S3,Combat,1 (choice),A,Merkava 1 Tank Platoon,MERKAVA 1,2,2,Tank,202ט,20x40
+formation,Merkava 1 Tank Company,ט (Tet),S3,Combat,1 (choice),A,Merkava 1 Tank Platoon,MERKAVA 1,3,3,Tank,203ט,20x40
+formation,Merkava 1 Tank Company,ט (Tet),S3,Combat,1 (choice),B,Merkava 2 Tank Platoon,MERKAVA 2,1,4,Tank,204ט,20x40
+formation,Merkava 1 Tank Company,ט (Tet),S3,Combat,1 (choice),B,Merkava 2 Tank Platoon,MERKAVA 2,2,5,Tank,205ט,20x40
+formation,Merkava 1 Tank Company,ט (Tet),S3,Combat,1 (choice),B,Merkava 2 Tank Platoon,MERKAVA 2,3,6,Tank,206ט,20x40
+formation,Merkava 1 Tank Company,ט (Tet),S3,Combat,1 (choice),C,Merkava 3 Tank Platoon,MERKAVA 3,1,7,Tank,207ט,20x40
+formation,Merkava 1 Tank Company,ט (Tet),S3,Combat,1 (choice),C,Merkava 3 Tank Platoon,MERKAVA 3,2,8,Tank,208ט,20x40
+formation,Merkava 1 Tank Company,ט (Tet),S3,Combat,1 (choice),C,Merkava 3 Tank Platoon,MERKAVA 3,3,9,Tank,209ט,20x40
+formation,Merkava 1 Tank Company,ט (Tet),S4,Combat,1,A,Merkava 1 Tank Platoon (3rd),MERKAVA 1,1,1,Tank,301ט,20x40
+formation,Merkava 1 Tank Company,ט (Tet),S4,Combat,1,A,Merkava 1 Tank Platoon (3rd),MERKAVA 1,2,2,Tank,302ט,20x40
+formation,Merkava 1 Tank Company,ט (Tet),S4,Combat,1,A,Merkava 1 Tank Platoon (3rd),MERKAVA 1,3,3,Tank,303ט,20x40
+formation,Merkava 1 Tank Company,ט (Tet),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,1,1,Recce,401ט,20x30
+formation,Merkava 1 Tank Company,ט (Tet),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,2,2,Recce,402ט,20x30
+formation,Merkava 1 Tank Company,ט (Tet),S5,Recce,0-1 (choice),A,Jeep Recce Platoon,JEEP,3,3,Recce,403ט,20x30
+formation,Merkava 1 Tank Company,ט (Tet),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,1,4,Recce,404ט,20x30
+formation,Merkava 1 Tank Company,ט (Tet),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,2,5,Recce,405ט,20x30
+formation,Merkava 1 Tank Company,ט (Tet),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,3,6,Recce,406ט,20x30
+formation,Merkava 1 Tank Company,ט (Tet),S5,Recce,0-1 (choice),B,M113 Recce Platoon,M113 ZELDA,4,7,Recce,407ט,20x30
+formation,Merkava 1 Tank Company,ט (Tet),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,1,8,Recce,408ט,20x30
+formation,Merkava 1 Tank Company,ט (Tet),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,2,9,Recce,409ט,20x30
+formation,Merkava 1 Tank Company,ט (Tet),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,3,10,Recce,410ט,20x30
+formation,Merkava 1 Tank Company,ט (Tet),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,CH-53 YAS'UR,4,11,Transport heli,411ט,20x40
+formation,Merkava 1 Tank Company,ט (Tet),S5,Recce,0-1 (choice),C,Rabbi Recce Platoon,CH-53 YAS'UR,5,12,Transport heli,412ט,20x40
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,1,1,Galil rifle (M72 LAW),501ט,40x20
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,2,2,Galil rifle (M72 LAW),502ט,40x20
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,3,3,Galil rifle (M72 LAW),503ט,40x20
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,4,4,Galil rifle (M72 LAW),504ט,40x20
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,5,5,FN MAG (M72 LAW),505ט,40x20
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,6,6,FN MAG (M72 LAW),506ט,40x20
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,FN MAG,7,7,FN MAG (M72 LAW),507ט,40x20
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,8,8,RPG-7 (or B-300),508ט,20x20
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,9,9,RPG-7 (or B-300),509ט,20x20
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,RPG-7,10,10,RPG-7 (or B-300),510ט,20x20
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M47 DRAGON,11,11,M47 Dragon (or Dragon 2),511ט,20x20
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,52MM,12,12,52mm mortar,512ט,20x20
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,13,13,Transport (M113),513ט,20x30
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,14,14,Transport (M113),514ט,20x30
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,15,15,Transport (M113),515ט,20x30
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 ZELDA,16,16,Transport (M113),516ט,20x30
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,17,17,Transport (Vayzata variant),513ט,20x30
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,18,18,Transport (Vayzata variant),514ט,20x30
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,19,19,Transport (Vayzata variant),515ט,20x30
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,M113 VAYZATA,20,20,Transport (Vayzata variant),516ט,20x30
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,21,21,Transport (Nagmasho't variant),513ט,20x40
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,22,22,Transport (Nagmasho't variant),514ט,20x40
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,23,23,Transport (Nagmasho't variant),515ט,20x40
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),A,Mech Infantry Platoon,NAGMASHOT,24,24,Transport (Nagmasho't variant),516ט,20x40
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,1,25,Galil rifle (M72 LAW) [Reserve],525ט,40x20
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,2,26,Galil rifle (M72 LAW) [Reserve],526ט,40x20
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,3,27,Galil rifle (M72 LAW) [Reserve],527ט,40x20
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,GALIL,4,28,Galil rifle (M72 LAW) [Reserve],528ט,40x20
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,5,29,FN MAG (M72 LAW) [Reserve],529ט,40x20
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,6,30,FN MAG (M72 LAW) [Reserve],530ט,40x20
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,FN MAG,7,31,FN MAG (M72 LAW) [Reserve],531ט,40x20
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,8,32,RPG-7 [Reserve],532ט,20x20
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,9,33,RPG-7 [Reserve],533ט,20x20
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,RPG-7,10,34,RPG-7 [Reserve],534ט,20x20
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M47 DRAGON,11,35,M47 Dragon (or Dragon 2) [Reserve],535ט,20x20
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,52MM,12,36,52mm mortar [Reserve],536ט,20x20
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,13,37,Transport (Reserve M113),537ט,20x30
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,14,38,Transport (Reserve M113),538ט,20x30
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,15,39,Transport (Reserve M113),539ט,20x30
+formation,Merkava 1 Tank Company,ט (Tet),S6,Infantry,0-1 (choice),B,Reserve Infantry Platoon,M113 ZELDA,16,40,Transport (Reserve M113),540ט,20x30
 formation,Magach 6 Tank Company,י (Yod),S1,HQ,1-2 (assumed),A,Magach 6 Tank Company HQ,MAGACH 6,1,1,HQ Tank,001י,20x40
 formation,Magach 6 Tank Company,י (Yod),S1,HQ,1-2 (assumed),A,Magach 6 Tank Company HQ,MAGACH 6,2,2,HQ Tank,002י,20x40
 formation,Magach 6 Tank Company,י (Yod),S2a,Combat,1 of 3,A,Magach 6 Tank Platoon (1st),MAGACH 6,1,1,Tank,101י,20x40
@@ -677,8 +650,8 @@ formation,Magach 6 Tank Company,י (Yod),S3,Recce,0-1 (choice),B,M113 Recce Plat
 formation,Magach 6 Tank Company,י (Yod),S3,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,1,8,Recce,408י,20x30
 formation,Magach 6 Tank Company,י (Yod),S3,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,2,9,Recce,409י,20x30
 formation,Magach 6 Tank Company,י (Yod),S3,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,3,10,Recce,410י,20x30
-formation,Magach 6 Tank Company,י (Yod),S3,Recce,0-1 (choice),C,Rabbi Recce Platoon,UH-1,4,11,Transport heli,411י,20x40
-formation,Magach 6 Tank Company,י (Yod),S3,Recce,0-1 (choice),C,Rabbi Recce Platoon,UH-1,5,12,Transport heli,412י,20x40
+formation,Magach 6 Tank Company,י (Yod),S3,Recce,0-1 (choice),C,Rabbi Recce Platoon,CH-53 YAS'UR,4,11,Transport heli,411י,20x40
+formation,Magach 6 Tank Company,י (Yod),S3,Recce,0-1 (choice),C,Rabbi Recce Platoon,CH-53 YAS'UR,5,12,Transport heli,412י,20x40
 formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,1,1,Galil rifle (M72 LAW),501י,40x20
 formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,2,2,Galil rifle (M72 LAW),502י,40x20
 formation,Magach 6 Tank Company,י (Yod),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,3,3,Galil rifle (M72 LAW),503י,40x20
@@ -749,8 +722,8 @@ formation,Magach 6 Tank Company,כ (Kaf),S3,Recce,0-1 (choice),B,M113 Recce Plat
 formation,Magach 6 Tank Company,כ (Kaf),S3,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,1,8,Recce,408כ,20x30
 formation,Magach 6 Tank Company,כ (Kaf),S3,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,2,9,Recce,409כ,20x30
 formation,Magach 6 Tank Company,כ (Kaf),S3,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,3,10,Recce,410כ,20x30
-formation,Magach 6 Tank Company,כ (Kaf),S3,Recce,0-1 (choice),C,Rabbi Recce Platoon,UH-1,4,11,Transport heli,411כ,20x40
-formation,Magach 6 Tank Company,כ (Kaf),S3,Recce,0-1 (choice),C,Rabbi Recce Platoon,UH-1,5,12,Transport heli,412כ,20x40
+formation,Magach 6 Tank Company,כ (Kaf),S3,Recce,0-1 (choice),C,Rabbi Recce Platoon,CH-53 YAS'UR,4,11,Transport heli,411כ,20x40
+formation,Magach 6 Tank Company,כ (Kaf),S3,Recce,0-1 (choice),C,Rabbi Recce Platoon,CH-53 YAS'UR,5,12,Transport heli,412כ,20x40
 formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,1,1,Galil rifle (M72 LAW),501כ,40x20
 formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,2,2,Galil rifle (M72 LAW),502כ,40x20
 formation,Magach 6 Tank Company,כ (Kaf),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,3,3,Galil rifle (M72 LAW),503כ,40x20
@@ -821,8 +794,8 @@ formation,Magach 6 Tank Company,ל (Lamed),S3,Recce,0-1 (choice),B,M113 Recce Pl
 formation,Magach 6 Tank Company,ל (Lamed),S3,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,1,8,Recce,408ל,20x30
 formation,Magach 6 Tank Company,ל (Lamed),S3,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,2,9,Recce,409ל,20x30
 formation,Magach 6 Tank Company,ל (Lamed),S3,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,3,10,Recce,410ל,20x30
-formation,Magach 6 Tank Company,ל (Lamed),S3,Recce,0-1 (choice),C,Rabbi Recce Platoon,UH-1,4,11,Transport heli,411ל,20x40
-formation,Magach 6 Tank Company,ל (Lamed),S3,Recce,0-1 (choice),C,Rabbi Recce Platoon,UH-1,5,12,Transport heli,412ל,20x40
+formation,Magach 6 Tank Company,ל (Lamed),S3,Recce,0-1 (choice),C,Rabbi Recce Platoon,CH-53 YAS'UR,4,11,Transport heli,411ל,20x40
+formation,Magach 6 Tank Company,ל (Lamed),S3,Recce,0-1 (choice),C,Rabbi Recce Platoon,CH-53 YAS'UR,5,12,Transport heli,412ל,20x40
 formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,1,1,Galil rifle (M72 LAW),501ל,40x20
 formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,2,2,Galil rifle (M72 LAW),502ל,40x20
 formation,Magach 6 Tank Company,ל (Lamed),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,3,3,Galil rifle (M72 LAW),503ל,40x20
@@ -884,8 +857,8 @@ formation,Sho't (Blazer) Tank Company,מ (Mem),S3,Recce,0-1 (choice),B,M113 Recc
 formation,Sho't (Blazer) Tank Company,מ (Mem),S3,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,1,8,Recce,408מ,20x30
 formation,Sho't (Blazer) Tank Company,מ (Mem),S3,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,2,9,Recce,409מ,20x30
 formation,Sho't (Blazer) Tank Company,מ (Mem),S3,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,3,10,Recce,410מ,20x30
-formation,Sho't (Blazer) Tank Company,מ (Mem),S3,Recce,0-1 (choice),C,Rabbi Recce Platoon,UH-1,4,11,Transport heli,411מ,20x40
-formation,Sho't (Blazer) Tank Company,מ (Mem),S3,Recce,0-1 (choice),C,Rabbi Recce Platoon,UH-1,5,12,Transport heli,412מ,20x40
+formation,Sho't (Blazer) Tank Company,מ (Mem),S3,Recce,0-1 (choice),C,Rabbi Recce Platoon,CH-53 YAS'UR,4,11,Transport heli,411מ,20x40
+formation,Sho't (Blazer) Tank Company,מ (Mem),S3,Recce,0-1 (choice),C,Rabbi Recce Platoon,CH-53 YAS'UR,5,12,Transport heli,412מ,20x40
 formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,1,1,Galil rifle (M72 LAW),501מ,40x20
 formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,2,2,Galil rifle (M72 LAW),502מ,40x20
 formation,Sho't (Blazer) Tank Company,מ (Mem),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,3,3,Galil rifle (M72 LAW),503מ,40x20
@@ -947,8 +920,8 @@ formation,Sho't (Blazer) Tank Company,נ (Nun),S3,Recce,0-1 (choice),B,M113 Recc
 formation,Sho't (Blazer) Tank Company,נ (Nun),S3,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,1,8,Recce,408נ,20x30
 formation,Sho't (Blazer) Tank Company,נ (Nun),S3,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,2,9,Recce,409נ,20x30
 formation,Sho't (Blazer) Tank Company,נ (Nun),S3,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,3,10,Recce,410נ,20x30
-formation,Sho't (Blazer) Tank Company,נ (Nun),S3,Recce,0-1 (choice),C,Rabbi Recce Platoon,UH-1,4,11,Transport heli,411נ,20x40
-formation,Sho't (Blazer) Tank Company,נ (Nun),S3,Recce,0-1 (choice),C,Rabbi Recce Platoon,UH-1,5,12,Transport heli,412נ,20x40
+formation,Sho't (Blazer) Tank Company,נ (Nun),S3,Recce,0-1 (choice),C,Rabbi Recce Platoon,CH-53 YAS'UR,4,11,Transport heli,411נ,20x40
+formation,Sho't (Blazer) Tank Company,נ (Nun),S3,Recce,0-1 (choice),C,Rabbi Recce Platoon,CH-53 YAS'UR,5,12,Transport heli,412נ,20x40
 formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,1,1,Galil rifle (M72 LAW),501נ,40x20
 formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,2,2,Galil rifle (M72 LAW),502נ,40x20
 formation,Sho't (Blazer) Tank Company,נ (Nun),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,3,3,Galil rifle (M72 LAW),503נ,40x20
@@ -1010,8 +983,8 @@ formation,Sho't (Blazer) Tank Company,ס (Samekh),S3,Recce,0-1 (choice),B,M113 R
 formation,Sho't (Blazer) Tank Company,ס (Samekh),S3,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,1,8,Recce,408ס,20x30
 formation,Sho't (Blazer) Tank Company,ס (Samekh),S3,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,2,9,Recce,409ס,20x30
 formation,Sho't (Blazer) Tank Company,ס (Samekh),S3,Recce,0-1 (choice),C,Rabbi Recce Platoon,RABBI,3,10,Recce,410ס,20x30
-formation,Sho't (Blazer) Tank Company,ס (Samekh),S3,Recce,0-1 (choice),C,Rabbi Recce Platoon,UH-1,4,11,Transport heli,411ס,20x40
-formation,Sho't (Blazer) Tank Company,ס (Samekh),S3,Recce,0-1 (choice),C,Rabbi Recce Platoon,UH-1,5,12,Transport heli,412ס,20x40
+formation,Sho't (Blazer) Tank Company,ס (Samekh),S3,Recce,0-1 (choice),C,Rabbi Recce Platoon,CH-53 YAS'UR,4,11,Transport heli,411ס,20x40
+formation,Sho't (Blazer) Tank Company,ס (Samekh),S3,Recce,0-1 (choice),C,Rabbi Recce Platoon,CH-53 YAS'UR,5,12,Transport heli,412ס,20x40
 formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,1,1,Galil rifle (M72 LAW),501ס,40x20
 formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,2,2,Galil rifle (M72 LAW),502ס,40x20
 formation,Sho't (Blazer) Tank Company,ס (Samekh),S4,Infantry,0-1 (choice),A,Mech Infantry Platoon,GALIL,3,3,Galil rifle (M72 LAW),503ס,40x20
@@ -1684,8 +1657,8 @@ formation,Paratrooper Company,ת (Tav),S5,Weapons,0-1 (choice),B,Rabbi Anti-tank
 formation,Paratrooper Company,ת (Tav),S5,Weapons,0-1 (choice),B,Rabbi Anti-tank Platoon,RABBI,2,6,Rabbi ATGM (iTOW or MAPATS),606ת,20x30
 formation,Paratrooper Company,ת (Tav),S5,Weapons,0-1 (choice),B,Rabbi Anti-tank Platoon,RABBI,3,7,Rabbi ATGM (iTOW or MAPATS),607ת,20x30
 formation,Paratrooper Company,ת (Tav),S5,Weapons,0-1 (choice),B,Rabbi Anti-tank Platoon,RABBI,4,8,Rabbi ATGM (iTOW or MAPATS),608ת,20x30
-formation,Paratrooper Company,ת (Tav),S5,Weapons,0-1 (choice),B,Rabbi Anti-tank Platoon,UH-1,5,9,Transport heli,609ת,20x40
-formation,Paratrooper Company,ת (Tav),S5,Weapons,0-1 (choice),B,Rabbi Anti-tank Platoon,UH-1,6,10,Transport heli,610ת,20x40
+formation,Paratrooper Company,ת (Tav),S5,Weapons,0-1 (choice),B,Rabbi Anti-tank Platoon,CH-53 YAS'UR,5,9,Transport heli,609ת,20x40
+formation,Paratrooper Company,ת (Tav),S5,Weapons,0-1 (choice),B,Rabbi Anti-tank Platoon,CH-53 YAS'UR,6,10,Transport heli,610ת,20x40
 formation,Paratrooper Company,ת (Tav),S5,Weapons,0-1 (choice),C,M150 Anti-tank Platoon,M150,1,11,ATGM carrier (iTOW or MAPATS),611ת,20x30
 formation,Paratrooper Company,ת (Tav),S5,Weapons,0-1 (choice),C,M150 Anti-tank Platoon,M150,2,12,ATGM carrier (iTOW or MAPATS),612ת,20x30
 formation,Paratrooper Company,ך (Kaf-sofit),S1,HQ,1,A,Paratrooper Company HQ,GALIL,1,1,Galil HQ team [Para],001ך,20x20
@@ -1786,8 +1759,8 @@ formation,Paratrooper Company,ך (Kaf-sofit),S5,Weapons,0-1 (choice),B,Rabbi Ant
 formation,Paratrooper Company,ך (Kaf-sofit),S5,Weapons,0-1 (choice),B,Rabbi Anti-tank Platoon,RABBI,2,6,Rabbi ATGM (iTOW or MAPATS),606ך,20x30
 formation,Paratrooper Company,ך (Kaf-sofit),S5,Weapons,0-1 (choice),B,Rabbi Anti-tank Platoon,RABBI,3,7,Rabbi ATGM (iTOW or MAPATS),607ך,20x30
 formation,Paratrooper Company,ך (Kaf-sofit),S5,Weapons,0-1 (choice),B,Rabbi Anti-tank Platoon,RABBI,4,8,Rabbi ATGM (iTOW or MAPATS),608ך,20x30
-formation,Paratrooper Company,ך (Kaf-sofit),S5,Weapons,0-1 (choice),B,Rabbi Anti-tank Platoon,UH-1,5,9,Transport heli,609ך,20x40
-formation,Paratrooper Company,ך (Kaf-sofit),S5,Weapons,0-1 (choice),B,Rabbi Anti-tank Platoon,UH-1,6,10,Transport heli,610ך,20x40
+formation,Paratrooper Company,ך (Kaf-sofit),S5,Weapons,0-1 (choice),B,Rabbi Anti-tank Platoon,CH-53 YAS'UR,5,9,Transport heli,609ך,20x40
+formation,Paratrooper Company,ך (Kaf-sofit),S5,Weapons,0-1 (choice),B,Rabbi Anti-tank Platoon,CH-53 YAS'UR,6,10,Transport heli,610ך,20x40
 formation,Paratrooper Company,ך (Kaf-sofit),S5,Weapons,0-1 (choice),C,M150 Anti-tank Platoon,M150,1,11,ATGM carrier (iTOW or MAPATS),611ך,20x30
 formation,Paratrooper Company,ך (Kaf-sofit),S5,Weapons,0-1 (choice),C,M150 Anti-tank Platoon,M150,2,12,ATGM carrier (iTOW or MAPATS),612ך,20x30
 formation,Paratrooper Company,ם (Mem-sofit),S1,HQ,1,A,Paratrooper Company HQ,GALIL,1,1,Galil HQ team [Para],001ם,20x20
@@ -1888,8 +1861,8 @@ formation,Paratrooper Company,ם (Mem-sofit),S5,Weapons,0-1 (choice),B,Rabbi Ant
 formation,Paratrooper Company,ם (Mem-sofit),S5,Weapons,0-1 (choice),B,Rabbi Anti-tank Platoon,RABBI,2,6,Rabbi ATGM (iTOW or MAPATS),606ם,20x30
 formation,Paratrooper Company,ם (Mem-sofit),S5,Weapons,0-1 (choice),B,Rabbi Anti-tank Platoon,RABBI,3,7,Rabbi ATGM (iTOW or MAPATS),607ם,20x30
 formation,Paratrooper Company,ם (Mem-sofit),S5,Weapons,0-1 (choice),B,Rabbi Anti-tank Platoon,RABBI,4,8,Rabbi ATGM (iTOW or MAPATS),608ם,20x30
-formation,Paratrooper Company,ם (Mem-sofit),S5,Weapons,0-1 (choice),B,Rabbi Anti-tank Platoon,UH-1,5,9,Transport heli,609ם,20x40
-formation,Paratrooper Company,ם (Mem-sofit),S5,Weapons,0-1 (choice),B,Rabbi Anti-tank Platoon,UH-1,6,10,Transport heli,610ם,20x40
+formation,Paratrooper Company,ם (Mem-sofit),S5,Weapons,0-1 (choice),B,Rabbi Anti-tank Platoon,CH-53 YAS'UR,5,9,Transport heli,609ם,20x40
+formation,Paratrooper Company,ם (Mem-sofit),S5,Weapons,0-1 (choice),B,Rabbi Anti-tank Platoon,CH-53 YAS'UR,6,10,Transport heli,610ם,20x40
 formation,Paratrooper Company,ם (Mem-sofit),S5,Weapons,0-1 (choice),C,M150 Anti-tank Platoon,M150,1,11,ATGM carrier (iTOW or MAPATS),611ם,20x30
 formation,Paratrooper Company,ם (Mem-sofit),S5,Weapons,0-1 (choice),C,M150 Anti-tank Platoon,M150,2,12,ATGM carrier (iTOW or MAPATS),612ם,20x30
 support_pool,Support Pool — Ground,ן (Nun-sofit),G1,Support — Artillery,1,A,M109 SP Artillery Battery,M109,1,1,155mm SP gun,001ן,20x40
@@ -1932,16 +1905,16 @@ support_pool,Support Pool — Ground,ן (Nun-sofit),G6,Support — Anti-tank,1 (
 support_pool,Support Pool — Ground,ן (Nun-sofit),G6,Support — Anti-tank,1 (choice),B,Rabbi Anti-tank Platoon,RABBI,2,6,Rabbi ATGM,506ן,20x30
 support_pool,Support Pool — Ground,ן (Nun-sofit),G6,Support — Anti-tank,1 (choice),B,Rabbi Anti-tank Platoon,RABBI,3,7,Rabbi ATGM,507ן,20x30
 support_pool,Support Pool — Ground,ן (Nun-sofit),G6,Support — Anti-tank,1 (choice),B,Rabbi Anti-tank Platoon,RABBI,4,8,Rabbi ATGM,508ן,20x30
-support_pool,Support Pool — Ground,ן (Nun-sofit),G6,Support — Anti-tank,1 (choice),B,Rabbi Anti-tank Platoon,UH-1,5,9,Transport heli,509ן,20x40
-support_pool,Support Pool — Ground,ן (Nun-sofit),G6,Support — Anti-tank,1 (choice),B,Rabbi Anti-tank Platoon,UH-1,6,10,Transport heli,510ן,20x40
+support_pool,Support Pool — Ground,ן (Nun-sofit),G6,Support — Anti-tank,1 (choice),B,Rabbi Anti-tank Platoon,CH-53 YAS'UR,5,9,Transport heli,509ן,20x40
+support_pool,Support Pool — Ground,ן (Nun-sofit),G6,Support — Anti-tank,1 (choice),B,Rabbi Anti-tank Platoon,CH-53 YAS'UR,6,10,Transport heli,510ן,20x40
 support_pool,Support Pool — Ground,ן (Nun-sofit),G7,Support — Recce,1 (choice),A,Jeep Recce Platoon,JEEP,1,1,Recce,601ן,20x30
 support_pool,Support Pool — Ground,ן (Nun-sofit),G7,Support — Recce,1 (choice),A,Jeep Recce Platoon,JEEP,2,2,Recce,602ן,20x30
 support_pool,Support Pool — Ground,ן (Nun-sofit),G7,Support — Recce,1 (choice),A,Jeep Recce Platoon,JEEP,3,3,Recce,603ן,20x30
 support_pool,Support Pool — Ground,ן (Nun-sofit),G7,Support — Recce,1 (choice),B,Rabbi Recce Platoon,RABBI,1,4,Recce,604ן,20x30
 support_pool,Support Pool — Ground,ן (Nun-sofit),G7,Support — Recce,1 (choice),B,Rabbi Recce Platoon,RABBI,2,5,Recce,605ן,20x30
 support_pool,Support Pool — Ground,ן (Nun-sofit),G7,Support — Recce,1 (choice),B,Rabbi Recce Platoon,RABBI,3,6,Recce,606ן,20x30
-support_pool,Support Pool — Ground,ן (Nun-sofit),G7,Support — Recce,1 (choice),B,Rabbi Recce Platoon,UH-1,4,7,Transport heli,607ן,20x40
-support_pool,Support Pool — Ground,ן (Nun-sofit),G7,Support — Recce,1 (choice),B,Rabbi Recce Platoon,UH-1,5,8,Transport heli,608ן,20x40
+support_pool,Support Pool — Ground,ן (Nun-sofit),G7,Support — Recce,1 (choice),B,Rabbi Recce Platoon,CH-53 YAS'UR,4,7,Transport heli,607ן,20x40
+support_pool,Support Pool — Ground,ן (Nun-sofit),G7,Support — Recce,1 (choice),B,Rabbi Recce Platoon,CH-53 YAS'UR,5,8,Transport heli,608ן,20x40
 support_pool,Support Pool — Ground,ן (Nun-sofit),G8,Support — AA,1 (choice),A,M163 VADS AA Platoon,M163 VADS,1,1,Vulcan AA,701ן,20x30
 support_pool,Support Pool — Ground,ן (Nun-sofit),G8,Support — AA,1 (choice),A,M163 VADS AA Platoon,M163 VADS,2,2,Vulcan AA,702ן,20x30
 support_pool,Support Pool — Ground,ן (Nun-sofit),G8,Support — AA,1 (choice),A,M163 VADS AA Platoon,M163 VADS,3,3,Vulcan AA,703ן,20x30
