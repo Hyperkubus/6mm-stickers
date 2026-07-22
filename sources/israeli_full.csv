@@ -1893,7 +1893,7 @@ support_pool,Support Pool — Ground,ן (Nun-sofit),G3,Support — Rockets,1 (ch
 support_pool,Support Pool — Ground,ן (Nun-sofit),G3,Support — Rockets,1 (choice),B,BM-21 Hail SP Rocket Battery,BM-21 GRAD,4,10,BM-21,210ן,20x40
 support_pool,Support Pool — Ground,ן (Nun-sofit),G3,Support — Rockets,1 (choice),B,BM-21 Hail SP Rocket Battery,BM-21 GRAD,5,11,BM-21,211ן,20x40
 support_pool,Support Pool — Ground,ן (Nun-sofit),G3,Support — Rockets,1 (choice),B,BM-21 Hail SP Rocket Battery,BM-21 GRAD,6,12,BM-21,212ן,20x40
-support_pool,Support Pool — Ground,ן (Nun-sofit),G4,Support — Observer,1 (req. battery),A,M113 OP Artillery Observer,M113 OP,1,1,Artillery observer,301ן,20x20
+support_pool,Support Pool — Ground,ן (Nun-sofit),G4,Support — Observer,1 (req. battery),A,M113 OP Artillery Observer,M113 OP,1,1,Artillery observer,301ן,20x30
 support_pool,Support Pool — Ground,ן (Nun-sofit),G5,Support — Anti-tank,1,A,Pereh Anti-tank Platoon,PEREH,1,1,Pereh (Tammuz/Tammuz 2),401ן,20x40
 support_pool,Support Pool — Ground,ן (Nun-sofit),G5,Support — Anti-tank,1,A,Pereh Anti-tank Platoon,PEREH,2,2,Pereh (Tammuz/Tammuz 2),402ן,20x40
 support_pool,Support Pool — Ground,ן (Nun-sofit),G5,Support — Anti-tank,1,A,Pereh Anti-tank Platoon,PEREH,3,3,Pereh (Tammuz/Tammuz 2),403ן,20x40

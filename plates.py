@@ -45,6 +45,16 @@ from jig import collect_items, mmpx
 ROOT = Path(__file__).parent
 ORANGE = (255, 102, 0, 255)  # bright orange, alignment marks
 
+# per-class jig geometry (cols, rows) — matches the physical 3D-printed jigs.
+# 20x40 9x2 is the calibrated reference; 20x20 9x3 and 40x30 6x2 confirmed;
+# 20x30 9x2 with cols still to be confirmed against its jig.
+CLASS_GRID = {
+    "20x40": (9, 2),
+    "20x30": (9, 2),
+    "20x20": (9, 3),
+    "40x30": (6, 2),
+}
+
 
 def _font(px: int) -> ImageFont.FreeTypeFont:
     """Best-effort legible font; fall back to PIL's bitmap default."""
@@ -198,8 +208,10 @@ def main(argv: list[str] | None = None) -> int:
                    help="datum-corner offset to base #1 along the edge, mm")
     p.add_argument("--spacing", type=float, default=5.0,
                    help="gap between ACTUAL base edges, mm")
-    p.add_argument("--cols", type=int, default=9)
-    p.add_argument("--rows", type=int, default=2)
+    p.add_argument("--cols", type=int, default=None,
+                   help="columns (default: per-class jig geometry, see CLASS_GRID)")
+    p.add_argument("--rows", type=int, default=None,
+                   help="rows (default: per-class jig geometry, see CLASS_GRID)")
     p.add_argument("--origin", default="br", choices=["tl", "tr", "bl", "br"],
                    help="image corner the jig is registered to (default br)")
     p.add_argument("--no-rotate", dest="rotate", action="store_false",
@@ -214,6 +226,15 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--align-only", action="store_true",
                    help="write only the alignment print, skip textured plates")
     args = p.parse_args(argv)
+
+    # per-class jig geometry (cols x rows). Physical calibration, not derivable:
+    #   20x40 9x2 (calibrated), 20x20 9x3, 40x30 objectives 6x2 (all confirmed);
+    #   20x30 9x2 assumed (cols unconfirmed). --cols/--rows override.
+    dcols, drows = CLASS_GRID.get(args.cls, (9, 2))
+    if args.cols is None:
+        args.cols = dcols
+    if args.rows is None:
+        args.rows = drows
 
     plate_w, plate_h = parse_base(args.plate)
     cw, cd = parse_base(args.cls)
