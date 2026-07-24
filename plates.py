@@ -183,10 +183,16 @@ def write_alignment(out: Path, cls: str, w: float, d: float,
             gy = (ty1 + by0) / 2                    # middle of the bridge
             _arrow_id(dr, gap_font, cxp - off, gy, cols + c + 1, up=True)
             _arrow_id(dr, gap_font, cxp + off, gy, c + 1, up=False)
-    else:  # fallback for other row counts: centered in the frame
+    else:  # 1 or 3+ rows: put each id in the gap on the far side of the
+           # pocket from the datum (a solid bridge/margin, never over the
+           # hollow cutout), arrow pointing back into its pocket
+        bottom = "b" in origin  # rows march up from a bottom datum
         for slot, (x0, y0, x1, y1) in enumerate(boxes, 1):
-            dr.text(((x0 + x1) / 2, (y0 + y1) / 2), str(slot),
-                    fill=ORANGE, font=gap_font, anchor="mm")
+            cx = (x0 + x1) / 2
+            if bottom:
+                _arrow_id(dr, gap_font, cx, y0 - mmpx(1.5), slot, up=False)
+            else:
+                _arrow_id(dr, gap_font, cx, y1 + mmpx(1.5), slot, up=True)
 
     img.save(out / f"align-{cls}.png", dpi=(DPI, DPI))
 
